@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-06",
+ "label": "Teisipäev, 6. oktoober 2026",
+ "generatedAt": "2026-10-06T10:26:01+03:00",
+ "source": "ERR, Elu24, Yle, Al Jazeera",
+ "ticker": [
+  "TTJA saab tuumaregulaatori ülesehitamiseks 2,2 miljonit",
+  "Kuusk Islandi mängu eel: kindlasti ootame, et rahvas tuleks kohale",
+  "Palgatõus kasvatas hüppeliselt huvi vanemõpetaja kutse vastu",
+  "Autode müük on võrreldes eelmise aastaga märgatavalt kasvanud",
+  "Teisipäeval on sooja kuni 16 kraadi",
+  "Bottas väntab Malaysiast Singapuri",
+  "Eesti ja Islandi mängu kohtunikud tulevad Šotimaalt",
+  "Jeemeni valitsusväed alustasid pealetungi huthide vastu"
+ ],
+ "questions": [
+  {
+   "type": "fake",
+   "cat": "sise",
+   "src": "ERR",
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "options": [
+    "Soolasemat koolitoitu igatsevad lapsed võtavad oma soolatopsi kooli kaasa",
+    "Tallinna koolid keelavad sööklates ketšupi jõuluvaheajani",
+    "Palgatõus kasvatas hüppeliselt huvi vanemõpetaja kutse vastu"
+   ],
+   "answer": 1,
+   "explain": "Ketšupikeeldu pole. Päris lugu: ligi 70 koolisööklat avas uksed lastevanematele ja osa lapsi toob soolasema toidu nimel kooli oma soolatopsi.",
+   "url": "https://www.err.ee/1610157262/soolasemat-koolitoitu-igatsevad-lapsed-votavad-oma-soolatopsi-kooli-kaasa"
+  },
+  {
+   "type": "map",
+   "cat": "sise",
+   "src": "ERR",
+   "prompt": "PPA tugevdas piirikontrolli. Kus kontrolliti esmaspäeval Eestisse sisenejaid ja Lätist saabuvaid ronge?",
+   "lat": 57.7769,
+   "lon": 26.0473,
+   "place": "Valga",
+   "explain": "Valgas. Möödunud nädalal tabati 41 inimest, kes olid Läti piiri kaudu ebaseaduslikult Eestisse tulnud.",
+   "url": "https://www.err.ee/1610157238/ppa-on-tugevdanud-piirikontrolli"
+  },
+  {
+   "type": "blank",
+   "cat": "meelelahutus",
+   "src": "Elu24",
+   "headline": "Tartlane märkas jalutuskäigul pilkupüüdvat sõidukit. «Nagu Mr. ___ auto!»",
+   "options": [
+    "Bondi",
+    "Holmesi",
+    "Smithi",
+    "Beani"
+   ],
+   "answer": 3,
+   "explain": "Mr. Beani. Tartlane nägi jalutuskäigul pilkupüüdvat sõidukit, mis meenutas talle Mr. Beani autot.",
+   "url": "https://elu24.postimees.ee/8554999/foto-tartlane-markas-jalutuskaigul-pilkupuudvat-soidukit-nagu-mr-beani-auto"
+  },
+  {
+   "type": "who",
+   "cat": "valis",
+   "src": "Yle",
+   "quote": "Oleme sellest rääkinud. Usun, et Ukraina vähendab rünnakute tegemist.",
+   "options": [
+    "Donald Trump",
+    "Alexander Stubb",
+    "Mark Rutte",
+    "Emmanuel Macron"
+   ],
+   "answer": 0,
+   "explain": "USA president Donald Trump ütles Yle korrespondendile Valges Majas, et on Zelenskiga rääkinud Ukraina rünnakutest Venemaa naftatöötlemistehastele. Tsitaat on tõlgitud soome keelest.",
+   "url": "https://yle.fi/a/74-20249974"
+  },
+  {
+   "type": "number",
+   "cat": "sise",
+   "src": "ERR",
+   "prompt": "Mitu Valgevene ränderünnakuga seotud ebaseaduslikku sisserändajat on PPA juulist saadik tabanud?",
+   "answer": 296,
+   "min": 10,
+   "max": 5000,
+   "decimals": 0,
+   "unit": "inimest",
+   "explain": "296. Kinnipidamiskeskus on ülerahvastatud ja halduskohtutele esitatud taotlusi on tänavu juba ligi 500.",
+   "url": "https://www.err.ee/1610157259/sisserandajate-tulv-paneb-ppa-ja-halduskohtud-tosiselt-proovile"
+  },
+  {
+   "type": "fake",
+   "cat": "valis",
+   "src": "Yle",
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "options": [
+    "Soome rattamark Tunturi naaseb kodumaise omaniku kätte",
+    "Soome keelab 2027. aastast kauplustes paberkviitungid",
+    "New Yorgi osariik kuulutas leetrite leviku tõttu välja katastroofiolukorra"
+   ],
+   "answer": 1,
+   "explain": "Paberkviitungite keeldu pole. Päris lugu: Helkama ostis pankrotti läinud Hollandi Accell Groupilt 104-aastase rattamargi Tunturi ja tootmine võib Ungarist kolida Hankosse.",
+   "url": "https://yle.fi/a/74-20249412"
+  },
+  {
+   "type": "blank",
+   "cat": "sport",
+   "src": "ERR",
+   "headline": "Bigbank/Kalev alustab eurosarja: oleme ___, saame natuke riskida",
+   "options": [
+    "favoriidid",
+    "autsaiderid",
+    "väsinud",
+    "valmis"
+   ],
+   "answer": 1,
+   "explain": "Kalev alustab kolmapäeval FIBA Euroopa karikasarja Türgi klubi Körfez Basketi vastu ja läheb mängu ilma surveta.",
+   "url": "https://sport.err.ee/1610157274/bigbank-kalev-alustab-eurosarja-oleme-autsaiderid-saame-natuke-riskida"
+  },
+  {
+   "type": "map",
+   "cat": "sise",
+   "src": "ERR",
+   "prompt": "Kus peeti septembri keskel kinni kaks noort meest, kellel oli üle Eesti üle 450 narkopeidiku?",
+   "lat": 59.3464,
+   "lon": 26.3558,
+   "place": "Rakvere",
+   "explain": "Rakveres. 21- ja 24-aastane mees värvati kulleriteks Telegrami kaudu.",
+   "url": "https://www.err.ee/1610156482/politsei-tabas-kullerid-kellel-oli-ule-eesti-enam-kui-450-narkopeidikut"
+  },
+  {
+   "type": "who",
+   "cat": "meelelahutus",
+   "src": "Elu24",
+   "quote": "See, mida kardame, ei pruugi olla kõige ohtlikum.",
+   "options": [
+    "Jaan Aru",
+    "Cristina Kroon",
+    "Talis Bachmann",
+    "Ingrid Peek"
+   ],
+   "answer": 1,
+   "explain": "Neuroteaduste doktor Cristina Kroon rääkis Kuku saates „Emalaev” LSD-st ja võluseentest: tema sõnul on klassikalised psühhedeelikumid füsioloogiliselt ühed ohutumad ained üldse. Saatejuht oli Ingrid Peek.",
+   "url": "https://elu24.postimees.ee/8558404/ajuteadlane-ullatab-cristina-kroon-lsdst-ja-voluseentest-see-mida-kardame-ei-pruugi-olla-koige-ohtlikum"
+  },
+  {
+   "type": "number",
+   "cat": "valis",
+   "src": "Al Jazeera",
+   "prompt": "New Yorgi osariik kuulutas leetrite tõttu välja katastroofiolukorra. Mitu leetrijuhtumit oli osariigis 3. oktoobri seisuga?",
+   "answer": 108,
+   "min": 10,
+   "max": 2000,
+   "decimals": 0,
+   "unit": "juhtumit",
+   "explain": "108. Kuberner Kathy Hochuli sõnul on 92 juhtumit tulnud alates 15. juulist madala vaktsineerimisega maapiirkondadest; Pennsylvanias on juhtumeid üle 1000.",
+   "url": "https://www.aljazeera.com/news/2026/10/6/new-york-state-declares-measles-disaster-amid-resurgence-of-disease-in-us"
+  },
+  {
+   "type": "fake",
+   "cat": "meelelahutus",
+   "src": "Elu24",
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "options": [
+    "Tallinna loomaaia jääkarud said esimese lume asemel kingituseks jäämäe",
+    "Palju õnne! Muusik Karl Madise ja tema kihlatu perre sündis teine laps, kes sai kõlava nime",
+    "«Kolmas kord sel kuul juba hallitusega!» Talleggi snäkkide kvaliteet tekitab tarbijas pahameelt"
+   ],
+   "answer": 0,
+   "explain": "Jääkarude jäämäge pole. Päris lood: muusik Karl Madise perre sündis teine laps ning tarbija kurtis, et Talleggi snäkid olid sel kuul juba kolmandat korda hallitanud.",
+   "url": "https://elu24.postimees.ee/8558386/armsad-klopsud-palju-onne-muusik-karl-madise-ja-tema-kihlatu-perre-sundis-teine-laps-kes-sai-kolava-nime"
+  },
+  {
+   "type": "blank",
+   "cat": "sise",
+   "src": "ERR",
+   "headline": "Moora: Isamaa on ___-lt valitsuse materdamise üle võtnud",
+   "options": [
+    "Keskerakonna",
+    "Reformierakonna",
+    "EKRE",
+    "Eesti 200"
+   ],
+   "answer": 2,
+   "explain": "Politoloog Erik Moora: reitingutipus Isamaa kogus toetust kriitikaga, aga valimiste lähenedes peab ta pakkuma ka sisulisi lahendusi.",
+   "url": "https://www.err.ee/1610157223/moora-isamaa-on-ekre-lt-valitsuse-materdamise-ule-votnud"
+  },
+  {
+   "type": "who",
+   "cat": "valis",
+   "src": "ERR",
+   "quote": "AfD toetamine ei võrdu Putini toetamisega.",
+   "options": [
+    "Rainer Saks",
+    "Erik Moora",
+    "Alar Streimann",
+    "Alar Karis"
+   ],
+   "answer": 2,
+   "explain": "Endine Saksamaa suursaadik Alar Streimann: AfD kõrge toetus peegeldab valijate rahulolematust mitmes küsimuses, mitte tingimata Putini toetamist.",
+   "url": "https://www.err.ee/1610157286/streimann-afd-toetamine-ei-vordu-putini-toetamisega"
+  },
+  {
+   "type": "number",
+   "cat": "meelelahutus",
+   "src": "Elu24",
+   "prompt": "India filmimeeskond muutis Tallinna vanalinna 1900. aastate alguse Londoniks. Mitu osalist oli võtetel?",
+   "answer": 150,
+   "min": 10,
+   "max": 2000,
+   "decimals": 0,
+   "unit": "osalist",
+   "explain": "150. Ajaloolise draama „The India House” võtted toimusid Sõpruse kino lähedal hobuvankrite, vanade autode ning lavastatud tule ja suitsuga; Eesti partner on Nafta Films.",
+   "url": "https://elu24.postimees.ee/8558810/galerii-hobuvankrid-vanad-autod-ja-150-osalist-india-filmimeeskond-on-muutnud-tallinna-vanalinna-londoniks"
+  },
+  {
+   "type": "fake",
+   "cat": "valis",
+   "src": "Al Jazeera",
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "options": [
+    "Hispaania peaminister kuulutas eluasemekriisi survel välja ennetähtaegsed valimised",
+    "Kosovos põrkusid politsei ja meeleavaldajad Haagi sõjakuritegude kohtu pärast",
+    "Nobeli komitee lükkas rahuauhinna väljakuulutamise detsembrisse"
+   ],
+   "answer": 2,
+   "explain": "Nobeli komitee pole midagi edasi lükanud. Päris lood: Pedro Sánchez kuulutas Hispaanias välja ennetähtaegsed valimised ning Kosovos põrkusid politsei ja meeleavaldajad Haagi sõjakuritegude kohtu pärast.",
+   "url": "https://www.aljazeera.com/news/2026/10/6/police-clash-with-kosovo-protesters-over-bid-to-curb-hague-war-crimes-court"
+  },
+  {
+   "type": "map",
+   "cat": "majandus",
+   "src": "ERR",
+   "prompt": "Muuga–Vuosaari liinile lisandub 2027. aastal uus TT-Line'i kaubalaev. Kus asub Muuga sadam?",
+   "lat": 59.498,
+   "lon": 24.959,
+   "place": "Muuga sadam",
+   "explain": "Muuga sadam on Tallinnast idas Viimsi ja Maardu vahel. Uus laev on suunatud eelkõige kaubaveole.",
+   "url": "https://www.err.ee/1610157088/muuga-vuosaari-liinile-lisandub-uus-laev"
+  }
+ ]
+}

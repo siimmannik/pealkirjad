@@ -1,0 +1,653 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Pealkirjajaht – igapäevane uudistemäng teleteksti stiilis.">
+<title>Pealkirjajaht</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&display=swap">
+<style>
+/* Layout: one teletext "screen" — page header row, double-height banner, content, fastext buttons, ticker. Single deliberate dark look. */
+:root{
+  --black:#000;
+  --panel:#0a0a14;
+  --white:#f3f3ee;
+  --dim:#8d8d99;
+  --blue:#2a36f0;
+  --red:#ff3b30;
+  --green:#22e35f;
+  --yellow:#ffe41c;
+  --cyan:#29e3ff;
+  --magenta:#ff47e8;
+  --tt:"VT323", "Lucida Console", "Courier New", monospace;
+  color-scheme:dark;
+}
+html,body{height:100%}
+[hidden]{display:none!important}
+body{background:var(--black);color:var(--white);font-family:var(--tt);font-size:22px;line-height:1.15;-webkit-font-smoothing:none}
+*{box-sizing:border-box}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+a{color:var(--cyan)}
+:focus-visible{outline:2px dashed var(--yellow);outline-offset:2px}
+
+.wrap{max-width:820px;margin:0 auto;padding-inline:16px;padding-block:12px 64px;position:relative}
+.screen{position:relative}
+.screen::after{content:"";position:fixed;inset:0;pointer-events:none;background:repeating-linear-gradient(to bottom,rgba(0,0,0,0) 0 2px,rgba(0,0,0,.22) 2px 3px);z-index:50}
+
+/* top row */
+.toprow{display:flex;gap:12px;align-items:baseline;white-space:nowrap;overflow:hidden;font-size:clamp(17px,4.2vw,24px)}
+.toprow .pg{color:var(--white)}
+.toprow .nm{color:var(--cyan)}
+.toprow .dt{color:var(--white);margin-left:auto}
+.toprow .clk{color:var(--yellow);font-variant-numeric:tabular-nums}
+@media (max-width:420px){.toprow .dt{display:none}.toprow .clk{margin-left:auto}}
+
+.banner{margin-top:8px;background:var(--blue);display:flex;align-items:center;justify-content:space-between;gap:12px;padding:6px 12px 4px;flex-wrap:wrap}
+.banner h1{margin:0;font-weight:400;color:var(--yellow);font-size:clamp(30px,8vw,46px);letter-spacing:.04em;transform:scaleY(1.45);transform-origin:center;line-height:1.3}
+.banner .sub{color:var(--white);font-size:clamp(17px,4vw,22px)}
+.mosaicbar{height:10px;margin-top:2px;background:
+  linear-gradient(90deg,var(--red) 0 16.6%,var(--green) 0 33.3%,var(--yellow) 0 50%,var(--blue) 0 66.6%,var(--magenta) 0 83.3%,var(--cyan) 0);
+  -webkit-mask:repeating-linear-gradient(90deg,#000 0 8px,transparent 8px 10px);mask:repeating-linear-gradient(90deg,#000 0 8px,transparent 8px 10px)}
+
+main{margin-top:14px;min-height:300px}
+
+/* generic */
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:baseline}
+.y{color:var(--yellow)}.c{color:var(--cyan)}.g{color:var(--green)}.r{color:var(--red)}.m{color:var(--magenta)}.d{color:var(--dim)}
+.dh{display:inline-block;transform:scaleY(1.6);transform-origin:left center;margin-block:.3em}
+.block{background:var(--panel);padding:12px 14px}
+.lede{font-size:clamp(20px,4.6vw,26px);max-width:62ch}
+.index{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:4px}
+.index li{display:grid;grid-template-columns:4ch 1fr;gap:10px}
+.index .n{color:var(--yellow)}
+.dots{flex:1;border-bottom:2px dotted var(--dim);transform:translateY(-6px);min-width:20px}
+
+/* fastext buttons */
+.fast{display:grid;gap:8px;margin-top:14px}
+.fbtn{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:center;text-align:left;padding:10px 12px;font-size:clamp(20px,4.8vw,26px);line-height:1.1;color:var(--black);min-height:52px}
+.fbtn .k{font-size:.8em;border:2px solid currentColor;padding:0 6px;min-width:2.1ch;text-align:center}
+.fbtn[data-c="0"]{background:var(--red)}
+.fbtn[data-c="1"]{background:var(--green)}
+.fbtn[data-c="2"]{background:var(--yellow)}
+.fbtn[data-c="3"]{background:var(--cyan)}
+.fbtn:hover:not([disabled]){filter:brightness(1.15);transform:translateX(3px)}
+.fbtn[disabled]{cursor:default}
+.fbtn.dim{opacity:.28}
+.fbtn.right{outline:4px solid var(--white);outline-offset:-4px;opacity:1}
+.fbtn.wrong{background:var(--black)!important;color:var(--red);box-shadow:inset 0 0 0 3px var(--red);opacity:1}
+.fbtn.wrong .k{border-color:var(--red)}
+
+.cta{display:inline-flex;gap:10px;align-items:center;background:var(--green);color:var(--black);padding:8px 16px;font-size:clamp(22px,5vw,28px)}
+.cta.alt{background:var(--cyan)}
+.cta.ghost{background:transparent;color:var(--cyan);box-shadow:inset 0 0 0 2px var(--cyan)}
+.cta:hover{filter:brightness(1.15)}
+.cta[disabled]{opacity:.35;cursor:default;filter:none}
+
+/* question header */
+.qhead{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;font-size:clamp(18px,4.4vw,24px)}
+.qhead .cat{background:var(--white);color:var(--black);padding:0 8px}
+.qhead .sc{margin-left:auto;color:var(--yellow);font-variant-numeric:tabular-nums}
+.qhead .mul{color:var(--magenta)}
+.timer{display:grid;grid-template-columns:repeat(30,1fr);gap:2px;margin-top:8px;height:12px}
+.timer i{background:var(--green)}
+.timer i.off{background:#1b1b26}
+.timer.warn i:not(.off){background:var(--red)}
+
+.qprompt{margin-top:14px;color:var(--cyan);font-size:clamp(20px,4.6vw,25px);max-width:60ch}
+.headline{margin-top:10px;font-size:clamp(26px,6.4vw,38px);line-height:1.1;color:var(--white);text-wrap:balance}
+.gap{display:inline-block;min-width:5ch;background:var(--magenta);color:var(--black);padding:0 6px;animation:gapblink 1s steps(1) infinite}
+@keyframes gapblink{50%{background:var(--white)}}
+.quote{margin-top:10px;font-size:clamp(28px,7vw,42px);line-height:1.08;color:var(--yellow);text-wrap:balance}
+
+/* feedback */
+.fb{margin-top:16px;border-top:3px solid var(--white);padding-top:10px;display:grid;gap:12px}
+.fb p{margin:0}
+.verdict{font-size:clamp(28px,7vw,40px);display:flex;gap:14px;flex-wrap:wrap;align-items:baseline}
+.verdict .v{transform:scaleY(1.4);display:inline-block;transform-origin:left}
+.explain{font-size:clamp(19px,4.4vw,24px);max-width:64ch;color:var(--white)}
+.fbrow{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+
+/* number */
+.numbox{margin-top:16px;display:grid;gap:10px}
+.readout{font-size:clamp(48px,14vw,84px);color:var(--yellow);line-height:1;font-variant-numeric:tabular-nums;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.readout small{font-size:24px;color:var(--white)}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:28px;background:transparent}
+input[type=range]::-webkit-slider-runnable-track{height:12px;background:repeating-linear-gradient(90deg,var(--blue) 0 10px,#000 10px 12px)}
+input[type=range]::-moz-range-track{height:12px;background:repeating-linear-gradient(90deg,var(--blue) 0 10px,#000 10px 12px)}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:28px;margin-top:-8px;background:var(--yellow);border:0;border-radius:0}
+input[type=range]::-moz-range-thumb{width:22px;height:28px;background:var(--yellow);border:0;border-radius:0}
+.nudges{display:flex;gap:8px;flex-wrap:wrap}
+.nudges button{background:#15151f;color:var(--white);padding:4px 12px;min-width:56px}
+.nudges button:hover{background:var(--blue)}
+.scale{display:flex;justify-content:space-between;color:var(--dim);font-size:18px}
+
+/* map */
+.mapwrap{margin-top:12px;position:relative;background:#000;max-width:100%}
+.mapwrap canvas{display:block;width:100%;height:auto;cursor:crosshair;touch-action:manipulation}
+.maphint{position:absolute;left:8px;bottom:6px;color:var(--dim);font-size:18px;pointer-events:none}
+
+/* results */
+.big{font-size:clamp(56px,16vw,104px);color:var(--yellow);line-height:1;font-variant-numeric:tabular-nums}
+.grid{display:flex;gap:4px;flex-wrap:wrap;margin-top:6px}
+.grid i{width:26px;height:20px;display:block}
+.grid .ok{background:var(--green)}.grid .half{background:var(--yellow)}.grid .bad{background:var(--red)}.grid .to{background:#33334a}
+
+.lb{margin-top:8px;display:grid;gap:2px;font-variant-numeric:tabular-nums}
+.lb .li{display:flex;gap:10px;align-items:baseline}
+.lb .li .pos{color:var(--yellow);width:3ch;text-align:right}
+.lb .li .who{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:60%}
+.lb .li .pts{color:var(--cyan)}
+.lb .li.me .who{background:var(--magenta);color:var(--black);padding:0 6px}
+
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+.cols>*{min-width:0}
+@media (max-width:640px){.cols{grid-template-columns:1fr}}
+.h2{color:var(--black);background:var(--cyan);display:inline-block;padding:0 8px;font-size:24px}
+.h2.y{background:var(--yellow)}
+.h2.g{background:var(--green)}
+.arch{display:grid;gap:4px;margin-top:8px}
+.arch button{display:flex;gap:10px;align-items:baseline;text-align:left;padding:2px 0}
+.arch button:hover .t{color:var(--yellow)}
+.arch .t{color:var(--white)}
+
+/* ticker */
+.ticker{position:fixed;left:0;right:0;bottom:0;background:var(--blue);color:var(--white);white-space:nowrap;overflow:hidden;padding:4px 0 calc(4px + env(safe-area-inset-bottom,0px));font-size:22px;z-index:40;display:flex}
+.ticker .lbl{background:var(--red);color:var(--white);padding:0 10px;position:relative;z-index:2;flex:none}
+.ticker .belt{display:inline-block;padding-left:100%;animation:tick var(--dur,80s) linear infinite}
+@keyframes tick{to{transform:translateX(-100%)}}
+
+/* loading search */
+.seek{font-size:clamp(28px,7vw,44px);margin-top:30px}
+.seek .pn{color:var(--yellow);font-variant-numeric:tabular-nums}
+.blink{animation:bl 1s steps(1) infinite}
+@keyframes bl{50%{opacity:0}}
+
+.soundbtn{color:var(--dim)}
+.soundbtn:hover{color:var(--white)}
+.note{color:var(--dim);font-size:19px}
+
+@media (prefers-reduced-motion:reduce){
+  .ticker .belt{animation:none;padding-left:12px}
+  .gap,.blink{animation:none}
+  .fbtn:hover:not([disabled]){transform:none}
+}
+</style>
+
+</head>
+<body>
+<div class="wrap screen">
+  <div class="toprow" aria-hidden="true">
+    <span class="pg" id="pgno">P100</span>
+    <span class="nm">PEALKIRJAJAHT</span>
+    <span class="dt" id="topdate"></span>
+    <span class="clk" id="clock">00:00:00</span>
+  </div>
+  <header class="banner">
+    <h1>PEALKIRJAJAHT</h1>
+    <span class="sub" id="bannersub">Eesti ja maailma uudised. Iga päev uued.</span>
+  </header>
+  <div class="mosaicbar" aria-hidden="true"></div>
+  <main id="main" aria-live="polite">
+    <div class="seek">OTSIN LEHEKÜLGE <span class="pn" id="seekpn">100</span><span class="blink">_</span></div>
+    <p class="lede d" style="margin-top:14px">Laen tänast väljaannet…</p>
+  </main>
+</div>
+<div class="ticker" id="ticker" hidden><span class="lbl">UUDISED</span><span class="belt" id="belt"></span></div>
+
+<script src="vendor/d3.min.js"></script>
+<script>
+(() => {
+"use strict";
+const MAP = {"W":1000,"H":640,"est":"M403.8,525.7L405.4,523.4L406.5,520.5L407.1,517.2L407.6,513.9L408.1,510.6L415.1,493.2L417.8,482.3L424.7,473.8L427.4,468.6L427.4,454.9L428.5,449.3L428.5,445.5L428,442.7L426.9,440.3L426.4,437L425.8,434.2L428,428L428,424.7L428,421.9L428.5,418.6L431.7,414.8L435.9,411.5L439.6,408.2L441.7,401.6L440.1,395.5L437,390.7L424.3,380.8L418.5,378.5L412.7,378L407.4,380.3L405.8,382.7L404.2,386L402.6,389.7L402.1,393L402.1,397.3L401.5,399.7L396.8,407.7L395.2,410.5L393,412.4L390.4,412.8L384.6,411.4L381.9,411.4L379.8,413.7L377.1,420.3L375.5,421.3L372.9,420.3L371.3,418.4L367.1,410.8L360.3,404.6L356.6,399.4L346.6,395.1L340.8,394.6L338.2,393.6L337.1,392.6L335.5,390.3L335,389.3L333.4,389.3L332.9,390.2L331.8,391.2L330.8,391.6L329.7,390.7L328.2,389.7L326.6,389.2L325.5,390.2L324.4,392L323.4,393.4L322.3,393.4L321.3,392.5L320.2,390.1L319.7,386.8L319.2,383.5L318.8,380.6L318.3,376.4L316.7,374.5L314.6,372.6L313.1,370.2L312.1,366.4L312.6,363.6L313.2,357L313.3,348.5L312.9,341.4L310.8,338L306.6,340.3L304.5,340.3L301.9,337.9L299.3,335.5L297.8,333.6L296.8,329.8L296.3,326.5L295.8,325.1L293.7,325.5L291.5,328.3L290.4,331.6L289.4,332.6L287.3,330.6L286.8,327.8L287.4,325L289,321.7L289.6,318.9L289.1,313.7L287.1,307L286.2,299.5L287.3,292.9L288.4,290.5L289.5,290.1L292.6,291.5L293.7,290.6L294.2,289.7L294.2,288.2L292.2,285.8L291.7,282.1L292.3,278.8L294.3,278.8L300,281.7L305.3,280.8L310.5,278.5L316.3,278.1L318.9,279.1L324.6,283L327.2,283.9L331.4,284L331.9,283L331.9,281.1L331.9,279.3L330.9,278.3L328.8,276.9L328.3,274L329.4,270.7L331,268.9L333.6,268.9L339.3,272.3L341.9,272.7L338.3,268L333.7,264.6L329,264.6L325.3,268.8L322.7,265L319.6,265L313.3,266.8L302.9,265.7L299.7,266.6L296.6,268.4L295,269.4L293.9,271.2L292.9,271.2L288.7,269.7L285.6,270.6L277.7,273.8L283.1,264L285.7,261.2L290.4,260.8L291.5,258.5L282.8,246L281.9,240.8L277.3,233.7L277.4,228L280.6,223.8L289.9,224.4L293.1,220.2L295.7,222.2L298.3,222.2L300.9,221.3L305.6,217.6L306.6,216.2L307.2,214.3L307.2,211L306.3,204.4L304.3,199.1L300.7,195.8L297.6,193.4L299.1,197.2L303.7,201.5L305.2,205.3L304.2,206.2L301.6,206.2L300.5,207.1L297.4,210.8L296.9,211.8L296.8,213.2L296.3,216.5L294.7,216.9L294.2,215.5L293.2,213.6L292.2,212.7L282.9,210.2L279.3,206.8L275.8,201.1L276.8,201.1L278.9,200.7L279.9,201.1L278.9,195.9L279.5,192.2L286.4,184.7L287.9,183.3L289.5,184.3L291.5,187.6L292.2,173.5L287.3,159.7L285.4,148.8L293.2,143.7L294.7,144.2L297.8,145.2L299.8,145.7L300.9,145.3L303,142.5L306.1,140.6L308.2,138.7L310.3,136.4L312.8,136.4L320.5,143.6L321,144.1L322.5,144.1L324.1,141.8L324.6,138.9L323.6,136.1L321.6,134.7L323.2,130.9L326.8,129.5L339.2,129.2L345.3,131.1L352,130.7L359.7,127.5L366.9,127L372.5,133.2L375.7,126.6L374.7,121.9L365.5,109.1L364,106.3L364.5,103.4L366.6,100.6L368.2,98.7L370.7,97.8L372.8,98.3L376.8,101.6L385,110.2L389.1,112.1L393.2,109.7L391.7,105L388.1,99.8L384.6,96.5L387.6,95.1L399.9,94.2L405.1,91.8L406.6,88.5L408.7,79.6L409.2,77.7L418.4,75.3L421.5,75.8L424.5,77.7L429.7,83.8L432.7,85.3L435.3,83.8L437.3,81.5L439.4,80.1L442.4,80.5L450.6,86.7L453.2,87.1L455.8,86.2L454.7,83.3L452.7,81L450.1,79.6L450.1,77.7L453.7,78.1L455.2,77.2L455.7,74.8L456.2,71.5L457.8,70.6L459.3,70.6L460.8,72L463.4,76.2L465,80.9L467.5,84.2L471.6,83.3L473.1,81.9L474.2,80.9L477.2,73.8L477.7,72.4L476.2,68.2L475.1,66.3L474.1,65.3L473.1,63.9L472.5,61.1L472.5,58.7L472,56.8L472,54.9L471.5,52.6L475.6,49.7L481.2,54L491,66.2L494.5,67.1L505.2,64.2L508.8,65.1L514.5,68.8L517.6,69.8L520.1,68.3L519,60.8L521,57.9L524.1,57.9L531.3,62.5L561.5,71.2L562,71.2L560.9,64.6L562.4,61.2L566,59.8L579.2,59.6L580.7,58.6L580.7,56.7L579.7,54.4L578.1,53.4L574,48.8L571.8,37.5L571.1,26.2L572,21L574.1,22.8L579.3,32.2L581.9,34.5L585,35.4L587.1,38.7L591.8,45.7L594.9,48L599.5,49.3L603.5,48.8L605,43.6L603.9,38.8L601.8,35.6L600.2,31.8L601.1,26.1L600.1,26.2L598.5,24.8L598,24.3L601.5,20L605.6,21.3L613.9,29.7L612.9,32.1L614.5,35.3L615.7,42.4L617.8,45.2L620.3,46.6L621.9,46.1L622.9,46L625.4,43.6L627.3,39.3L626.3,37.5L628.2,30.8L631.3,32.6L634.4,37.8L637,40.6L640.1,40L640,38.1L639.5,35.8L639.9,33.4L641.4,30.5L642.9,29.6L644.9,30L650.1,32.7L655.3,37.8L655.8,38.7L656.4,40.1L656.4,42.5L658,42.9L684.5,41.8L687.5,42.6L693.3,46.3L702,47.9L710.3,52.4L715.9,54.1L719,54L721.5,53L726,49.1L728,48.1L734.1,48.4L739.3,50.1L745,52.7L750.2,56.8L756.6,63.2L763,70.1L770.2,72.7L776.5,76.2L779.1,77.1L804.7,78.5L827.2,76.1L846,73.9L868.3,78.6L890.3,79L912.6,83.1L918.6,80.9L923.5,76.9L927.9,71.4L932,61.3L935.3,66.3L941.6,69.8L944.9,72.9L948.9,80.7L950.1,83.5L952.2,85.3L956,88.4L957.6,90.2L957.4,95.4L953.7,93.2L947.8,98.8L936.1,100.3L931.6,102.9L942.6,106.6L945.6,106.4L942.8,110.4L926.3,110.8L918.9,115.9L916,119.8L917.3,124.9L915,131.2L911.4,152.2L904.3,176.2L902.5,182.4L896.9,194L895.6,200.2L893.2,204.6L892.7,205.1L880.8,217L862.9,234.4L858.9,250.6L854.5,268.7L858.2,281.3L861.4,295.4L870.3,329.5L880.4,368.3L872.4,389.9L871.5,404.1L873.7,417.2L877.7,424.6L880.6,430.6L887.1,443.1L895.5,453.6L896.4,461.6L895.7,468.7L896.6,476.7L899.3,478L902.1,480.2L903.5,486.8L903.1,490.6L902.2,493.5L901.8,496.8L902.5,500.5L903.7,502.4L919.5,507.7L921.7,510L923.1,515.6L921.7,519.5L918,522L909.1,526.7L887.9,531L885.2,531.1L883.1,532.6L884.2,533L887.5,535.7L883.9,538.3L881.8,539.8L880.3,542.7L880,547.4L882,554.9L881.6,558.7L879.6,561.6L867.4,566.4L864.8,568.9L863.8,570.8L863.4,572.7L862.9,575.6L863,577L863.6,578.4L864.3,581.7L864.3,582.6L864.9,583.5L864.6,589.7L864.7,590.6L863.7,592.1L861.5,593.1L859.4,593.2L857.8,594.2L856.8,596.6L857,599.9L858.2,604.6L859.5,608.8L860.7,612.1L856,615.1L832.4,607.6L820.5,607.6L817.2,605.8L813.8,602.1L808.1,593.8L804.2,591.2L799.3,589.9L796.6,590L794,590.6L791.8,590.2L789.6,588.4L787.9,587L785.2,588.1L783.2,591.9L781.7,596.2L779.7,600.1L777.1,603L774.4,603.6L762.5,603.5L757.8,605.5L753,608.5L748.8,612.4L747.8,614.3L747.3,616.3L746.8,618.2L745.2,618.7L743.6,618.3L740.8,616.5L739.2,616L737.6,617.5L735.5,619.4L732.8,620L730,616.8L724.9,609.8L722.1,607.1L710.1,602.2L708.5,601.8L701.9,597.3L696.9,591.2L681.8,568.5L676.8,562.9L660.3,549.6L658.6,545.9L658,540.2L658.5,537.9L659.5,536L660,534.5L659.4,531.7L658.3,530.3L656.1,529.4L625,527.2L621.2,524L619.5,518.4L617.8,512.7L615.6,508.5L612.9,508.6L611.3,509.1L603.3,512L600.1,512.6L596.4,512.2L593.1,510.3L589.9,506.1L588.7,503.8L588.7,501.9L588.7,500L587.1,498.1L586,497.2L580.6,495.9L574.7,492.2L565.5,481.4L559.6,478.2L558,478.2L556.9,479.2L556.4,479.2L554.8,478.3L553.7,476.9L552,471.7L550.9,469.8L548.2,467.5L545.6,467.1L544,469L543.5,474.2L547.9,481.7L549,485.9L545.8,489.7L541.1,492.6L538.9,492.6L536.8,490.8L535.1,484.6L533.4,477.6L531.3,471.9L527.5,469.6L520.6,469.7L516.9,470.6L513.7,473L512.1,474.9L503.1,484.4L499.4,486.8L487.7,488.8L484.5,491.2L481.3,494L479.7,495.4L476,494.5L472.2,492.2L467.4,491.2L465.3,494.1L462.6,501.7L460,503.5L450.9,504.5L440.7,503.6L437.5,504.1L430.1,511.6L424.2,514.4L422,516.8L419.9,523.4L418.3,526.2L414.5,528.1L410.2,528.6ZM350.3,457L349.8,450.4L352.5,446.1L356.8,444.7L361,445.7L362,452.3L359.3,458.5L354.5,460.8ZM247.1,346L250.8,347.5L255.4,350.9L260.1,355.2L262.1,360L261,363.7L251.6,357L247.9,359.7L250,360.2L251.6,360.7L253.1,362.7L254.1,365L247.8,364L244.7,362.5L242.1,359.6L241.6,358.2L241.1,356.3L240.1,354.4L238.5,353.4L236.4,353.4L235.9,353.8L235.3,355.7L234.8,356.6L234.2,360.4L233.6,362.3L232.5,364.1L231.5,365.1L229.3,366.9L228.3,366.4L226.7,365.9L225.6,366.4L225,369.7L225,371.5L225,373L225.5,374.9L225.4,376.3L222.2,379L219,382.7L215.7,385L209.5,379.7L206.4,379.6L205.2,382L208.3,385.8L198,398.8L195.8,400.2L193.2,400.6L191,402.4L186.6,408L184.5,409.3L181.3,409.7L174.4,409.1L171.2,409.9L169.6,413.2L176.3,417.6L170.9,422.2L162.9,423.4L161,416.7L158.9,415.3L156.3,414.2L153.6,414.6L150.9,415.5L148.8,417.8L147.7,419.2L147.2,418.2L145.7,415.4L143.6,413.4L142.5,415.3L140.7,419.9L139.7,420.9L139.1,421.8L139.1,422.3L138,422.2L138.1,421.3L137.1,417L137.2,416.1L135,416L132.4,416.9L130.2,418.7L128.5,421L126.9,422.4L124.8,421.3L123.2,420.4L121.6,420.8L120.5,421.7L117.8,423L116.8,423.5L111.9,426.1L108.1,429.8L105.9,432.5L104.8,433.5L104.2,434.9L103.8,445.2L102.6,451.3L101.3,457.4L96.7,468.6L95.5,470.9L93.9,473.2L92.2,475.6L92.1,478.4L92.4,484.5L90.2,487.3L68.7,505.9L63.8,506.2L60.3,499.9L61,496.6L60.6,493.8L59,491.4L56.9,490.3L57,489.9L56.5,488.9L56.5,487.5L56.6,486.1L60.8,486.7L61.9,486.3L63,484.4L64.8,478.8L65.5,476L71.7,467.7L74.5,461.7L75.7,459.4L77.3,458.5L79.4,459L81.5,460.5L83.1,461.1L85.2,460.7L85.8,458.8L87.1,452.7L87.7,450.4L93.9,441.6L90.8,438.2L85,435.6L75,433.4L72,430L67.2,416.5L64.1,413.6L54.6,413.2L49.9,411.2L45.8,407.2L43.3,402.4L42.4,399.1L42.5,396.7L44.1,395.3L52,398L50.5,393.7L48.1,389.4L47.1,386L50.4,384.7L52.9,386.7L55.4,390.1L57.5,392.6L60.2,390.3L59.3,385.5L61.5,382.8L64.7,382L67.9,383L66.4,379.7L65,373.9L59.2,361L56.2,356.6L52.8,350.3L50.7,347.9L46.7,343.9L43.2,338.1L51,342.2L53.1,342.3L55.2,341.4L55.8,340.5L55.8,339.1L57.5,336.8L62.7,337L66.9,338.6L70.4,342.5L76.3,354.5L77.3,357.4L77.6,361.7L77.6,363.1L78.1,364L79.1,364.5L79.6,364.6L81.2,363.7L81.3,360.8L80.4,357L81.8,349.5L82.4,346.2L84.1,343.5L86.2,341.6L91.1,339.5L92.7,337.1L94.4,333.4L95.6,331.1L96.6,330.7L99.3,330.3L99.2,331.2L99.7,332.7L100.2,334.1L100.7,335.5L100.5,338.8L101,340.7L103.1,342.2L107.2,343.3L109,337.7L109.3,329.7L110.5,324.5L115.3,320.4L135.9,318.7L148.8,308.7L154,307.4L155.6,308.9L158,315.6L159.5,317L160.6,318L162.1,320.4L163.1,320.9L164.2,320.5L166.8,318.2L167.9,317.3L171,318.3L173.1,320.2L175.7,321.3L178.9,319.9L183.7,313.9L186.9,311.6L192.1,314.6L199.5,312.9L203.2,313.4L206.2,315.9L212.5,318.4L219.2,323.2L227.5,327.2L230,331.5L232,337.2L233,339.1L235.6,341.1L241.3,344.5ZM269.5,325.2L272.1,329.9L272.6,332.3L269.4,334.6L268.3,336.9L266.7,338.8L264.6,337.8L262,335.9L259.4,334.9L254.7,334.3L252.6,335.3L248.3,337.5L246.2,337.5L233.9,324.5L226.1,321.5L223,318.1L223.6,312L225.2,310.6L229.9,312.1L232,311.2L232.6,309.8L233.8,303.7L234.3,301.8L237,298.1L240.2,296.8L243.3,296.8L256.3,300.8L262.6,304.7L264.6,307.1L265.1,310L265,312.8L264.5,315.2L264.9,317.5L266,320.4L268.5,323.7ZM269,200L273.1,205.8L273.6,209.1L271.9,213.3L270.3,214.7L268.8,214.2L267.3,212.7L265.7,212.2L264.2,212.7L259.4,215.9L256.8,215.9L251.7,212.9L248.6,211.9L248.1,212.4L247.5,213.8L247,215.2L241.8,216L240.2,216L238.2,214.6L233.8,202.7L233.3,201.2L233.9,197.9L236,196.1L238.1,194.7L241.7,194.3L246.9,195.4L257.2,198.4L263.4,197.1L266.5,196.7ZM114,233.5L104.6,235.5L99.9,234.9L81.1,223.8L78.6,220.4L80.3,216.2L86,215.5L96.4,217.3L139.1,213L136.5,211L136.1,209.1L138.2,208.2L141.2,210.2L142.8,210.3L143.1,200.4L145.8,198.1L148.9,197.7L151.5,196.8L153.6,194.5L155.8,190.3L156.4,188L156.5,185.6L156.5,183.3L158.2,181L159.7,180.5L165.4,181.2L165.9,181.2L169.5,181.8L173.6,183.8L176.1,186.2L172.8,194.1L173.7,198.9L176.7,202.7L178.8,204.7L193.3,204.1L207.1,211L209.1,214.9L209.6,217.7L208.9,222L208.9,224.3L210.4,227.2L213.4,229.6L214.4,231.5L215.4,233L217.5,235.4L218.5,237.3L218.5,238.2L218.9,240.1L218.3,242.9L218.8,244.8L219.9,245.3L220.9,245.4L221.4,245.8L221.8,251.5L220.7,254.3L218.6,254.8L212.5,250.4L210.9,249.9L209.4,249.4L208.3,250.3L208.2,252.2L207.2,253.1L205.7,251.2L203,252.5L200.4,252.4L198.3,253.3L196.2,256.6L197.7,256.6L198.7,257.6L199.2,259L199.2,261.4L199.1,265.2L198.5,265.6L197,265.6L195.4,267.4L192.7,268.8L188.6,268.7L184.9,267.2L183.4,264.3L185.1,261.5L188.3,259.2L190.4,256.9L189.4,254.1L186.8,253.5L183.7,255.3L180,257.6L177.3,259.9L174,266.9L168.9,282.8L164.5,288.8L158.1,292L150.3,292.7L142.5,290.1L136.9,284.3L138.5,283.4L139.6,282L142.3,278.3L140.3,275.4L137.9,270.1L135.4,264.4L135.1,259.6L135.3,253L134.9,249.2L133.4,245.9L126.9,237.2L122.8,234.7L118.7,233.1ZM434.8,41.8L437.3,46.1L439.9,53.1L438.9,56L435.3,56.9L431.2,52.7L430.7,47.5L432.7,42.8ZM248.3,539.2L249.8,541.1L250.3,543.5L249.2,547.2L246.5,547.7L243.3,545.2L241.8,542.8L241.8,540.5L242.4,538.1L243,536.3L245.1,536.8Z","nb":"M0,626.5L12.6,604.4L17.2,599.4L23.8,596.3L51.3,595.5L57.9,593.9L88.1,578.9L131.9,556.2L138.4,554.5L141.6,554.6L143.2,553.7L145.4,552.8L147.1,551.9L149.2,552.5L150.8,553.4L150.8,553.9L150.2,554.4L149.1,556.7L147.7,567.1L146.8,578.4L147.2,584L148.2,588.3L156.5,600.8L189.2,631L196,640L0,640ZM415.2,640L414.9,637.2L414.9,626.8L413.8,620.7L412.2,617.8L411.7,614.5L412.2,607.4L413.9,597.1L412.3,580.5L411.2,576.8L404.8,565.9L402.6,560.7L402.7,555.5L401.1,542.3L401.1,535.6L401.1,532.3L402.2,528.6L403.8,525.7L410.2,528.6L414.5,528.1L418.3,526.2L419.9,523.4L422,516.8L424.2,514.4L430.1,511.6L437.5,504.1L440.7,503.6L450.9,504.5L460,503.5L462.6,501.7L465.3,494.1L467.4,491.2L472.2,492.2L476,494.5L479.7,495.4L481.3,494L484.5,491.2L487.7,488.8L499.4,486.8L503.1,484.4L512.1,474.9L513.7,473L516.9,470.6L520.6,469.7L527.5,469.6L531.3,471.9L533.4,477.6L535.1,484.6L536.8,490.8L538.9,492.6L541.1,492.6L545.8,489.7L549,485.9L547.9,481.7L543.5,474.2L544,469L545.6,467.1L548.2,467.5L550.9,469.8L552,471.7L553.7,476.9L554.8,478.3L556.4,479.2L556.9,479.2L558,478.2L559.6,478.2L565.5,481.4L574.7,492.2L580.6,495.9L586,497.2L587.1,498.1L588.7,500L588.7,501.9L588.7,503.8L589.9,506.1L593.1,510.3L596.4,512.2L600.1,512.6L603.3,512L611.3,509.1L612.9,508.6L615.6,508.5L617.8,512.7L619.5,518.4L621.2,524L625,527.2L656.1,529.4L658.3,530.3L659.4,531.7L660,534.5L659.5,536L658.5,537.9L658,540.2L658.6,545.9L660.3,549.6L676.8,562.9L681.8,568.5L696.9,591.2L701.9,597.3L708.5,601.8L710.1,602.2L722.1,607.1L724.9,609.8L730,616.8L732.8,620L735.5,619.4L737.6,617.5L739.2,616L740.8,616.5L743.6,618.3L745.2,618.7L746.8,618.2L747.3,616.3L747.8,614.3L748.8,612.4L753,608.5L757.8,605.5L762.5,603.5L774.4,603.6L777.1,603L779.7,600.1L781.7,596.2L783.2,591.9L785.2,588.1L787.9,587L789.6,588.4L791.8,590.2L794,590.6L796.6,590L799.3,589.9L804.2,591.2L808.1,593.8L813.8,602.1L817.2,605.8L820.5,607.6L832.4,607.6L856,615.1L860.7,612.1L860.7,612.1L887.2,610.4L887.1,620.8L887.4,627.4L886,633.2L885.7,637.9L887.7,640L415.2,640ZM887.7,640L885.7,637.9L886,633.2L887.4,627.4L887.1,620.8L887.2,610.4L860.7,612.1L859.5,608.8L858.2,604.6L857,599.9L856.8,596.6L857.8,594.2L859.4,593.2L861.5,593.1L863.7,592.1L864.7,590.6L864.6,589.7L864.9,583.5L864.3,582.6L864.3,581.7L863.6,578.4L863,577L862.9,575.6L863.4,572.7L863.8,570.8L864.8,568.9L867.4,566.4L879.6,561.6L881.6,558.7L882,554.9L880,547.4L880.3,542.7L881.8,539.8L883.9,538.3L887.5,535.7L884.2,533L883.1,532.6L885.2,531.1L887.9,531L909.1,526.7L918,522L921.7,519.5L923.1,515.6L921.7,510L919.5,507.7L903.7,502.4L902.5,500.5L901.8,496.8L902.2,493.5L903.1,490.6L903.5,486.8L902.1,480.2L899.3,478L896.6,476.7L895.7,468.7L896.4,461.6L895.5,453.6L887.1,443.1L880.6,430.6L877.7,424.6L873.7,417.2L871.5,404.1L872.4,389.9L880.4,368.3L870.3,329.5L861.4,295.4L858.2,281.3L854.5,268.7L858.9,250.6L862.9,234.4L880.8,217L892.7,205.1L893.2,204.6L895.6,200.2L896.9,194L902.5,182.4L904.3,176.2L911.4,152.2L915,131.2L917.3,124.9L916,119.8L918.9,115.9L926.3,110.8L942.8,110.4L945.6,106.4L942.6,106.6L931.6,102.9L936.1,100.3L947.8,98.8L953.7,93.2L957.4,95.4L957.6,90.2L956,88.4L952.2,85.3L950.1,83.5L948.9,80.7L944.9,72.9L941.6,69.8L935.3,66.3L932,61.3L936.9,48.3L938.2,34L935,21.4L929.4,11.8L926.5,5.8L925.2,0L957.2,0L957.2,0L957.8,1.3L973.9,7L979.5,7.1L983.8,2.1L984.1,0L1000,0L1000,640Z","scale":16021.630047016348,"translate":[432.7235978529422,321.1219858346446]};
+const CATS = {
+  sise:   {name:"SISE",     page:110},
+  valis:  {name:"VÄLIS",    page:150},
+  majandus:{name:"MAJANDUS",page:140},
+  sport:  {name:"SPORT",    page:200},
+  kultuur:{name:"KULTUUR",  page:170},
+  ilm:    {name:"ILM",      page:300},
+  meelelahutus:{name:"MEELELAHUTUS",page:400}
+};
+const TYPE_LABEL = {fake:"PÄRIS VÕI VÕLTS", blank:"LÜNK", who:"KES ÜTLES", number:"NUMBRIMÄNG", map:"KAART"};
+const KEYS = ["1","2","3","4"];
+const CITIES = [["TALLINN",24.745,59.437],["TARTU",26.722,58.378],["PÄRNU",24.497,58.385],["NARVA",28.19,59.377],["KURESSAARE",22.485,58.253],["HAAPSALU",23.54,58.943],["VILJANDI",25.59,58.364],["RAKVERE",26.356,59.346]];
+
+const $ = s => document.querySelector(s);
+const main = $("#main");
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt = (n, d=0) => Number(n).toLocaleString("et-EE", {minimumFractionDigits:d, maximumFractionDigits:d});
+const store = {
+  get(k, def){ try { const v = localStorage.getItem(k); return v == null ? def : JSON.parse(v); } catch { return def; } },
+  set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+
+/* ---------- clock + seek animation ---------- */
+const WD = ["P","E","T","K","N","R","L"];
+function tickClock(){
+  const d = new Date();
+  $("#clock").textContent = d.toLocaleTimeString("et-EE", {hour12:false});
+  $("#topdate").textContent = WD[d.getDay()] + " " + String(d.getDate()).padStart(2,"0") + "." + String(d.getMonth()+1).padStart(2,"0");
+}
+tickClock(); setInterval(tickClock, 1000);
+let seekN = 100;
+const seekTimer = setInterval(() => { const el = $("#seekpn"); if (!el) return clearInterval(seekTimer); seekN = seekN >= 199 ? 100 : seekN + 1 + Math.floor(Math.random()*7); el.textContent = seekN; }, 90);
+const setPage = n => { $("#pgno").textContent = "P" + n; };
+
+/* ---------- sound ---------- */
+let soundOn = store.get("pj_sound", true), actx = null;
+function beep(freqs, dur=0.09){
+  if (!soundOn) return;
+  try {
+    actx = actx || new (window.AudioContext || window.webkitAudioContext)();
+    let t = actx.currentTime;
+    for (const f of freqs){
+      const o = actx.createOscillator(), g = actx.createGain();
+      o.type = "square"; o.frequency.value = f;
+      g.gain.setValueAtTime(0.05, t); g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+      o.connect(g).connect(actx.destination); o.start(t); o.stop(t + dur);
+      t += dur;
+    }
+  } catch {}
+}
+const SND = { ok:()=>beep([660,880,1320]), bad:()=>beep([220,160],0.16), tick:()=>beep([1200],0.03), click:()=>beep([520],0.04), end:()=>beep([523,659,784,1047],0.12) };
+
+/* ---------- state ---------- */
+const S = { editions:[], ed:null, qi:0, score:0, streak:0, res:[], plays:{}, timer:null, keyHandler:null, locked:false };
+
+/* ---------- boot ---------- */
+async function boot(){
+  let idx;
+  try {
+    const r = await fetch("editions/index.json", {cache:"no-cache"});
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    idx = await r.json();
+  } catch (e) { return renderError("Väljaannete nimekirja lugemine ebaõnnestus (" + (e && e.message || "viga") + ")."); }
+  const dates = (Array.isArray(idx) ? idx : (idx.dates || [])).slice().sort().reverse().slice(0, 21);
+  const eds = await Promise.all(dates.map(d => fetch("editions/" + encodeURIComponent(d) + ".json", {cache:"no-cache"}).then(r => r.ok ? r.json() : null).catch(() => null)));
+  S.editions = eds.filter(e => e && Array.isArray(e.questions) && e.questions.length);
+  loadScores();
+  if (!S.editions.length) return renderEmpty();
+  S.ed = S.editions[0];
+  setTicker(S.ed);
+  renderHome();
+}
+
+function loadScores(){
+  const p = store.get("pj_plays", {});
+  S.plays = (p && typeof p === "object") ? p : {};
+}
+
+function setTicker(ed){
+  const items = (ed.ticker && ed.ticker.length ? ed.ticker : ed.questions.filter(q => q.type !== "fake").map(q => q.headline || q.prompt)).slice(0, 12);
+  const belt = $("#belt");
+  belt.textContent = items.join("   ▪   ");
+  belt.style.setProperty("--dur", Math.max(40, items.join("").length / 5) + "s");
+  $("#ticker").hidden = false;
+}
+
+/* ---------- helpers ---------- */
+const myPlay = date => S.plays && S.plays[date];
+function dayLabel(ed){
+  if (ed.label) return ed.label;
+  try { return new Date(ed.date + "T12:00:00").toLocaleDateString("et-EE", {weekday:"long", day:"numeric", month:"long"}); } catch { return ed.date; }
+}
+function shortDate(iso){ const [y,m,d] = iso.split("-"); return d + "." + m; }
+function myStreakDays(){
+  const set = new Set(Object.keys(S.plays || {}));
+  let n = 0; const day = new Date(); day.setHours(12);
+  const iso = x => x.getFullYear() + "-" + String(x.getMonth()+1).padStart(2,"0") + "-" + String(x.getDate()).padStart(2,"0");
+  if (!set.has(iso(day))) day.setDate(day.getDate() - 1);
+  while (set.has(iso(day))) { n++; day.setDate(day.getDate() - 1); }
+  return n;
+}
+function lbHtml(date){
+  const p = myPlay(date);
+  const all = Object.values(S.plays || {}).filter(x => x && typeof x.score === "number");
+  if (!p) return `<p class="note">Selle päeva tulemust sul veel pole. Esimene katse läheb kirja.</p>`;
+  const best = Math.max(...all.map(x => x.score));
+  const row = (a, b, me) => `<div class="li ${me?"me":""}"><span class="pos">${me?"★":""}</span><span class="who">${a}</span><span class="dots"></span><span class="pts">${b}</span></div>`;
+  return `<div class="lb">` + row("Sinu tulemus", fmt(p.score), true) + row("Õigeid vastuseid", `${p.correct}/${p.total}`) + row("Sinu rekord", fmt(best)) + row("Mängitud päevi", all.length) + `</div><p class="note">Tulemused on salvestatud ainult selles brauseris.</p>`;
+}
+function clearKeys(){ if (S.keyHandler) { removeEventListener("keydown", S.keyHandler); S.keyHandler = null; } }
+function onKeys(fn){ clearKeys(); S.keyHandler = fn; addEventListener("keydown", fn); }
+function stopTimer(){ if (S.timer) { clearInterval(S.timer); S.timer = null; } }
+
+/* ---------- screens ---------- */
+function renderNoDbUnused(){
+  setPage(404);
+  main.innerHTML = `<p class="dh y" style="font-size:34px">LEHEKÜLGE EI LEITUD</p>
+  <p class="lede">Mäng loeb igapäevaseid küsimusi jagatud andmebaasist. See vaade ei pääse sellele ligi.</p>
+  <p class="note">Ava mäng claude.ai-s sisselogituna. Kui oled sisse logitud, värskenda lehte.</p>`;
+}
+function renderError(msg){
+  setPage(500);
+  main.innerHTML = `<p class="dh r" style="font-size:34px">SIGNAAL KADUS</p><p class="lede">${esc(msg)}</p><button class="cta alt" id="retry">PROOVI UUESTI</button>`;
+  $("#retry").onclick = () => location.reload();
+}
+function renderEmpty(){
+  setPage(100);
+  main.innerHTML = `<p class="dh y" style="font-size:34px">TOIMETUS ALLES TÖÖTAB</p>
+  <p class="lede">Ühtegi väljaannet pole veel avaldatud. Uus küsimustepakk ilmub siia igal hommikul värskete uudiste põhjal.</p>`;
+}
+
+function renderHome(){
+  clearKeys(); stopTimer(); setPage(100);
+  const ed = S.ed, n = ed.questions.length;
+  const played = myPlay(ed.date);
+  const counts = {}; ed.questions.forEach(q => counts[q.type] = (counts[q.type]||0) + 1);
+  const isLatest = ed === S.editions[0];
+  const streak = myStreakDays();
+  $("#bannersub").textContent = dayLabel(ed);
+  main.innerHTML = `
+    <div class="row" style="justify-content:space-between">
+      <span class="dh y" style="font-size:clamp(26px,6vw,34px)">${isLatest ? "TÄNANE VÄLJAANNE" : "ARHIIV · " + esc(shortDate(ed.date))}</span>
+      <button class="soundbtn" id="snd">${soundOn ? "HELI: SEES" : "HELI: VÄLJAS"}</button>
+    </div>
+    <p class="lede">${n} küsimust värsketest uudistest <span class="d">(${esc(ed.source || "ERR")})</span>. Kiirus annab boonust, õigete vastuste seeria korrutab punkte kuni <span class="m">×2</span>.</p>
+    <ul class="index">
+      ${counts.fake ? `<li><span class="n">101</span><span><span class="r">PÄRIS VÕI VÕLTS</span> · üks kolmest pealkirjast on välja mõeldud</span></li>`:""}
+      ${counts.blank ? `<li><span class="n">102</span><span><span class="g">LÜNK</span> · mis sõna päris pealkirjast puudub</span></li>`:""}
+      ${counts.who ? `<li><span class="n">103</span><span><span class="y">KES ÜTLES</span> · tsitaat ja neli nime</span></li>`:""}
+      ${counts.number ? `<li><span class="n">104</span><span><span class="c">NUMBRIMÄNG</span> · mida lähemale, seda rohkem punkte</span></li>`:""}
+      ${counts.map ? `<li><span class="n">105</span><span><span class="m">KAART</span> · näita Eesti kaardil, kus see juhtus</span></li>`:""}
+    </ul>
+    <div class="row" style="margin-top:18px;gap:16px;align-items:center">
+      <button class="cta" id="go">► ${played ? "MÄNGI UUESTI" : "ALUSTA"} <span class="d" style="color:#000;opacity:.6">[OK]</span></button>
+      ${played ? `<span class="note">Sinu tulemus: <span class="y">${fmt(played.score)}</span>. Arvesse läheb esimene katse.</span>` : ""}
+      ${streak > 1 ? `<span class="note">Päevi järjest: <span class="g">${streak}</span></span>` : ""}
+    </div>
+    <div class="cols">
+      <section><span class="h2 y">SINU TULEMUS ${esc(shortDate(ed.date))}</span>${lbHtml(ed.date)}</section>
+      <section><span class="h2">ARHIIV</span>
+        <div class="arch">${S.editions.map(e => { const p = myPlay(e.date); return `<button data-date="${esc(e.date)}"><span class="y">${esc(shortDate(e.date))}</span><span class="t">${esc(dayLabel(e))}</span><span class="dots"></span><span class="${p?"c":"d"}">${p ? fmt(p.score) : "—"}</span></button>`; }).join("")}</div>
+      </section>
+    </div>`;
+  $("#go").onclick = startGame;
+  $("#snd").onclick = () => { soundOn = !soundOn; store.set("pj_sound", soundOn); $("#snd").textContent = soundOn ? "HELI: SEES" : "HELI: VÄLJAS"; SND.click(); };
+  main.querySelectorAll(".arch button").forEach(b => b.onclick = () => { S.ed = S.editions.find(e => e.date === b.dataset.date) || S.ed; setTicker(S.ed); renderHome(); });
+  onKeys(e => { if (e.key === "Enter" && document.activeElement === document.body) startGame(); });
+}
+
+function startGame(){
+  SND.click();
+  S.qi = 0; S.score = 0; S.streak = 0; S.res = [];
+  renderQuestion();
+}
+
+const mult = () => 1 + 0.25 * Math.min(S.streak, 4);
+
+function headHtml(q){
+  const cat = CATS[q.cat] || CATS.sise;
+  const n = S.ed.questions.length;
+  return `<div class="qhead"><span class="cat">${cat.name}</span><span class="c">${TYPE_LABEL[q.type]}</span><span class="d">${S.qi+1}/${n}</span><span class="sc">${fmt(S.score)}</span><span class="mul">×${mult().toFixed(2).replace(".",",")}</span></div>
+  <div class="timer" id="timer">${"<i></i>".repeat(30)}</div>`;
+}
+
+function startTimer(seconds, onOut){
+  stopTimer();
+  const t0 = performance.now(), cells = [...document.querySelectorAll("#timer i")], bar = $("#timer");
+  S.tStart = t0; S.tLen = seconds * 1000;
+  let lastLeft = 30;
+  S.timer = setInterval(() => {
+    const frac = Math.max(0, 1 - (performance.now() - t0) / S.tLen);
+    const left = Math.ceil(frac * 30);
+    cells.forEach((c,i) => c.classList.toggle("off", i >= left));
+    bar.classList.toggle("warn", frac < 0.25);
+    if (left < lastLeft && frac < 0.25) SND.tick();
+    lastLeft = left;
+    if (frac <= 0) { stopTimer(); onOut(); }
+  }, 100);
+}
+const timeFrac = () => Math.max(0, 1 - (performance.now() - S.tStart) / S.tLen);
+
+function renderQuestion(){
+  clearKeys(); S.locked = false;
+  const q = S.ed.questions[S.qi];
+  setPage((CATS[q.cat] || CATS.sise).page + S.qi);
+  let body = "";
+  if (q.type === "fake") body = `<p class="qprompt">${esc(q.prompt || "Üks pealkiri on välja mõeldud. Leia võlts.")}</p>`;
+  if (q.type === "blank") body = `<p class="qprompt">Mis sõna pealkirjast puudub?</p><p class="headline">${esc(q.headline).replace(/_{2,}/, '<span class="gap">&nbsp;?&nbsp;</span>')}</p>`;
+  if (q.type === "who") body = `<p class="qprompt">Kes ütles?</p><p class="quote">„${esc(q.quote)}“</p>`;
+  if (["fake","blank","who"].includes(q.type)) {
+    body += `<div class="fast" id="opts">${q.options.map((o,i) => `<button class="fbtn" data-c="${i}" data-i="${i}"><span class="k">${KEYS[i]}</span><span>${esc(o)}</span></button>`).join("")}</div>`;
+  }
+  if (q.type === "number") body = numberHtml(q);
+  if (q.type === "map") body = `<p class="qprompt">${esc(q.prompt)}</p><div class="mapwrap"><canvas id="map" aria-label="Eesti kaart, klõpsa asukohale"></canvas><span class="maphint" id="maphint">Klõpsa kaardile</span></div>
+    <div class="fbrow" style="margin-top:10px"><button class="cta" id="lock" disabled>KINNITA ASUKOHT</button></div>`;
+  main.innerHTML = headHtml(q) + body + `<div id="fb"></div>`;
+
+  if (["fake","blank","who"].includes(q.type)) {
+    main.querySelectorAll(".fbtn").forEach(b => b.onclick = () => answerChoice(+b.dataset.i));
+    onKeys(e => { const i = KEYS.indexOf(e.key); if (i >= 0 && i < q.options.length) answerChoice(i); });
+    startTimer(q.type === "fake" ? 25 : 20, () => answerChoice(-1));
+  }
+  if (q.type === "number") { wireNumber(q); startTimer(30, () => answerNumber(true)); }
+  if (q.type === "map") { wireMap(q); startTimer(35, () => answerMap(true)); }
+  window.scrollTo({top:0});
+}
+
+function award(base, hit, partial){
+  const m = mult();
+  const pts = Math.round(base * m);
+  S.score += pts;
+  S.streak = hit ? S.streak + 1 : 0;
+  S.res.push(hit ? "ok" : partial ? "half" : base === 0 && S._timeout ? "to" : "bad");
+  S._timeout = false;
+  return {pts, m};
+}
+
+function verdictHtml(kind, pts, m){
+  const T = {ok:["ÕIGE!","g"], bad:["VALE","r"], to:["AEG SAI OTSA","r"], half:["PEAAEGU","y"], great:["TÄPNE!","g"]}[kind];
+  return `<div class="verdict"><span class="v ${T[1]}">${T[0]}</span><span class="y">+${fmt(pts)}</span>${m > 1 && pts > 0 ? `<span class="m">×${m.toFixed(2).replace(".",",")}</span>` : ""}</div>`;
+}
+
+function showFeedback(html, q){
+  const last = S.qi === S.ed.questions.length - 1;
+  $("#fb").innerHTML = `<div class="fb">${html}<p class="explain">${esc(q.explain)}</p>
+    <div class="fbrow"><button class="cta alt" id="next">${last ? "TULEMUS ►" : "JÄRGMINE ►"}</button>${q.url ? `<a href="${esc(q.url)}" target="_blank" rel="noopener">Loe allikast${q.src ? " (" + esc(q.src) + ")" : ""} ↗</a>` : ""}</div></div>`;
+  $("#qscore") && ($("#qscore").textContent = fmt(S.score));
+  main.querySelector(".qhead .sc").textContent = fmt(S.score);
+  main.querySelector(".qhead .mul").textContent = "×" + mult().toFixed(2).replace(".",",");
+  const go = () => { SND.click(); S.qi++; if (S.qi >= S.ed.questions.length) renderResults(); else renderQuestion(); };
+  $("#next").onclick = go;
+  $("#next").focus({preventScroll:true});
+  setTimeout(() => onKeys(e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } }), 250);
+  $("#fb").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"nearest"});
+}
+
+/* choice questions */
+function answerChoice(i){
+  if (S.locked) return; S.locked = true; stopTimer(); clearKeys();
+  const q = S.ed.questions[S.qi];
+  const hit = i === q.answer;
+  if (i < 0) S._timeout = true;
+  const base = hit ? Math.round(500 + 500 * timeFrac()) : 0;
+  const {pts, m} = award(base, hit, false);
+  main.querySelectorAll(".fbtn").forEach((b, j) => {
+    b.disabled = true;
+    if (j === q.answer) b.classList.add("right");
+    else if (j === i) b.classList.add("wrong");
+    else b.classList.add("dim");
+  });
+  hit ? SND.ok() : SND.bad();
+  let note = "";
+  if (q.type === "fake") note = hit ? "" : `<p class="lede">Võlts oli: <span class="y">${esc(q.options[q.answer])}</span></p>`;
+  showFeedback(verdictHtml(hit ? "ok" : i < 0 ? "to" : "bad", pts, m) + note, q);
+}
+
+/* number questions */
+function numberHtml(q){
+  return `<p class="qprompt">${esc(q.prompt)}</p>
+  <div class="numbox">
+    <div class="readout"><span id="nval">0</span><small>${esc(q.unit || "")}</small></div>
+    <input type="range" id="nrange" min="0" max="1000" step="1" value="500" aria-label="Sinu pakkumine">
+    <div class="scale"><span>${fmt(q.min, q.decimals||0)}</span><span>${fmt(q.max, q.decimals||0)}</span></div>
+    <div class="nudges"><button data-d="-10">−−</button><button data-d="-1">−</button><button data-d="1">+</button><button data-d="10">++</button></div>
+    <div class="fbrow"><button class="cta" id="lock">KINNITA</button><span class="note">Täpne vastus = 1000 p. Kolm korda mööda = 0.</span></div>
+  </div>`;
+}
+function numFromT(q, t){
+  const useLog = q.log !== false && q.min > 0 && q.max / q.min > 20;
+  let v = useLog ? Math.exp(Math.log(q.min) + t/1000 * (Math.log(q.max) - Math.log(q.min))) : q.min + t/1000 * (q.max - q.min);
+  const d = q.decimals || 0;
+  if (d === 0) { const mag = v >= 1000 ? Math.pow(10, Math.floor(Math.log10(v)) - 2) : 1; v = Math.round(v / mag) * mag; }
+  else v = Math.round(v * Math.pow(10,d)) / Math.pow(10,d);
+  return v;
+}
+function wireNumber(q){
+  const r = $("#nrange"), out = $("#nval");
+  const upd = () => { S.guess = numFromT(q, +r.value); out.textContent = fmt(S.guess, q.decimals||0); };
+  r.oninput = upd; upd();
+  main.querySelectorAll(".nudges button").forEach(b => b.onclick = () => { r.value = Math.max(0, Math.min(1000, +r.value + +b.dataset.d)); upd(); SND.click(); });
+  $("#lock").onclick = () => answerNumber(false);
+  onKeys(e => { if (e.key === "Enter") answerNumber(false); });
+}
+function answerNumber(timeout){
+  if (S.locked) return; S.locked = true; stopTimer(); clearKeys();
+  const q = S.ed.questions[S.qi];
+  const g = S.guess, a = q.answer;
+  const ratio = Math.max(g, a) / Math.max(1e-9, Math.min(g, a));
+  const acc = timeout ? 0 : Math.max(0, 1 - Math.log(ratio) / Math.log(3));
+  const base = Math.round(1000 * acc);
+  if (timeout) S._timeout = true;
+  const hit = base >= 600, partial = base >= 200;
+  const {pts, m} = award(base, hit, partial);
+  $("#nrange").disabled = true; $("#lock").disabled = true;
+  main.querySelectorAll(".nudges button").forEach(b => b.disabled = true);
+  hit ? SND.ok() : SND.bad();
+  const kind = timeout ? "to" : base >= 900 ? "great" : hit ? "ok" : partial ? "half" : "bad";
+  const off = ratio < 1.005 ? "täpselt!" : (ratio.toFixed(2).replace(".",",") + "× " + (g > a ? "liiga palju" : "liiga vähe"));
+  showFeedback(verdictHtml(kind, pts, m) + `<p class="lede">Õige vastus: <span class="y">${fmt(a, q.decimals||0)}</span> ${esc(q.unit||"")}. Sinu pakkumine: <span class="c">${fmt(g, q.decimals||0)}</span> <span class="d">(${off})</span></p>`, q);
+}
+
+/* map questions */
+const proj = (window.d3 && d3.geoConicConformal) ? d3.geoConicConformal().parallels([58,59.33]).rotate([-24.5,0]).center([0,58.6]).scale(MAP.scale).translate(MAP.translate) : null;
+const COLS = 125, ROWS = 80, CELL = MAP.W / COLS;
+let mosaic = null;
+function buildMosaic(){
+  if (mosaic) return mosaic;
+  const c = document.createElement("canvas"); c.width = COLS; c.height = ROWS;
+  const x = c.getContext("2d");
+  x.scale(COLS / MAP.W, ROWS / MAP.H);
+  x.fillStyle = "#0000ff"; x.fill(new Path2D(MAP.nb));
+  x.fillStyle = "#00ff00"; x.fill(new Path2D(MAP.est));
+  const px = x.getImageData(0, 0, COLS, ROWS).data;
+  mosaic = new Uint8Array(COLS * ROWS);
+  for (let i = 0; i < COLS * ROWS; i++) { const g = px[i*4+1], b = px[i*4+2]; mosaic[i] = g > 70 ? 2 : b > 110 ? 1 : 0; }
+  return mosaic;
+}
+function drawMap(q, guess, reveal){
+  const cv = $("#map"); if (!cv) return;
+  const w = cv.parentElement.clientWidth, dpr = Math.min(2, window.devicePixelRatio || 1);
+  const h = w * MAP.H / MAP.W;
+  cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr);
+  const x = cv.getContext("2d"); x.setTransform(cv.width / MAP.W, 0, 0, cv.height / MAP.H, 0, 0);
+  x.fillStyle = "#000"; x.fillRect(0, 0, MAP.W, MAP.H);
+  const mz = buildMosaic(), gap = 0.9;
+  const col = ["", "#1b2490", "#1fb64f"];
+  for (let r = 0; r < ROWS; r++) for (let c = 0; c < COLS; c++) {
+    const v = mz[r*COLS + c]; if (!v) continue;
+    x.fillStyle = col[v]; x.fillRect(c*CELL, r*CELL, CELL - gap, CELL - gap);
+  }
+  const cellAt = ([px,py]) => [Math.floor(px / CELL), Math.floor(py / CELL)];
+  const blk = (c, r, color, s=1) => { x.fillStyle = color; x.fillRect((c - (s-1)/2)*CELL, (r - (s-1)/2)*CELL, CELL*s - gap, CELL*s - gap); };
+  const fs = Math.max(CELL*2.6, 13 * MAP.W / w);
+  x.font = `${Math.round(fs)}px VT323, monospace`; x.textBaseline = "middle";
+  for (const [nm, lo, la] of CITIES) {
+    const p = proj([lo, la]); const [c, r] = cellAt(p);
+    blk(c, r, "#f3f3ee");
+    const tw = x.measureText(nm).width, right = (c+1.5)*CELL + tw > MAP.W - 4;
+    x.fillStyle = "#f3f3ee"; x.textAlign = right ? "right" : "left";
+    x.fillText(nm, right ? (c-0.5)*CELL : (c+1.5)*CELL, (r+0.5)*CELL);
+  }
+  x.textAlign = "left";
+  if (reveal && guess) {
+    const a = cellAt(proj(guess)), b = cellAt(proj([reveal.lon, reveal.lat]));
+    const steps = Math.max(Math.abs(b[0]-a[0]), Math.abs(b[1]-a[1]));
+    for (let i = 1; i < steps; i++) { if (i % 2) continue; const c = Math.round(a[0] + (b[0]-a[0]) * i/steps), r = Math.round(a[1] + (b[1]-a[1]) * i/steps); blk(c, r, "#f3f3ee"); }
+  }
+  if (guess) { const [c, r] = cellAt(proj(guess)); blk(c, r, "#ff47e8", 3); blk(c, r, "#000"); }
+  if (reveal) { const [c, r] = cellAt(proj([reveal.lon, reveal.lat])); blk(c, r, "#ffe41c", 3); blk(c, r, "#ff3b30");
+    x.fillStyle = "#ffe41c"; x.font = `${Math.round(fs*1.25)}px VT323, monospace`; x.fillText(String(reveal.place || "").toUpperCase(), (c+2.2)*CELL, (r+0.5)*CELL - CELL*2.4); }
+}
+function wireMap(q){
+  S.mapGuess = null;
+  const cv = $("#map");
+  const redraw = () => drawMap(q, S.mapGuess, S.locked ? q : null);
+  redraw();
+  (document.fonts && document.fonts.ready || Promise.resolve()).then(redraw);
+  S._resize && removeEventListener("resize", S._resize);
+  S._resize = redraw; addEventListener("resize", redraw);
+  cv.onclick = ev => {
+    if (S.locked || !proj) return;
+    const rect = cv.getBoundingClientRect();
+    const mx = (ev.clientX - rect.left) / rect.width * MAP.W, my = (ev.clientY - rect.top) / rect.height * MAP.H;
+    const ll = proj.invert([mx, my]); if (!ll) return;
+    S.mapGuess = ll; SND.click(); redraw();
+    $("#lock").disabled = false; $("#maphint").textContent = "Klõpsa uuesti, et muuta";
+  };
+  $("#lock").onclick = () => answerMap(false);
+  onKeys(e => { if (e.key === "Enter" && S.mapGuess) answerMap(false); });
+}
+function answerMap(timeout){
+  if (S.locked) return; S.locked = true; stopTimer(); clearKeys();
+  const q = S.ed.questions[S.qi];
+  const g = S.mapGuess;
+  const km = g ? d3.geoDistance(g, [q.lon, q.lat]) * 6371 : null;
+  const base = km == null ? 0 : Math.round(1000 * Math.exp(-km / 45));
+  if (km == null) S._timeout = true;
+  const hit = base >= 600, partial = base >= 250;
+  const {pts, m} = award(base, hit, partial);
+  drawMap(q, g, q);
+  $("#lock").disabled = true; $("#maphint").textContent = "";
+  hit ? SND.ok() : SND.bad();
+  const kind = km == null ? "to" : km < 8 ? "great" : hit ? "ok" : partial ? "half" : "bad";
+  showFeedback(verdictHtml(kind, pts, m) + (km == null ? `<p class="lede">Õige koht: <span class="y">${esc(q.place)}</span></p>` : `<p class="lede">Õige koht: <span class="y">${esc(q.place)}</span>. Sinu märk oli <span class="c">${fmt(km, km < 10 ? 1 : 0)} km</span> kaugusel.</p>`), q);
+}
+
+/* ---------- results ---------- */
+const RANKS = [[0,"PRAKTIKANT","Pealkirjad libisevad mööda. Homme on uus päev."],[0.25,"REPORTER","Uudisvoog on enam-vähem käes."],[0.45,"UURIV AJAKIRJANIK","Märkad detaile, mis teistel kahe silma vahele jäävad."],[0.65,"TOIMETAJA","Sinu laualt ei lähe ükski võlts pealkiri läbi."],[0.82,"PEATOIMETAJA","Sa loed uudiseid enne, kui need ilmuvad."]];
+function maxScore(n){ let s = 0; for (let i = 0; i < n; i++) s += 1000 * (1 + 0.25 * Math.min(i, 4)); return s; }
+async function renderResults(){
+  clearKeys(); stopTimer(); setPage(199); SND.end();
+  const ed = S.ed, n = ed.questions.length;
+  const frac = S.score / maxScore(n);
+  const rank = RANKS.filter(r => frac >= r[0]).pop();
+  const correct = S.res.filter(r => r === "ok").length;
+  const first = !myPlay(ed.date);
+  main.innerHTML = `
+    <div class="row" style="justify-content:space-between"><span class="dh y" style="font-size:clamp(26px,6vw,34px)">LÕPPTULEMUS · ${esc(shortDate(ed.date))}</span></div>
+    <div class="big">${fmt(S.score)}</div>
+    <div class="grid">${S.res.map(r => `<i class="${r}"></i>`).join("")}</div>
+    <p class="lede" style="margin-top:12px"><span class="c">${rank[1]}</span> · ${correct}/${n} täistabamust. ${esc(rank[2])}</p>
+    <div class="fbrow" style="margin-top:10px">
+      <button class="cta alt" id="share">KOPEERI TULEMUS</button>
+      <button class="cta ghost" id="home">◄ AVALEHT</button>
+      <span class="note" id="savenote">${first ? "Salvestan…" : "Kordusmäng, arvesse läks esimene katse."}</span>
+    </div>
+    <section style="margin-top:18px"><span class="h2 y">SINU TULEMUS ${esc(shortDate(ed.date))}</span><div id="lbbox">${lbHtml(ed.date)}</div></section>
+    <pre id="sharetxt" hidden></pre>`;
+  const emo = {ok:"🟩", half:"🟨", bad:"🟥", to:"⬛"};
+  const txt = `PEALKIRJAJAHT ${shortDate(ed.date)} · ${fmt(S.score)} p\n${S.res.map(r => emo[r]).join("")}\n${rank[1]}`;
+  $("#share").onclick = async () => {
+    try { await navigator.clipboard.writeText(txt); $("#share").textContent = "KOPEERITUD ✓"; }
+    catch { const p = $("#sharetxt"); p.hidden = false; p.textContent = txt; const r = document.createRange(); r.selectNodeContents(p); const s = getSelection(); s.removeAllRanges(); s.addRange(r); $("#share").textContent = "VALI JA KOPEERI"; }
+  };
+  $("#home").onclick = () => { SND.click(); renderHome(); };
+  onKeys(e => { if (e.key === "Escape") renderHome(); });
+  if (first) {
+    S.plays[ed.date] = {score:S.score, correct, total:n, grid:S.res.join(","), at:new Date().toISOString()};
+    store.set("pj_plays", S.plays);
+    $("#savenote") && ($("#savenote").textContent = "Tulemus on salvestatud selles brauseris.");
+    $("#lbbox") && ($("#lbbox").innerHTML = lbHtml(ed.date));
+  }
+}
+
+boot();
+})();
+</script>
+
+</body>
+</html>
