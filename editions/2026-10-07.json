@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T06:55:45+03:00",
+  "label": "Kolmapäev, 7. oktoober 2026",
+  "questions": [
+    {
+      "cat": "sise",
+      "explain": "Paides. Järvamaa ainsa riigigümnaasiumi koolipäev nihkus 8.30-lt 9.00-le; näiteks Aravetelt väljub esimene buss 6.55 ja jõuab Paidesse 7.40. Omavalitsused soovivad varasemat algust või ministeeriumilt raha lisatranspordiks.",
+      "lat": 58.8856,
+      "lon": 25.5572,
+      "place": "Paide",
+      "prompt": "Millise maakonnalinna riigigümnaasiumis algab koolipäev nüüd kell 9 ja see tekitab õpilastele bussiaegadega probleeme?",
+      "src": "ERR",
+      "type": "map",
+      "url": "https://www.err.ee/1610158258/hilisem-koolipaeva-algus-tekitab-paide-gumnasistidele-probleeme-bussiaegadega"
+    },
+    {
+      "answer": 2,
+      "cat": "valis",
+      "explain": "Tuhanded Argentina fännid voolasid Buenos Airese Monumentali staadioni juurde enne Lionel Messi viimast mängu. Pealkiri on tõlgitud.",
+      "headline": "Fännid ujutavad Buenos Airese üle enne ___ viimast koondisemängu",
+      "options": [
+        "Di María",
+        "Agüero",
+        "Messi",
+        "Otamendi"
+      ],
+      "src": "Al Jazeera",
+      "type": "blank",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/10-7-messi-fans-flock-clip"
+    },
+    {
+      "answer": 0,
+      "cat": "meelelahutus",
+      "explain": "Hot-dogi rekordit pole – see oli võlts. Päris lood: Elu24 nädalaprognoos ja tarbija pahameel Talleggi snäkkide hallituse pärast.",
+      "options": [
+        "«Sellist järjekorda pole me varem näinud!» Tartus valmis Eesti pikim hot-dog",
+        "Nädal algab leebelt, aga lõppeb vägagi tuliselt: ärge veel sildu põletage",
+        "«Kolmas kord sel kuul juba hallitusega!» Talleggi snäkkide kvaliteet tekitab tarbijas pahameelt"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+      "src": "Elu24",
+      "type": "fake",
+      "url": "https://elu24.postimees.ee/8558331/foto-kolmas-kord-sel-kuul-juba-hallitusega-talleggi-snakkide-kvaliteet-tekitab-tarbijas-pahameelt"
+    },
+    {
+      "answer": 2,
+      "cat": "valis",
+      "explain": "Harkivi linnapea Igor Terehov ERR-ile: linn elab rünnakutest hoolimata edasi ja taastab hävitatut, kuid ilma energiarahuta tuleb eelolev talv väga raske.",
+      "options": [
+        "Vitali Klitško",
+        "Andri Sadovõi",
+        "Igor Terehov",
+        "Volodõmõr Zelenski"
+      ],
+      "quote": "Me elasime eelmise talve üle, kuigi ka see oli raske.",
+      "src": "ERR",
+      "type": "who",
+      "url": "https://www.err.ee/1610157709/harkivi-meer-err-ile-linn-elab-edasi-ja-uritab-havitatut-taastada"
+    },
+    {
+      "answer": 2000,
+      "cat": "sise",
+      "decimals": 0,
+      "explain": "Veidi üle 2000. Järjekord on püsinud kuust kuusse umbes sama pikk ja sotsiaalkindlustusameti hinnangul on olukord kriitiline.",
+      "max": 20000,
+      "min": 100,
+      "prompt": "Mitu inimest ootab oktoobri alguse seisuga erihoolekande teenuse järjekorras?",
+      "src": "ERR",
+      "type": "number",
+      "unit": "inimest",
+      "url": "https://www.err.ee/1610158051/erihoolekande-teenuse-jarjekorras-ootab-ule-2000-inimese"
+    },
+    {
+      "answer": 1,
+      "cat": "valis",
+      "explain": "Rovaniemi neljapäevane koolinädal oli võlts. Päris lood: Turus sünnitasid kaksikõed samal päeval sama ämmaemanda juures ja Tohmajärvis säilis juhuslikult jääajast pärit koobas.",
+      "options": [
+        "Kaksikõed sünnitasid Turus samal päeval – „Juhus“, ütleb professor",
+        "Rovaniemi koolid lähevad üle neljapäevasele koolinädalale",
+        "Maja kaitses 11 000 aasta vanust koobast, nüüd kaitseb koobas maja – Tohmajärvi haruldus säilis juhuslikult"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+      "src": "Yle",
+      "type": "fake",
+      "url": "https://yle.fi/a/74-20249591"
+    },
+    {
+      "answer": 1,
+      "cat": "meelelahutus",
+      "explain": "Tartlane nägi jalutuskäigul silmatorkavat sõidukit, mis meenutas talle Mr. Beani autot.",
+      "headline": "Tartlane märkas jalutuskäigul pilkupüüdvat sõidukit. «Nagu ___ auto!»",
+      "options": [
+        "James Bondi",
+        "Mr. Beani",
+        "Batmani",
+        "Barbie"
+      ],
+      "src": "Elu24",
+      "type": "blank",
+      "url": "https://elu24.postimees.ee/8554999/foto-tartlane-markas-jalutuskaigul-pilkupuudvat-soidukit-nagu-mr-beani-auto"
+    },
+    {
+      "cat": "sport",
+      "explain": "Saaremaal. Saaremaa rallil osaleb 161 ekipaaži, iga neljas startija on saarlane ja tänavu on stardis rekordarv veoautosid.",
+      "lat": 58.2526,
+      "lon": 22.485,
+      "place": "Saaremaa (Kuressaare)",
+      "prompt": "Kus peetakse juba 59. korda rallit, mille 161 ekipaažist iga neljas on kohalik?",
+      "src": "ERR",
+      "type": "map",
+      "url": "https://www.err.ee/1610158336/saaremaa-garaazides-kaib-kibe-ettevalmistus-saaremaa-ralliks"
+    },
+    {
+      "answer": 0,
+      "cat": "valis",
+      "explain": "USA välisminister Marco Rubio ütles seda Reykjavíkis, kui talt küsiti Trumpi postituse kohta, kus Island oli värvitud USA lipu värvidesse. Tsitaat on tõlgitud soome keelest.",
+      "options": [
+        "Marco Rubio",
+        "JD Vance",
+        "Pete Hegseth",
+        "Mark Rutte"
+      ],
+      "quote": "Me ei ole siin selleks, et arutada sotsiaalmeediat, vaid tulevikku.",
+      "src": "Yle",
+      "type": "who",
+      "url": "https://yle.fi/a/74-20250103"
+    },
+    {
+      "answer": 2,
+      "cat": "sise",
+      "explain": "Laenutustasu oli võlts. Päris lood: gripivaktsiini viimane tarne jõuab alles jaanuaris, sest kõik viirustüved uuendati; riigi IT-peaarhitekti konkursile laekus üheksa avaldust.",
+      "options": [
+        "Gripivaktsiin jõuab Eestisse oodatust hiljem",
+        "Riigi IT-peaarhitektiks pürgib üheksa inimest",
+        "Raamatukogud hakkavad uudiskirjanduse laenutamise eest tasu küsima"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+      "src": "ERR",
+      "type": "fake",
+      "url": "https://www.err.ee/1610157658/gripivaktsiin-jouab-eestisse-oodatust-hiljem"
+    },
+    {
+      "answer": 150,
+      "cat": "meelelahutus",
+      "decimals": 0,
+      "explain": "150. Filmi „The India House“ võtetel olid hobuvankrid, vanad autod ja ajaloolised kostüümid; Eesti partner on Nafta Films.",
+      "max": 2000,
+      "min": 10,
+      "prompt": "India filmimeeskond muutis Tallinna vanalinna 20. sajandi alguse Londoniks. Mitu osalist oli võtetel?",
+      "src": "Elu24",
+      "type": "number",
+      "unit": "osalist",
+      "url": "https://elu24.postimees.ee/8558810/galerii-hobuvankrid-vanad-autod-ja-150-osalist-india-filmimeeskond-on-muutnud-tallinna-vanalinna-londoniks"
+    },
+    {
+      "answer": 1,
+      "cat": "sise",
+      "explain": "Terviseameti nakkushaiguste epidemioloogia osakonna teenusejuht Juta Varjas ütles „Ringvaates“, et võimalik katkujuhtum Venemaal pole Eesti riskitaset tõstnud.",
+      "options": [
+        "Irja Lutsar",
+        "Juta Varjas",
+        "Hanna Sepp",
+        "Marje Oona"
+      ],
+      "quote": "Kõik katku vormid on tänapäeval ravitavad.",
+      "src": "ERR",
+      "type": "who",
+      "url": "https://www.err.ee/1610158273/terviseameti-ametnik-venemaa-katkujuhtumist-meie-riskitase-pole-tousnud"
+    },
+    {
+      "answer": 125,
+      "cat": "valis",
+      "decimals": 0,
+      "explain": "125. Kane osales Rahvuste liiga mängus kõigi kolme värava sünnis ja tangeeris Inglismaa koondise mängude rekordi.",
+      "max": 1000,
+      "min": 10,
+      "prompt": "Harry Kane lõi Inglismaa 3:0 võidus Tšehhi üle kaks väravat ja tangeeris koondise rekordi. Mitmes koondisemäng see tal oli?",
+      "src": "Al Jazeera",
+      "type": "number",
+      "unit": "mäng",
+      "url": "https://www.aljazeera.com/sports/2026/10/6/kane-equals-england-record-and-scores-twice-in-3-0-win-against-czechia"
+    },
+    {
+      "answer": 0,
+      "cat": "sise",
+      "explain": "Umbusaldust pole esitatud: Isamaa, Keskerakond ja EKRE pole mitme nädalaga suutnud selle tekstis kokku leppida. Norstati uuringus juhib Isamaa 23,5 protsendiga.",
+      "options": [
+        "Opositsioon esitas peaministrile umbusalduse",
+        "Norstat: EKRE on toetust kasvatanud, Eesti 200 toetus rekordmadal",
+        "Uue õiguskantsleri kandidaadi esitab Ülle Madise"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+      "src": "ERR",
+      "type": "fake",
+      "url": "https://www.err.ee/1610158294/isamaa-keskerakond-ja-ekre-pole-suutnud-kokku-leppida-umbusalduse-tekstis"
+    },
+    {
+      "answer": 3,
+      "cat": "meelelahutus",
+      "explain": "Pühapäeval alanud „Laululahingus“ esinevad kaheksa koori eri piirkondadest koos tuntud staaridega, saatejuht on Karl-Erik Taukari.",
+      "headline": "«Tanja unustas seekord küll ära, et ta pole ainus staar laval.» TV3 suursaade «___» võeti sotsiaalmeedias teravalt ette",
+      "options": [
+        "Tantsud tähtedega",
+        "Su nägu kõlab tuttavalt",
+        "Eesti otsib superstaari",
+        "Laululahing"
+      ],
+      "src": "Elu24",
+      "type": "blank",
+      "url": "https://elu24.postimees.ee/8558286/tanja-unustas-seekord-kull-ara-et-ta-pole-ainus-staar-laval-tv3-suursaade-laululahing-voeti-sotsiaalmeedias-teravalt-ette"
+    },
+    {
+      "cat": "kultuur",
+      "explain": "Narvas. Narva Vaba Lava tegevustoetus on endiselt otsustamata ja ootab poliitilist otsust.",
+      "lat": 59.378,
+      "lon": 28.19,
+      "place": "Narva",
+      "prompt": "Vaba Lava ühe teatrikeskuse tegevustoetuse küsimus on lahtine ja ootab poliitilist otsust. Millises linnas see keskus asub?",
+      "src": "ERR",
+      "type": "map",
+      "url": "https://www.err.ee/1610157920/narva-vaba-lava-tegevustoetuse-kusimus-ootab-poliitilist-otsust"
+    }
+  ],
+  "source": "ERR, Elu24, Yle, Al Jazeera",
+  "ticker": [
+    "Elektrilevi tahab kümnendi jooksul võrku investeerida kaks miljardit eurot",
+    "Kolmapäev tuleb sajuta ja päikesepaisteline",
+    "Pakosta soovib oluliselt karmistada karistusi migrantide smugeldamise eest",
+    "Soome täheldab samuti Vene luuretegevuse elavnemist",
+    "EHL soovib riigikoolide õpetajate palgaeelise jätkumist",
+    "Uus üleriigiline planeering nügib inimesi kompaktsemalt elama",
+    "Koolid soovivad maamajanduslike erialade õppe rahastamise muutmist",
+    "Kopteriõnnetusele Soomes eelnesid ohtlikud manöövrid"
+  ]
+}
