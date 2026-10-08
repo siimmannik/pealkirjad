@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-08",
+ "generatedAt": "2026-10-08T06:56:01+03:00",
+ "label": "Neljapäev, 8. oktoober 2026",
+ "questions": [
+  {
+   "cat": "sise",
+   "explain": "Luhasoo õpperada Võrumaal Rõuge vallas. RMK ei ole jõudnud eramaaomanikuga kokkuleppele rajale viiva tee ja parkla kasutamises; vallavanem Britt Vahteri sõnul soovib vald, et rada jääks avatuks.",
+   "lat": 57.596,
+   "lon": 27.25,
+   "place": "Luhasoo õpperada (Rõuge vald)",
+   "prompt": "Kus asub populaarne viiekilomeetrine matkarada, mida külastas eelmisel aastal umbes 10 000 loodushuvilist ja mida ähvardab nüüd RMK ja maaomaniku vaidluse tõttu sulgemine?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610159989/vorumaa-luhasoo-opperada-ahvardab-sulgemine"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Põhjapõtrade lugu oli võlts. Päris lood: Yle teksti-TV tähistab 45. sünnipäeva ning USA firma Figure AI lasi oma vanad F.02 robotid sulatada Ovako Imatra terasetehase kaarahjus.",
+   "options": [
+    "Yle teksti-TV saab 45-aastaseks – testi oma teadmisi viktoriinis",
+    "Põhjapõtrade arv Lapimaal langes rekordmadalale – süüdi on vihmane sügis",
+    "Ettevõte sulatas Imatral roboteid nagu Terminaatori filmis – väide: idee tuli Arnold Schwarzeneggerilt"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20249530"
+  },
+  {
+   "answer": 2,
+   "cat": "sport",
+   "explain": "Nii ütles koondislane Mattias Käit pärast seda, kui Eesti jäi Rahvuste liigas kodus Islandiga 0:0 viiki.",
+   "options": [
+    "Karol Mets",
+    "Rauno Sappinen",
+    "Mattias Käit",
+    "Henrik Ojamaa"
+   ],
+   "quote": "Jääb kripeldama, et kõik kolm viigimängu on olnud võimalik võita.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://sport.err.ee/1610158393/kait-jaab-kripeldama-et-koik-kolm-viigimangu-on-olnud-voimalik-voita"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Omaniketa Pakid müüb Euroopa logistikakeskustesse kinni jäänud ja adressaadini jõudmata pakke suletult mõne euro eest. Firma sõnul on huvi oodatust suurem.",
+   "headline": "Eestis kogub hoogu ___, kus isegi müüja ei tea kauba sisu: see tekitab sõltuvust, ostetakse veel ja veel",
+   "options": [
+    "oksjoniäri",
+    "kirbuturuäri",
+    "pakiäri",
+    "rendiäri"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8559087/kummaline-eestis-kogub-hoogu-pakiari-kus-isegi-muuja-ei-tea-kauba-sisu-see-tekitab-soltuvust-ostetakse-veel-ja-veel"
+  },
+  {
+   "answer": 2750,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "2750 söögikohta ehk 30,6 protsenti kõigist kontrollitutest – peaaegu iga kolmas. Kontrollides leiti muu hulgas baktereid ja rotiväljaheiteid.",
+   "max": 30000,
+   "min": 100,
+   "prompt": "Yle analüüsis üle 16 000 Soome toiduameti kontrolli restoranides, kiirtoidukohtades ja grillides aastatel 2024–2026. Mitu söögikohta sai vähemalt korra hinde „parandada” või „halb”?",
+   "src": "Yle",
+   "type": "number",
+   "unit": "söögikohta",
+   "url": "https://yle.fi/a/74-20249554"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Loomaaia öiste ekskursioonide uudis oli võlts. Päris lood: kaitseressursside amet soovib, et võimalikult palju 8. klassi õpilasi õpiks koolis õhkrelvast laskma, ning rahandusministeerium kasutab valimislubaduste analüüsimisel tehisaru.",
+   "options": [
+    "Riik soovib, et võimalikult palju 14-aastaseid õpiks õhkrelvast laskma",
+    "Rahandusministeerium kaasab valimislubaduste analüüsimisse tehisaru",
+    "Tallinna loomaaed hakkab talvel külastajatele pakkuma öiseid ekskursioone"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610159785/riik-soovib-et-voimalikult-palju-14-aastaseid-opiks-ohkrelvast-laskma"
+  },
+  {
+   "answer": 287,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Trump on üks 287 kandidaadist. Rahupreemia laureaat kuulutatakse välja reedel.",
+   "max": 2000,
+   "min": 20,
+   "prompt": "Donald Trump ütles, et Nobeli komitee teeks endale „suure häbi”, kui ta rahupreemiat ei saaks. Kui palju kandidaate on Al Jazeera andmetel tänavu rahupreemiale esitatud?",
+   "src": "Al Jazeera",
+   "type": "number",
+   "unit": "kandidaati",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/7/trump-on-why-he-thinks-he-deserves-the-nobel-peace-prize-2"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Rapla vald. Ametnike hinnangul on ingli tähendused liiga mitmekesised, et kuju sobiks sellesse keskkonda.",
+   "lat": 58.9994,
+   "lon": 24.7929,
+   "place": "Rapla",
+   "prompt": "Milline vald lükkas tagasi kohaliku ettevõtte ettepaneku paigaldada miljööalale ärihoone lähedale naeratav inglikuju?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610158108/rapla-ei-pea-oigeks-miljooalale-inglikuju-paigaldamist"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Elon Musk kirjutas X-is, et magab voodis, mille peatsiots on tõstetud – selleks on voodi peatsi alla pandud raamatuvirn. Tema sõnul aitab see seedimist ja vähendab maohappe tagasivoolu. Tsitaat on tõlgitud inglise keelest.",
+   "options": [
+    "Jeff Bezos",
+    "Elon Musk",
+    "Bryan Johnson",
+    "Mark Zuckerberg"
+   ],
+   "quote": "Voodi peaks olema kergelt jalgade suunas kaldu.",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8556357/elon-musk-magab-raamatute-otsas-veider-nipp-mille-taga-peitub-ullatavalt-tosine-teadus"
+  },
+  {
+   "answer": 10000,
+   "cat": "sise",
+   "decimals": 0,
+   "explain": "TÜ teadlased leidsid tehisaru abil Eestist 10 000 uut põllusaart.",
+   "max": 100000,
+   "min": 200,
+   "prompt": "Tartu Ülikooli teadlased leidsid tehisaru abil Eestist uusi põllusaari, mille asukohta peavad põllumehed teadma, et ELi toetusi edukamalt taotleda. Mitu uut põllusaart leiti?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "põllusaart",
+   "url": "https://novaator.err.ee/1610159608/tu-teadlased-leidsid-eestist-10-000-uut-pollusaart"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Väiketalunikud valmistavad kallinenud väetise asemel ise väetist traditsioonilise Aasia retsepti järgi ja nimetavad seda „armastuse tööks”. Pealkiri on tõlgitud.",
+   "headline": "Isetehtud ___ on õnnistus, sest Iraani sõja tõttu seisavad põllumehed silmitsi kõrgete hindadega",
+   "options": [
+    "diislikütus",
+    "loomasööt",
+    "taimekaitsevahend",
+    "väetis"
+   ],
+   "src": "NPR",
+   "type": "blank",
+   "url": "https://www.npr.org/2026/10/07/g-s1-146541/fertilizer-diy-farmers-iran-war"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Rebase lugu oli võlts. Päris lood: Räpina vallas Jõepera külas leidis kraavihooldust teinud mees metsast hambaproteeside kipsmudelid ning selgeltnägija Merily Timmer avaldas Elu24 videos, mis võib tema hinnangul Eestit lähiaastatel ohustada.",
+   "options": [
+    "«Ta tahtis ka kaadrisse!» Eesti telesarja võtteplatsile eksinud rebane sai meeskonna lemmikuks",
+    "«Väga veider!» Metsas tööd teinud mees leidis looduse keskelt üllatavad jäätmed",
+    "Kas sõda jõuab Eestisse? Selgeltnägija Merily Timmer avaldas, mis võib tema hinnangul Eestit lähiaastatel ohustada"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8559057/ebatavaline-leid-vaga-veider-metsas-tood-teinud-mees-leidis-looduse-keskelt-ullatavad-jaatmed"
+  },
+  {
+   "answer": 3,
+   "cat": "sise",
+   "explain": "Õiguskantsler Ülle Madise sõnul märgib keskkonnaamet kaitsealuste lindude leiukohti mõnikord kesiste tõendite põhjal ja seab puhvertsoone sinna, kus liiki pole. Amet ütleb, et parandab andmete kvaliteeti.",
+   "options": [
+    "Lauri Hussar",
+    "Liisa Pakosta",
+    "Alar Karis",
+    "Ülle Madise"
+   ],
+   "quote": "Kaitsealuse linnu leiukoha tõenduseks ei piisa ainult laulust.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610158669/madise-kaitsealuse-linnu-leiukoha-toenduseks-ei-piisa-ainult-laulust"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Nii hoiatas Elu24 astroloogiarubriik „Sodiaagisosinad” eelseisva nädalalõpu eest.",
+   "headline": "Nädalalõpp võib äratada pimedaid ___ ja soove, mida on raske kontrollida",
+   "options": [
+    "mõtteid",
+    "tunge",
+    "hirme",
+    "unenägusid"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8559511/sodiaagisosinad-nadalalopp-voib-aratada-pimedaid-tunge-ja-soove-mida-on-raske-kontrollida"
+  },
+  {
+   "cat": "sise",
+   "explain": "Alutaguse vallas asuva Iisaku uue põhikoolihoone ehitus läheb plaanitust palju kallimaks. Opositsioon on protsessiga rahulolematu ja kavatseb vallavanemale umbusaldust avaldada.",
+   "lat": 59.099,
+   "lon": 27.308,
+   "place": "Iisaku",
+   "prompt": "Millises Ida-Virumaa alevikus kerkis uue põhikooli ehitushind töö käigus kaks korda?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610159507/iisaku-uue-pohikooli-ehitushind-kerkis-too-kaigus-kaks-korda"
+  },
+  {
+   "answer": 1,
+   "cat": "majandus",
+   "explain": "Kaubanduskeskuste lahtiolekuaegade lugu oli võlts. Päris lood: sama keti kaubavalik võib Eestis ja Lääne-Euroopas erineda ning Tallinnas suletud söögikohtade pinnad ei jää maaklerite sõnul kauaks tühjaks, sest huvilisi, sh Aasia ettevõtjaid, on piisavalt.",
+   "options": [
+    "Ühe poeketi kaubad Eestis ja Lääne-Euroopas ei pruugi olla samad",
+    "Suuremad kaubanduskeskused lühendavad talvel pühapäevaseid lahtiolekuaegu",
+    "Tallinnas suletud söögikohtade pinnad pikaks ajaks tühjaks ei jää"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610159510/tallinnas-suletud-soogikohtade-pinnad-pikaks-ajaks-tuhjaks-ei-jaa"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, Al Jazeera, NPR",
+ "ticker": [
+  "Parlamendierakonnad pidasid tulise debati riigieelarve teemal",
+  "Eesti Energia ehitab lähiaastatel juurde gaasijaamu, Narva jaam peaks valmima 2028. aastal",
+  "Komisjon rahuldas väikesaarte parvlaevahanke vaidlustuse",
+  "Rootsi saadab Ida-Poolasse oma õhutõrjesüsteemi",
+  "Oktoober on valimistel osalevate poliitikute jaoks tippaeg erakonnavahetuseks",
+  "Narva-Jõesuu linnapea kandideerib valimistel sotside nimekirjas",
+  "Poliitreklaami keeld sotsiaalmeedias paneb poliitikuid ise postitusi kirjutama",
+  "Töötukassa: eelarvamused takistavad vanemaealiste värbamist"
+ ]
+}
