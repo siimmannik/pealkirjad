@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-09",
+ "generatedAt": "2026-10-09T03:52:46Z",
+ "label": "Reede, 9. oktoober 2026",
+ "questions": [
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Rahvusraamatukogu lugu oli võlts. Päris lood: kunstnike liidu heategevuslik oksjon peatati neljapäeva õhtul tehnilise rikke, võimalik et küberrünnaku tõttu, ning Kirde-Eesti linnad, sh Narva-Jõesuu ja Narva, kahtlevad kaasava eelarve mõttekuses.",
+   "options": [
+    "Kunstnike liidu toetusoksjon peatati võimaliku küberrünnaku tõttu",
+    "Rahvusraamatukogu pikendab lugemissaalide lahtiolekuaega ka pühapäevadele",
+    "Kirde-Eesti linnad kahtlevad kaasava eelarve otstarbekuses"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610161396/kunstnike-liidu-toetusoksjon-peatati-voimaliku-kuberrunnaku-tottu"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Tõnis Saadoja maalitud ametlik portree avati neljapäeval presidendi kantseleis ja on mõeldud Kadrioru riigipeade galeriisse. Sotsiaalmeedias läksid arvamused lahku, enim kommenteeriti presidendi ilmet ja poosi.",
+   "headline": "«Nagu istuks potil ja punnitaks!» President Alar Karise värske portreemaal vallandas sotsiaalmeedias ___",
+   "options": [
+    "kriitikatormi",
+    "kiidulaviini",
+    "naerulaine",
+    "meemitulva"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8561123/nagu-istuks-potil-ja-punnitaks-president-alar-karise-varske-portreemaal-vallandas-sotsiaalmeedias-kriitikatormi"
+  },
+  {
+   "answer": 145,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Soome on kavandamisel 145 andmekeskust. Aalto ülikooli professori Jukka Manneri arvutuse järgi kasutaksid juba Microsofti neli kavandatud keskust täisvõimsusel umbes sama palju elektrit kui 2,2 miljonit soomlast.",
+   "max": 1500,
+   "min": 5,
+   "prompt": "Mitu andmekeskust on Yle andmetel Soome kavandamisel?",
+   "src": "Yle",
+   "type": "number",
+   "unit": "andmekeskust",
+   "url": "https://yle.fi/a/74-20250492"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Neil Simoni komöödia „Paljajalu pargis” esietendus Kuressaare Teatris. ERR-i andmetel pole näidendit varem Eestis lavale toodud.",
+   "lat": 58.2528,
+   "lon": 22.4847,
+   "place": "Kuressaare",
+   "prompt": "Millise linna teatris jõudis lavale Neil Simoni komöödia „Paljajalu pargis”?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610159890/kuressaare-teatris-joudis-lavale-neil-simoni-komoodia-paljajalu-pargis"
+  },
+  {
+   "answer": 2,
+   "cat": "kultuur",
+   "explain": "Nii ütles Rahvusooper Estonia kunstiline juht ja peadirigent Arvo Volmer saates „Delta”. Tema sõnul tegeleti suvise meediakajastusega väga väheste faktide põhjal.",
+   "options": [
+    "Ott Maaten",
+    "Tõnu Kaljuste",
+    "Arvo Volmer",
+    "Paul Mägi"
+   ],
+   "quote": "Mingisugune usalduse puudumise jutt, mida püütakse võimendada, on mulle arusaamatu.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://kultuur.err.ee/1610160727/arvo-volmer-jutt-usalduse-puudumisest-estonias-on-mulle-arusaamatu"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Alpaka-lugu oli võlts. Päris lood: Mart Sander esitles oma uut romaani ja teleprodutsent Karl Kermes jagas romantilist fotot uue kallimaga.",
+   "options": [
+    "Mart Sander esitles enda uut romaani: vaata, kes raamatuesitlusel käisid!",
+    "Teleprodutsent Karl Kermes jagas romantilist fotot uue kallimaga",
+    "Tallinna loomaaias sündinud alpaka sai nimeks Kalevipoeg – nimevalikus osales üle 3000 inimese"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8560493/galerii-mart-sander-esitles-enda-uut-romaani-vaata-kes-raamatuesitlusel-kaisid"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Kuuekordne Prantsusmaa meister Bordeaux mängib edaspidi kuuendal tasemel, regionaalses Regional 1 liigas. Klubi karistati, kuna see ei suutnud tagada ligi 10 miljonit eurot kahe hooaja eelarvesse. Pealkiri on tõlgitud inglise keelest.",
+   "headline": "Prantsuse suurklubi Bordeaux kukutati finantsrikkumiste pärast ___ liigasse",
+   "options": [
+    "kolmandasse",
+    "neljandasse",
+    "viiendasse",
+    "kuuendasse"
+   ],
+   "src": "Al Jazeera",
+   "type": "blank",
+   "url": "https://www.aljazeera.com/sports/2026/10/8/bordeaux-relegated-to-french-sixth-tier-for-financial-irregularities"
+  },
+  {
+   "answer": 375,
+   "cat": "sise",
+   "decimals": 0,
+   "explain": "Kolmandat korda toimunud e-rehkendusel lahendas kõik ülesanded õigesti 375 osalejat. Vanim osaleja oli 87-aastane.",
+   "max": 5000,
+   "min": 20,
+   "prompt": "Üleriigilisel e-rehkendusel osales üle 10 700 inimese. Mitu neist lahendas kõik 12 ülesannet õigesti?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "inimest",
+   "url": "https://www.err.ee/1610161450/uleriigilisel-e-rehkendusel-osales-pea-11-000-inimest"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Türi ringhäälingumuuseumis avati näitus „Sada aastat, sada inimest – alustajad”, mis tutvustab kümmet eestikeelse raadio teerajajat.",
+   "lat": 58.8086,
+   "lon": 25.4306,
+   "place": "Türi",
+   "prompt": "Kus asuvas ringhäälingumuuseumis avati näitus, mis tutvustab eestikeelse raadio teerajajaid?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610161204/fotod-ringhaalingumuuseumi-naitus-tutvustab-eestikeelse-raadio-teerajajaid"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Nii rõõmustas Põlissoomlaste Jani Mäkelä erakonna küsitlusedu üle. Peaminister Petteri Orpo seevastu kinnitas, et Koonderakonna toetus pöördub veel tõusule. Tsitaat on tõlgitud soome keelest.",
+   "options": [
+    "Petteri Orpo",
+    "Jani Mäkelä",
+    "Antti Lindtman",
+    "Li Andersson"
+   ],
+   "quote": "Oleme kõige usutavam mittesotsialistlik erakond.",
+   "src": "Yle",
+   "type": "who",
+   "url": "https://yle.fi/a/74-20250557"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Täiskuu-lugu oli võlts. Päris lood: Elu24 kirjutas alanud Veenuse retrograadist ning lähenevast tormist, mis võib tuua Pärnusse järsu veetõusu ja takistusi Saaremaa rallile sõitjatele.",
+   "options": [
+    "Täiskuu toob nädalavahetusel unetuid öid: astroloog soovitab suured otsused edasi lükata",
+    "Alanud on väga eriline aeg, mis annab suhetele ja väärtustele uue südamelöögi",
+    "Pärnut ähvardab järsk veetõus, Saaremaa rallile sõitjaid võivad oodata tõsised takistused"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8560937/torm-laheneb-parnut-ahvardab-jarsk-veetous-saaremaa-rallile-soitjaid-voivad-oodata-tosised-takistused"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Lesta on Läänemeres vähemaks jäänud hapniku- ja soolapuuduse tõttu, osaliselt aga ka seetõttu, et võõrliik ümarmudil sööb lesta toitu.",
+   "headline": "Lesta kadumises Läänemerest on osaliselt süüdi ___",
+   "options": [
+    "hallhüljes",
+    "kormoran",
+    "ümarmudil",
+    "räim"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610161426/lesta-kadumises-laanemerest-on-osaliselt-suudi-umarmudil"
+  },
+  {
+   "answer": 3,
+   "cat": "meelelahutus",
+   "explain": "Näitleja, fotograaf ja endine poliitik Liina Raud elas kümme aastat USA-s ning on nüüd Eestisse naasnud. Ta rääkis sellest Elu24 podcastis „Off the Rec”.",
+   "options": [
+    "Kerli Kõiv",
+    "Carmen Kass",
+    "Darya Pastak",
+    "Liina Raud"
+   ],
+   "quote": "«Ma ei läheks tagasi!» – räägib üksikemaduse karmist reaalsusest Ameerikas ja uuest algusest Eestis.",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8553766/off-the-rec-ma-ei-laheks-tagasi-liina-raud-raagib-uksikemaduse-karmist-reaalsusest-ameerikas-purunenud-suhetest-ja-uuest-algusest-eestis"
+  },
+  {
+   "cat": "majandus",
+   "explain": "Epler & Lorenz plaanib päikesepaneelide taaskäitlust Tartus, toeks ligi 500 000 eurot EL-i Ühtekuuluvusfondist. Taaskäideldavaid koguseid on esialgu vähe.",
+   "lat": 58.378,
+   "lon": 26.729,
+   "place": "Tartu",
+   "prompt": "Millises linnas tahab jäätmefirma Epler & Lorenz hakata päikesepaneele taaskäitlema?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610160583/ettevote-tahab-hakata-tartus-paikesepaneele-taaskaitlema"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "Robotjaama lugu oli võlts. Päris lood: neli astronauti maandusid kaheksakuulise missiooni järel langevarjudega Vaiksesse ookeani California ranniku lähedal ning Iisrael avas Marrakechi lennundusnäitusel oma esimese rahvusliku paviljoni.",
+   "options": [
+    "Jaapan avas maailma esimese täielikult robotite hallatava raudteejaama",
+    "Neli astronauti naasid pärast kaheksakuulist kosmosemissiooni Maale",
+    "Iisrael avas Maroko kaitsetööstusnäitusel läbi aegade esimese paviljoni"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Al Jazeera",
+   "type": "fake",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/four-astronauts-return-to-earth-after-an-eight-month-space-mission"
+  },
+  {
+   "answer": 155,
+   "cat": "kultuur",
+   "decimals": 0,
+   "explain": "Neljapäeva keskpäevaks oli Eesti Laul 2027 konkursile esitatud 155 lugu. Neid hindab mitmekümneliikmeline žürii.",
+   "max": 2000,
+   "min": 10,
+   "prompt": "Mitu lugu oli neljapäeva keskpäevaks esitatud konkursile Eesti Laul 2027?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "lugu",
+   "url": "https://eeter.err.ee/1610161324/eesti-laul-2027-konkursile-purgib-155-lugu"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, Al Jazeera",
+ "ticker": [
+  "Nobeli kirjanduspreemia pälvis Anne Carson, eesti keeles on seni ilmunud vaid tema valikkogu",
+  "Belitšev: tulevatel nädalatel võib rändesurve oluliselt kasvada",
+  "Valitsus valmistab ette elektri- ja küttearvete kompensatsiooni kodutarbijatele",
+  "Herem: Eesti kaalub Dataseli uut kompromissettepanekut",
+  "Lux Ekspress tõstab diislikütuse kallinemise tõttu piletihindu",
+  "Edasipääsust unistav naiste jalgpallikoondis testib vormi kontrollmängudes",
+  "Siseministeerium: EKÕK sundlõpetamisest on vara rääkida",
+  "Kaubandus-Tööstuskoda soovib diislikütuse aktsiisi ajutist langetamist"
+ ]
+}
