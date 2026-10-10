@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-10",
+ "generatedAt": "2026-10-10T06:50:55+03:00",
+ "label": "Laupäev, 10. oktoober 2026",
+ "questions": [
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Rahvusraamatukogu ööpäevaringne lugemissaal oli välja mõeldud. Päris lood: riik kaotab novembrist alkoholiregistri, mida tootjad tervitavad, ning Anthropic keelas kasutajatel oma juturoboti Claude püsiva kiusamise.",
+   "options": [
+    "Tootjad tervitavad alkoholiregistri kaotamist",
+    "Rahvusraamatukogu plaanib pärast renoveerimist ööpäevaringset lugemissaali",
+    "Anthropic keelas kasutajatel oma juturoboti kiusamise"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610162143/anthropic-keelas-kasutajatel-oma-juturoboti-kiusamise"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "Singapuri õhku rikuvad maastikupõlengud; Yle loo kirjelduse järgi päästetakse põlenud puudelt põletushaavadega orangutane. Pealkiri on tõlgitud soome keelest.",
+   "headline": "Singapuri õhukvaliteet „äärmiselt ebatervislik“ ___ tõttu",
+   "options": [
+    "maastikupõlengute",
+    "tolmutormide",
+    "tööstusheitmete",
+    "vulkaanipurske"
+   ],
+   "src": "Yle",
+   "type": "blank",
+   "url": "https://yle.fi/a/74-20250670"
+  },
+  {
+   "cat": "majandus",
+   "explain": "Auvere elektrijaama tuhalasketorus ilmnes rike, mida Eesti Energia sõnul varem esinenud pole. Üle 500-kraadise tuha tõttu kulub juba jaama jahutamiseks umbes kolm päeva.",
+   "lat": 59.273,
+   "lon": 27.893,
+   "place": "Auvere elektrijaam",
+   "prompt": "Milline Eesti Energia elektrijaam pandi neljapäeva hilisõhtul tuhalasketoru rikke tõttu umbes kaheks nädalaks seisma?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610161915/auvere-elektrijaam-pandi-tuhalasketoru-rikke-tottu-seisma"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Elu24 eksklusiivintervjuus rääkis Darya Pastak, kuidas sai alguse tema uus armulugu.",
+   "options": [
+    "Liina Raud",
+    "Getter Jaani",
+    "Darya Pastak",
+    "Maarja-Liis Ilus"
+   ],
+   "quote": "Juba kolm päeva hiljem olid lennupiletid ostetud!",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8559396/eksklusiivne-intervjuu-uksikema-darya-pastak-paljastab-kuidas-sai-alguse-tema-uus-armulugu-juba-kolm-paeva-hiljem-olid-lennupiletid-ostetud"
+  },
+  {
+   "answer": 6133,
+   "cat": "kultuur",
+   "decimals": 0,
+   "explain": "PÖFF Shorts sai rekordilised 6133 filmi, rahvusvahelisse võistlusesse valiti 115 filmi 61 riigist. Eestist jõudis sinna Katariina Aule „Leivalaul“, Romet Põhako „Head niidid“ võistleb uute talentide kategoorias.",
+   "max": 60000,
+   "min": 300,
+   "prompt": "Mitu lühifilmi saadeti tänavu PÖFF Shortsi võistlusele? (Rekordarv!)",
+   "src": "ERR",
+   "type": "number",
+   "unit": "filmi",
+   "url": "https://kultuur.err.ee/1610162071/poff-shortsi-rahvusvahelisse-voistlusesse-joudis-kaks-eesti-filmi"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Romantilisima paari otsimise telesaade oli välja mõeldud. Päris lood: Mart Sander esitles oma uut romaani ja teleprodutsent Karl Kermes jagas fotot uue kallimaga.",
+   "options": [
+    "Mart Sander esitles enda uut romaani: vaata, kes raamatuesitlusel käisid!",
+    "Teleprodutsent Karl Kermes jagas romantilist fotot uue kallimaga",
+    "Uus telesaade otsib Eesti kõige romantilisemat paari: osalejaid oodatakse novembri lõpuni"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8560493/galerii-mart-sander-esitles-enda-uut-romaani-vaata-kes-raamatuesitlusel-kaisid"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Endine õiguskantsler Allar Jõks hindab väikseks Eesti Kristliku Õigeusu Kiriku (EKÕK) kaebuse eduvõimalusi Euroopa Inimõiguste Kohtus.",
+   "options": [
+    "Ülle Madise",
+    "Allar Jõks",
+    "Indrek Teder",
+    "Paloma Krõõt Tupay"
+   ],
+   "quote": "Pean EKÕK-i eduvõimalusi Euroopa inimõiguste kohtus väikseks.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610162167/joks-pean-ekok-i-eduvoimalusi-euroopa-inimoiguste-kohtus-vaikseks"
+  },
+  {
+   "answer": 3300,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Leiboristid tõrjusid tähelepanu all olnud järelvalimistel rohelised: Sagal Abdi-Wali võitis 3300 häälega.",
+   "max": 30000,
+   "min": 100,
+   "prompt": "Mitme häälega võitis leiboristide kandidaat Sagal Abdi-Wali Londoni Holborni ja St Pancrase ringkonna järelvalimised?",
+   "src": "Al Jazeera",
+   "type": "number",
+   "unit": "häält",
+   "url": "https://www.aljazeera.com/news/2026/10/9/labour-fends-off-the-green-party-in-closely-watched-uk-by-election"
+  },
+  {
+   "cat": "sise",
+   "explain": "Tartu linn väljastas esimese ehitusloa Katlamaja kvartali ehk Uue-Karlowa arendamiseks.",
+   "lat": 58.369,
+   "lon": 26.736,
+   "place": "Tartu (Uue-Karlowa)",
+   "prompt": "Milline linn väljastas esimese ehitusloa Katlamaja kvartali arendamiseks?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610161979/tartu-linn-valjastas-esimese-ehitusloa-uue-karlowa-arendamiseks"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Tõnis Saadoja maalitud president Alar Karise ametlik portree esitleti Kadriorus presidendi kantseleis. Osa kommenteerijaid kiitis kunstnikku, teisi hämmeldasid presidendi ilme ja poos.",
+   "headline": "«Nagu istuks potil ja punnitaks!» President Alar Karise värske portreemaal vallandas sotsiaalmeedias ___",
+   "options": [
+    "kiidulaine",
+    "naerupahvaku",
+    "kriitikatormi",
+    "meemilaviini"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8561123/nagu-istuks-potil-ja-punnitaks-president-alar-karise-varske-portreemaal-vallandas-sotsiaalmeedias-kriitikatormi"
+  },
+  {
+   "answer": 0,
+   "cat": "sport",
+   "explain": "Rally Estonia öine kiiruskatse Tartu kesklinnas oli välja mõeldud. Päris lood: Mathias Gidsel kordas Meistrite liigas 25 aasta vanust ühe mängu väravarekordit ja Max Verstappen võitis Singapuri sprindi kvalifikatsiooni.",
+   "options": [
+    "Rally Estonia toob järgmisel aastal Tartu kesklinna öise kiiruskatse",
+    "Taani käsipallur kordas 25 aastat vana rekordit",
+    "Singapuris võitis sprindi kvalifikatsiooni Verstappen"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610162128/taani-kasipallur-kordas-25-aastat-vana-rekordit"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Real Madridi peatreener José Mourinho kaitses Kylian Mbappéd, keda kritiseeriti, kuna too taastus põlvevigastusest Madridi asemel Prantsusmaal ja Šveitsis. Tsitaat on tõlgitud Al Jazeera ingliskeelsest tekstist.",
+   "options": [
+    "Carlo Ancelotti",
+    "Luis Enrique",
+    "Xabi Alonso",
+    "José Mourinho"
+   ],
+   "quote": "Kas see kriitika on üle võlli? See on naeruväärne.",
+   "src": "Al Jazeera",
+   "type": "who",
+   "url": "https://www.aljazeera.com/sports/2026/10/9/real-madrids-mourinho-lashes-out-at-ridiculous-criticism-of-mbappe"
+  },
+  {
+   "answer": 3,
+   "cat": "kultuur",
+   "explain": "Loode-Eesti männikutes tehtud uuring näitas, et tuli mõjutab mulla seeni veel aastakümneid hiljem.",
+   "headline": "Metsapõlengu jälg püsib ___ aastakümneid",
+   "options": [
+    "põhjavees",
+    "puukoores",
+    "samblikes",
+    "mullaseenestikus"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://novaator.err.ee/1610162179/metsapolengu-jalg-pusib-mullaseenestikus-aastakumneid"
+  },
+  {
+   "answer": 180,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Elu24 vahendas, et Pärnus võis vesi tõusta üle 100 cm, võib-olla veidi üle 150 cm, kuid kriitiline tase on 180 cm.",
+   "max": 2000,
+   "min": 20,
+   "prompt": "Milline on Pärnu veetaseme kriitiline piir (sentimeetrites), millest tormieelne prognoos jäi allapoole?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "cm",
+   "url": "https://elu24.postimees.ee/8560937/torm-laheneb-parnut-ahvardab-jarsk-veetous-saaremaa-rallile-soitjaid-voivad-oodata-tosised-takistused"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Machu Picchu öine avamine oli välja mõeldud. Päris lood: Iraak kavatseb Waze'i keelata selle Iisraeli päritolu tõttu ning Afganistani Panjshiri smaragdikaevurid töötavad lihtsate tööriistadega, kuid kivid huvitavad ostjaid üle maailma.",
+   "options": [
+    "Afganistani smaragdikaevurid näevad tööriistadega vaeva, kuid meelitavad ligi ostjaid üle maailma",
+    "Peruu avab Machu Picchu turistidele ka öösiti",
+    "Miks otsustas Iraak keelata kaarditeenuse Waze?"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Al Jazeera",
+   "type": "fake",
+   "url": "https://www.aljazeera.com/news/2026/10/9/why-has-iraq-decided-to-ban-online-map-service-waze"
+  },
+  {
+   "cat": "sise",
+   "explain": "Narva linnapea Jaan Toots lasi lahti sotsiaaltöökeskuse juhataja; põhjuseks väited keskuse rahaasjade ja vara haldamise kohta.",
+   "lat": 59.3772,
+   "lon": 28.1903,
+   "place": "Narva",
+   "prompt": "Millise linna linnapea lõpetas lepingu linna sotsiaaltöökeskuse juhatajaga?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610162185/narva-linnapea-jaan-toots-lasi-lahti-sotsiaaltookeskuse-juhataja"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, Al Jazeera",
+ "ticker": [
+  "Turu-uuringud: Keskerakond tõusis suurima toetusega erakonnaks",
+  "Nobeli rahupreemia pälvis rahvusvahelise õiguse edendaja Navanethem Pillay",
+  "Hoiatused mobiilsete liikluskaamerate ees vähendasid trahvide arvu 90 protsenti",
+  "Riik plaanib maksta tuuleparke lubavatele valdadele kuni viis miljonit eurot",
+  "Kiviselg: Venemaa üritab murda Ukraina taristut",
+  "Tallinnas toimub Baltimaade seni suurim capoeira võistlus",
+  "A'ja Wilson valiti viiendat korda WNBA kõige väärtuslikumaks mängijaks",
+  "Eile ootamatult peatatud kunstnike liidu toetusoksjon jätkub täna"
+ ]
+}
