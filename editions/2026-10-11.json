@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-11",
+ "generatedAt": "2026-10-11T03:50:39+00:00",
+ "label": "Pühapäev, 11. oktoober 2026",
+ "questions": [
+  {
+   "cat": "kultuur",
+   "explain": "Preemia anti üle 9. oktoobril Viljandi Kitarrifestivalil. Ott Ajaots sai 1500 eurot ning esinemiskoha 2027. aasta festivalil.",
+   "lat": 58.3639,
+   "lon": 25.59,
+   "place": "Viljandi",
+   "prompt": "Kus anti reedel üle Tiit Pauluse nimeline noore kitarristi preemia, mille pälvis Ott Ajaots?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610162887/tiit-pauluse-nimelise-noore-kitarristi-preemia-palvis-ott-ajaots"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Paavst Leo XIV kirjutas nii X-is surmanuhtluse vastasel maailmapäeval, kui USA kavatseb Nidal Hasani hukkamist 3. detsembril otseülekandes näidata. Tsitaat on tõlgitud inglise keelest.",
+   "options": [
+    "António Guterres",
+    "Navi Pillay",
+    "paavst Leo XIV",
+    "Volker Türk"
+   ],
+   "quote": "Surmanuhtlus on lubamatu, sest see on rünnak inimese puutumatuse ja väärikuse vastu.",
+   "src": "Al Jazeera",
+   "type": "who",
+   "url": "https://www.aljazeera.com/news/2026/10/10/pope-says-death-penalty-inadmissible-as-us-plans-to-livestream-execution"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Tenerife-tõsielusari oli välja mõeldud. Päriselt kirjutas Elu24, et Karl Kermes jagas fotot uue kallimaga ja Mart Sander esitles uut romaani.",
+   "options": [
+    "Teleprodutsent Karl Kermes jagas romantilist fotot uue kallimaga",
+    "Uus tõsielusari otsib osalejaid: võitjat ootab aasta tasuta elu Tenerifel!",
+    "Mart Sander esitles enda uut romaani: vaata, kes raamatuesitlusel käisid!"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8560493/galerii-mart-sander-esitles-enda-uut-romaani-vaata-kes-raamatuesitlusel-kaisid"
+  },
+  {
+   "answer": 517,
+   "cat": "sise",
+   "decimals": 0,
+   "explain": "Presidendi kantselei andmetel kuulutas Karis välja 517 seadust ja jättis välja kuulutamata 11. Kersti Kaljulaid kuulutas oma ametiajal välja 498 seadust.",
+   "max": 5000,
+   "min": 50,
+   "prompt": "Mitu seadust kuulutas president Alar Karis oma ametiajal välja?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "seadust",
+   "url": "https://www.err.ee/1610161219/tagasivaade-karise-presidendiajale-valitsejate-sulekoera-temast-ei-saanud"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Real Madridi ründaja Vinícius Júnior sai La Liga mängus punase kaardi, sest tõmbas Villarreali mängijat juustest. Pealkiri on tõlgitud inglise keelest.",
+   "headline": "Real Madrid võitis Villarreali 1:0, kuid Vinícius saadeti väljakult ___ eest",
+   "options": [
+    "simuleerimise",
+    "juustest tõmbamise",
+    "kohtuniku solvamise",
+    "vastase löömise"
+   ],
+   "src": "Al Jazeera",
+   "type": "blank",
+   "url": "https://www.aljazeera.com/sports/2026/10/10/real-madrid-beat-villarreal-but-vinicius-sent-off-for-hair-pull"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Rahvusraamatukogu ööpäevaringne lahtiolek oli välja mõeldud. Päris lugudes jõuavad gripivaktsiinid Eestisse hiljem, kuna tüved muutusid hilja, ja Jaan Elkeni maal püstitas kunstnike liidu oksjonil rekordi.",
+   "options": [
+    "Gripivaktsiinid jõuavad Eestisse tänavu tavalisest hiljem",
+    "Jaan Elkeni maal püstitas elava kunstniku teose oksjonirekordi",
+    "Rahvusraamatukogu hakkab talvekuudel olema avatud ööpäev läbi"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://kultuur.err.ee/1610162950/jaan-elkeni-maal-pustitas-elava-kunstniku-teose-oksjonirekordi"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "President Alar Karise uus portreemaal pälvis sotsiaalmeedias teravat kriitikat – üks kommentaator võrdles poosi potil istumisega.",
+   "headline": "«Nagu istuks potil ja punnitaks!» President Alar Karise värske portreemaal vallandas sotsiaalmeedias ___",
+   "options": [
+    "naerulaine",
+    "vaimustuse",
+    "kriitikatormi",
+    "meemitulva"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8561123/nagu-istuks-potil-ja-punnitaks-president-alar-karise-varske-portreemaal-vallandas-sotsiaalmeedias-kriitikatormi"
+  },
+  {
+   "cat": "sport",
+   "explain": "Trans mängis Pärnus viiki, samal ajal kui Harju Laagri alistas Kalju 1:0.",
+   "lat": 58.3859,
+   "lon": 24.4971,
+   "place": "Pärnu",
+   "prompt": "Narva Trans teenis laupäeval jalgpalli kõrgliigas võõrsil viigipunkti. Millises linnas?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://sport.err.ee/1610163052/harju-laagri-sai-jalle-kaljust-jagu-trans-teenis-parnus-viigipunkti"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Donald Trumpi sõnul on Volodõmõr Zelenskil olnud mitu võimalust sõda lõpetada. Tsitaat on tõlgitud soome keelest.",
+   "options": [
+    "JD Vance",
+    "Vladimir Putin",
+    "Sergei Lavrov",
+    "Donald Trump"
+   ],
+   "quote": "Ukrainal on aeg saada uus president.",
+   "src": "Yle",
+   "type": "who",
+   "url": "https://yle.fi/a/74-20250872"
+  },
+  {
+   "answer": 300000,
+   "cat": "majandus",
+   "decimals": 0,
+   "explain": "Trumpi sõnul toob Venemaa kohe turule 300 000 tonni diislit, novembris 500 000 tonni ja hiljem veelgi rohkem.",
+   "max": 2000000,
+   "min": 10000,
+   "prompt": "Mitu tonni diislikütust on Venemaa Donald Trumpi sõnul nõustunud kohe maailmaturule tooma?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "tonni",
+   "url": "https://www.err.ee/1610162377/trump-tegi-venemaaga-kokkuleppe-diisli-maailmaturule-toomiseks"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Nutitelefoniga leili viskamise saun oli välja mõeldud. Päriselt kirjutas Yle Vuosaari uuest avalikust saunast ja loomadest, kes külastavad Vaasa Kotiranta hooldekodu eakaid.",
+   "options": [
+    "Vuosaarde avatakse uus üle 40 inimese avalik saun – ettevõtja lubab „Tampere saunakultuuri Helsingisse”",
+    "Luke ja Darra töö on olla armsad ja lasta end sügada – loomkülalised julgustavad Kotiranta eakaid suhtlema",
+    "Rovaniemel avati saun, kus leili saab visata nutitelefoniga – omanik lubab „täiesti uut elamust”"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20250222"
+  },
+  {
+   "answer": 10,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Liina Raud elas USA-s kümme aastat ning rääkis Elu24 podcastis „Off the Rec” elust seal ja uuest algusest Eestis.",
+   "max": 60,
+   "min": 1,
+   "prompt": "Mitu aastat elas näitleja ja fotograaf Liina Raud Ameerika Ühendriikides?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "aastat",
+   "url": "https://elu24.postimees.ee/8553766/off-the-rec-ma-ei-laheks-tagasi-liina-raud-raagib-uksikemaduse-karmist-reaalsusest-ameerikas-purunenud-suhetest-ja-uuest-algusest-eestis"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Peaminister Kristen Michal kritiseeris USA ja Venemaa diislikokkulepet, öeldes, et diktaatoritega sõlmitud lepped on tee põrgusse.",
+   "headline": "Michal USA-Venemaa diislidiilist: diktaatoritega lepped on tee ___",
+   "options": [
+    "hukatusse",
+    "põrgusse",
+    "kuristikku",
+    "eikuhugi"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610162971/michal-usa-venemaa-diislidiilist-diktaatoritega-lepped-on-tee-porgusse"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Näitleja Darya Pastak rääkis Elu24 eksklusiivintervjuus, kuidas sai alguse tema uus armulugu.",
+   "options": [
+    "Darya Pastak",
+    "Getter Jaani",
+    "Kerli Kõiv",
+    "Grete Paia"
+   ],
+   "quote": "Juba kolm päeva hiljem olid lennupiletid ostetud.",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8559396/eksklusiivne-intervjuu-uksikema-darya-pastak-paljastab-kuidas-sai-alguse-tema-uus-armulugu-juba-kolm-paeva-hiljem-olid-lennupiletid-ostetud"
+  },
+  {
+   "answer": 0,
+   "cat": "sport",
+   "explain": "Skatepargi lugu oli välja mõeldud. Päriselt jõudis Glinka Villenas Challengeri finaali ja Eesti noorte sulgpallikoondis saavutas Kairos MM-il kaheksanda koha.",
+   "options": [
+    "Tallinnas avatakse Baltimaade suurim sise-skatepark",
+    "Matšpalli tõrjunud Glinka pääses karjääri neljandasse Challengeri finaali",
+    "Noored sulgpallurid tegid MM-il ajaloolise tulemuse"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610162944/noored-sulgpallurid-tegid-mm-il-ajaloolise-tulemuse"
+  },
+  {
+   "cat": "sport",
+   "explain": "Otepää MM-i korraldajate sõnul on lumetagavarast olemas umbes pool; lumetootmine algab esimeste külmadega.",
+   "lat": 58.0581,
+   "lon": 26.4939,
+   "place": "Otepää",
+   "prompt": "Kus peetakse umbes nelja kuu pärast laskesuusatamise maailmameistrivõistlused, mille võtmeküsimuseks on lumi?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://sport.err.ee/1610162383/otepaa-mm-i-votmekusimuseks-saab-lumi"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, Al Jazeera",
+ "ticker": [
+  "Volver kontrollis ka laupäeva ja võitis Saaremaa ralli: see oli raju!",
+  "Verstappen võitis Singapuri GP sprindi",
+  "Eesti mõistis hukka USA sanktsioonid Rahvusvahelise Kriminaalkohtu vastu",
+  "Mikk Kaasik: klaveriga saab teha absoluutselt kõike",
+  "Heina klubi tegi võrratu tagasituleku ja napsas Dortmundi Borussialt punkti",
+  "Paavo Nõgene näeb Ülle Madiset Kadriorus järgmised kümme aastat",
+  "Hannes Rüütel: ammutan moeloominguks inspiratsiooni oma lapsepõlvest",
+  "Eesti sai Tšehhi U-23 koondise vastu revanši"
+ ]
+}

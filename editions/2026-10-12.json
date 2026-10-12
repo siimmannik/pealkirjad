@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-12",
+ "generatedAt": "2026-10-12T06:54:06+03:00",
+ "label": "Esmaspäev, 12. oktoober 2026",
+ "questions": [
+  {
+   "cat": "kultuur",
+   "explain": "Karmoškamängijad kogunesid Järvamaal Oisu rahvamajja. Korraldaja Piret Ausi hinnangul on Eestis umbes tuhat karmoškamängijat ja eesmärk on esineda 2028. aasta rahvamuusikapeol.",
+   "lat": 58.7575,
+   "lon": 25.5667,
+   "place": "Oisu (Järvamaa)",
+   "prompt": "Kuhu kogunes laupäeval umbes 70 karmoškamängijat üle Eesti, et pilli koos mängida ja töötubades osaleda?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610163049/eestis-on-tekkinud-karmoskamangu-buum"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Nii ütles vabariiklasest senaator Thom Tillis NBC saates „Meet the Press“, kritiseerides Trumpi diislikokkulepet Venemaaga. Tsitaat on tõlgitud inglise keelest.",
+   "options": [
+    "Susan Collins",
+    "Lisa Murkowski",
+    "Thom Tillis",
+    "John Curtis"
+   ],
+   "quote": "Arvan, et president peab mõistma, et see on probleem.",
+   "src": "Al Jazeera",
+   "type": "who",
+   "url": "https://www.aljazeera.com/news/2026/10/11/republican-senator-says-trump-diesel-agreement-with-russia-may-be-illegal"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Pagariäri järjekorrast rääkiv pealkiri oli võlts. Päris lood olid Stroomi rannapargi sügislaadast ning sellest, mis juhtub, kui magada rohkem kütide-korilaste moodi.",
+   "options": [
+    "Sügis puges Stroomi! Rannapargis läks laadameluks",
+    "«Sellist järjekorda pole Tallinnas ammu nähtud!» Uue pagariäri avamisele tuli sadu inimesi",
+    "8 tundi pole kivisse raiutud! Mis juhtub, kui hakkad magama rohkem nagu kütid-korilased"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8562355/galerii-sugis-puges-stroomi-rannapargis-laks-laadameluks"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Õhuväe staabiülem Fredi Karu hindas, et rünnakud Venemaa andmekeskustele ja naftatehastele ei murra Venemaa sõjavõimet, kuid Ukraina eesmärk on teha sõda Venemaale võimalikult kulukaks.",
+   "headline": "Karu: Ukraina püüab muuta Venemaa jaoks sõjapidamise võimalikult ___",
+   "options": [
+    "raskeks",
+    "aeglaseks",
+    "kalliks",
+    "lühikeseks"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610163619/karu-ukraina-puuab-muuta-venemaa-jaoks-sojapidamise-voimalikult-kalliks"
+  },
+  {
+   "answer": 700,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "NPR-i pealkirja järgi läbis tüdruk 700 miili (ligi 1130 km) ja tema roosa 20-dollarine jalgratas tegi ta ülemaailmselt kuulsaks. Nüüd uuris NPR, kas talle lubatud toetus ja treening ka teoks said.",
+   "max": 5000,
+   "min": 50,
+   "prompt": "Mitu miili sõitis India teismeline koroonapandeemia ajal jalgrattaga, sõidutades pagasiraamil oma vigastatud isa?",
+   "src": "NPR",
+   "type": "number",
+   "unit": "miili",
+   "url": "https://www.npr.org/2026/10/11/g-s1-147267/bicycle-teenager-india-pandemic"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Nii ütles ametist lahkuv president Alar Karis ERR-i intervjuus, tunnistades, et oli välispoliitikast kõrvale jäetud. Ta soovitas laiendada presidendi rolli välissuhtluses.",
+   "options": [
+    "Ülle Madise",
+    "Alar Karis",
+    "Kersti Kaljulaid",
+    "Lauri Hussar"
+   ],
+   "quote": "Kõrvalejäetuna on raske teiste sõnumeid esitada.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610162122/karis-korvalejaetuna-on-raske-teiste-sonumeid-esitada"
+  },
+  {
+   "answer": 3,
+   "cat": "meelelahutus",
+   "explain": "Hitler Mussolini Simeon Flores valiti kohalikel valimistel Peruu Andides asuva Queropalca ringkonna juhiks. Ta kandideeris vasaktsentristliku erakonna Ahora Nación nimekirjas ja võitis napilt.",
+   "headline": "Hitler Mussolini nime kandev poliitik valiti ___ omavalitsusjuhiks",
+   "options": [
+    "Boliivias",
+    "Ecuadoris",
+    "Tšiilis",
+    "Peruus"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8562399/hitler-mussolini-nime-kandev-poliitik-valiti-peruus-omavalitsusjuhiks"
+  },
+  {
+   "answer": 2.3,
+   "cat": "kultuur",
+   "decimals": 1,
+   "explain": "Kunstnike liidu toetusoksjoniga koguti 2,3 miljonit eurot – see on Eesti suurim ühe kunstioksjoni tulemus. Jaan Elkeni maal püstitas oksjonil elava kunstniku teose rekordi.",
+   "max": 40,
+   "min": 0.2,
+   "prompt": "Kui suure rekordsumma kogus Eesti Kunstnike Liidu toetusoksjon (miljonites eurodes)?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "mln €",
+   "url": "https://kultuur.err.ee/1610163115/kunstnike-liidu-toetusoksjoniga-koguti-rekordiline-2-3-miljonit-eurot"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "Islandi neljapäevase töönädala pealkiri oli võlts. Päris lood: Al Jazeera kirjutas Liibanoni ajaloolisele raudteelõigule naasnud päikeseenergial töötavast rongist ja NPR Hastingsi lahingu taaslavastusest, mis tõmbab Suurbritannias suuri rahvahulki.",
+   "options": [
+    "Islandi parlament kiitis heaks neljapäevase töönädala kõigile riigiametnikele",
+    "Bayeux' vaiba Londoni-ringreis innustab harrastajaid Hastingsi lahingut taaslavastama",
+    "Liibanoni esimene elektrirong loodab raudteesüsteemi taaselustada"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Al Jazeera",
+   "type": "fake",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/lebanons-first-electric-train-hopes-to-revive-railway-system"
+  },
+  {
+   "cat": "sise",
+   "explain": "Politsei pidas Nõmme linnaosas kinni kümme ebaseaduslikku sisserändajat. Üheksa neist viidi kinnipidamiskeskusse, üks toimetati haiglasse, kuna ta kukkus põgenemisel.",
+   "lat": 59.3856,
+   "lon": 24.6833,
+   "place": "Nõmme (Tallinn)",
+   "prompt": "Millises Tallinna linnaosas tabas politsei kümme ebaseaduslikku sisserändajat?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610163778/politsei-tabas-nomme-linnaosas-10-ebaseaduslikku-sisserandajat"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Nii naljatas romaani „Musta pori näkku“ autor Mihkel Raud saates „Hommik Anuga“: kui film saab hea vastuvõtu, oli raamat suurepärane. Tema sõnul on filmis palju sellist, mida päriselt juhtunud pole.",
+   "options": [
+    "Andrus Kivirähk",
+    "Kaur Kender",
+    "Mihkel Raud",
+    "Jaak Kilmi"
+   ],
+   "quote": "Kui saab aga halva vastuvõtu, on süüdi stsenarist.",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8562506/mihkel-raud-filmis-musta-pori-nakku-on-asju-mida-pole-pariselus-juhtunud"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Lennujaama isesõitvate pagasikärude pealkiri oli võlts. Päris lood: alates juulist ei saa Hiiumaa naised enam saarel sünnitada ning haridusministeeriumi sõnul ei täida välisriigi veebiõpe Eesti õppimiskohustust.",
+   "options": [
+    "Õppimiskohustuse täitmiseks välisriigi veebiõppest ei piisa",
+    "Hiidlased ei saa enam kodusaarel sünnitada, transport mandrile on samuti lahtine",
+    "Tallinna lennujaam hakkab talvel katsetama isesõitvaid pagasikärusid"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610163535/hiidlased-ei-saa-enam-kodusaarel-sunnitada-transport-mandrile-on-samuti-lahtine"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Delhist Chennaisse lennanud lennuk tegi hädamaandumise, kuna pardal süttis väidetavalt akupank. Pealkiri on tõlgitud inglise keelest.",
+   "headline": "___ põleng sundis lennuki Indias hädamaanduma",
+   "options": [
+    "Sülearvuti",
+    "Akupanga",
+    "Mootori",
+    "Mobiiltelefoni"
+   ],
+   "src": "Al Jazeera",
+   "type": "blank",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/power-bank-fire-forces-plane-to-emergency-land-in-india"
+  },
+  {
+   "answer": 1500,
+   "cat": "sport",
+   "decimals": 0,
+   "explain": "Aherainemäe tipus, 120 meetrit üle merepinna asuval rajal võistles 70 sõitjat ja võistlust vaatas üle 1500 inimese.",
+   "max": 20000,
+   "min": 100,
+   "prompt": "Mitu pealtvaatajat (vähemalt) kogunes Ida-Virumaal Estonia kaevanduse aherainemäel, Eesti kõrgeimal rallirajal peetud romurallile?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "pealtvaatajat",
+   "url": "https://www.err.ee/1610163064/ida-virumaal-soideti-eesti-korgeimal-rallirajal-romurallit"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Kopli ranna pudelikirja lugu oli võlts. Päris lood: Evelin Võigemast ja Jonas Kaarnamets jagasid lustakaid seiku oma suhtest ning Epp Kärsinit nähti ööelus koos tippsportlasega.",
+   "options": [
+    "«Evelin, Evelin, mu Evelin!» Evelin Võigemast ja Jonas Kaarnamets jagasid lustakaid seiku oma suhtest",
+    "Epp Kärsin nautis ööelu šarmantse tippsportlase seltsis. «Nad olid tantsuplatsi kõige kuumem paar!»",
+    "«Me ei uskunud oma silmi!» Kopli rannas jalutanud sõbrannad leidsid liivast 19. sajandi pudelikirja"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8562396/evelin-evelin-mu-evelin-evelin-voigemast-ja-jonas-kaarnamets-jagasid-lustakaid-seiku-oma-suhtest"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Sillamäel avati kaasaegse kunsti galerii, mis annab Ida-Virumaa kunstnikele uue näitusesaali ja paremad töötingimused. Raha tuli õiglase ülemineku fondist.",
+   "lat": 59.3997,
+   "lon": 27.7631,
+   "place": "Sillamäe",
+   "prompt": "Millises Ida-Virumaa linnas avati õiglase ülemineku fondi toel uus kaasaegse kunsti galerii?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610163509/sillamael-avati-kaasaegse-kunsti-galerii"
+  }
+ ],
+ "source": "ERR, Elu24, Al Jazeera, NPR",
+ "ticker": [
+  "Esmaspäeval algavad järgmise aasta miinimumpalga läbirääkimised",
+  "Uue nädala algus on vihmane",
+  "Välisministeerium soovitab tungivalt vältida Saudi Araabia piirkonda reisimist",
+  "Hariduse elutööpreemia pälvis hariduspsühholoog Eve Kikas",
+  "Eestis ei moodusta emadushoolduse teenused ühtset tervikut",
+  "Herem kohtumisest Zelenskiga: mida ta soovis, pole meil talle lihtne anda",
+  "Trumpi väitel nõustusid Venemaa ja Ukraina energiarelvarahuga",
+  "Ukraina asekultuuriminister: kultuur on tähtis kui vastupanuvõime allikas"
+ ]
+}
