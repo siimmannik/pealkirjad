@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-13",
+ "generatedAt": "2026-10-13T06:53:57+03:00",
+ "label": "Teisipäev, 13. oktoober 2026",
+ "questions": [
+  {
+   "cat": "kultuur",
+   "explain": "Kuressaare mees Temme Linna, kelle hobi on jalgrataste ja mootorrataste taastamine, kutsus sõbrad linnatuurile. Osa rattaid oli leitud prügikonteinerist, osa tõid sõbrad.",
+   "lat": 58.2528,
+   "lon": 22.4853,
+   "place": "Kuressaare",
+   "prompt": "Millises linnas korraldas jalgrataste putitaja Temme Linna sõpradele linnatuuri, kus kõik sõitsid tema enda uunikumjalgratastega?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610164591/kuressaares-toimus-tuur-temme-linna-uunikumjalgratastel"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Nii kirjutas Yle kolumnist Risto E. J. Penttilä, kelle sõnul püüab Trump Putiniga sõlmitud diislileppega Ameerika valijaid võita, kuigi ameeriklastele on olulisem bensiin. Tsitaat on tõlgitud soome keelest.",
+   "options": [
+    "Alexander Stubb",
+    "Elina Valtonen",
+    "Risto E. J. Penttilä",
+    "Sauli Niinistö"
+   ],
+   "quote": "Trump keeldub peeglisse vaatamast ja otsib seetõttu nüüd patuoinast Zelenski näol.",
+   "src": "Yle",
+   "type": "who",
+   "url": "https://yle.fi/a/74-20251120"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Ööbimisvõimalusega kassikohvik oli välja mõeldud. Elu24 kirjutas tegelikult «The Voice Eesti» jõudmisest TV3 eetrisse ja Karl-Erik Taukari naljast suhtekõlakate üle.",
+   "options": [
+    "TV3 teeb teleajalugu ja toob eetrisse võimsaima muusikasaate «The Voice Eesti»",
+    "«Nurrumine on parim unerohi!» Tallinnas avati kassikohvik, kus saab ka ööbida",
+    "Karl-Erik Taukar viskas otse-eetris suhtekõlakate üle nalja: mis sellele järgnes, oli see, et..."
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8562928/tv3-teeb-teleajalugu-ja-toob-eetrisse-voimsaima-muusikasaate-the-voice-eesti"
+  },
+  {
+   "answer": 745,
+   "cat": "sise",
+   "decimals": 0,
+   "explain": "Septembris registreeriti 745 sündi: 330 tüdrukut ja 415 poissi. Mullu septembris registreeriti 794 sündi.",
+   "max": 5000,
+   "min": 100,
+   "prompt": "Mitu sündi registreeriti Eestis tänavu septembris?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "sündi",
+   "url": "https://www.err.ee/1610164537/septembris-registreeriti-745-sundi"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Küberrünnak lülitas Prantsusmaal välja supermarketite külmikud ja osa toidust tuli ära visata. Ametivõimud uurivad, kas mõju ulatub ka teistesse Euroopa riikidesse.",
+   "headline": "Küberrünnak lülitas välja Prantsuse supermarketite ___",
+   "options": [
+    "kassasüsteemid",
+    "valgustuse",
+    "uksed",
+    "külmikud"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610164510/kuberrunnak-lulitas-valja-prantsuse-supermarketite-kulmikud"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Joensuu köetavad kergliiklusteed olid välja mõeldud. Yle kirjutas tegelikult kaupluste koerakärude populaarsusest, mille järele tipptundidel lausa järjekorras oodatakse, ja sellest, kuidas Taanis saab Ikea poest hetkega varjend.",
+   "options": [
+    "Kaupluste koerakärudest sai hitt: Pörri (5) käib toidupoes peaaegu iga päev",
+    "Taani tõrjub Venemaa ohtu uute vahenditega: Ikea muutub hetkega varjendiks",
+    "Joensuu paigaldab kergliiklusteedele küttekaablid – esimene lõik valmib enne jõule"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20250086"
+  },
+  {
+   "cat": "sport",
+   "explain": "Murdmaajooksu Eesti karikavõistlus peeti Raplamaal Järvakandis. Põhidistantsid võitsid Morten Siht ja Hanne-Lore Tuubel, klubide arvestuses oli parim SK Elite Sport.",
+   "lat": 58.78,
+   "lon": 24.82,
+   "place": "Järvakandi",
+   "prompt": "Kus peeti murdmaajooksu Eesti karikavõistlus, mille põhidistantsidel võidutsesid Morten Siht ja Hanne-Lore Tuubel?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://sport.err.ee/1610164603/siht-ja-tuubel-tulid-jarvakandis-murdmaajooksu-eesti-karikavoitjaks"
+  },
+  {
+   "answer": 3,
+   "cat": "meelelahutus",
+   "explain": "Nii ütles lapsehoolduspuhkuselt naasnud Liisu Lass, kes ei jätka «Aktuaalse kaamera» saatejuhina. Temast sai ERR-i uudiste- ja päevakajasaadete sisujuht.",
+   "options": [
+    "Reet Linna",
+    "Marko Reikop",
+    "Anu Välba",
+    "Liisu Lass"
+   ],
+   "quote": "Ei, sellest ei ole vaja otsida mingit intriigi, sest seda ei ole seal.",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8562909/uues-ametis-liisu-lass-ei-jatka-aktuaalse-kaamera-juhina-mingit-intriigi-ei-ole-vaja-otsida"
+  },
+  {
+   "answer": 130,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "India opositsioonierakonnad pöördusid ülemkohtusse, väites, et valijanimekirjade muudatused soosivad peaminister Modi erakonda. Teadete kohaselt on nimekirjadest eemaldatud üle 130 miljoni nime.",
+   "max": 1000,
+   "min": 10,
+   "prompt": "Üle mitme miljoni nime on teadete kohaselt Indias valijanimekirjadest eemaldatud?",
+   "src": "NPR",
+   "type": "number",
+   "unit": "miljonit",
+   "url": "https://www.npr.org/2026/10/12/nx-s1-5998831/india-opposition-protests"
+  },
+  {
+   "answer": 0,
+   "cat": "sise",
+   "explain": "Öine trammiliiklus oli välja mõeldud. ERR kirjutas tegelikult, et haridusministeerium soovib muuta võru, seto, mulgi jt murrete õppimise koolides kättesaadavamaks ning et president Ülle Madise teeb esimesed välisvisiidid Lätti ja Soome.",
+   "options": [
+    "Tallinn käivitab novembrist kesklinnas öise trammiliikluse",
+    "Haridusministeerium soovib, et koolid õpetaksid lastele rohkem kohalikku murret",
+    "Madise teeb presidendina esimesed välisvisiidid Lätti ja Soome"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610164484/haridusministeerium-soovib-et-koolid-opetaksid-lastele-rohkem-kohalikku-murret"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "«Madise Ülle valsi» esitas ansambel Krullikad ning lugu esitleti Vikerhommikus. Muusika põhineb Madis Mäekalle valsil.",
+   "headline": "Kõrv peale! President Ülle Madise sai omanimelise humoorika ___",
+   "options": [
+    "polka",
+    "valsi",
+    "räpiloo",
+    "marsi"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8562931/muusikavideo-korv-peale-president-ulle-madise-sai-omanimelise-humoorika-valsi"
+  },
+  {
+   "answer": 1,
+   "cat": "majandus",
+   "explain": "Nii ütles Eesti Panga ökonomist Peeter Luik USA ja Venemaa diislileppe kohta. Tema hinnangul on Venemaal ise terav kütusepuudus ja leppe mõju jääb minimaalseks.",
+   "options": [
+    "Eerik-Niiles Kross",
+    "Peeter Luik",
+    "Madis Müller",
+    "Raul Eamets"
+   ],
+   "quote": "Venemaa peab seda diiselkütust maailmaturule paiskama oma inimeste arvelt.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610164621/luikmel-usa-ja-venemaa-kutusesobingust-putin-muub-kutust-siseturu-arvelt"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Samblik kahjustab Soome kaljumaalinguid ja Kouvolas katsetati peaaegu hävinud maalingute puhastamist piiritusega. Pealkiri on tõlgitud soome keelest.",
+   "headline": "Kiviaegseid kaljumaalinguid püütakse Kouvolas puhastada ___",
+   "options": [
+    "äädikaga",
+    "soolaveega",
+    "piiritusega",
+    "õllega"
+   ],
+   "src": "Yle",
+   "type": "blank",
+   "url": "https://yle.fi/a/74-20250036"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Rakvere teater tõi John Pielmeieri 1979. aastal kirjutatud näidendi «Agnes Dei» välja Rakvere linnuses, lavastas Peeter Raudsepp.",
+   "lat": 59.3445,
+   "lon": 26.3647,
+   "place": "Rakvere linnus",
+   "prompt": "Millise Eesti linnuse müüride vahel esietendus John Pielmeieri kuulsaim näidend «Agnes Dei» Peeter Raudsepa lavastuses?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610164369/agnes-dei-peaosataitja-rakvere-linnuses-mangimine-annab-loole-puhalikkuse"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Õllepudelitest suvila oli välja mõeldud. Elu24 kirjutas tegelikult Rootsi mehe soojuspumba säästunipist ja Mikk Saare armastusest metsa vastu.",
+   "options": [
+    "Norra mees ehitas tühjadest õllepudelitest suvila: «Naabrid käivad seda pildistamas!»",
+    "Rootsi mees leidis viisi, kuidas soojuspumba elektrikulu vähendada, viie kuuga säästis ta sadu eurosid",
+    "Mikk Saar oma vähemtuntud huvist: ütlen ausalt, mulle vahel meeldib puid kallistada"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8562521/3-hektarit-metsa-mikk-saar-oma-vahemtuntud-huvist-utlen-ausalt-mulle-vahel-meeldib-puid-kallistada"
+  },
+  {
+   "answer": 53,
+   "cat": "sise",
+   "decimals": 0,
+   "explain": "Septembris pöördus fondi poole abi saamiseks 53 inimest, varasem kuurekord oli 45 taotlust. Annetuste hulk on tänavu kasvanud ligi 20 protsenti.",
+   "max": 500,
+   "min": 5,
+   "prompt": "Mitu abitaotlust sai vähiravifond Kingitud Elu septembris – rohkem kui kunagi varem ühe kuu jooksul?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "taotlust",
+   "url": "https://eeter.err.ee/1610164366/margit-saar-kraavi-vahiravifondi-on-raskel-hetkel-seni-alati-tabanud-ime"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, NPR",
+ "ticker": [
+  "Ukraina rünnakud halvasid liikluse Yandexi võrgust Eesti veebilehtedele",
+  "Prantsusmaa pidas India ookeanis kinni Vene varilaevastiku tankeri",
+  "Zelenski hinnangul on Ukraina positsioonid rindel tugevad",
+  "EL kehtestas Venemaale seni suurimad sanktsioonid",
+  "Riigikogu liikmete hinnangul oskab Madise rahvast liita",
+  "Telia koondab Eestis ligikaudu sada töötajat",
+  "Ametiühingud soovivad, et alampalk tõuseks üle 1000 euro",
+  "Jalgpalliajakirjanik: sellise Levadiaga oleks olnud hädas ka väga hea Flora"
+ ]
+}
