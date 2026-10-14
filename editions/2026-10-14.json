@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-14",
+ "generatedAt": "2026-10-14T03:55:24Z",
+ "label": "Kolmapäev, 14. oktoober 2026",
+ "questions": [
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Soojendusega kõnniteede lugu oli välja mõeldud. Päriselt kirjutas ERR, et mitmed Tallinna teetööd venivad oodatust kauem ja et tudengite huvi õppelaenu vastu kasvas sel sügisel järsult.",
+   "options": [
+    "Mitmed Tallinna teetööd kestavad oodatust kauem",
+    "Tudengite huvi õppelaenu võtta kasvas sel sügisel järsult",
+    "Tallinn plaanib vanalinnas katsetada soojendusega kõnniteid"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610165464/mitmed-tallinna-teetood-kestavad-oodatust-kauem"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Meremuuseumi installatsioon on Pärnu kesklinnas Martensi väljakul. Sorgu tuletorni omav transpordiamet peab torni halvas seisus olevaks ja kaalub ühe võimalusena selle lammutamist.",
+   "lat": 58.3855,
+   "lon": 24.5,
+   "place": "Pärnu, Martensi väljak",
+   "prompt": "Kuhu pani Meremuuseum püsti installatsiooni, mis kutsub üles päästma 1904. aastal ehitatud Sorgu tuletorni?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610165497/meremuuseum-pani-parnus-pusti-installatsiooni-sorgu-tuletorni-paastmiseks"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Elu24 kirjutas, et eksklusiivse moebutiigi avapidu tõi Tallinnas Rävala puiesteele Euroopa jõukaid külalisi.",
+   "headline": "«Eesti mitme aasta SKP!» Eksklusiivse moebutiigi avapidu tõi ___ puiesteele Euroopa rikkurid",
+   "options": [
+    "Estonia",
+    "Rävala",
+    "Kaarli",
+    "Mere"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8562495/video-eesti-mitme-aasta-skt-eksklusiivse-moebutiigi-avapidu-toi-ravala-puiesteele-euroopa-rikkurid"
+  },
+  {
+   "answer": 1000000,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "SVT kuuest lagotto romagnolo kutsikast tehtav otseülekanne sihib miljonit vaatajat, seni on kogunenud 250 000 vaatamist. Kutsikatele otsitakse nimesid Põhjala mütoloogiast.",
+   "max": 5000000,
+   "min": 10000,
+   "prompt": "Mitme vaatajani loodab Rootsi televisiooni SVT kutsikate otseülekanne jõuda?",
+   "src": "Yle",
+   "type": "number",
+   "unit": "vaatajat",
+   "url": "https://yle.fi/a/74-20251194"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Endine president Kersti Kaljulaid hindas, et president Alar Karise ja välisministeeriumi koostöö puudumine oli viga.",
+   "options": [
+    "Marina Kaljurand",
+    "Toomas Hendrik Ilves",
+    "Kersti Kaljulaid",
+    "Urmas Paet"
+   ],
+   "quote": "Karise ja välisministeeriumi koostöö puudumine oli viga.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610165386/kaljulaid-karise-ja-valisministeeriumi-koostoo-puudumine-oli-viga"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Vahakujude muuseumi lugu oli välja mõeldud. Päriselt kirjutas Elu24 Henrik Normanni ja Triin Saadi ühistest TikToki-otseülekannetest ning avaldas astroloogilise loo «Mis toimub Hanno Pevkuriga?».",
+   "options": [
+    "Tallinna vanalinna avatakse vahakujude muuseum, kus saab poseerida Eesti staaridega",
+    "Henrik Normanni ja Triin Saadi ühised TikToki-laivid tekitavad kõneainet: kas nende vahel on midagi enamat?",
+    "Mis toimub Hanno Pevkuriga?"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8562744/videod-henrik-normanni-ja-triin-saadi-uhised-tiktoki-laivid-tekitavad-koneainet-kas-nende-vahel-on-midagi-enamat"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Ratas asub Tallinna linnaarhiivi hoone pööningul Tolli tänaval ja on artikli järgi ainus töötav ajalooline vints Tallinnas. Tõsteköis on 34,5 meetrit pikk.",
+   "lat": 59.4392,
+   "lon": 24.7478,
+   "place": "Tallinna linnaarhiiv, Tolli tänav",
+   "prompt": "Kus taastati 19. sajandist pärit kaubatõsteratas, mille läbimõõt on 3,4 meetrit?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610165482/tallinna-linnaarhiivis-taastati-ajalooline-kaubatosteratas"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Kaheksa väljasuremisohus orangutani lasti Indoneesias kaitstud metsa, sest metsatulekahjud olid nende elupaiga hävitanud. Pealkiri on tõlgitud inglise keelest.",
+   "headline": "Kaheksa ___ leidis pärast metsatulekahjust päästmist Indoneesias uue metsakodu",
+   "options": [
+    "ninasarvikut",
+    "elevanti",
+    "tiigrit",
+    "orangutani"
+   ],
+   "src": "Al Jazeera",
+   "type": "blank",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/10-13-orangutans-new-home-clip-mp4"
+  },
+  {
+   "answer": 128,
+   "cat": "majandus",
+   "decimals": 0,
+   "explain": "ERR-i teatel küündis Läti lennufirma Air Baltic poolaasta kahjum 128 miljoni euroni.",
+   "max": 1000,
+   "min": 5,
+   "prompt": "Kui suureks küündis Air Balticu poolaasta kahjum (miljonites eurodes)?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "mln eurot",
+   "url": "https://www.err.ee/1610165023/air-balticu-poolaasta-kahjum-kuundis-128-miljoni-euroni"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Nii ütles Kunstnike Liidu rekordoksjoni korraldaja, Eesti Kunsti Oksjonite esindaja Orm Naarits. Oksjonil müüdi tõrkest hoolimata 159 teost kokku üle 2,3 miljoni euro eest.",
+   "options": [
+    "Orm Naarits",
+    "Piia Ausman",
+    "Jaan Elken",
+    "Sirje Helme"
+   ],
+   "quote": "Tänud ka teile, kes tõtakalt maaslamajat peksma asusid.",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8563172/ootamatu-tagasilook-kunstnike-liidu-rekordoksjoni-korraldaja-tanud-ka-teile-kes-totakalt-maaslamajat-peksma-asusid"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Tampere trammide lugu oli välja mõeldud. Päriselt kirjutas Yle täiskasvanute mänguringist Hämeenlinnas ja EL-i soovist, et nutiprillid annaksid filmimisest märku näiteks tulukese või helisignaaliga.",
+   "options": [
+    "Hämeenlinnas loodi mänguring, millel on üllatav sihtrühm: täiskasvanud",
+    "Tampere trammid hakkavad talvel sõitma ööpäev läbi",
+    "EL tahab, et nutiprillid annaksid filmimisest märku"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20251330"
+  },
+  {
+   "answer": 2,
+   "cat": "kultuur",
+   "explain": "Kaitseministeerium pakub kuni 250 000 eurot filmidele, mis tugevdavad kaitsetahet. Režissöör Ilmar Raag hoiatas tegelikkuse glamuuristamise eest.",
+   "headline": "Kaitseministeerium jagab ___ tegijatele 250 000 eurot",
+   "options": [
+    "arvutimängude",
+    "dokumentaalfilmide",
+    "sõjafilmide",
+    "telesarjade"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610164735"
+  },
+  {
+   "cat": "sise",
+   "explain": "Tartu linn investeerib 5 miljonit eurot, et luua oma tänavapuhastusega tegelev amet.",
+   "lat": 58.3801,
+   "lon": 26.7224,
+   "place": "Tartu",
+   "prompt": "Milline linn investeerib 5 miljonit eurot tänavapuhastusega tegeleva ameti loomiseks?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610165455/tartu-investeerib-5-miljonit-eurot-tanavapuhastusega-tegeleva-ameti-loomiseks"
+  },
+  {
+   "answer": 70,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Liini ajalugu ulatub enam kui 70 aasta taha. Tänavu augustis sai liin uue kuju, mis meenutab 1958. aasta liini, kuid muudatused on paljusid linlasi pahandanud.",
+   "max": 500,
+   "min": 5,
+   "prompt": "Mitme aasta taha ulatub Tallinna pikima bussiliini ajalugu?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "aastat",
+   "url": "https://elu24.postimees.ee/8562508/pettunud-tallinna-pikima-bussiliini-ajalugu-ulatub-70-aasta-taha-kuid-varsked-muudatused-ajavad-linlasi-marru"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Soome siseminister Mari Rantanen hoiatas Varssavi julgeolekufoorumil, et Euroopas võib tulla veel ootamatuid sabotaažirünnakuid. Tsitaat on tõlgitud soome keelest.",
+   "options": [
+    "Elina Valtonen",
+    "Antti Häkkänen",
+    "Mari Rantanen",
+    "Riikka Purra"
+   ],
+   "quote": "Võib olla, et kõike me pole näinud.",
+   "src": "Yle",
+   "type": "who",
+   "url": "https://yle.fi/a/74-20251195"
+  },
+  {
+   "answer": 1,
+   "cat": "sport",
+   "explain": "Saalihokikoondise lugu oli välja mõeldud. Päriselt teenis HC Panter Balti liigas neljanda järjestikuse võidu ja Eesti sportvõimlejad unistavad Simone Bilesi eeskujul tiitlivõistlustele naasmisest.",
+   "options": [
+    "HC Panter teenis Balti liigas neljanda järjestikuse võidu",
+    "Eesti saalihokikoondis alustas MM-valikturniiri kahe võiduga",
+    "Eesti sportvõimlejad unistavad Bilesi eeskujul tiitlivõistlustele naasta"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610165545/hc-panter-teenis-balti-liigas-neljanda-jarjestikuse-voidu"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, Al Jazeera",
+ "ticker": [
+  "Rühm senaatoreid kutsub Trumpi üles Vene diislilepet tühistama",
+  "Vene ballistilise raketi rünnak tabas Kiievi elektrijaama",
+  "USA ähvardas Ukrainat luureandmete edastamise lõpetamisega",
+  "Madise hoidus otsesõnu USA-Vene diislitehingut kommenteerimast",
+  "Euroopa Liit arutab heitkogustega kauplemise süsteemi reformi",
+  "Estonias astus üles Suurbritannia suurim kooriühing",
+  "Latvala: Rovanperä on WRC-sse naasmisest huvitatud",
+  "Kolmapäeval võib mõnel pool Eestis vihma sadada"
+ ]
+}
