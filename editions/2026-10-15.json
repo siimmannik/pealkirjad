@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-15",
+ "generatedAt": "2026-10-15T03:52:22Z",
+ "label": "Neljapäev, 15. oktoober 2026",
+ "questions": [
+  {
+   "cat": "majandus",
+   "explain": "Euroopa Komisjon nimetas Sillamäe tehase moderniseerimisprogrammi „Silmet 2.0“ Euroopa strateegiliseks projektiks. Uus tootmine peaks olema praegusest kolm korda suurem.",
+   "lat": 59.3966,
+   "lon": 27.7633,
+   "place": "Sillamäe",
+   "prompt": "Millises linnas asub Neo Materialsi tehas Silmet, mis loobub peamiselt Venemaalt pärit toormest ja läheb Euroopa toel üle uutele tarnijatele?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610166070"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Valge kure lugu oli võlts. Elu24 kirjutas päriselt Jaapanis elanud eestlase kogemusest tätoveeringutega ja Saatse saapa uue ümbersõidutee avamisest.",
+   "options": [
+    "Jaapanis elanud eestlane suhtumisest tätoveeringutesse: ühe korra jäin vahele ja paluti lahkuda",
+    "Saatse saapa uus ümbersõidutee on viimaks avatud! Vaata, milline kauaoodatud tee välja näeb",
+    "Saaremaal märgati haruldast valget kurge: linnuhuvilised sõitsid kohale üle Eesti"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8563964/video-saatse-saapa-uus-umbersoidutee-on-viimaks-avatud-vaata-milline-kauaoodatud-tee-valja-naeb"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Elon Musk kirjutas X-is, et Ukraina vägede kasutatava Starshieldi satelliitside katkestuste ja kiirusepiirangute üle otsustab USA sõjaväejuhtkond koos presidendiga, mitte SpaceX. Tsitaat on tõlgitud soome keelest.",
+   "options": [
+    "Volodõmõr Zelenskõi",
+    "Elon Musk",
+    "Pete Hegseth",
+    "Marco Rubio"
+   ],
+   "quote": "Starshieldi kasutamist ja kiirusi reguleerivad USA sõjaväejuhtkond ja president.",
+   "src": "Yle",
+   "type": "who",
+   "url": "https://yle.fi/a/74-20251542"
+  },
+  {
+   "answer": 50000,
+   "cat": "kultuur",
+   "decimals": 0,
+   "explain": "22. maist 11. oktoobrini avatud näitust külastas 50 000 inimest – rohkem kui ühtegi teist Eesti kunstniku isikunäitust Kumus.",
+   "max": 500000,
+   "min": 3000,
+   "prompt": "Kristi Kongi isikunäitus „Kromaatiline triiv“ lõi Kumus Eesti kunstnike isikunäituste publikurekordi. Mitu külastajat see kogus?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "külastajat",
+   "url": "https://kultuur.err.ee/1610165428/kristi-kongi-kromaatiline-triiv-loi-eesti-kunstnike-isikunaituste-publikurekordi"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Elu24 avaldas video, milles reisija kurdab uue Elroni rongi vilina üle.",
+   "headline": "Reisija kurdab uue Elroni rongi ___ üle: see muudab sõidu piinaks",
+   "options": [
+    "konditsioneeri",
+    "vilina",
+    "istmete",
+    "valjuhääldite"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8563378/video-reisija-kurdab-uue-elroni-rongi-vilina-ule-see-muudab-soidu-piinaks"
+  },
+  {
+   "answer": 0,
+   "cat": "sise",
+   "explain": "Talverehvide lugu oli võlts. Päriselt kirjutas ERR, et pärast mobiilsete kiiruskaamerate hoiatusmärkide reeglit vähenesid septembris trahvid ligi miljoni euro võrra, ning teadlane Taavi Tillmann soovitas tervisliku toidu käibemaksuvabastust.",
+   "options": [
+    "Transpordiamet kaalub talverehvide kohustuse pikendamist aprilli lõpuni",
+    "Kõrgem sekkumiskünnis ja hoiatus kiiruskaamera ees kahandasid trahve miljoni euro võrra kuus",
+    "Teadlane: ühiskonna rasvumist pidurdaks tervisliku toidu käibemaksuvabastus"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610165338/korgem-sekkumiskunnis-ja-hoiatus-kiiruskaamera-ees-kahandasid-trahve-miljoni-euro-vorra-kuus"
+  },
+  {
+   "answer": 5000,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Remondi käigus sai Vapriikis asuv muuseum 100 ruutmeetrit lisapinda ja 32 uut mängu. Taas mängitav on ka hiiglasliku Nokia 3310 kujuline ussimäng, mis oli varem nii populaarne, et läks katki.",
+   "max": 50000,
+   "min": 200,
+   "prompt": "Tampere Soome Mängumuuseum avati pärast remonti uuesti. Umbes mitu külastajat käis seal esimese nelja päeva jooksul?",
+   "src": "Yle",
+   "type": "number",
+   "unit": "külastajat",
+   "url": "https://yle.fi/a/74-20251170"
+  },
+  {
+   "answer": 3,
+   "cat": "sise",
+   "explain": "Nii rääkis Saaremaa loomaaia omanik Risto Ränk, kui kaamel Kalle sai Poolast uue pruudi. Protsess kestis üle poole aasta.",
+   "options": [
+    "Tiit Maran",
+    "Aleksei Turovski",
+    "Mati Kaal",
+    "Risto Ränk"
+   ],
+   "quote": "Kui see naine lõpuks jõudis, siis me nägime Kalle kutsikasilmi.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://eeter.err.ee/1610164090/kaamel-kalle-uus-pruut-joudis-poolast-saaremaale"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Indias kannavad tehasetöölised GoPro kaameraid, et salvestada oma tööülesandeid, mille põhjal saaks hiljem roboteid treenida. Pealkiri on tõlgitud.",
+   "headline": "Need töötajad aitavad välja õpetada roboteid, kes võivad ühel päeval nende ___ ära võtta",
+   "options": [
+    "palgad",
+    "pensionid",
+    "töökohad",
+    "puhkused"
+   ],
+   "src": "NPR",
+   "type": "blank",
+   "url": "https://www.npr.org/2026/10/14/g-s1-146907/these-workers-help-train-robots-who-could-one-day-steal-their-jobs"
+  },
+  {
+   "cat": "sise",
+   "explain": "Meremuuseumi installatsioon püstitati Pärnusse. Linn loodab, et Sorgu tuletorni lammutamise otsus pööratakse ümber.",
+   "lat": 58.3859,
+   "lon": 24.4971,
+   "place": "Pärnu",
+   "prompt": "Millises linnas pani meremuuseum püsti installatsiooni, et toetada Transpordiameti lammutada plaanitud Sorgu tuletorni päästmist?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610165497/meremuuseum-pani-parnus-pusti-installatsiooni-sorgu-tuletorni-paastmiseks"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Elu24 kirjutas, et Alar Karis jagas pilguheitu oma uude argipäeva pärast presidendiameti lõppu.",
+   "options": [
+    "Kersti Kaljulaid",
+    "Toomas Hendrik Ilves",
+    "Alar Karis",
+    "Arnold Rüütel"
+   ],
+   "quote": "Mida teha esimesel päeval?",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8563902/klops-mida-teha-esimesel-paeval-alar-karis-jagas-pilguheitu-oma-uude-argipaeva"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Hekla purske lugu oli võlts. Al Jazeera kirjutas päriselt Türgi rannikult leitud umbes 5000 aasta vanusest laevavrakist ning Vinícius Júniori neljamängulisest keelust, mille tõttu ta jääb 25. oktoobri El Clásicolt eemale.",
+   "options": [
+    "Türgi rannikult leiti maailma vanim laevavrakk",
+    "Islandil algas Hekla vulkaani purse, lähedal asuvad matkarajad suleti",
+    "Real Madridi Vinícius jääb juuste sikutamise eest saadud punase kaardi tõttu El Clásicolt kõrvale"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Al Jazeera",
+   "type": "fake",
+   "url": "https://www.aljazeera.com/news/2026/10/14/worlds-oldest-shipwreck-found-off-coast-of-turkiye"
+  },
+  {
+   "answer": 3,
+   "cat": "sport",
+   "explain": "Henri Drelli abiga teenis Neptunas hooaja esimese eurokarikavõidu, alistades kodus Bourg-en-Bresse'i 93:89.",
+   "headline": "Neptunas mängis suure edu maha, aga alistas ___ abiga tiitlikaitsja",
+   "options": [
+    "Kriisa",
+    "Sirela",
+    "Kurbase",
+    "Drelli"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://sport.err.ee/1610165560/neptunas-mangis-suure-edu-maha-aga-alistas-drelli-abiga-tiitlikaitsja"
+  },
+  {
+   "answer": 10000,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Pärast võistlust levis teade 10 000-eurosest kleidist. Brigita Anton nimetas ringlevaid kuulujutte absurdseks väljamõeldiseks.",
+   "max": 100000,
+   "min": 500,
+   "prompt": "Kui mitme eurose kleidiga säras meedia teatel Brigita Anton oma fitnessidebüüdil Fitlap Cupil?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "eurot",
+   "url": "https://elu24.postimees.ee/8562887/kleididraama-fitnessilaval-10-000-euroses-kleidis-saranud-brigita-anton-ringlevatest-kuulujuttudest-see-on-absurdne-valjamoeldis"
+  },
+  {
+   "answer": 2,
+   "cat": "kultuur",
+   "explain": "Narva kindluse kaevu lugu oli võlts. Päriselt taastati Tallinna linnaarhiivis ajalooline kaubatõsteratas ning Estonia kontserdisaalis esines Suurbritannia suurim kooriühing, kelle lauljate keskmine vanus on 74 aastat.",
+   "options": [
+    "Tallinna linnaarhiivis taastati ajalooline kaubatõsteratas",
+    "Estonias astus üles Suurbritannia suurim kooriühing",
+    "Narva kindluse hoovis leiti kaevamistel keskaegne kaev"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610165494/estonias-astus-ules-suurbritannia-suurim-kooriuhing"
+  },
+  {
+   "cat": "sise",
+   "explain": "Tartu plaanib luua tänavapuhastusega tegeleva ameti. Ettevõtjad peavad plaani ebamõistlikuks ja Tartu Ülikooli teadur kahtleb, kas linn suudab head teenust pakkuda.",
+   "lat": 58.378,
+   "lon": 26.729,
+   "place": "Tartu",
+   "prompt": "Milline linn plaanib investeerida 5 miljonit eurot uue tänavapuhastusega tegeleva ameti loomiseks?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610165455/tartu-investeerib-5-miljonit-eurot-tanavapuhastusega-tegeleva-ameti-loomiseks"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, Al Jazeera, NPR",
+ "ticker": [
+  "Norstat: Isamaa kasvatas uuesti edu Keskerakonna ees",
+  "Skeletoni turuväärtus kasvab Siemensi investeeringuga miljardi euroni",
+  "Venemaalt imporditakse Eestisse endiselt toidukaupu",
+  "Mitmed Tallinna teetööd kestavad oodatust kauem",
+  "HC Panter teenis Balti liigas neljanda järjestikuse võidu",
+  "Galerii: Open House Tallinn avas tuntud hoonete uksed 8100 külastajale",
+  "Eesti suursaadik Ukrainas: ees on raske talv, kuid inimesed on sellega arvestanud",
+  "Tudengite huvi õppelaenu võtta kasvas sel sügisel järsult"
+ ]
+}
