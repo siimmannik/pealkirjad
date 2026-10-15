@@ -15,7 +15,7 @@ Küsimuste tüübid:
 - `index.html` on kogu mäng: staatiline leht, sisselogimist ei vaja.
 - `editions/index.json` sisaldab väljaannete kuupäevade loendit (`{"dates": ["YYYY-MM-DD", …]}`).
 - `editions/<YYYY-MM-DD>.json` on ühe päeva küsimustepakk.
-- Mängija tulemused salvestatakse ainult tema brauserisse (localStorage). Jagatud edetabelit pole.
+- Mängija nimi, tulemused ja mänguajalugu salvestatakse ainult tema brauserisse (localStorage). Jagatud edetabelit pole.
 - `vendor/d3.min.js` on kaardi projektsiooni jaoks (d3 7.9.0, ISC-litsents, vt `vendor/d3-LICENSE.txt`).
 
 Uue väljaande lisab igal hommikul Claude'i ajastatud ülesanne: see kirjutab uue JSON-faili kausta `editions/` ja lisab kuupäeva faili `index.json`.

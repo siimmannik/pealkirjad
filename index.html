@@ -152,6 +152,27 @@ input[type=range]::-moz-range-thumb{width:22px;height:28px;background:var(--yell
 .arch button:hover .t{color:var(--yellow)}
 .arch .t{color:var(--white)}
 
+/* player name */
+.namebox{margin-top:16px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.namebox .lbl{background:var(--magenta);color:var(--black);padding:0 8px}
+.namebox input{font:inherit;font-size:clamp(20px,4.8vw,26px);background:#000;color:var(--yellow);border:0;box-shadow:inset 0 0 0 2px var(--magenta);padding:4px 10px;width:min(100%,16ch);min-width:0;border-radius:0}
+.namebox input::placeholder{color:#5a5a66}
+.namebox .nm{color:var(--yellow)}
+.namebox .lnk{color:var(--cyan);text-decoration:underline}
+.namebox .cta{padding:4px 12px;font-size:clamp(20px,4.6vw,24px)}
+
+/* personal history */
+.hist{margin-top:16px}
+.hsum{display:flex;gap:6px 18px;flex-wrap:wrap;margin-top:8px;font-variant-numeric:tabular-nums}
+.hlist{display:grid;gap:2px;margin-top:8px;font-variant-numeric:tabular-nums}
+.hlist .hr{display:grid;grid-template-columns:6ch 1fr auto 7ch;gap:10px;align-items:center}
+.hlist .hr .cr{color:var(--dim);text-align:right}
+.hlist .hr .pts{color:var(--cyan);text-align:right}
+.hgrid{display:flex;gap:2px;flex-wrap:wrap;min-width:0}
+.hgrid i{width:8px;height:14px;display:block;background:#33334a}
+.hgrid .ok{background:var(--green)}.hgrid .half{background:var(--yellow)}.hgrid .bad{background:var(--red)}
+@media (max-width:420px){.hlist .hr{grid-template-columns:6ch 1fr 7ch}.hlist .hr .cr{display:none}}
+
 /* ticker */
 .ticker{position:fixed;left:0;right:0;bottom:0;background:var(--blue);color:var(--white);white-space:nowrap;overflow:hidden;padding:4px 0 calc(4px + env(safe-area-inset-bottom,0px));font-size:22px;z-index:40;display:flex}
 .ticker .lbl{background:var(--red);color:var(--white);padding:0 10px;position:relative;z-index:2;flex:none}
@@ -310,6 +331,46 @@ function lbHtml(date){
   const row = (a, b, me) => `<div class="li ${me?"me":""}"><span class="pos">${me?"★":""}</span><span class="who">${a}</span><span class="dots"></span><span class="pts">${b}</span></div>`;
   return `<div class="lb">` + row("Sinu tulemus", fmt(p.score), true) + row("Õigeid vastuseid", `${p.correct}/${p.total}`) + row("Sinu rekord", fmt(best)) + row("Mängitud päevi", all.length) + `</div><p class="note">Tulemused on salvestatud ainult selles brauseris.</p>`;
 }
+/* player-chosen name, kept only in this browser */
+const NAME_MAX = 24;
+const cleanName = v => String(v || "").replace(/[\u0000-\u001f\u007f]/g, "").replace(/\s+/g, " ").trim().slice(0, NAME_MAX);
+const myName = () => cleanName(store.get("pj_name", ""));
+/* renders the name widget into `box`; onSaved runs after a successful save */
+function nameWidget(box, onSaved, editing){
+  if (!box) return;
+  const cur = myName();
+  if (cur && !editing) {
+    box.innerHTML = `<span class="lbl">MÄNGIJA</span><span class="nm"></span><button class="lnk" id="nmedit">muuda nime</button>`;
+    box.querySelector(".nm").textContent = cur;
+    box.querySelector("#nmedit").onclick = () => { SND.click(); nameWidget(box, onSaved, true); };
+    return;
+  }
+  box.innerHTML = `<span class="lbl">SINU NIMI</span><input id="nminput" maxlength="${NAME_MAX}" autocomplete="nickname" placeholder="nt Mari T." aria-label="Sinu nimi"><button class="cta" id="nmsave">SALVESTA</button><span class="note" id="nmnote">${cur ? "" : "Nimi jääb ainult sellesse brauserisse."}</span>`;
+  const inp = box.querySelector("#nminput"), note = box.querySelector("#nmnote");
+  inp.value = cur;
+  const save = () => {
+    const v = cleanName(inp.value);
+    if (!v) { note.textContent = "Kirjuta enne salvestamist nimi."; inp.focus(); return; }
+    store.set("pj_name", v);
+    SND.click(); nameWidget(box, onSaved, false); onSaved && onSaved();
+  };
+  box.querySelector("#nmsave").onclick = save;
+  inp.addEventListener("keydown", e => { e.stopPropagation(); if (e.key === "Enter") { e.preventDefault(); save(); } });
+  if (editing) inp.focus();
+}
+/* every play stored in this browser, newest first */
+function historyHtml(){
+  const rows = Object.entries(S.plays || {}).filter(([d, p]) => /^\d{4}-\d{2}-\d{2}$/.test(d) && p && typeof p.score === "number").sort((a, b) => b[0] < a[0] ? -1 : 1);
+  if (!rows.length) return `<p class="note">Ajalugu on veel tühi. Iga päeva esimene mäng jääb siia kirja.</p>`;
+  const scores = rows.map(r => r[1].score);
+  const avg = scores.reduce((a, b) => a + b, 0) / scores.length;
+  const sum = `<div class="hsum"><span>Mänge: <span class="y">${rows.length}</span></span><span>Keskmine: <span class="y">${fmt(avg)}</span></span><span>Rekord: <span class="y">${fmt(Math.max(...scores))}</span></span><span>Päevi järjest: <span class="g">${myStreakDays()}</span></span></div>`;
+  const list = rows.map(([d, p]) => {
+    const grid = String(p.grid || "").split(",").filter(Boolean).map(r => `<i class="${esc(r)}"></i>`).join("");
+    return `<div class="hr"><span class="y">${esc(shortDate(d))}</span><span class="hgrid">${grid}</span><span class="cr">${typeof p.correct === "number" ? p.correct + "/" + p.total : ""}</span><span class="pts">${fmt(p.score)}</span></div>`;
+  }).join("");
+  return sum + `<div class="hlist">${list}</div>`;
+}
 function clearKeys(){ if (S.keyHandler) { removeEventListener("keydown", S.keyHandler); S.keyHandler = null; } }
 function onKeys(fn){ clearKeys(); S.keyHandler = fn; addEventListener("keydown", fn); }
 function stopTimer(){ if (S.timer) { clearInterval(S.timer); S.timer = null; } }
@@ -358,12 +419,15 @@ function renderHome(){
       ${played ? `<span class="note">Sinu tulemus: <span class="y">${fmt(played.score)}</span>. Arvesse läheb esimene katse.</span>` : ""}
       ${streak > 1 ? `<span class="note">Päevi järjest: <span class="g">${streak}</span></span>` : ""}
     </div>
+    <div class="namebox" id="namebox"></div>
     <div class="cols">
       <section><span class="h2 y">SINU TULEMUS ${esc(shortDate(ed.date))}</span>${lbHtml(ed.date)}</section>
       <section><span class="h2">ARHIIV</span>
         <div class="arch">${S.editions.map(e => { const p = myPlay(e.date); return `<button data-date="${esc(e.date)}"><span class="y">${esc(shortDate(e.date))}</span><span class="t">${esc(dayLabel(e))}</span><span class="dots"></span><span class="${p?"c":"d"}">${p ? fmt(p.score) : "—"}</span></button>`; }).join("")}</div>
       </section>
-    </div>`;
+    </div>
+    <section class="hist"><span class="h2 g" id="histhead">${myName() ? esc(myName().toUpperCase()) + " · AJALUGU" : "SINU AJALUGU"}</span>${historyHtml()}</section>`;
+  nameWidget($("#namebox"), () => { $("#histhead").textContent = myName().toUpperCase() + " · AJALUGU"; });
   $("#go").onclick = startGame;
   $("#snd").onclick = () => { soundOn = !soundOn; store.set("pj_sound", soundOn); $("#snd").textContent = soundOn ? "HELI: SEES" : "HELI: VÄLJAS"; SND.click(); };
   main.querySelectorAll(".arch button").forEach(b => b.onclick = () => { S.ed = S.editions.find(e => e.date === b.dataset.date) || S.ed; setTicker(S.ed); renderHome(); });
@@ -627,11 +691,14 @@ async function renderResults(){
       <button class="cta ghost" id="home">◄ AVALEHT</button>
       <span class="note" id="savenote">${first ? "Salvestan…" : "Kordusmäng, arvesse läks esimene katse."}</span>
     </div>
+    ${!myName() ? `<div class="namebox" id="resname"></div>` : ""}
     <section style="margin-top:18px"><span class="h2 y">SINU TULEMUS ${esc(shortDate(ed.date))}</span><div id="lbbox">${lbHtml(ed.date)}</div></section>
     <pre id="sharetxt" hidden></pre>`;
+  nameWidget($("#resname"));
   const emo = {ok:"🟩", half:"🟨", bad:"🟥", to:"⬛"};
-  const txt = `PEALKIRJAJAHT ${shortDate(ed.date)} · ${fmt(S.score)} p\n${S.res.map(r => emo[r]).join("")}\n${rank[1]}`;
+  const shareText = () => `PEALKIRJAJAHT ${shortDate(ed.date)}${myName() ? " · " + myName() : ""} · ${fmt(S.score)} p\n${S.res.map(r => emo[r]).join("")}\n${rank[1]}`;
   $("#share").onclick = async () => {
+    const txt = shareText();
     try { await navigator.clipboard.writeText(txt); $("#share").textContent = "KOPEERITUD ✓"; }
     catch { const p = $("#sharetxt"); p.hidden = false; p.textContent = txt; const r = document.createRange(); r.selectNodeContents(p); const s = getSelection(); s.removeAllRanges(); s.addRange(r); $("#share").textContent = "VALI JA KOPEERI"; }
   };
