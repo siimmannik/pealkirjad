@@ -116,17 +116,17 @@
   {
    "answer": 2,
    "cat": "valis",
-   "explain": "Indias kannavad tehasetöölised GoPro kaameraid, et salvestada oma tööülesandeid, mille põhjal saaks hiljem roboteid treenida. Pealkiri on tõlgitud.",
-   "headline": "Need töötajad aitavad välja õpetada roboteid, kes võivad ühel päeval nende ___ ära võtta",
+   "explain": "Kirjanik Tadej Golob kirjutas raamatu võimleja ja olümpialase Miro Cerari karjäärist. Pealkiri on tõlgitud sloveeni keelest.",
+   "headline": "Legendaarse olümpialase Cerari elutee ___",
    "options": [
-    "palgad",
-    "pensionid",
-    "töökohad",
-    "puhkused"
+    "filmis",
+    "näitusel",
+    "raamatus",
+    "muusikalis"
    ],
-   "src": "NPR",
+   "src": "RTV SLO",
    "type": "blank",
-   "url": "https://www.npr.org/2026/10/14/g-s1-146907/these-workers-help-train-robots-who-could-one-day-steal-their-jobs"
+   "url": "https://www.rtvslo.si/sport/preostali-sporti/zivljenjska-pot-legendarnega-olimpionika-cerarja-v-knjigi/796932"
   },
   {
    "cat": "sise",
@@ -157,16 +157,16 @@
   {
    "answer": 1,
    "cat": "valis",
-   "explain": "Hekla purske lugu oli võlts. Al Jazeera kirjutas päriselt Türgi rannikult leitud umbes 5000 aasta vanusest laevavrakist ning Vinícius Júniori neljamängulisest keelust, mille tõttu ta jääb 25. oktoobri El Clásicolt eemale.",
+   "explain": "Uisuväljaku lugu oli võlts. LSM kirjutas päriselt, et Läti Post annab skulptor Teodors Zaļkalnsi 150. sünniaastapäeva puhul välja margi ning et Riia linnavalitsuse proovid näitasid viies populaarses talisupluskohas head vee kvaliteeti.",
    "options": [
-    "Türgi rannikult leiti maailma vanim laevavrakk",
-    "Islandil algas Hekla vulkaani purse, lähedal asuvad matkarajad suleti",
-    "Real Madridi Vinícius jääb juuste sikutamise eest saadud punase kaardi tõttu El Clásicolt kõrvale"
+    "Läti skulptori Teodors Zaļkalnsi auks antakse välja postmark",
+    "Riia kesklinna rajatakse talveks Baltimaade suurim välisuisuväljak",
+    "Head uudised Riia talisuplejatele"
    ],
    "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
-   "src": "Al Jazeera",
+   "src": "LSM",
    "type": "fake",
-   "url": "https://www.aljazeera.com/news/2026/10/14/worlds-oldest-shipwreck-found-off-coast-of-turkiye"
+   "url": "https://eng.lsm.lv/article/culture/art/14.10.2026-stamp-to-honour-latvian-sculptor-teodors-zalkalns.a667567/"
   },
   {
    "answer": 3,
@@ -222,7 +222,7 @@
    "url": "https://www.err.ee/1610165455/tartu-investeerib-5-miljonit-eurot-tanavapuhastusega-tegeleva-ameti-loomiseks"
   }
  ],
- "source": "ERR, Elu24, Yle, Al Jazeera, NPR",
+ "source": "ERR, Elu24, Yle, LSM, RTV SLO",
  "ticker": [
   "Norstat: Isamaa kasvatas uuesti edu Keskerakonna ees",
   "Skeletoni turuväärtus kasvab Siemensi investeeringuga miljardi euroni",
