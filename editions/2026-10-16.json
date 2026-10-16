@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-16",
+ "generatedAt": "2026-10-16T03:52:13+00:00",
+ "label": "Reede, 16. oktoober 2026",
+ "questions": [
+  {
+   "cat": "majandus",
+   "explain": "Pärnu lennujaama liiklus on kokku kuivanud ning riik, linn ja Tallinna Lennujaam otsivad uut käitajat. 2025. aastal maksis riik lennujaama tegevuskuludeks 522 000 ja Pärnu linn 390 000 eurot.",
+   "lat": 58.4192,
+   "lon": 24.4728,
+   "place": "Pärnu lennujaam",
+   "prompt": "Millise lennujaama ainus regulaarliin on talvine ühendus Ruhnuga ja sinna otsitakse nüüd uut käitajat, kes tooks rahvusvahelised liinid?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610166338/parnu-lennujaama-uuelt-kaitajalt-oodatakse-rahvusevaheliste-liinide-parnusse-toomist"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Helsingi ülikooli nelja-aastane uuring katsetas, kas soojalembest bataati saab Soomes kasvatada. Pealkiri on tõlgitud soome keelest.",
+   "headline": "Soomes süüakse välismaist ___ – teadlased kasvatasid seda Helsingi põllul ja see õnnestus",
+   "options": [
+    "ingverit",
+    "maapähklit",
+    "kikerherneid",
+    "bataati"
+   ],
+   "src": "Yle",
+   "type": "blank",
+   "url": "https://yle.fi/a/74-20250534"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Pingviinilugu oli võlts. Päris lood: Baba Vanga ennustus Putinile ning president Ülle Madise kingad, mis äratasid tähelepanu tema Soome ja Läti visiidi fotodel.",
+   "options": [
+    "Kas Putin kaotab võimu? Baba Vanga ennustas Venemaa juhile sünget lõppu",
+    "«Assa mait, millised imelised kingad!» Naaberriike külastanud Ülle Madise jalavarjud püüavad pilke",
+    "«Nad on täiesti vaimustuses!» Tallinna loomaaia pingviinid said uue soojendusega basseini"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8564520/piltuudis-assa-mait-millised-imelised-kingad-naaberriike-kulastanud-ulle-madise-jalavarjud-puuavad-pilke"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Nii ütles välisminister Margus Tsahkna, kommenteerides Eesti taotlust teha Silmeti Venemaa magneesiumitarnijale erand; silmakirjalikkuse süüdistused lükkas ta tagasi.",
+   "options": [
+    "Kristen Michal",
+    "Hanno Pevkur",
+    "Margus Tsahkna",
+    "Erkki Keldo"
+   ],
+   "quote": "Ei saa tekitada Venemaale valu nii, et ise ellu ei jää.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610166454"
+  },
+  {
+   "answer": 52.8,
+   "cat": "valis",
+   "decimals": 1,
+   "explain": "Läti Panga hinnangul tõusis kindlustatud eluruumide osakaal 30,8 protsendilt 2017. aastal 52,8 protsendini 2025. aastal – peaaegu iga teine kodu on endiselt kindlustamata.",
+   "max": 100,
+   "min": 0.5,
+   "prompt": "Mitu protsenti Läti eluruumidest oli Läti Panga andmetel 2025. aastal kindlustatud?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "%",
+   "url": "https://eng.lsm.lv/article/economy/economy/15.10.2026-nearly-half-of-latvian-homes-still-uninsured.a667709/"
+  },
+  {
+   "answer": 0,
+   "cat": "kultuur",
+   "explain": "Tartu Kunstimuuseumi lugu oli võlts. Päris lood: renoveeritud Tallinna Kunstihoone avamine lükkub detsembri algusesse ning Ülo Soosteri 1963. aasta maal \"Lihavõttemuna\" jõudis Eestisse ja oli lühidalt näha Vaal galeriis.",
+   "options": [
+    "Tartu Kunstimuuseum kolib ajutiselt Raadi lennuvälja angaari",
+    "Tallinna Kunstihoone avamine lükkub detsembrisse",
+    "Ülo Soosteri teos \"Lihavõttemuna\" jõudis pärast pikki rännakuid Eestisse"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://kultuur.err.ee/1610166296"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Nii ütles Antalyas üleujutuste keskel tööreisil viibinud Anneli Lahe.",
+   "options": [
+    "Anneli Lahe",
+    "Tuuli Roosma",
+    "Kerli Dello",
+    "Merilin Taimre"
+   ],
+   "quote": "Ma pole siin varem sellist vihma näinud!",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8564896/video-antalyas-uleujutuste-keskel-tooreisil-viibiv-anneli-lahe-ma-pole-siin-varem-sellist-vihma-nainud"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Rahvusvahelisel kaisukarude päeval ilmusid kaisukarud üle Eesti töökohtadesse ja koolidesse.",
+   "headline": "Eestis tähistati rahvusvahelist ___ päeva",
+   "options": [
+    "nukkude",
+    "kaisukarude",
+    "mänguasjade",
+    "lemmikloomade"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610166424"
+  },
+  {
+   "cat": "majandus",
+   "explain": "Narva linnale kuuluv Transservis-N küsib tänavu 50 000 eurot ja järgmisel aastal kaks korda rohkem, sest autoliiklus üle piiri peatus 2024. aasta algul.",
+   "lat": 59.3792,
+   "lon": 28.1903,
+   "place": "Narva",
+   "prompt": "Millise linna piirijärjekorda haldav linnaettevõte küsib nüüd linnalt ellujäämiseks tegevustoetust?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610166292/narva-piirijarjekorda-haldav-ettevote-kusib-linnalt-tegevustoetust"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Antarktika järvede lugu oli võlts. Päris lood: Uus Yalu jõe sild avati 12-aastase viivitusega ning liigsekundi tavast, mis võib muutuda.",
+   "options": [
+    "Kaua edasi lükatud Hiina ja Põhja-Korea vaheline sild avati ametlikult",
+    "Antarktikas avastati jää alt seni tundmatu järvede võrgustik",
+    "Liigsekundi kell tiksub: miks ajaarvestus võib igaveseks muutuda"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Al Jazeera",
+   "type": "fake",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/long-delayed-china-north-korea-bridge-officially-opens"
+  },
+  {
+   "answer": 52,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Elu24 pealkirja järgi ootab 52-aastane Hilary Swank kolmandat last – „Vanus on kõigest number!”.",
+   "max": 100,
+   "min": 1,
+   "prompt": "Kui vana on kolmandat last ootav Hollywoodi näitlejanna Hilary Swank?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "aastat",
+   "url": "https://elu24.postimees.ee/8564981/video-vanus-on-koigest-number-52-aastane-hilary-swank-ootab-kolmandat-last"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Endine suusataja Katja Koren on mitme erakonna ühiskandidaat Maribori linnapea valimistel. Tsitaat on tõlgitud sloveeni keelest.",
+   "options": [
+    "Tina Maze",
+    "Petra Majdič",
+    "Ilka Štuhec",
+    "Katja Koren"
+   ],
+   "quote": "Kui mind valitakse, olen ma mariborlaste linnapea. Ma ei ole poliitik ega saa kunagi olema.",
+   "src": "RTV SLO",
+   "type": "who",
+   "url": "https://www.rtvslo.si/slovenija/lokalne-volitve-2026/katja-koren-ce-bom-izvoljena-bom-zupanja-mariborcanov-nisem-politik-in-nikoli-ne-bom/797036"
+  },
+  {
+   "answer": 34,
+   "cat": "sise",
+   "decimals": 0,
+   "explain": "Opositsioon esitas umbusaldusavalduse 34 allkirjaga; Riigikogu arutab seda tõenäoliselt esmaspäeval ja selle läbiminekut peetakse praktiliselt võimatuks.",
+   "max": 101,
+   "min": 1,
+   "prompt": "Mitme allkirjaga esitas opositsioon Riigikogus valitsusele umbusaldusavalduse?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "allkirja",
+   "url": "https://www.err.ee/1610166331"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Tšellist Silvia Ilves töötas kassapidajana Viimsi kaubanduskeskuses avatud uue Maxima XX kaupluse avamisel.",
+   "headline": "Miljonäri abikaasa Silvia Ilves üllatas Maxima kliente ___ ametis",
+   "options": [
+    "kassapidaja",
+    "turvamehe",
+    "riiulitäitja",
+    "pagari"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8565139/fotod-ja-video-miljonari-abikaasa-silvia-ilves-ullatas-maxima-kliente-kassapidaja-ametis"
+  },
+  {
+   "answer": 1,
+   "cat": "sport",
+   "explain": "Pärnu võrkpallurite lugu oli võlts – Eesti klubid alustavad uut Balti liiga hooaega ning Pärnu ja Tartu lähevad novembris ka eurosarja. Päris lood: Viljandi HC alistas karikamängus Mistra 27:19 ning Paide võitis Tammekat lisaminutite väravast 2:1.",
+   "options": [
+    "Viljandi kaitsemüür jäi Mistrale läbimatuks",
+    "Pärnu võrkpallurid loobusid tänavu Balti liigas osalemisest",
+    "Paide alistas kümnekesi lõpetanud Tammeka lisaminutitel löödud väravast"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610166472"
+  },
+  {
+   "cat": "majandus",
+   "explain": "Mammaste tervisespordikeskust köetakse praegu maagaasiga; AVATAR projekti raames otsitakse põhjaveest energiat ammutava katsejaama asukohta, uuringud maksavad kokku 1,2 miljonit eurot.",
+   "lat": 58.048,
+   "lon": 27.036,
+   "place": "Mammaste (Põlva vald)",
+   "prompt": "Kus tehakse eeluuringuid, et tervisespordikeskust saaks tulevikus kütta põhjaveest võetava soojusega?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610166442"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, LSM, RTV SLO, Al Jazeera",
+ "ticker": [
+  "Riik lubaks kuritegelikku vara konfiskeerida süüdi mõistmata",
+  "Bulgaarias asuvat Starlinki maajaama tabas rünnak",
+  "Õppus näitas lünki eestlaste varjumisoskustes",
+  "Eksperdid: Prantsuse toidupoode tabanud küberrünnak on ohumärk ka Eestile",
+  "Liverpool võitis Meistrite liigas üheksaväravalise lahingu",
+  "Tartu Ülikool avas Euroopa karikasarjas võiduarve, Kalev kaotas",
+  "Netflix koondab ligi 1000 töötajat",
+  "Venemaalt imporditakse Eestisse endiselt toidukaupu"
+ ]
+}
