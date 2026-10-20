@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T03:53:56Z",
+  "label": "Teisipäev, 20. oktoober 2026",
+  "questions": [
+    {
+      "cat": "kultuur",
+      "explain": "Sangaste Püha Andrease kiriku tornikuul osutus tühjaks ja paistis olevat varem avatud; kuldamisele minev kukk on kuuliaukudega. Torni remont läheb maksma ligi 100 000 eurot.",
+      "lat": 57.9261,
+      "lon": 26.3319,
+      "place": "Sangaste",
+      "prompt": "Millise kiriku tornist langetati remonditööde käigus kukk ja tornikuul, milles ajaloolisi leide ei olnudki?",
+      "src": "ERR",
+      "type": "map",
+      "url": "https://www.err.ee/1610169781/sangaste-kiriku-tornikuul-ei-paljastanud-ajaloolisi-saladusi"
+    },
+    {
+      "answer": 1,
+      "cat": "meelelahutus",
+      "explain": "Kõrvitsanikerdamise võistluse lugu oli välja mõeldud. Päris lood: OLLIE lubab ühele fännile midagi erakordset ja Hellad Velled tegid Stars Baaris peo.",
+      "options": [
+        "OLLIE haub hulljulget plaani ja lubab ühele fännile midagi erakordset: kasvõi teise maailma otsa!",
+        "Tallinna vanalinnas peeti kõrvitsanikerdamise võistlus: võidutöö valmis üle 200-kilosest hiiglasest",
+        "Hellad Velled panid Stars Baari peomeeleolust kihama. Vaata, kes käisid kohal!"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+      "src": "Elu24",
+      "type": "fake",
+      "url": "https://elu24.postimees.ee/8566706/ollie-haub-hulljulget-plaani-ja-lubab-uhele-fannile-midagi-erakordset-kasvoi-teise-maailma-otsa"
+    },
+    {
+      "answer": 30,
+      "cat": "valis",
+      "decimals": 0,
+      "explain": "Yle MOT-i uurimuse järgi tarnisid kaks Soome kodanikku Venemaa sõjapingutusi toetavatele ettevõtetele elektroonikat ligikaudu 30 miljoni euro eest.",
+      "max": 300,
+      "min": 1,
+      "prompt": "Yle uuriva saate MOT andmetel tarnisid kaks Soome kodanikku elektroonikat Venemaa sõjamasinat abistavatele firmadele. Mitme miljoni euro väärtuses?",
+      "src": "ERR",
+      "type": "number",
+      "unit": "miljonit eurot",
+      "url": "https://www.err.ee/1610169874/kaks-soome-kodanikku-tarnisid-elektroonikat-venemaa-sojamasinale"
+    },
+    {
+      "answer": 2,
+      "cat": "valis",
+      "explain": "Londoni Frieze Mastersi messil äratas tähelepanu umbes 2700 aasta vanune loomise ja arhitektuuri jumala Ptahi pronkskuju; kunstikaupmees Rupert Wace oletab, et see võis inspireerida Oscari kujukese kujundust. Pealkiri on tõlgitud sloveeni keelest.",
+      "headline": "Kas Oscari kujukese inspireeris Vana-Egiptuse jumal ___?",
+      "options": [
+        "Anubis",
+        "Osiris",
+        "Ptah",
+        "Thot"
+      ],
+      "src": "RTV SLO",
+      "type": "blank",
+      "url": "https://www.rtvslo.si/kultura/dediscina/je-kipec-oskarja-navdihnil-staroegipcanski-bog-ptah/797420"
+    },
+    {
+      "answer": 1,
+      "cat": "sise",
+      "explain": "Erukindralmajor Meelis Kiili sõnul näitab Ukraina hiljutine edu Donetski suunal, et Venemaa pole haavamatu ega ole saavutanud Putini strateegilisi eesmärke.",
+      "options": [
+        "Marek Kohv",
+        "Meelis Kiili",
+        "Martin Herem",
+        "Riho Terras"
+      ],
+      "quote": "Putin pole saavutanud oma strateegilisi eesmärke.",
+      "src": "ERR",
+      "type": "who",
+      "url": "https://www.err.ee/1610169790/kiili-putin-pole-saavutanud-oma-strateegilisi-eesmarke"
+    },
+    {
+      "answer": 10,
+      "cat": "meelelahutus",
+      "decimals": 0,
+      "explain": "Kontserdil esinesid Beebilõust, Genka, Pluuto ja OKYM. Pilet maksis vaid kümme eurot, kuid rahvast oli nii vähe, et esireas sai vabalt olla.",
+      "max": 150,
+      "min": 1,
+      "prompt": "Laupäeval Tallinnas Privé ööklubis toimunud räpikontserdil, kus peaesinejaks oli Beebilõust, oli publikut ootamatult vähe. Mitu eurot maksis pilet?",
+      "src": "Elu24",
+      "type": "number",
+      "unit": "eurot",
+      "url": "https://elu24.postimees.ee/8566570/kuhu-jaid-fannid-eesti-rapimaailma-suurnimede-kontserdil-haigutas-publiku-seas-tuhjus-sai-vabalt-esireas-nautida"
+    },
+    {
+      "answer": 2,
+      "cat": "sise",
+      "explain": "Soolavaba libedustõrje katse oli välja mõeldud. Päris lood: liiklusseaduse muudatus lubab politseil nõuetele mittevastavad elektritõukerattad kohtu loata konfiskeerida ning Eesti plaanib umbes 18 kuu jooksul kasutusele võtta üle-euroopalise puudega inimese kaardi.",
+      "options": [
+        "Politsei saab seadusmuudatusega õiguse elektritõukse konfiskeerida",
+        "Üle-euroopalise puudega inimese kaart annab võimaluse kasutada teiste riikide soodustusi",
+        "Transpordiamet katsetab Tallinna ringteel soolavaba libedustõrjet"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+      "src": "ERR",
+      "type": "fake",
+      "url": "https://www.err.ee/1610169880/politsei-saab-seadusmuudatusega-oiguse-elektritoukse-konfiskeerida"
+    },
+    {
+      "cat": "kultuur",
+      "explain": "Puhkpilliorkestrite juhid kogunesid Türile repertuaariseminarile. Nende hinnangul on kava valitud nii, et seda saavad mängida ka väiksemad orkestrid.",
+      "lat": 58.8086,
+      "lon": 25.4325,
+      "place": "Türi",
+      "prompt": "Kus kogunesid puhkpilliorkestrite juhid üle Eesti, et harjutada 2028. aasta laulupeo repertuaari?",
+      "src": "ERR",
+      "type": "map",
+      "url": "https://www.err.ee/1610169749/tuleval-laulupeol-saavad-puhkpilliorkestrid-senisest-suurema-rolli"
+    },
+    {
+      "answer": 3,
+      "cat": "valis",
+      "explain": "Austraalia peaminister Anthony Albanese ütles, et sõltumatu parlamendiliikme autoga alla ajamine oli tahtlik; juht vahistati ja saadik sai raskelt viga. Tsitaat on tõlgitud inglise keelest.",
+      "options": [
+        "Mark Carney",
+        "Christopher Luxon",
+        "Keir Starmer",
+        "Anthony Albanese"
+      ],
+      "quote": "See ei olnud õnnetus.",
+      "src": "NPR",
+      "type": "who",
+      "url": "https://www.npr.org/2026/10/19/g-s1-148737/australia-lawmaker-critically-injured"
+    },
+    {
+      "answer": 0,
+      "cat": "kultuur",
+      "explain": "Tallinna vanalinnas asuv loodusmuuseum sulgeb kahe nädala pärast uksed; kogud kolivad uude hoonesse, mis avatakse järgmisel aastal.",
+      "headline": "___ kogud kolivad uude majja, vana muuseum sulgeb peagi uksed",
+      "options": [
+        "Loodusmuuseumi",
+        "Linnamuuseumi",
+        "Meremuuseumi",
+        "Kunstimuuseumi"
+      ],
+      "src": "ERR",
+      "type": "blank",
+      "url": "https://www.err.ee/1610169772/loodusmuuseumi-kogud-kolivad-uude-majja-vana-muuseum-sulgeb-peagi-uksed"
+    },
+    {
+      "answer": 1,
+      "cat": "meelelahutus",
+      "explain": "Nii vastas Kris Kärner teravalt sotsiaaldemokraadist aktivisti debatikutsele.",
+      "options": [
+        "Ott Sepp",
+        "Kris Kärner",
+        "Marko Reikop",
+        "Mart Juur"
+      ],
+      "quote": "Nautige sellega kaasnevat tähelepanu!",
+      "src": "Elu24",
+      "type": "who",
+      "url": "https://elu24.postimees.ee/8566351/erimeelsused-kris-karner-vastas-sotsist-aktivisti-debatikutsele-teravalt-nautige-sellega-kaasnevat-tahelepanu"
+    },
+    {
+      "answer": 223,
+      "cat": "valis",
+      "decimals": 0,
+      "explain": "Läti kütusemüüjate sõnul tuleb kütusevargusi ette üha sagedamini; tüüpilise varguse kahju on 100–150 eurot. Ludza vallas vahistati mees, keda kahtlustatakse 223 liitri kütuse varastamises.",
+      "max": 2000,
+      "min": 10,
+      "prompt": "Läti kütusemüüjate sõnul on kütusevargused sagenenud. Mitu liitrit kütust varastas septembri alguses Ludza vallas vahistatud mees kahtlustuse kohaselt ühe ettevõtte masinatest?",
+      "src": "LSM",
+      "type": "number",
+      "unit": "liitrit",
+      "url": "https://eng.lsm.lv/article/economy/economy/19.10.2026-retailers-say-fuel-theft-more-frequent-in-latvia.a668098/"
+    },
+    {
+      "answer": 0,
+      "cat": "majandus",
+      "explain": "Kartulisaagi lugu oli välja mõeldud. Päris lood: riigimetsa raiemaht jääb järgmisel aastal tänavusega samale tasemele ning mahemune on poodides vähe, sest munatootjad vahetavad kanakarju.",
+      "options": [
+        "Kartulikasvatajad: tänavune saak jäi põua tõttu kümne aasta väikseimaks",
+        "Riigimetsa raiemaht jääb uuel aastal tänavusega umbes samale tasemele",
+        "Poodide mahemunalettidelt vaatab vastu tühjus"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+      "src": "ERR",
+      "type": "fake",
+      "url": "https://www.err.ee/1610170117/poodide-mahemunalettidelt-vaatab-vastu-tuhjus"
+    },
+    {
+      "cat": "majandus",
+      "explain": "Konkurentsiameti peadirektori Evelin Pärn-Lee sõnul tõuseb hind Tartus umbes 1,1%, Pärnus ligi 14%, Tallinnas 8,5%, aga Narvas üle 30%.",
+      "lat": 59.3772,
+      "lon": 28.1903,
+      "place": "Narva",
+      "prompt": "Kaugkütte hind tõuseb pea kõikjal Eestis. Millises linnas on tõus Konkurentsiameti andmetel suurim – üle 30 protsendi?",
+      "src": "ERR",
+      "type": "map",
+      "url": "https://www.err.ee/1610170546/kaugkutte-hinnad-tousevad-koikjal-eestis"
+    },
+    {
+      "answer": 3,
+      "cat": "meelelahutus",
+      "explain": "Sünoptik Kairo Kiitsak hoiatas värskes ilmaprognoosis, et ees ootavad miinuskraadid.",
+      "headline": "Sünoptik Kairo Kiitsak jagas värsket ilmaprognoosi: tuleb valmistuda ___",
+      "options": [
+        "lumesajuks",
+        "tormituuleks",
+        "paduvihmadeks",
+        "miinuskraadideks"
+      ],
+      "src": "Elu24",
+      "type": "blank",
+      "url": "https://elu24.postimees.ee/8566481/tere-tali-sunoptik-kairo-kiitsak-jagas-varsket-ilmaprognoosi-tuleb-valmistuda-miinuskraadideks"
+    },
+    {
+      "answer": 1,
+      "cat": "valis",
+      "explain": "Tšiili magestamisjaama lugu oli välja mõeldud. Päris lood: Soome, mis lahkus hiljuti koos piirkonna riikidega relvakeelu leppest, otsib miljonit maamiini ning Benny Gantz loobus valimistest, sest küsitlustes jäi tema Sinine ja Valge alla 3,25% künnise.",
+      "options": [
+        "Soome soovib Venemaa ohtu silmas pidades hankida miljon maamiini",
+        "Tšiili avab Atacama kõrbes Lõuna-Ameerika suurima päikeseenergial töötava magestamisjaama",
+        "Benny Gantz loobub Iisraeli valimisvõitlusest"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+      "src": "Al Jazeera",
+      "type": "fake",
+      "url": "https://www.aljazeera.com/news/2026/10/19/finland-seeking-one-million-land-mines-as-it-eyes-russian-threat"
+    }
+  ],
+  "source": "ERR, Elu24, LSM, RTV SLO, NPR, Al Jazeera",
+  "ticker": [
+    "Eesti 200 ja Eestimaa Rohelised ei ühine",
+    "Viru Sputnik avas võimsal moel kontinentaalkarikasarjas võiduarve",
+    "Pärnu filmifestivali võitsid \"Talv lõunas, lumi maas\" ja \"Kolm leelot\"",
+    "Rändesurve kasvab ning Rae vald kaalub riigi vastu kohtusse pöördumist",
+    "Tartu Kunstimuuseumi näitus vaatab tagasi taasiseseisvumisjärgsele arengule",
+    "Ralf Aron võitis maailma tugevaimas GT-autode sarjas etapi",
+    "Eksperdid: ka argised kodumasinad võivad küberrünnaku sihtmärgiks sattuda",
+    "Bigbank võitis Balti liigas avamängu: tulemus on oluline, mitte numbrid"
+  ]
+}
