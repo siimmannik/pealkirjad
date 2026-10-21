@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-21",
+ "generatedAt": "2026-10-21T03:52:05Z",
+ "label": "Kolmapäev, 21. oktoober 2026",
+ "questions": [
+  {
+   "answer": 2,
+   "cat": "majandus",
+   "explain": "Võlts oli kohvihinna pealkiri. Päris lood: LHV kolmanda kvartali puhaskasum kasvas aastaga 43% ja Coop Panga oma 30%; mahemune napib poodides, sest munatootjatel käib kanakarja vahetus.",
+   "options": [
+    "LHV ja Coop Pank kasvatasid kasumit",
+    "Poodide mahemunalettidelt vaatab vastu tühjus",
+    "Kohvi hind poelettidel langes aasta madalaimale tasemele"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610171086/lhv-ja-coop-pank-kasvatasid-kasumit"
+  },
+  {
+   "answer": 36,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "airBalticu juhatuse esimees Andrejs Martinovs ütles Läti Raadiole, et ees ootavad massikoondamised. Aasta lõpuks on laevastikus 36 lennukit ja 2030. aastaks plaanitakse kasvada 40-ni.",
+   "max": 500,
+   "min": 5,
+   "prompt": "Mitu lennukit peaks Läti lennufirma airBalticu laevastikus olema 2026. aasta lõpuks?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "lennukit",
+   "url": "https://eng.lsm.lv/article/economy/transport/20.10.2026-latvian-airbaltic-prepares-for-mass-redundancies.a668287/"
+  },
+  {
+   "cat": "sport",
+   "explain": "Welco peab võiduparaadi Emajõel Tartus: meeskond sõidab paadiga Kaarsilla alt läbi ja fännid kogunevad Kaarsilla ja Väikese Kuuba juurde.",
+   "lat": 58.3812,
+   "lon": 26.7259,
+   "place": "Tartu (Kaarsild)",
+   "prompt": "Kus peab Esiliiga võitnud ja esimest korda Premium liigasse tõusnud jalgpalliklubi Welco laupäeval võiduparaadi jõel?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://sport.err.ee/1610170669/esiliiga-voitnud-welco-peab-voiduparaadi-emajoel"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Elu24 kirjutas, et saarlase pass paneb kohalikke kukalt kratsima ja küsima, kui palju selle peale raha kulus.",
+   "headline": "«Palju selle peale siis raha magama pandi?» Saarlase ___ paneb kohalikud kukalt kratsima",
+   "options": [
+    "logo",
+    "lipp",
+    "pass",
+    "vapp"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8567954/palju-selle-peale-siis-raha-magama-pandi-saarlase-pass-paneb-kohalikud-kukalt-kratsima"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Välisministeeriumi kantsler Jonatan Vseviov ütles „Välisilmale“, et kuna USA Ukrainat praegu ei toeta, peab Euroopa võtma toetamisel otsustava rolli.",
+   "options": [
+    "Margus Tsahkna",
+    "Hanno Pevkur",
+    "Jonatan Vseviov",
+    "Kaja Kallas"
+   ],
+   "quote": "Tühimikud tuleb järelikult meil Euroopas täita.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610170705/vseviov-usa-tuhimikud-ukraina-toetamisel-tuleb-meil-euroopas-taita"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Võlts oli Tampere trammi pealkiri. Päris lood: Google'i tütarfirma raius Haminas andmekeskuse laiendamisel ebaseaduslikult lendoravate puid; Suomenlinna lähedalt leitud ese osutus Teise maailmasõja aegse torpeedo osaks.",
+   "options": [
+    "Google raius Haminas lendoravate puud",
+    "Tampere trammisõit muutub talvekuudeks tasuta",
+    "Suomenlinna lähistel meres hulpinud ese tuvastati torpeedo osana"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20252354"
+  },
+  {
+   "answer": 158274,
+   "cat": "sise",
+   "decimals": 0,
+   "explain": "Kasutuseta sõidukeid on registris 158 274. 1. novembril kustutab Transpordiamet registrist automaatselt seitse aastat peatatud olnud sõidukid ning uuest aastast tuleb seisva auto eest maksta mootorsõidukimaksu.",
+   "max": 2000000,
+   "min": 10000,
+   "prompt": "Mitu sõidukit on Eestis praegu registris kasutuseta seisvana (aasta alguses oli neid 225 290)?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "sõidukit",
+   "url": "https://www.err.ee/1610170666/tulevast-aastast-muutub-kasutuseta-seisva-auto-ulalpidamine-kulukamaks"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Muusikamanager Sandra Sersant pääses Kõrgõzstanis Shakira kontserdi telgitagustesse – veel kaks nädalat varem ei teadnud ta, et sinna sõidab.",
+   "options": [
+    "Getter Jaani",
+    "Sandra Sersant",
+    "Tanja Mihhailova-Saar",
+    "Kristel Aaslaid"
+   ],
+   "quote": "Spontaansed otsused võivad viia väga ootamatult ägedatele radadele.",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8566904/klopsud-muusikamanager-sandra-sersant-paases-shakira-kontserdi-telgitagustesse-spontaansed-otsused-voivad-viia-vaga-ootamatult-agedatele-radadele"
+  },
+  {
+   "cat": "majandus",
+   "explain": "Keskkonnaamet lubas Utilitasel 1. novembrist aprilli lõpuni kasutada Mustamäe gaasikatlamajas põlevkiviõli, kui gaasivarustus on ohus; kokku tohib põletada kuni 20 000 tonni.",
+   "lat": 59.405,
+   "lon": 24.676,
+   "place": "Mustamäe, Tallinn",
+   "prompt": "Millises Tallinna linnaosas asuvas Utilitase gaasikatlamajas tohib Keskkonnaameti loal gaasipuuduse korral põlevkiviõli põletada?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610171023/utilitas-sai-loa-teatud-juhtudel-mustamaed-polevkivioliga-kutta"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Novo mesto autotehas Revoz loob pärast Renault Twingo ja Dacia Springi projekte oma arendusosakonna; uue Springi arendus võttis vaid 16 kuud. Pealkiri on tõlgitud sloveeni keelest.",
+   "headline": "Revoz kirjutab uut peatükki: Dacia Spring ja ___",
+   "options": [
+    "uus tehas",
+    "arendusosakond",
+    "akutehas",
+    "robotliin"
+   ],
+   "src": "RTV SLO",
+   "type": "blank",
+   "url": "https://www.rtvslo.si/zabava-in-slog/avtomobilnost/revoz-pise-novo-poglavje-dacia-spring-in-razvojni-oddelek/797215"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Võlts oli telesaate naasmise pealkiri. Päris lood: Läti andis mitmele maailmakuulsale artistile Venemaal esinemise tõttu esinemiskeelu ning Taavi Rõivas jagas sotsiaalmeedias suudlust kallimaga.",
+   "options": [
+    "Mitu maailmakuulsat artisti said Venemaal lavale astumise tõttu Lätis esinemiskeelu",
+    "Populaarne telesaade naaseb pärast kümneaastast pausi: võtted algavad juba novembris",
+    "Taavi Rõivas jagab kallimaga kuuma suudlust"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8568137/stopp-mitu-maailmakuulsat-artisti-said-venemaal-lavale-astumise-tottu-latis-esinemiskeelu"
+  },
+  {
+   "answer": 3,
+   "cat": "sport",
+   "explain": "Cristiano Ronaldo sai Portugali koondisest 30-päevase eemaldamise, sest lahkus koondisest loata.",
+   "headline": "Ronaldo peab ___ koondise juurest eemal olema",
+   "options": [
+    "nädal aega",
+    "pool aastat",
+    "aasta aega",
+    "kuu aega"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://sport.err.ee/1610170678/ronaldo-peab-kuu-aega-koondise-juurest-eemal-olema"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "USA president Donald Trump avaldas Ukrainale survet rahulepingu sõlmimiseks; sõnad kõlasid süveneva tüli taustal Volodõmõr Zelenskõiga. Tsitaat on tõlgitud inglise keelest.",
+   "options": [
+    "Donald Trump",
+    "JD Vance",
+    "Marco Rubio",
+    "Pete Hegseth"
+   ],
+   "quote": "Mind ei huvita, kuidas seda tehakse.",
+   "src": "Al Jazeera",
+   "type": "who",
+   "url": "https://www.aljazeera.com/news/2026/10/20/i-dont-care-how-its-done-trump-pressures-ukraine-to-cut-peace-deal"
+  },
+  {
+   "cat": "majandus",
+   "explain": "Kaugkütte hinnad tõusevad sel sügisel kõikjal Eestis: Tartus umbes 1%, Narvas aga umbes 30%.",
+   "lat": 59.3772,
+   "lon": 28.18,
+   "place": "Narva",
+   "prompt": "Konkurentsiameti andmetel tõusevad kaugkütte hinnad sel sügisel kõikjal Eestis. Millises linnas on tõus kõige suurem, umbes 30%?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610170546/kaugkutte-hinnad-tousevad-koikjal-eestis"
+  },
+  {
+   "answer": 1.4,
+   "cat": "meelelahutus",
+   "decimals": 1,
+   "explain": "Soveldaja video, mis on osa Austraalia koreograafi James Mitchell Fenwicki rahvatantsutrendist, kogus ööpäevaga umbes 1,4 miljonit vaatamist – rohkem, kui Eestis on elanikke.",
+   "max": 20,
+   "min": 0.1,
+   "prompt": "Mitu miljonit vaatamist kogus TLÜ rahvatantsuansambli Soveldaja Instagrami-video ühe ööpäevaga?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "miljonit vaatamist",
+   "url": "https://elu24.postimees.ee/8568249/rahvatantsuansambel-sai-oma-videole-24-tunniga-rohkem-vaatamisi-kui-eestis-elanikke"
+  },
+  {
+   "answer": 0,
+   "cat": "sport",
+   "explain": "Võlts oli e-spordi MM-i pealkiri. Päris lood: Eesti jetisportlased võitsid Itaalias Olbias kolm maailmameistritiitlit ja kaheksa poodiumikohta; Karl Johan Lips aitas Ostrów Wielkopolski hooaja teisele võidule.",
+   "options": [
+    "Tallinn võõrustab 2028. aastal esimest korda e-spordi maailmameistrivõistlusi",
+    "Eesti jetisportlased võitsid Itaalias kolm MM-tiitlit",
+    "Lips aitas koduklubi Poola kõrgliigas võidule"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610170690/eesti-jetisportlased-voitsid-itaalias-kolm-mm-tiitlit"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, Al Jazeera",
+ "ticker": [
+  "Kristina Kallas: uued inimesed ei kipu poliitikasse",
+  "Liivamägi: euribor tõuseb tänavu tõenäoliselt veel kõrgemale",
+  "Elektriautode müük Euroopas kasvas septembris järsult",
+  "Tallinnal on Kristiine ristmiku ja Tulika tänavaga uued liiklusplaanid",
+  "Kõik ERR-i raadiojaamad leiab nüüd ühisest Eesti Raadio portaalist",
+  "Statistika järgi on kinnisvarasektori seis praegu tagasihoidlik",
+  "Leedu järgmise aasta eelarve näeb ette palkade, pensionide ja riigivõla kasvu",
+  "Malõgina pääses Wrexhamis põhitabelisse, Neel sai Jaapanis edasi"
+ ]
+}
