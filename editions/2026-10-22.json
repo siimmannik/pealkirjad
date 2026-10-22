@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-22",
+ "generatedAt": "2026-10-22T07:05:00+03:00",
+ "label": "Neljapäev, 22. oktoober 2026",
+ "questions": [
+  {
+   "cat": "kultuur",
+   "explain": "Noore vaataja teatrifestival Naks algas Narvas ja kestab laupäevani. Soome-tšehhi trupp Krepsko mängis seal absurdilavastust „fabsurdia”.",
+   "lat": 59.3772,
+   "lon": 28.1903,
+   "place": "Narva",
+   "prompt": "Millises linnas algas noore vaataja teatrifestival Naks, kus esines ka soome-tšehhi sõnadeta teatri trupp Krepsko?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610171587/sonadeta-teatri-naitleja-inimesed-reageerivad-igal-pool-uhtemoodi"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Võlts oli Pärnu välibasseini pealkiri. Päriselt jätab Tartu Ülikool Tallinna õigusteaduskonna hoone endale, kuigi õigusteaduse päevaõpe Tallinnas lõpeb, ning Tallinn tühistas olümpiaujula hanke rahandusministeeriumi hoiatuse järel.",
+   "options": [
+    "Tartu Ülikool jätab Tallinna südalinna õigusteaduskonna hoone endale",
+    "Pärnu plaanib rannaparki aastaringset välibasseini",
+    "Tallinn tühistas rahandusministeeriumi hoiatusele viidates olümpiaujula hanke"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610171425/tartu-ulikool-jatab-tallinna-sudalinna-oigusteaduskonna-hoone-endale"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Endise USA presidendi George Bushi vend Neil Bush teatas, et toetab Texases demokraat James Talaricot, sest tal on kahtlusi vabariiklaste kandidaadi Ken Paxtoni suhtes. Väide on tõlgitud inglise keelest.",
+   "options": [
+    "Jeb Bush",
+    "Neil Bush",
+    "George P. Bush",
+    "Marvin Bush"
+   ],
+   "quote": "Hääletan Texase senativalimistel demokraat James Talarico poolt.",
+   "src": "Al Jazeera",
+   "type": "who",
+   "url": "https://www.aljazeera.com/news/2026/10/22/brother-of-george-bush-endorses-democratic-senate-candidate-in-texas"
+  },
+  {
+   "answer": 5000,
+   "cat": "kultuur",
+   "decimals": 0,
+   "explain": "Silver „Sboy” Seeblumi maaling laiub ligi 5000 ruutmeetril endise tehase seintel. Töö võttis üle 2000 töötunni ja umbes 3000 liitrit värvi.",
+   "max": 40000,
+   "min": 100,
+   "prompt": "Kui suur (ruutmeetrites) on Tallinnas Ülemiste linnakus valminud Eesti suurim spreitehnikas seinamaaling?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "m²",
+   "url": "https://www.err.ee/1610171584/tallinnas-ulemistel-valmis-eesti-suurim-spreitehnikas-seinamaaling"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Elu24 kirjutas, et perekonnaseisuamet lükkas Kerdo Möldri ja Diana Klasi lahutusavalduse tagasi, mistõttu lahutus jääb esialgu ära. Väljaande sõnul oli põhjus jabur.",
+   "headline": "Kerdo Möldri ja Diana Klasi lahutus jääb ära: perekonnaseisuamet lükkas avalduse tagasi ___ põhjusel",
+   "options": [
+    "salapärasel",
+    "jabural",
+    "tehnilisel",
+    "ootamatul"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8568070/ullatav-takistus-kerdo-moldri-ja-diana-klasi-lahutus-jaab-ara-perekonnaseisuamet-lukkas-avalduse-tagasi-jabural-pohjusel"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Võlts oli Lapimaa turistimaksu pealkiri. Päriselt soovitab Helsingi uus uuring Vanhankaupunginkoski tammi alles jätta ja remontida selle idapoolset ülevoolu ning Soome Kennelliit tunnustab detsembris kaheksat kangelaskoera.",
+   "options": [
+    "Helsingi linna uus uuring soovitab: Vanhankaupunginkoski tammi ei lammutata",
+    "Koer Martta haukus ja nõudis öösel õue pääsemist – päästis naabri surmast",
+    "Lapimaa hotellid kehtestavad jõuluhooajaks turistimaksu"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20252457"
+  },
+  {
+   "cat": "sport",
+   "explain": "Eesti saalijalgpallikoondis jäi teisipäeval Rakveres peetud MM-valikmängus Ukrainale selgelt alla, kaotades 2:9.",
+   "lat": 59.3464,
+   "lon": 26.3558,
+   "place": "Rakvere",
+   "prompt": "Kus kaotas Eesti saalijalgpallikoondis MM-valikmängus Ukrainale 2:9?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://sport.err.ee/1610171650/eesti-saalijalgpallikoondis-jai-ukrainale-selgelt-alla"
+  },
+  {
+   "answer": 2,
+   "cat": "majandus",
+   "explain": "Nii ütles Taavet Hinrikus, kelle sõnul jõuab tehisaru igasse valdkonda ja võib tõsta ka Eesti tööstuse tootlikkust.",
+   "options": [
+    "Markus Villig",
+    "Ott Velsberg",
+    "Taavet Hinrikus",
+    "Linnar Viik"
+   ],
+   "quote": "Pole ühtki valdkonda, kuhu tehisaru ei tungiks.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610171662/hinrikus-pole-uhtki-valdkonda-kuhu-tehisaru-ei-tungiks"
+  },
+  {
+   "answer": 220,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Avalikule pöördumisele kirjutas alla 220 LSM-i töötajat, sealhulgas peatoimetaja Anita Brauna. Nende hinnangul ohustavad kiirmenetluses arutatavad muudatused avalik-õigusliku meedia toimetuslikku sõltumatust.",
+   "max": 2500,
+   "min": 10,
+   "prompt": "Mitu Läti avalik-õigusliku meedia (LSM) töötajat allkirjastas pöördumise, milles paluti meediaseaduse muudatusi mitte kiirkorras vastu võtta?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "töötajat",
+   "url": "https://eng.lsm.lv/article/features/media/21.10.2026-public-media-employees-ask-for-second-thoughts-on-quickfire-media-law.a668484/"
+  },
+  {
+   "answer": 3,
+   "cat": "sise",
+   "explain": "Liiga võimsad elektritõukerattad jõuavad pärast kinnipidamist juba järgmisel päeval tänavale tagasi. Kavandatav seadus lubaks politseil nõuetele mittevastavad sõidukid ära võtta.",
+   "headline": "Salmu: praegu naaseb ohtlik ___ järgmisel päeval tänavale",
+   "options": [
+    "roolijoodik",
+    "mopeed",
+    "kihutaja",
+    "tõukeratas"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610171596/salmu-praegu-naaseb-ohtlik-toukeratas-jargmisel-paeval-tanavale"
+  },
+  {
+   "answer": 3,
+   "cat": "meelelahutus",
+   "explain": "Laulja Liis Lemsalu tähistas 34. sünnipäeva ja palus igal külalisel ette kanda luuletuse. Esinemiste peale naljatas ta, et mõnel on täiesti vale elukutse valitud.",
+   "options": [
+    "Getter Jaani",
+    "Elina Born",
+    "Laura Põldvere",
+    "Liis Lemsalu"
+   ],
+   "quote": "Mõnel inimesel on täiesti vale elukutse valitud.",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8568788/lummavad-klopsud-liis-lemsalu-sunnipaevakulalised-said-erilise-ulesande-monel-inimesel-on-taiesti-vale-elukutse-valitud"
+  },
+  {
+   "answer": 0,
+   "cat": "majandus",
+   "explain": "Võlts oli hinnakülmutuse pealkiri – tegelikult tõusevad kaugkütte hinnad sel sügisel enamikus piirkondades. Päriselt jõuavad julgeolekukulud ka vee-, kütte- ja elektriarvetesse ning Netflix vahetab juhte, sest uute vaatajate leidmine on raskeks läinud.",
+   "options": [
+    "Kaugküttefirmad lubavad talveks hinnad külmutada",
+    "Julgeolekukulu kajastub ka vee- või kaugküttearves",
+    "Netflix vahetab juhte ja muudab sisustrateegiat"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610171782/julgeolekukulu-kajastub-ka-vee-voi-kaugkuttearves"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "Sloveenia ametiühingud Glosa ja Zasuk paluvad raamatukogudel loobuda tehisintellekti loodud illustratsioonidega pildiraamatute ostmisest. Pealkiri on tõlgitud sloveeni keelest.",
+   "headline": "Glosa ja Zasuk kutsusid raamatukogusid üles mitte ostma ___ illustratsioonidega raamatuid",
+   "options": [
+    "tehisintellekti",
+    "välismaiste",
+    "vanamoodsate",
+    "tsenseeritud"
+   ],
+   "src": "RTV SLO",
+   "type": "blank",
+   "url": "https://www.rtvslo.si/kultura/knjige/glosa-in-zasuk-knjiznice-pozvala-naj-ne-kupujejo-knjig-z-ilustracijami-umetne-inteligence/797599"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Võlts oli Viljandi kõrvitsakoogi pealkiri. Päriselt kinnitas Prisma, et Narva kaupluse sotsiaalmeediapostitused on valdavalt venekeelsed, ning nädala keskpaiga horoskoop ennustas täiskuu lainel teravnevaid suhteid.",
+   "options": [
+    "«Narva Prisma postitab vaid vene keeles» Prisma: sotsiaalmeedias valdavalt jah",
+    "Eesti suurim kõrvitsakook küpsetati Viljandis: kaalus üle 200 kilo",
+    "Pinged hakkavad kulmineeruma ja suhted võivad minna teravaks"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8568953/narva-prisma-postitab-vaid-vene-keeles-prisma-sotsiaalmeedias-valdavalt-jah"
+  },
+  {
+   "cat": "sise",
+   "explain": "Saaremaa vallavanema Rainer Antsaare sõnul väheneb ametikohtade arv 180-lt 164-le ning üle 100 000 euro suurune sääst läheb allesjäänud ametnike palgatõusuks.",
+   "lat": 58.2481,
+   "lon": 22.5039,
+   "place": "Kuressaare (Saaremaa vald)",
+   "prompt": "Milline omavalitsus plaanib uuest aastast vähendada ametnike arvu ligi 10 protsenti ja jagada säästu ülejäänute palgatõusuks? Märgi selle keskus kaardile.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610171620/saaremaa-vald-plaanib-vahendada-ametnike-arvu-ligi-10-protsenti"
+  },
+  {
+   "answer": 19,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Elu24 loo pealkiri oli „Lõuna 19 sendiga: blogija Jana aitab Eesti elanikel säästa aega ja raha”.",
+   "max": 500,
+   "min": 2,
+   "prompt": "Blogija Jana aitab Elu24 loo järgi eestlastel aega ja raha säästa. Mitme sendi eest saab tema lõuna?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "senti",
+   "url": "https://elu24.postimees.ee/8568539/fotod-ja-video-louna-19-sendiga-blogija-jana-aitab-eesti-elanikel-saasta-aega-ja-raha"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, Al Jazeera, LSM, RTV SLO",
+ "ticker": [
+  "Musk toetab Tesla ja SpaceX-i ühinemist",
+  "Haridusministeerium soovib ajateenistuse algusaegu veelgi varasemaks tuua",
+  "Riigikogu alustas 21,3 miljardi suuruse riigieelarve arutelu",
+  "NATO saadab Mustale merele täiendavaid vahendeid",
+  "Rumeenia sai kuudepikkuse ummikseisu järel Euroopa-meelse valitsuse",
+  "Euroopa Komisjon esitles uut Arktika strateegiat",
+  "Tartu plaanib uut kergliiklussilda Kvissentali ja Supilinna vahele",
+  "Kolmapäev tuleb päikesepaisteline ja sajuta"
+ ]
+}
