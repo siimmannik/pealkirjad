@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-23",
+ "generatedAt": "2026-10-23T06:53:05+03:00",
+ "label": "Reede, 23. oktoober 2026",
+ "questions": [
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Elu24 kirjutas, et miljonär Martin Villig tõstatas kentsaka mure ja küsis, kas keegi päriselt magab niimoodi ka kodus.",
+   "options": [
+    "Markus Villig",
+    "Taavet Hinrikus",
+    "Martin Villig",
+    "Kristo Käärmann"
+   ],
+   "quote": "Kas keegi päriselt magab niimoodi ka kodus?",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8569431/tuutu-probleem-miljonar-martin-villig-tostatas-kentsaka-mure-kas-keegi-pariselt-magab-niimoodi-ka-kodus"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Raivo Riimi ja Riho Hüti peetav Rakvere galerii asub Pikal tänaval Kaitseliidu Viru maleva majas. Oksjonnäitusel on ligi 100 tööd 36 Lääne-Virumaa kunstnikult ja see kestab oktoobri lõpuni.",
+   "lat": 59.3478,
+   "lon": 26.3568,
+   "place": "Rakvere",
+   "prompt": "Kus asub ligi 30 aastat tegutsenud galerii, mis püüab annetatud kunstiteoste oksjoniga oma uksi lahti hoida?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610172409/rakvere-galerii-uritab-oksjoni-abil-uksi-lahti-hoida"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "Võlts oli ÜRO rahvaarvu pealkiri. Päris lood: ohustatud liikide maailmaorganisatsioon hindas 96% uuritud korallrahusüsteemidest kriitiliselt ohustatuks ning Rahvusvaheline Kriminaalkohus sai Sahharovi auhinna vähem kui kaks nädalat pärast seda, kui Trump kohtule sanktsioonid kehtestas.",
+   "options": [
+    "ÜRO: maailma rahvaarv hakkab kahanema juba 2040. aastal",
+    "Uuring hoiatab: peaaegu kõiki madalaveelisi korallrahusid ähvardab nüüd väljasuremine",
+    "USA sanktsioonide alla pandud ICC võitis Sahharovi auhinna, ELi kõrgeima inimõiguste autasu"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Al Jazeera",
+   "type": "fake",
+   "url": "https://www.aljazeera.com/news/2026/10/22/almost-all-shallow-water-coral-reefs-now-face-extinction-risk-study-warns"
+  },
+  {
+   "answer": 43.8,
+   "cat": "majandus",
+   "decimals": 1,
+   "explain": "Tallinki kolmanda kvartali puhaskasum oli 43,8 miljonit eurot, üheksa kuu kasum aga 19,4 miljonit eurot. Üheksa kuu käive kasvas 4,5% 603 miljoni euroni.",
+   "max": 400,
+   "min": 2,
+   "prompt": "Kui suure puhaskasumi teenis Tallink tänavu kolmandas kvartalis (miljonites eurodes)?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "mln eurot",
+   "url": "https://www.err.ee/1610172793/tallink-on-uheksa-kuuga-teeninud-19-miljonit-eurot-kasumit"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Pariisis esitleti 114. Tour de France'i marsruuti: võistlus algab Suurbritanniast ja otsustavad etapid on taas Alpides ja Püreneedes. Pealkiri on tõlgitud sloveeni keelest.",
+   "headline": "Kus ja millised on Pogačari peamised katsumused teel ___ kollase särgini?",
+   "options": [
+    "neljanda",
+    "viienda",
+    "seitsmenda",
+    "kuuenda"
+   ],
+   "src": "RTV SLO",
+   "type": "blank",
+   "url": "https://www.rtvslo.si/sport/kolesarstvo/dirka-po-franciji/kje-in-kaksni-bodo-glavni-izzivi-pogacarja-na-poti-do-seste-rumene-majice/797692"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Võlts oli Eleringi merekaabli pealkiri. Päris lood: Eesti mullastikukaarti uuendatakse esimest korda 40 aasta jooksul ning Tallinna uude Taru hoonesse kolivad esimesed ametnikud kahe nädala pärast, kuid majja otsitakse veel riigiasutusi.",
+   "options": [
+    "Teadlased uuendavad Eesti mullastikukaarti",
+    "Uude Taru loodusmajja otsitakse riigiasutusi juurde",
+    "Elering: Eesti ja Soome vaheline uus merekaabel valmib plaanitust kaks aastat varem"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610172430/teadlased-uuendavad-eesti-mullastikukaarti"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Uurija Ilmari Käihkö sõnul on Donbassi kindlustused Ukrainale tähtsad ning nende kaotamine võib Ukraina uuele Vene rünnakule avada. Tsitaat on tõlgitud soome keelest.",
+   "options": [
+    "Emil Kastehelmi",
+    "Ilmari Käihkö",
+    "Pekka Toveri",
+    "Jarmo Lindberg"
+   ],
+   "quote": "Kui Ukraina need alad ära annab, kasvab Venemaa isu ainult veelgi.",
+   "src": "Yle",
+   "type": "who",
+   "url": "https://yle.fi/a/74-20252724"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Heleni Post saavutas rahvusvahelisel kehamaalingute võistlusel teise koha ja tema lepatriinu modelliks oli Laura Prits.",
+   "headline": "Eestlanna Heleni Post saavutas rahvusvahelisel kehamaalingute võistlusel teise koha! ___ modelliks oli Laura Prits",
+   "options": [
+    "Lepatriinu",
+    "Liblika",
+    "Mesilase",
+    "Kiili"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8567801/fotod-ja-intervjuu-eestlanna-heleni-post-saavutas-rahvusvahelisel-kehamaalingute-voistlusel-teise-koha-lepatriinu-modelliks-oli-laura-prits"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Narva linnavalitsus alustas kunstiklubi Ro-Ro üürilepingu ülesütlemist, sest klubil on üle 7000 euro üürivõlga, millele klubi juht pole reageerinud.",
+   "lat": 59.3772,
+   "lon": 28.1903,
+   "place": "Narva",
+   "prompt": "Millise linna linnavalitsus ütleb üle 7000-eurose üürivõla tõttu üles kunstiklubi Ro-Ro üürilepingu?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610172571/narva-linnavalitsus-utleb-ro-ro-kunstiklubile-uurilepingu-ules"
+  },
+  {
+   "answer": 400,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Raiutud umbes 400-aastane põlismets oli arvatavasti üks Läti vanimaid männikuid. Politseile kaebas metsade elurikkust kaitsev ühing Puse Latvijas.",
+   "max": 2000,
+   "min": 20,
+   "prompt": "Kui vana metsa raiumise pärast Rucava lähedal Edela-Lätis alustas Läti riigipolitsei kriminaalmenetlust?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "aastat",
+   "url": "https://eng.lsm.lv/article/society/crime/22.10.2026-police-will-investigate-felling-of-400-year-old-forest-near-rucava.a668595/"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Võlts oli rabas peetavate vaikusediskode pealkiri. Elu24 kirjutas tegelikult Eesti Laul 2027 finalistidest ja saatejuhtidest ning Carmen Kassist ja Eeva Esse-Sõõrumaast korvpallimängul.",
+   "options": [
+    "Carmen Kass ja Eeva Esse-Sõõrumaa elasid korvpallimängule kaasa",
+    "Selgusid Eesti Laul 2027 finalistid ja saatejuhid: valitute seas on nii vanu tegijaid kui ka mitmeid üllatajaid",
+    "Kõrvaklapid pähe ja rappa: noorte seas levib uus vaikusedisko trend"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8569832/saa-teada-selgusid-eesti-laul-2027-finalistid-ja-saatejuhid-valitute-seas-on-nii-vanu-tegijaid-kui-ka-mitmeid-ullatajaid"
+  },
+  {
+   "answer": 3,
+   "cat": "sise",
+   "explain": "Diplomaat Jüri Luik ütles, et USA, Venemaa ja Hiina liidrite võimalikku kohtumist oodatakse laialt, kuid neil pole jõudu uut maailmakorda paika panna.",
+   "options": [
+    "Margus Tsahkna",
+    "Kristi Raik",
+    "Eerik-Niiles Kross",
+    "Jüri Luik"
+   ],
+   "quote": "Vaevalt Trump, Putin ja Xi uue maailmakorra paika panevad.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610172544/luik-vaevalt-trump-putin-ja-xi-uue-maailmakorra-paika-panevad"
+  },
+  {
+   "answer": 1,
+   "cat": "majandus",
+   "explain": "Küberturbe idufirma Blackwall kaasas 100 miljonit eurot ligikaudu 2,2 miljardi dollari suuruse väärtuse juures ning sai Eesti uueks ükssarvikuks.",
+   "headline": "Saja miljoni eurone rahasüst viis idufirma Blackwalli ___ sekka",
+   "options": [
+    "gasellide",
+    "ükssarvikute",
+    "hiiglaste",
+    "miljardäride"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610172397/saja-miljoni-eurone-rahasust-viis-idufirma-blackwalli-ukssarvikute-sekka"
+  },
+  {
+   "cat": "sise",
+   "explain": "Evecon kavandab tuuleparki Püssi lähedale ja tal on ehitusluba, kuid kohalikud elanikud vaidlustasid detailplaneeringu. Kohus arutab asja novembris.",
+   "lat": 59.3603,
+   "lon": 27.0472,
+   "place": "Püssi",
+   "prompt": "Millise Ida-Virumaa asula lähedale kavandatud tuulepargi saatust arutab kohus novembris?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610172463/kohus-arutab-pussi-tuulepargi-saatust-novembris"
+  },
+  {
+   "answer": 150,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Raido Kukk teeb kaasa sarjas „Päästjad talvistel teedel” (Ice Road Rescue), mis jälgib päästjaid ja puksiirijuhte Norra talvistel mägiteedel. Pealkirja järgi on sarjal 150 miljonit vaatajat.",
+   "max": 1000,
+   "min": 3,
+   "prompt": "Mitu miljonit vaatajat on Elu24 pealkirja järgi National Geographicu hittsarjal, milles teeb kaasa eestlane Raido Kukk?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "mln vaatajat",
+   "url": "https://elu24.postimees.ee/8569841/150-miljonit-vaatajat-eesti-mees-teeb-kaasa-national-geographicu-hittsarjas-hooaja-lopus-tuleb-kontole-vaike-laekumine-pealkirjaga-honorar"
+  },
+  {
+   "answer": 1,
+   "cat": "sport",
+   "explain": "Võlts oli superkrossi pealkiri – Supercross Tallinn toimub novembris, kuigi Jan Jasper Kõiv, Tanel Leok ja Gert Krestinov sellest loobuvad. Päris lood: Stan Wawrinka alistas Lyonis Martín Landaluce 6:3, 6:7, 7:6 ning Reutersi allikate sõnul naaseb Dakari ralli Aafrikasse.",
+   "options": [
+    "Wawrinka alistas karjääri eelviimasel nädalal endast 21 aastat noorema mehe",
+    "Tallinna superkrossi võistlus jääb rajaprobleemide tõttu tänavu ära",
+    "Allikad: Dakari ralli naaseb pika pausi järel Aafrikasse"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610172481/wawrinka-alistas-karjaari-eelviimasel-nadalal-endast-21-aastat-noorema-mehe"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, Al Jazeera",
+ "ticker": [
+  "USA kongresmenid: luureandmed näitavad Venemaa valimiste-eelset mõjutustegevust",
+  "Jonatan Vseviov kandideerib sotside liikmena riigikokku",
+  "Saksamaa tõstis Vene sabotaaži ohuhinnangu enneolematult kõrgeks",
+  "Reformierakonnale kampaaniaid teinud agentuur läks Isamaa palgale",
+  "14-aastane ründaja nihutas Eesti jalgpallikoondiste väravarekordit",
+  "Swedbanki ja SEB kasum kasvas aastaga paari miljoni võrra",
+  "Üht Eesti suurimat elamuarendust pidurdavad kaitsealused taimed",
+  "Võimsas hoos Harju Laagri alistas Flora ja lisas hõbedaheitlusesse vürtsi"
+ ]
+}
