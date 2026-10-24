@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-24",
+ "generatedAt": "2026-10-24T03:52:33+00:00",
+ "label": "Laupäev, 24. oktoober 2026",
+ "questions": [
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Kaitseminister Martin Herem kinnitas, et Eesti pole droonisõjas kaitsetu ning kriisi ajal peavad Läänemere ühendused jääma Eesti ja liitlaste kontrolli alla.",
+   "options": [
+    "Hanno Pevkur",
+    "Ants Kiviselg",
+    "Martin Herem",
+    "Andrus Merilo"
+   ],
+   "quote": "Päris paljakäsi me droonisõjas pole.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610173126/herem-paris-paljakasi-me-droonisojas-pole"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Marek Nõmmik ostis Mercedes-Benz Maybach GLS600 alles tänavu suvel, nüüd on sõiduk aga müüki pandud.",
+   "headline": "Silvia Ilvese miljonärist abikaasa on enda uhke ___ juba müüki pannud",
+   "options": [
+    "Bentley",
+    "Maybachi",
+    "Rolls-Royce'i",
+    "Lamborghini"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8569968/mis-nuud-silvia-ilvese-miljonarist-abikaasa-on-enda-uhke-maybachi-juba-muuki-pannud"
+  },
+  {
+   "answer": 31200,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Pieriga prokuratuur määras süüd tunnistanud jahimehele 31 200 euro suuruse trahvi. Keskkonnakahjuks hinnati 29 600 eurot, mille mees on juba hüvitanud.",
+   "max": 200000,
+   "min": 1000,
+   "prompt": "Kui suure trahvi sai Lätis Ogre piirkonnas jahitornist kaitsealuse pruunkaru maha lasknud jahimees?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "eurot",
+   "url": "https://eng.lsm.lv/article/society/environment/23.10.2026-hunter-fined-eur-30k-for-illegally-killing-bear.a668847/"
+  },
+  {
+   "cat": "sise",
+   "explain": "Droon tabas Auvere elektrijaama korstnat 25. märtsil kell 3.43. Riigiprokuratuur lõpetas kriminaalmenetluse, sest drooni päritolu ei õnnestunud usaldusväärselt tuvastada.",
+   "lat": 59.269,
+   "lon": 27.9,
+   "place": "Auvere elektrijaam (Narva lähedal)",
+   "prompt": "Kus asub elektrijaam, mille korstnat märtsis tabanud drooni juhtumis ei tuvastanud uurimine tahtlikku tegevust Eesti vastu?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610174596/uurimine-ei-tuvastanud-auvere-droonijuhtumis-tahtlikku-tegevust-eesti-vastu"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Taimetee-uuringu pealkiri oli võlts. Päriselt jõustuvad 26. oktoobril töötervishoiu ja tööohutuse seaduse muudatused, mis lubavad tööandjal töötaja joovet kontrollida, ning küsitlusfirmadel on telefonipettuste tõttu raske vastajaid kätte saada.",
+   "options": [
+    "Tööandja võib edaspidi panna töötaja vajadusel alkomeetrisse puhuma",
+    "Uuringufirmad ei saa telefonipettuste hirmus inimesi kätte",
+    "Uuring: eestlased joovad varasemast rohkem taimeteed"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610174509/tooandja-voib-edaspidi-panna-tootaja-vajadusel-alkomeetrisse-puhuma"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Sloveenia president Nataša Pirc Musar ei osale pühapäeval Koperis suveräänsuspäeva riiklikul pidustusel, protestides valitsuse sammude vastu – muu hulgas nimetati kutsel päeva Sloveenia „vabastamise”, mitte iseseisvumise 35. aastapäevaks. Tsitaat on tõlgitud sloveeni keelest.",
+   "options": [
+    "Janez Janša",
+    "Robert Golob",
+    "Urška Klakočar Zupančič",
+    "Nataša Pirc Musar"
+   ],
+   "quote": "See on esimene riiklik pidustus minu ametiajal, kus mind ei ole.",
+   "src": "RTV SLO",
+   "type": "who",
+   "url": "https://www.rtvslo.si/slovenija/predsednica-republike-to-bo-prva-drzavna-proslava-na-kateri-me-ne-bo/797907"
+  },
+  {
+   "answer": 543,
+   "cat": "sport",
+   "decimals": 0,
+   "explain": "Team Estiko spordistipendiumile laekus 543 avaldust, stipendiaadid kuulutatakse välja 10. novembril.",
+   "max": 5000,
+   "min": 20,
+   "prompt": "Mitu avaldust laekus 100 000-eurosele Team Estiko spordistipendiumile?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "avaldust",
+   "url": "https://sport.err.ee/1610174518/team-estiko-spordistipendiumile-laekus-543-avaldust"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Pärnu ranna kuumaõhupall oli võlts. Päriselt kirjutas Elu24 sellest, kuidas tehisaru on Haus Galerii juhi sõnul kunstihuvilisi eksitanud, ning Mart Sanderi ja Eha Urbsalu ajaloolise draama «Elu Etüüdid» esilinastusest 23. oktoobril kinos Kosmos.",
+   "options": [
+    "«Täiesti ootamatu!» Pärnu rannas maandus keset oktoobrit kuumaõhupall ja kogus rahvamassi",
+    "«Uus ekspert» teeb apsakaid: Haus Galerii juhi sõnul on tehisaru kunstihuvilisi täiesti rappa juhtinud",
+    "Vaata, mis toimus Mart Sanderi ja Eha Urbsalu filmi «Elu Etüüdid» eksklusiivsel esilinastusel"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8570550/galerii-vaata-mis-toimus-mart-sanderi-ja-eha-urbsalu-filmi-elu-etuudid-eksklusiivsel-esilinastusel"
+  },
+  {
+   "cat": "sise",
+   "explain": "Põhja-Sakala vallavolikogu valis neljapäeva õhtul vallavanemaks Priit Toobali. Volikogu juhid astusid tagasi, mistõttu tuleb nädala pärast erakorraline istung.",
+   "lat": 58.5361,
+   "lon": 25.4706,
+   "place": "Suure-Jaani (Põhja-Sakala vald)",
+   "prompt": "Millises vallas lõppes võimukriis endise tippoliitiku Priit Toobali valimisega vallavanemaks? Märgi kaardil valla keskus.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610174651/pohja-sakala-voimukriis-loppes-priit-toobali-valimisega-vallavanemaks"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Tallinna Sikupilli Coopis tulistas üks mees vibuga riiulil olevaid Cini Mini pakke ja pani need koos noolega ostukorvi – üks nool läbistas korraga kaks pakki.",
+   "headline": "«Pole vaja ___ mängida!» Kliendi käitumine toidupoes hämmastas töötajaid ja teisi kaupluse külastajaid",
+   "options": [
+    "Rambot",
+    "Zorrot",
+    "Robin Hoodi",
+    "Tarzanit"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8569695/video-pole-vaja-robin-hoodi-mangida-kliendi-kaitumine-toidupoes-hammastas-tootajaid-ja-teisi-kaupluse-kulastajaid"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Robotitega raudteejaama lugu oli võlts. Päriselt leidis Argentina kohtunik, et president Javier Milei roll krüptoraha käivitamisel ei tähenda pettusskeemi, ning El Clásico ülekandes kasutatakse 40 kaamerat.",
+   "options": [
+    "Argentina kohtunik lõpetas krüptoskandaali tõttu algatatud pettuseuurimise Milei suhtes",
+    "Jaapan avab maailma esimese täielikult robotite teenindatava raudteejaama",
+    "Yamal ja Mbappé El Clásico tähelepanu keskmes: ülekandele on pühendatud 40 kaamerat"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Al Jazeera",
+   "type": "fake",
+   "url": "https://www.aljazeera.com/news/2026/10/24/argentinian-judge-drops-fraud-investigation-into-milei-over-crypto-scandal"
+  },
+  {
+   "answer": 0,
+   "cat": "sise",
+   "explain": "Reformierakonna peasekretär Kristo Enn Vaga ütles, et erakond arutas Jonatan Vsevioviga ministrikohta nii presidendikandidaadi otsingute kui ka Hanno Pevkuri asendamise ajal.",
+   "options": [
+    "Kristo Enn Vaga",
+    "Kristen Michal",
+    "Lauri Läänemets",
+    "Urmas Reinsalu"
+   ],
+   "quote": "Vseviov solvus, et me temast kaitseministrit ei teinud.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610174500/vaga-vseviov-solvus-et-me-temast-kaitseministrit-ei-teinud"
+  },
+  {
+   "answer": 100000,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Kuopio linnaraamatukogu vahetab raamatukogusüsteemi ja lugejad saavad uue mobiilirakenduse; kulisside taga käib 100 000-eurone uuendus.",
+   "max": 1000000,
+   "min": 5000,
+   "prompt": "Kui suur on Yle andmetel uuendus, mille tõttu suleti Kuopio linnaraamatukogu kaheks nädalaks?",
+   "src": "Yle",
+   "type": "number",
+   "unit": "eurot",
+   "url": "https://yle.fi/a/74-20252126"
+  },
+  {
+   "answer": 1,
+   "cat": "majandus",
+   "explain": "Kütusehinna languse pealkiri oli võlts. Päriselt võttis Leedu raudteevedaja LTG Link kasutusele uued Šveitsis ehitatud Stadleri elektrirongid ning kuus energiaettevõtet hoiatasid, et salvestite võrgutasu tõus uuest aastast pärsib uute akusalvestite rajamist.",
+   "options": [
+    "Leedu võttis kasutusele uued Stadleri rongid",
+    "Statistikaamet: kütuse hind langes septembris aastaga kümnendiku võrra",
+    "Akusalvestite omanikud hoiatavad võrgutasude tõusu pärssiva mõju eest"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610174648/akusalvestite-omanikud-hoiatavad-vorgutasude-tousu-parssiva-moju-eest"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Rain Ventsel on kirjutanud muusikat näiteks „Sõrmuste isanda” sarja, „Avatari” ja „Tasujate” treileritele, kuid eelistab glamuursetele üritustele Hiiumaad, kus tema looming sünnib.",
+   "lat": 58.88,
+   "lon": 22.63,
+   "place": "Hiiumaa",
+   "prompt": "Kus sünnib Hollywoodi filmitreileritele muusikat kirjutava produtsendi Rain Ventseli looming?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://eeter.err.ee/1610174557/hollywoodi-filmitreilerite-muusikaprodutsent-mu-looming-sunnib-hiiumaal"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Elu24 kirjutas, et sotsiaaldemokraatide suurejooneline pressikonverents pälvis kriitikat ja seda nimetati lollakalt ameerikalikuks.",
+   "headline": "«Lollakalt ___!» Sotside suurejooneline pressikonverents sattus kriitika alla",
+   "options": [
+    "nõukogulik",
+    "ameerikalik",
+    "venelik",
+    "rootsilik"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8570142/poliitsou-lollakalt-ameerikalik-sotside-suurejooneline-pressikonverents-sattus-kriitika-alla"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, Al Jazeera",
+ "ticker": [
+  "Ukraina ründas Vene maksuameti andmekeskust",
+  "Putin on valmis rahukõnelusteks, aga oma nõudmistest ei tagane",
+  "Eesti võrkpallikoondise uueks peatreeneriks saab Rainer Vassiljev",
+  "Sotside toetus on tõusnud rekordtasemele",
+  "Eesti läheb pühapäeval üle talveajale ja kella tuleb tagasi keerata",
+  "Südalinna teatris esietendub Andrus Kivirähki uus jõululugu \"Maria ja jõulud\"",
+  "Õiguskantsler: tehnikaülikool kohtleb Vene ja Valgevene kodanikke ebavõrdselt",
+  "USA senaatorid kiirustavad valitsust Balti riikide kaitsetoetuse raha välja maksma"
+ ]
+}
