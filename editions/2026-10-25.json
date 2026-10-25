@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-25",
+ "generatedAt": "2026-10-25T06:52:05+02:00",
+ "label": "Pühapäev, 25. oktoober 2026",
+ "questions": [
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Postitõlla leid oli võlts. Päris lood: Baierimaal puhkes tulekahju Kotkapesas, mida kustutama saadeti ligi 200 tuletõrjujat, ning Pentagon kinnitas, et Hegsethi meeskond lõhkus kolimisel Eisenhowerile kuulunud gloobuse.",
+   "options": [
+    "Baierimaal süüdati Hitleri mägiresidents Kotkapesa",
+    "Hegsethi meeskond lõhkus Eisenhowerile kuulunud gloobuse",
+    "Šveitsis leiti liustiku alt 18. sajandi postitõld"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610176039/baierimaal-suudati-hitleri-magiresidents-kotkapesa"
+  },
+  {
+   "answer": 25000,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Madridis meelt avaldanud umbes 25 000 inimest nõudsid, et pensionid oleksid jätkuvalt seotud inflatsiooniga ning et meeste ja naiste pensionilõhe kaotataks.",
+   "max": 200000,
+   "min": 1000,
+   "prompt": "Kui palju inimesi kogunes Al Jazeera andmetel Madridis meeleavaldusele Hispaania riikliku pensionisüsteemi toetuseks?",
+   "src": "Al Jazeera",
+   "type": "number",
+   "unit": "inimest",
+   "url": "https://www.aljazeera.com/news/2026/10/24/about-25000-rally-in-madrid-in-support-of-spains-state-pension-scheme"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Tele- ja teatriprodutsent Karl Kermes pani Facebooki sõidukite ostu-müügi grupis müüki neljarattalise masina, mille tagaosa on põhjalikult ümber ehitatud ja millega saab ka peo käima panna.",
+   "headline": "Teleprodutsent Karl Kermes pani müüki ebatavalise masina: soovi korral saab kaasa ka ___",
+   "options": [
+    "ettevõtte",
+    "garaaži",
+    "haagise",
+    "juhi"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8570750/teleprodutsent-karl-kermes-pani-muuki-ebatavalise-masina-soovi-korral-saab-kaasa-ka-ettevotte"
+  },
+  {
+   "cat": "sise",
+   "explain": "Kurtna platvorm tuleb 115 meetrit pikk. Kõik 12 kohalikku peatust peaksid valmima 2032. aastaks, samal ajal Tallinna–Pärnu raudteega.",
+   "lat": 59.2289,
+   "lon": 24.7508,
+   "place": "Kurtna (Saku vald)",
+   "prompt": "Kus valmib tänavu esimene Rail Balticu kohaliku peatuse ooteplatvorm?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610175031/esimene-rail-balticu-ooteplatvorm-valmib-tanavu-kurtnas"
+  },
+  {
+   "answer": 0,
+   "cat": "kultuur",
+   "explain": "Nii ütles Michael Cooney komöödia „Rahauputus” lavastaja Andrus Vaarik. Lavastus esietendus laupäeval Pärnus.",
+   "options": [
+    "Andrus Vaarik",
+    "Elmo Nüganen",
+    "Priit Pedajas",
+    "Tiit Ojasoo"
+   ],
+   "quote": "Oleme hoidunud lolli mängimisest.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://kultuur.err.ee/1610174992/rahauputuse-lavastaja-andrus-vaarik-oleme-hoidunud-lolli-mangimisest"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Jääraamatukogu Rovaniemis oli võlts. Päris lood: Yle kirjutas, et teadlaste arvates maalis van Gogh „Tähise öö” suuresti otsese vaatluse põhjal, ning aasta loodusfotol on lennul herilane ja admiral-liblikas.",
+   "options": [
+    "Aasta loodusfotol lendavad herilane ja admiral",
+    "Rovaniemis avati maailma suurim jääst ehitatud raamatukogu",
+    "Teadlased usuvad, et Vincent van Gogh nägi „Tähist ööd” päriselt"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20253173"
+  },
+  {
+   "answer": 13.5,
+   "cat": "sise",
+   "decimals": 1,
+   "explain": "Ukraina ülesehituse konverentsi korraldamine Tallinnas läheb Eestile maksma 13,5 miljonit eurot.",
+   "max": 150,
+   "min": 1,
+   "prompt": "Kui palju läheb Eestile maksma järgmisel aastal Tallinnas peetav Ukraina ülesehituse konverents (miljonites eurodes)?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "mln eurot",
+   "url": "https://www.err.ee/1610173132/ukraina-ulesehituse-konverents-laheb-eestile-maksma-13-5-miljonit-eurot"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Mehitamata õhusõiduk leiti laupäeval Liepna vallast. Läti relvajõudude hinnangul kukkus see alla 18. oktoobril, kui teatati plahvatusesarnasest mürast. Pealkiri on tõlgitud inglise keelest.",
+   "headline": "Kukkunud ___ leiti Alūksne piirkonnast",
+   "options": [
+    "helikopter",
+    "droon",
+    "meteoriit",
+    "õhupall"
+   ],
+   "src": "LSM",
+   "type": "blank",
+   "url": "https://eng.lsm.lv/article/society/defence/24.10.2026-crashed-drone-found-in-aluksne-district.a668940/"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Marco Tasane avaldas uue muusikavideo Ungari ansambli Neoton Família 1980. aastate hiti „Marathon” uuele versioonile ja filmis üle poole videomaterjalist ise.",
+   "options": [
+    "Ott Lepland",
+    "Marco Tasane",
+    "Jüri Pootsmann",
+    "Stefan Airapetjan"
+   ],
+   "quote": "Ma ise filmisin!",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8570270/ma-ise-filmisin-marco-tasane-andis-valja-uue-muusikavideo"
+  },
+  {
+   "cat": "sise",
+   "explain": "Transpordiameti hinnangul pole Caroline väikelaev, kuid Narva jõesadam on registreeritud väikesadamana. Sel suvel sõitis jõetrammiga veidi alla 3000 reisija, esimestel hooaegadel umbes 10 000.",
+   "lat": 59.3772,
+   "lon": 28.1903,
+   "place": "Narva",
+   "prompt": "Millise linna jõesadamale on jõelaev Caroline 120 cm liiga pikk, mistõttu jõe reisilaevaliiklus on sulgemisohus?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610175109/narva-joe-reisilaevaliiklus-on-sulgemisohus"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Kummalise koduaia telesaade oli võlts. Päris lood: Elu24 näitas pilte Mart Sanderi ja Eha Urbsalu filmi „Elu Etüüdid” esilinastuselt ning kirjutas Lidli köögirobotist, mis tekitas Soomes suure ostuhuvi.",
+   "options": [
+    "Uus telesaade otsib Eesti kõige kummalisema koduaiaga peret",
+    "Vaata, mis toimus Mart Sanderi ja Eha Urbsalu filmi «Elu Etüüdid» eksklusiivsel esilinastusel",
+    "Lidli köögirobot tekitas Soomes tõelise ostuhuvi. Kas see jõuab ka Eestisse?"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8570550/galerii-vaata-mis-toimus-mart-sanderi-ja-eha-urbsalu-filmi-elu-etuudid-eksklusiivsel-esilinastusel"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Sloveenia endine president Milan Kučan kritiseeris nii Sromljes peetud mälestusüritusel valitsuse interventsiooniseadust. Tsitaat on tõlgitud sloveeni keelest.",
+   "options": [
+    "Borut Pahor",
+    "Janez Janša",
+    "Danilo Türk",
+    "Milan Kučan"
+   ],
+   "quote": "Tegu on meie ühiskonnakoe plaanipärase lagundamisega.",
+   "src": "RTV SLO",
+   "type": "who",
+   "url": "https://www.rtvslo.si/slovenija/kucan-o-intervencijskem-zakonu-gre-za-nacrtno-razkrajanje-nasega-druzbenega-tkiva/797985"
+  },
+  {
+   "answer": 3,
+   "cat": "kultuur",
+   "explain": "Taavi Aru dokumentaalfilm ansamblist Puuluup võitis Aserbaidžaanis festivalil parima rahvusvahelise muusikadokumentaali auhinna.",
+   "headline": "Puuluubi dokumentaalfilm võitis ___ rahvusvahelise filmiauhinna",
+   "options": [
+    "Gruusias",
+    "Kasahstanis",
+    "Armeenias",
+    "Aserbaidžaanis"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://kultuur.err.ee/1610176024/puuluubi-dokumentaalfilm-voitis-aserbaidzaanis-rahvusvahelise-filmiauhinna"
+  },
+  {
+   "answer": 0,
+   "cat": "sise",
+   "explain": "Rääbisesaagi rekord oli võlts. Päris lood: Eesti umbes 1600 vangi kaebused moodustavad üle veerandi halduskohtu asjadest ning Eesti parimad politseikoerad ja nende juhid kogunesid Harkus.",
+   "options": [
+    "Peipsi kalurid said tänavu rekordilise rääbisesaagi",
+    "Vangide kaebused koormavad kohtuid",
+    "Droonid ega tehisaru ei asenda terava ninaga politseikoera"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610174935/vangide-kaebused-koormavad-kohtuid"
+  },
+  {
+   "answer": 24,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Elu24 kirjutas, et võimas tsüklon paneb saartel tuule uluma ja puhangud võivad ulatuda 24 meetrini sekundis.",
+   "max": 200,
+   "min": 2,
+   "prompt": "Mitme meetrini sekundis võivad Elu24 teatel saartel tsükloni ajal ulatuda tuulepuhangud?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "m/s",
+   "url": "https://elu24.postimees.ee/8570837/torm-tuleb-voimas-tsuklon-paneb-saartel-tuule-uluma-puhangud-voivad-ulatuda-24-meetrini-sekundis"
+  },
+  {
+   "cat": "sport",
+   "explain": "Laupäeval peeti Järvakandis Balti riikide võistkondlikud murdmaajooksu meistrivõistlused.",
+   "lat": 58.7797,
+   "lon": 24.8231,
+   "place": "Järvakandi",
+   "prompt": "Kus selgitati laupäeval välja murdmaajooksu Balti meistrid?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://sport.err.ee/1610175094/laupaeval-selgitatakse-jarvakandis-valja-murdmaajooksu-balti-meistrid"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, LSM, RTV SLO, Al Jazeera",
+ "ticker": [
+  "Kaunase Žalgiris viskas Euroliigas 105 punkti",
+  "Zelenski: Starlinki töö on endiselt piiratud",
+  "SK Tapa pääses karikavõistlustel nelja hulka",
+  "Trump ähvardas kehtestada Venemaale ja Ukrainale 200-protsendised tollid",
+  "Selgus Tallinna Raekoja platsi avaliku ruumi ideevõistluse võidutöö",
+  "Keskerakonna ja sotside toetuse tõusu taga on valimiskampaania algus",
+  "VAR halastas ja Metsa klubi pääses viigiga",
+  "Iisrael alustas Läänekaldal ulatuslikku operatsiooni"
+ ]
+}
