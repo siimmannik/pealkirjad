@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-27",
+ "generatedAt": "2026-10-27T04:53:01Z",
+ "label": "Teisipäev, 27. oktoober 2026",
+ "questions": [
+  {
+   "cat": "kultuur",
+   "explain": "EELK Ambla Maarja kogudus lasi Ambla kalmistul asuvale Starkopfi Carrara marmorist hauaskulptuurile paigaldada varikatuse. Skulptuur restaureeriti neli aastat tagasi.",
+   "lat": 59.1806,
+   "lon": 25.8442,
+   "place": "Ambla",
+   "prompt": "Kus asub Anton Starkopfi marmorskulptuur „Poiss moonidega“, mis sai ilmastiku eest kaitseks varikatuse?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610177464/ambla-aleviku-poiss-moonidega-sai-varikatuse"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Võlts oli Pärnu öise lisakontserdi lugu. Elu24 päris lood: Tallinnas toimus Austraalia meeste tantsuetendus ja Tartus märgati multifilmist pärit moodi sõidukit.",
+   "options": [
+    "«Publik ei tahtnud lahkuda!» Pärnu kontserdimajas anti lisakontsert keset ööd",
+    "Palju paljast ihu: Tallinnas toimus Austraalia meeste energiline tantsuetendus",
+    "«See on küll kuskilt multifilmist plehku pannud!» Tartus märgati pilkupüüdvat sõidukit"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8571190/galerii-palju-paljast-ihu-tallinnas-toimus-austraalia-meeste-energiline-tantsuetendus"
+  },
+  {
+   "answer": 240,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Riia lennujaam katsetas elusloomade lennueksporti: kahe proovilennuga viidi Taškenti kokku 240 Eestist pärit noorlooma. Lend kestab neli kuni viis tundi, maanteed pidi võtaks teekond kuni kuu.",
+   "max": 3000,
+   "min": 20,
+   "prompt": "Mitu Eestist pärit noorveist lennutati kahe proovilennuga Riia lennujaamast Usbekistani Taškenti?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "looma",
+   "url": "https://eng.lsm.lv/article/economy/economy/26.10.2026-when-cows-fly-riga-airport-tries-out-live-cattle-export.a669121/"
+  },
+  {
+   "answer": 2,
+   "cat": "kultuur",
+   "explain": "Kirill Havanski lavastus Tartu Uues Teatris jälgib ummikusse jäänud inimesi, kes otsivad paika, kuhu argielu eest põgeneda.",
+   "headline": "Kirill Havanski: maailmas on praegu väga ___ olla",
+   "options": [
+    "raske",
+    "kitsas",
+    "hõre",
+    "ohtlik"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://kultuur.err.ee/1610177359/kirill-havanski-maailmas-on-praegu-vaga-hore-olla"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Prantsuse noor rattur Paul Seixas, kelle leping Decathlon CMA CGM-iga lõpeb järgmise aasta lõpus, ütles, et võtab otsustamiseks aega; tema vastu tunnevad huvi ka UAE ja Visma. Tsitaat on tõlgitud sloveeni keelest.",
+   "options": [
+    "Tadej Pogačar",
+    "Remco Evenepoel",
+    "Primož Roglič",
+    "Paul Seixas"
+   ],
+   "quote": "Seekord mul lepingu allkirjastamisega kiiret ei ole.",
+   "src": "RTV SLO",
+   "type": "who",
+   "url": "https://www.rtvslo.si/sport/kolesarstvo/paul-seixas-tokrat-se-mi-ne-mudi-s-podpisom-pogodbe/798165"
+  },
+  {
+   "answer": 60000,
+   "cat": "majandus",
+   "decimals": 0,
+   "explain": "Microsoft pakub vabatahtliku lahkumise hüvitist umbes 60 000 töötajale ehk ligikaudu veerandile oma töötajaskonnast.",
+   "max": 500000,
+   "min": 2000,
+   "prompt": "Kui paljudele töötajatele pakub Microsoft vabatahtliku lahkumise hüvitist?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "töötajat",
+   "url": "https://www.err.ee/1610177473/microsoft-pakub-vabatahtliku-lahkumise-huvitist-60-000-tootajale"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "Võlts oli pühapäevase postikande uudis. Yle päris lood: Turu uus muusikamaja Fuuga avas uksed publikule ning tundmatutelt saatjatunnustelt tulevad tekstisõnumid märgitakse edaspidi rämpspostiks.",
+   "options": [
+    "Soomes hakatakse kirju kätte toimetama ka pühapäeviti",
+    "Turu uue muusikamaja Fuuga uksed avanevad publikule",
+    "Tekstisõnumitele tuleb rämpsposti märge – pettustega võideldakse uuel viisil"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20253271"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Cybernetica arendusjuht Arne Ansper peab plaani registreerida AI-agendid riiklikus andmebaasis praegusel kujul riskantseks: registreerimine üksi kasu ei too, kui agendil pole tugevat autentimis- või allkirjastamisvahendit.",
+   "options": [
+    "Taavi Kotka",
+    "Arne Ansper",
+    "Linnar Viik",
+    "Ott Velsberg"
+   ],
+   "quote": "Me ei tohi AI-agentidega oma e-riiki tuksi keerata.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610177347/cybernetica-arendusjuht-me-ei-tohi-ai-agentidega-oma-e-riiki-tuksi-keerata"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Lidli ligi 400-eurone köögirobot Monsieur Cuisine, mis kaalub, hakib, segab, keedab ja sõtkub tainast, tekitas Soomes suurt ostuhuvi.",
+   "headline": "Lidli ___ tekitas Soomes tõelise ostuhuvi. Kas see jõuab ka Eestisse?",
+   "options": [
+    "köögirobot",
+    "robottolmuimeja",
+    "õhufritüür",
+    "kohvimasin"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8570419/koik-teeb-ise-ara-lidli-koogirobot-tekitas-soomes-toelise-ostuhuvi-kas-see-jouab-ka-eestisse"
+  },
+  {
+   "cat": "majandus",
+   "explain": "Maaklerite sõnul on Rail Balticu tähtaja edasilükkumine liiga värske, et Pärnu kinnisvaraturul kajastuda; kohalikud loodavad rongiühendust 2032. aastaks.",
+   "lat": 58.3859,
+   "lon": 24.4971,
+   "place": "Pärnu",
+   "prompt": "Millise linna kinnisvaraturgu pole maaklerite sõnul Rail Balticu valmimistähtaja edasilükkumine seni mõjutanud?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610177407/rail-balticu-edasilukkumine-pole-parnu-kinnisvaraturgu-mojutanud"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Võlts oli kilomeetripostide pealkiri. ERR-i päris lood: politsei plaanib muuta mobiilsete kiiruskaamerate kasutamist ning kauplused võtavad üha enam kasutusele elektroonilisi hinnasilte.",
+   "options": [
+    "Politsei plaanib muuta mobiilsete kiiruskaamerate kasutamist",
+    "Kauplused kasutavad kaupadel üha enam elektroonilisi hinnasilte",
+    "Transpordiamet plaanib asendada maanteede kilomeetripostid QR-koodidega"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610177404/politsei-plaanib-muuta-mobiilsete-kiiruskaamerate-kasutamist"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Tudengite toetatud liikumine võitis Serbia parlamendivalimised ja lõpetas Moskva-meelse populistliku liidri enam kui kümneaastase domineerimise. Pealkiri on tõlgitud inglise keelest.",
+   "headline": "„Vabaduse ___“: Serbia tudengiliikumine tähistab valimisvõitu",
+   "options": [
+    "maik",
+    "tuul",
+    "lõhn",
+    "hõng"
+   ],
+   "src": "NPR",
+   "type": "blank",
+   "url": "https://www.npr.org/2026/10/26/nx-s1-6016298/serbia-student-list-vucic-election"
+  },
+  {
+   "answer": 3,
+   "cat": "meelelahutus",
+   "explain": "Lauljatar Birgit Sarrap tunnistas, et tema rõõmsa naeratuse taga peituvad kahtlused selle üle, kellele teda ja tema muusikat vaja on.",
+   "options": [
+    "Laura Põldvere",
+    "Getter Jaani",
+    "Liis Lemsalu",
+    "Birgit Sarrap"
+   ],
+   "quote": "Kellele mind ja mu muusikat vaja on?",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8570970/avameelselt-birgit-sarrapi-roomsa-naeratuse-taga-peituvad-kahtlused-kellele-mind-ja-mu-muusikat-vaja-on"
+  },
+  {
+   "answer": 1.2,
+   "cat": "majandus",
+   "decimals": 1,
+   "explain": "Eriplaneeringu koostaja peab kolme aastaga leidma vesinikutorule asukoha; planeering maksab ligi 1,2 miljonit eurot, toru rajamine läbi kuue riigi aga seitse kuni kümme miljardit eurot.",
+   "max": 20,
+   "min": 0.1,
+   "prompt": "Kui palju maksab Eleringi tellitud Soome–Saksamaa vesinikutoru eriplaneering (miljonites eurodes)?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "mln €",
+   "url": "https://www.err.ee/1610177374/eriplaneeringu-koostaja-peab-kolme-aastaga-leidma-vesinikutorule-asukoha"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Võlts oli Saaremaa kartulipõllu leid. Elu24 päris lood: turistide ATV-sõit Tais lõppes mudas ning Google’i andmekeskuse rajamiseks kadus Soomes veerand miljonit puud.",
+   "options": [
+    "Puhkus Tais võttis ootamatu pöörde! Turistide pöörane ATV-sõit lõppes pealaest jalatallani mudasena",
+    "Veerand miljonit puud kadus! Google’i andmekeskuse rajamine ajas soomlased tagajalgadele",
+    "Uskumatu leid! Saaremaa talunik kaevas kartulipõllult välja vana Moskvitši"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8571041/video-puhkus-tais-vottis-ootamatu-poorde-turistide-poorane-atv-soit-loppes-pealaest-jalatallani-mudasena"
+  },
+  {
+   "cat": "sise",
+   "explain": "Regionaal- ja põllumajandusministeerium plaanib langetada Tallinna–Kuressaare lennuliini piletihindu; Saaremaa vald soovib, et plaan oleks paindlikum ja odavamad piletid jõuaksid rohkemate reisijateni.",
+   "lat": 58.2528,
+   "lon": 22.4853,
+   "place": "Kuressaare",
+   "prompt": "Millisesse linna Tallinnast lendamise hindu plaanib valitsus langetada?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610177402/valitsus-plaanib-langetada-tallinnast-kuressaarde-lendamise-hindu"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, NPR",
+ "ticker": [
+  "Kiievit tabas Venemaa raketirünnak",
+  "Maailma parimaks jalgpalluriks valiti Harry Kane",
+  "Eesti kurlingunaiskond alustab EM-i: see on olnud üks põnev aeg",
+  "Teisipäeval on sooja kuni 13 kraadi",
+  "Tallinna uued kinod otsivad kinoturul oma kohta",
+  "Sinner lõpetab vigastuspausi Riyadhis",
+  "Tšehhis protestitakse avalik-õigusliku meedia rahastamise muutmise vastu",
+  "Draamateatri lavale jõuab Kivirähki-Toompere \"Tõde ja õigus\""
+ ]
+}
