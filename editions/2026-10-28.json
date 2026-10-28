@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-28",
+ "generatedAt": "2026-10-28T04:52:19Z",
+ "label": "Kolmapäev, 28. oktoober 2026",
+ "questions": [
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Riigikogu hoone sulgemise pealkiri oli võlts. Päris lood: Reformierakonna riigikogulane Liina Kersna teatas poliitikapausist ning valitsus eraldas siseministeeriumile hoone renoveerimiseks veel 11 miljonit eurot.",
+   "options": [
+    "Liina Kersna teeb poliitikast pausi",
+    "Riigikogu hoone suletakse renoveerimise tõttu kaheks aastaks külastajatele",
+    "Valitsus eraldas siseministeeriumile uue hoone renoveerimiseks 11 miljonit eurot"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610178451/liina-kersna-teeb-poliitikast-pausi"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Euroopa Pilootide Ühenduse (ECA) küsitlusele vastas 7200 pilooti; 75% tunnistas, et on viimase kuu jooksul kokpitis hetkeks tukastanud. Pealkiri on tõlgitud sloveeni keelest.",
+   "headline": "Uuring: ___ Euroopa lennukipilootidest lendab, kui nad on tööks liiga väsinud",
+   "options": [
+    "kümnendik",
+    "pool",
+    "veerand",
+    "kolmandik"
+   ],
+   "src": "RTV SLO",
+   "type": "blank",
+   "url": "https://www.rtvslo.si/svet/evropa/raziskava-cetrtina-evropskih-letalskih-pilotov-leti-ko-so-prevec-utrujeni-za-delo/798152"
+  },
+  {
+   "cat": "sise",
+   "explain": "Kostivere karstialale on rajatud uus õpperada, mis tehakse ka ratastooliga läbitavaks. Jõe veetase võib seal kõikuda kuni viis meetrit.",
+   "lat": 59.4268,
+   "lon": 25.0784,
+   "place": "Kostivere karstiala",
+   "prompt": "Kus karstialal saab praegu imetleda kiviseeni ja jälgida, kuidas maa-alune Jõelähtme jõgi end maapinnale surub?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610178664/kostivere-karstiala-naitab-huvitavat-looduse-vaatemangu"
+  },
+  {
+   "answer": 3,
+   "cat": "meelelahutus",
+   "explain": "Laulja ja telesaatejuht Birgit Sarrap rääkis saates „Hommik Anuga” oma kahtlustest. Ta juhib saadet „Suur muusikamäng” ja teeb esimest korda kaheksa aasta jooksul uut muusikat.",
+   "options": [
+    "Laura Põldvere",
+    "Getter Jaani",
+    "Liis Lemsalu",
+    "Birgit Sarrap"
+   ],
+   "quote": "Kellele mind ja mu muusikat vaja on?",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8570970/avameelselt-birgit-sarrapi-roomsa-naeratuse-taga-peituvad-kahtlused-kellele-mind-ja-mu-muusikat-vaja-on"
+  },
+  {
+   "answer": 539,
+   "cat": "majandus",
+   "decimals": 0,
+   "explain": "Pangad teenisid üheksa kuuga 539 miljonit eurot kasumit, umbes 9% rohkem kui aasta varem. Kasumit toetasid laenuportfelli kasv ja euribori tõus.",
+   "max": 5000,
+   "min": 50,
+   "prompt": "Kui suure kasumi teenisid Eesti pangad Eesti Panga andmetel selle aasta esimese üheksa kuuga?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "miljonit eurot",
+   "url": "https://www.err.ee/1610178550/pangad-on-seni-mullusest-uheksa-protsenti-rohkem-kasumit-teeninud"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Yle teatas, et Super Bowli vaheaja show peaesineja on räppar Jay-Z. Pealkiri on tõlgitud soome keelest.",
+   "headline": "___ Super Bowli vaheaja show peaesinejaks",
+   "options": [
+    "Drake",
+    "Jay-Z",
+    "Eminem",
+    "Kendrick Lamar"
+   ],
+   "src": "Yle",
+   "type": "blank",
+   "url": "https://yle.fi/a/74-20253468"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Õitseva kirsipuu lugu oli võlts. Päris lood: Tartus märgati multifilmist pärit moodi sõidukit ning Lidli köögirobot tekitas Soomes suure ostuhuvi.",
+   "options": [
+    "«See on küll kuskilt multifilmist plehku pannud!» Tartus märgati pilkupüüdvat sõidukit",
+    "Lidli köögirobot tekitas Soomes tõelise ostuhuvi. Kas see jõuab ka Eestisse?",
+    "«Selline asi juhtub kord elus!» Saaremaal märgati keset oktoobrit õitsvat kirsipuud"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8570419/koik-teeb-ise-ara-lidli-koogirobot-tekitas-soomes-toelise-ostuhuvi-kas-see-jouab-ka-eestisse"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Välisministeeriumi kantsler Jonatan Vseviov kommenteeris nii Soome presidendi Alexander Stubbi ja Norra peaministri Jonas Gahr Støre telefonikõnet Vladimir Putiniga. Tema sõnul arvab Venemaa endiselt, et suudab sõja võita.",
+   "options": [
+    "Margus Tsahkna",
+    "Jonatan Vseviov",
+    "Alar Karis",
+    "Kristen Michal"
+   ],
+   "quote": "Ma näen siin tegelikult rohkem riske kui võimalusi.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610178610/vseviov-konelustest-putiniga-riske-on-rohkem-kui-voimalusi"
+  },
+  {
+   "answer": 240,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Kahe proovilennuga viidi Riiast Taškenti 240 Eesti noorveist. Lend kestab 4–5 tundi, maanteed pidi võiks teekond aga võtta kuni kuu.",
+   "max": 4000,
+   "min": 20,
+   "prompt": "Mitu Eestist pärit noorveist lennutati kahe proovilennuga Riia lennujaamast Usbekistani pealinna Taškenti?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "looma",
+   "url": "https://eng.lsm.lv/article/economy/economy/26.10.2026-when-cows-fly-riga-airport-tries-out-live-cattle-export.a669121/"
+  },
+  {
+   "cat": "sise",
+   "explain": "Politsei andmetel kahjustati Kihelkonna kalmistul 105 hauda: hauakive lükati ümber ja kalmulaternaid lõhuti. Kuressaare politseijaoskond alustas kriminaalmenetlust.",
+   "lat": 58.3608,
+   "lon": 22.0838,
+   "place": "Kihelkonna kalmistu (Saaremaa)",
+   "prompt": "Millisel kalmistul kahjustasid vandaalid nädalavahetusel üle saja haua?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610178514/vandaalid-kahjustasid-kihelkonna-kalmistul-rohkem-kui-sadat-hauda"
+  },
+  {
+   "answer": 98000,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Full Lux küsib 19 istekohaga Mercedes-Benz Sprinteri eest 98 000 eurot. Bussi läbisõit on 24 000 kilomeetrit.",
+   "max": 1000000,
+   "min": 5000,
+   "prompt": "Mis hinnaga pani luksustranspordifirma Full Lux müüki oma 19-kohalise Mercedes-Benz Sprinteri bussi?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "eurot",
+   "url": "https://elu24.postimees.ee/8569973/osta-ara-luksustranspordiariga-tegelev-full-lux-on-muuki-pannud-uhke-mercedese-bussi"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "Bornholmi droonitõrjekeskuse pealkiri oli võlts. Päris lood: Poola rajab Patrioti õhutõrjesüsteemide hoolduskeskuse ning Euroopa Investeerimispank plaanib Kanadaga kriitiliste toorainete raamlepingut.",
+   "options": [
+    "Taani rajab Bornholmile NATO droonitõrjekeskuse",
+    "Poola rajab USA õhutõrjesüsteemide Patriot hoolduskeskuse",
+    "Euroopa Investeerimispank plaanib sõlmida Kanadaga kriitiliste toorainete lepingu"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610178655/poola-rajab-usa-ohutorjesusteemide-patriot-hoolduskeskuse"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Iraani president Masoud Pezeshkian ütles seda Venemaal gaasi eksportivate riikide tippkohtumisel. Pealkirjaväide on tõlgitud inglise keelest.",
+   "options": [
+    "Recep Tayyip Erdoğan",
+    "Mohammed bin Salman",
+    "Masoud Pezeshkian",
+    "Abdel Fattah el-Sisi"
+   ],
+   "quote": "Lähis-Ida suudab oma probleemid lahendada ilma USA-ta.",
+   "src": "Al Jazeera",
+   "type": "who",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-pezeshkian-says-middle-east-can-solve-own-issues-without-us"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Marmormaze avaldas õudusmängu „Mount Noire”, mille tegevus toimub Mustamäel – ka mängu nimi viitab Mustamäele.",
+   "lat": 59.406,
+   "lon": 24.69,
+   "place": "Mustamäe (Tallinn)",
+   "prompt": "Millisest paigast on inspireeritud stuudio Marmormaze äsja avaldatud õudusmäng „Mount Noire”?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610178541/marmormaze-avaldas-mustamaest-inspireeritud-oudusmangu-mount-noire"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Elu24 kirjutas, et Google'i andmekeskuse rajamise käigus kadus Soomes veerand miljonit puud, mis tekitas kohalikes pahameelt.",
+   "headline": "Veerand miljonit puud kadus! Google’i andmekeskuse rajamine ajas ___ tagajalgadele",
+   "options": [
+    "rootslased",
+    "soomlased",
+    "norralased",
+    "taanlased"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8570824/kuidas-on-see-voimalik-veerand-miljonit-puud-kadus-google-i-andmekeskuse-rajamine-ajas-soomlased-tagajalgadele"
+  },
+  {
+   "answer": 2,
+   "cat": "kultuur",
+   "explain": "Kumu videokunstinäituse pealkiri oli võlts. Päris lood: Eesti Laulu žüriiliige Inga rääkis, millised artistid meelde jäävad, ning Berit Teeäär meenutas kunstnik Anu Põdra unikaalsust.",
+   "options": [
+    "Eesti Laulu žürii liige Inga: enim jäävad meelde artistid, kes jäävad endale kindlaks",
+    "Berit Teeäär: Anu Põder jäi silma oma unikaalsuses",
+    "Kumu avab talvel suure ülevaatenäituse Eesti videokunstist"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://eeter.err.ee/1610178502/eesti-laulu-zurii-liige-inga-enim-jaavad-meelde-artistid-kes-jaavad-endale-kindlaks"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, Al Jazeera",
+ "ticker": [
+  "Kolmapäeval on nii päikest kui ka vihma",
+  "Läti uus valitsuskoalitsioon pole veel selge",
+  "Rail Balticu ehitus keskendub praegu Tallinna-Pärnu lõigule",
+  "Flora noored kohtuvad Chelseaga: see on preemia tehtud tulemuse eest",
+  "Aigro tahab jõuda MK-etapil pjedestaalile, Vagul kodus kaela MM-kulda",
+  "Levadia pööras teisel poolajal Tammeka vastu kaotusseisu võiduks",
+  "Mustmaa pääses Serbia kõrgliigas vooru sümboolsesse koosseisu",
+  "Tamm alustas Singapuri turniiri topeltvõiduga"
+ ]
+}
