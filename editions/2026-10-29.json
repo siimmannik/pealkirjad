@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-29",
+ "generatedAt": "2026-10-29T04:51:15+00:00",
+ "label": "Neljapäev, 29. oktoober 2026",
+ "questions": [
+  {
+   "cat": "majandus",
+   "explain": "Aidu tuulepargil on olnud pikk ja keeruline ehituslugu. Sel nädalal veetakse kohale kahe tuuliku osad ja pargi esimene etapp peaks valmima aasta lõpuks.",
+   "lat": 59.306,
+   "lon": 27.07,
+   "place": "Aidu tuulepark (Lüganuse vald)",
+   "prompt": "Kuhu Ida-Virumaal veetakse sel nädalal veel kahe tuuliku osi – pika ja keerulise ehitusajalooga tuulepargi esimene etapp peaks valmima aasta lõpuks?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610179372/aidu-tuulepargi-esimene-etapp-saab-valmis-aasta-lopuks"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Nii ütles Andres Puusepp, kes rääkis Elu24-le, miks kallima käe palumine oli talle sedavõrd raske.",
+   "options": [
+    "Ott Sepp",
+    "Andres Puusepp",
+    "Märt Avandi",
+    "Tanel Padar"
+   ],
+   "quote": "Mulle ei meeldinud see hetk!",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8572090/mulle-ei-meeldinud-see-hetk-andres-puusepp-avaldab-miks-kallima-kae-palumine-talle-sedavord-raske-oli"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "Novembris algava kuuajalise katse raames annavad pered 15 Sardiinia söögikohas söögi ajaks telefonid ja muud seadmed töötajatele ning saavad vastu joonistus- ja mängukomplekti. Pealkiri on tõlgitud sloveeni keelest.",
+   "headline": "Mõned Sardiinia restoranid võtavad peredelt ___ ära",
+   "options": [
+    "telefonid",
+    "autovõtmed",
+    "rahakotid",
+    "mänguasjad"
+   ],
+   "src": "RTV SLO",
+   "type": "blank",
+   "url": "https://www.rtvslo.si/zabava-in-slog/zanimivosti/nekatere-sardinske-restavracije-bodo-druzinam-vzele-telefone/798295"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Pärnu mootorrataste öine sõidukeeld oli välja mõeldud. Päris lood: bituumeninappus on tõstnud asfaldi hinda ja osa teetöid lükkub järgmisse aastasse ning iseseisvad arendajad on teinud Tallinna ühistranspordi veebilehele alternatiivseid rakendusi.",
+   "options": [
+    "Bituumeninappus on Eestis asfaldi hinna kõrgele tõstnud",
+    "Pärnu kaalub kesklinnas mootorrataste öise sõidukeelu kehtestamist",
+    "Uued rakendused pakuvad Tallinna ühistranspordi veebikeskkonnale konkurentsi"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610179363/bituumeninappus-on-eestis-asfaldi-hinna-korgele-tostnud"
+  },
+  {
+   "answer": 197,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Elmar jõuab igal nädalal 197 000 inimeseni ja talle kuulub ligi 29 protsenti kommertsraadiote kuulamisajast. Järgnevad Sky Plus (173 000) ning Star FM ja Retro FM (kumbki 172 000).",
+   "max": 2000,
+   "min": 10,
+   "prompt": "Mitme tuhande inimeseni jõuab Kantar Emori värske uuringu järgi Eesti kuulatuim eraraadio Elmar igal nädalal?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "tuhat kuulajat",
+   "url": "https://elu24.postimees.ee/8572377/kuulatuima-eraraadio-elmar-peatoimetaja-eesti-muusikutel-on-monus-hoog-sees-ja-kuulajad-hindavad-seda"
+  },
+  {
+   "answer": 3,
+   "cat": "sise",
+   "explain": "Julgeolekuekspert Rainer Saks ütles pärast seda, kui Soome ja Norra juhid Putiniga telefonitsi rääkisid, et Euroopal puudub ühine plaan Moskvaga suhtlemiseks.",
+   "options": [
+    "Martin Hurt",
+    "Kalev Stoicescu",
+    "Meelis Oidsalu",
+    "Rainer Saks"
+   ],
+   "quote": "On kahetsusväärne, et pole ühtset positsiooni Venemaaga suhtlemisel.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610179516/saks-on-kahetsusvaarne-et-pole-uhtset-positsiooni-venemaaga-suhtlemisel"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Turu naastrehvikeeld oli välja mõeldud. Päris lood: Soome maanteedel vahetatakse sel nädalal talvised kiiruspiirangud ning Kajaani koolilõunatel pakuti taas koorega kartuleid, mis õpilastele meeldis.",
+   "options": [
+    "Talvised kiiruspiirangud jõustuvad maanteedel sel nädalal",
+    "Kajaani koolides pakuti üle pika aja koorega kartuleid, õpilased rõõmustasid",
+    "Turu kaalub naastrehvide keelamist kesklinna tänavatel"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20253043"
+  },
+  {
+   "cat": "sport",
+   "explain": "Kalju võitis Paides 2:0 – väravad lõid Fjodor Jekimov 12. minutil ja Mattias Männilaan penaltist. Kalju jäi teisel kohal olevast Paidest maha kolme punktiga, hooaega on jäänud kaks vooru.",
+   "lat": 58.8856,
+   "lon": 25.5572,
+   "place": "Paide",
+   "prompt": "Kus alistas Nõmme Kalju Premium liiga 34. voorus võõrsil kodumeeskonda 2:0 ja vähendas vahet teisel kohal oleva klubiga kolmele punktile?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://sport.err.ee/1610179171/nomme-kalju-sekkus-hobemedali-heitlusesse"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Tiktokker Triin Saadi leidis uue armastuse Gruusiast ja tema uus mees on politseinik.",
+   "headline": "Tiktokker Triin Saadi leidis Gruusiast armastuse: mu uus mees on ___",
+   "options": [
+    "piloot",
+    "tuletõrjuja",
+    "politseinik",
+    "veinimeister"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8571483/tiktokker-triin-saadi-leidis-gruusiast-armastuse-mu-uus-mees-on-politseinik"
+  },
+  {
+   "answer": 27.5,
+   "cat": "valis",
+   "decimals": 1,
+   "explain": "Projekt RE-MENT sai ELi innovatsioonifondist kuni 27,5 miljonit eurot. Ventspilsi tehas suudaks toota kuni 500 000 tonni tsementi aastas.",
+   "max": 400,
+   "min": 2,
+   "prompt": "Kuni mitu miljonit eurot saab ELi innovatsioonifondist Rootsi firma Cemvisioni vähese heitega tsemenditehase projekt Läti Ventspilsis?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "miljonit eurot",
+   "url": "https://eng.lsm.lv/article/economy/business/27.10.2026-swedish-cemvision-to-produce-cement-in-ventspils-latvia.a669235/"
+  },
+  {
+   "answer": 0,
+   "cat": "kultuur",
+   "explain": "Haapsalu piiskopilinnuse uisuväljak oli välja mõeldud. Päris lood: Taavi Arus esitleb PÖFF-il eluloofilmi näitleja Jüri Järvetist ning neljapäeval tõuseb õhutemperatuur kuni 12 kraadini.",
+   "options": [
+    "Haapsalu piiskopilinnusesse rajatakse talveks uisuväljak",
+    "Taavi Arus tegi dokumentaalfilmi näitleja Jüri Järvetist",
+    "Neljapäeval on sooja kuni 12 kraadi"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610179403/taavi-arus-tegi-dokumentaalfilmi-naitleja-juri-jarvetist"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "Nii rääkis Finnairi tegevjuht Turkka Kuusisto, kui ministeeriumi ametnikud tegid ettepaneku, et riik lõpetaks siseliinilendude ostmise pärast 2028. aastat. Tsitaat on tõlgitud soome keelest.",
+   "options": [
+    "Turkka Kuusisto",
+    "Topi Manner",
+    "Lulu Ranne",
+    "Petteri Orpo"
+   ],
+   "quote": "Kui leiame turunišše, kus saame kaubanduslikult ja kasumlikult tegutseda, siis loomulikult kasutame need ära.",
+   "src": "Yle",
+   "type": "who",
+   "url": "https://yle.fi/a/74-20253602"
+  },
+  {
+   "answer": 3,
+   "cat": "sport",
+   "explain": "Bigbank/Kalev kaotas FIBA Euroopa karikasarja mängu Manchesteris 85:89, olles teisel poolajal suures eduseisus.",
+   "headline": "Bigbank/Kalev mängis ___ suure edu maha",
+   "options": [
+    "Londonis",
+    "Leedsis",
+    "Sheffieldis",
+    "Manchesteris"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://sport.err.ee/1610179528/bigbank-kalev-mangis-manchesteris-suure-edu-maha"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Loomaaia põhjapõdra nimekonkurss oli välja mõeldud. Päris lood: sünoptik ennustab novembri algusesse lörtsi ja lund ning Brigitte Bardot pidi isa käsul pulmaööl oma esimesest abikaasast eraldi magama.",
+   "options": [
+    "Sünoptik ennustab novembriks ilmamuutust: kuu alguses võib tulla lörtsi ja lund",
+    "Brigitte Bardot pidi isa käsul pulmaööl abikaasast eraldi magama",
+    "Tallinna loomaaed otsib jõuluks nime äsja saabunud põhjapõdrale"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8572555/kasukad-kapist-valja-sunoptik-ennustab-novembriks-ilmamuutust-kuu-alguses-voib-tulla-lortsi-ja-lund"
+  },
+  {
+   "answer": 136,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Ukraina korraldas ööl vastu neljapäeva Moskvale ulatusliku droonirünnaku. Moskva linnapea sõnul tulistati alla vähemalt 136 drooni.",
+   "max": 1500,
+   "min": 10,
+   "prompt": "Mitu drooni tulistati Moskva linnapea sõnul Ukraina ulatusliku öise droonirünnaku ajal vähemalt alla?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "drooni",
+   "url": "https://www.err.ee/1610179960/ukraina-korraldas-moskvale-ulatusliku-droonirunnaku"
+  },
+  {
+   "cat": "sport",
+   "explain": "Kalana testringid toimusid Audru ringrajal, kus Ralf Aron sõitis autoga rajarekordi. Umbes kaks miljonit eurot maksva auto tippkiirus oli sõidu ajal 234 km/h.",
+   "lat": 58.41,
+   "lon": 24.36,
+   "place": "Audru ringrada",
+   "prompt": "Millisel Eesti ringrajal testiti „Pealtnägija“ loos Eestis arendatavat Kalana superautot, millega Ralf Aron sõitis ka rajarekordi?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://eeter.err.ee/1610179294/pealtnagija-eestis-toodetakse-miljardaridele-voidusoiduautosid"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, LSM, RTV SLO",
+ "ticker": [
+  "Demokraadist USA senaator soovitas Vene kütust vedavatel laevadel kurssi muuta",
+  "Läti võimud pidasid kinni peaminister Kulbergsi nõuniku",
+  "USA föderaalreserv jättis intressimäärad muutmata",
+  "Soome ostab Iisraeli firmalt pea 85 miljoni euroga tankitõrjesüsteemi",
+  "Gaasi hind tõusis Euroopas üle aastate taas 100 eurost kõrgemale",
+  "TalTech/Alexela pani Läti Ülikooli kindlalt paika",
+  "Flora ja Chelsea noored leppisid avamängus viiki",
+  "Tallinn Fashion Weekil tutvustavad loomingut tuntud ja alles alustavad disainerid"
+ ]
+}
