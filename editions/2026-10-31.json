@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T06:53:11+02:00",
+  "label": "Laupäev, 31. oktoober 2026",
+  "questions": [
+    {
+      "cat": "sise",
+      "explain": "Tallinna loomaaias põgenesid karukassid Maimu ja Maru korduvalt; Maimu ronis põgenemise järel umbes 13,5 meetri kõrgusele lae alla. Loomaaed on Balti- ja Põhjamaades ainus koht, kus karukasse näeb.",
+      "lat": 59.425,
+      "lon": 24.654,
+      "place": "Tallinna loomaaed",
+      "prompt": "Kus asub loomaaed, kust korduvalt põgenenud karukassidele Maimule ja Marule nüüd uut kodu otsitakse?",
+      "src": "ERR",
+      "type": "map",
+      "url": "https://www.err.ee/1610180665/tallinna-loomaaed-otsib-karukassidele-uut-kodu"
+    },
+    {
+      "answer": 1,
+      "cat": "meelelahutus",
+      "explain": "Rebase-pealkiri oli võlts. Päris lood: Käärijä pidu Tallinnas Helitehases ning Raekoja platsi jõuluturu uus sirgjooneliste klaaspaviljonidega ilme, mis on kavas kasutusele võtta 2027. aastal.",
+      "options": [
+        "Helitehas hullus! Käärijä tõmbas Tallinnas pöörase «Cha Cha Cha» peo käima",
+        "«Me ei uskunud oma silmi!» Viru keskuse katusel jalutas rebane",
+        "«See on vanalinn, mitte Noblessner!» Tallinna jõuluturu uus ilme ajab kommenteerijad ärevile"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+      "src": "Elu24",
+      "type": "fake",
+      "url": "https://elu24.postimees.ee/8571831/see-on-vanalinn-mitte-noblessner-tallinna-jouluturu-uus-ilme-ajab-kommenteerijad-arevile"
+    },
+    {
+      "answer": 4.5,
+      "cat": "valis",
+      "decimals": 1,
+      "explain": "LSM-i andmetel oli Läti jaekaubanduse käive septembris (kalendriefektiga korrigeeritult ja püsivhindades) 4,5% suurem kui aasta varem.",
+      "max": 15,
+      "min": 0.1,
+      "prompt": "Mitu protsenti suurenes Läti jaekaubanduse käive 2026. aasta septembris võrreldes aasta varasemaga?",
+      "src": "LSM",
+      "type": "number",
+      "unit": "%",
+      "url": "https://eng.lsm.lv/article/economy/economy/29.10.2026-retail-trade-up-on-year-in-latvia.a668124/"
+    },
+    {
+      "answer": 1,
+      "cat": "sise",
+      "explain": "Parempoolsete esimees Lavly Perling leiab, et Eesti peab tegema valusaid otsuseid, näiteks külmutama riigi kulud ja peatama pensionide indekseerimise.",
+      "options": [
+        "Jürgen Ligi",
+        "Lavly Perling",
+        "Urmas Reinsalu",
+        "Kristina Kallas"
+      ],
+      "quote": "Tuleviku arvelt elamine ei ole Eesti jaoks jätkusuutlik.",
+      "src": "ERR",
+      "type": "who",
+      "url": "https://www.err.ee/1610180755/perling-tuleviku-arvelt-elamine-ei-ole-eesti-jaoks-jatkusuutlik"
+    },
+    {
+      "answer": 2,
+      "cat": "meelelahutus",
+      "explain": "Rummu Halloweeni üritus meelitas reede õhtul kohale hulgaliselt inimesi – sissepääsu juurde tekkis pikk järjekord ja parkimiskohti nappis.",
+      "headline": "___ vallandus Halloweeni-hullus: parkida pole kusagile, järjekord on sada meetrit pikk!",
+      "options": [
+        "Paldiskis",
+        "Keilas",
+        "Rummus",
+        "Haapsalus"
+      ],
+      "src": "Elu24",
+      "type": "blank",
+      "url": "https://elu24.postimees.ee/8574600/fotod-ja-video-rummus-vallandus-halloweeni-hullus-parkida-pole-kusagile-jarjekord-on-sada-meetrit-pikk"
+    },
+    {
+      "answer": 2,
+      "cat": "kultuur",
+      "explain": "Elroni öörongide pealkiri oli võlts. Päris lood: Von Krahli teatrit juhib 1. novembrist Annika Üprus, kes võtab üle presidendi kultuurinõunikuks asunud Jaak Printsi; kohtunikud on palgapiirangute pärast valmis Euroopa Komisjonilt abi küsima.",
+      "options": [
+        "Von Krahli teatrit asub juhtima Annika Üprus",
+        "Kohtunikud lubavad palgatõusu pidurdamisel Euroopast abi otsida",
+        "Elron hakkab öösiti sõitma Tallinna ja Tartu vahel"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+      "src": "ERR",
+      "type": "fake",
+      "url": "https://kultuur.err.ee/1610180992/von-krahli-teatrit-asub-juhtima-annika-uprus"
+    },
+    {
+      "answer": 3,
+      "cat": "valis",
+      "explain": "Soome haridusminister ja RKP esimees Anders Adlercreutz kavatseb tõstatada valitsuses uudisteagentuuri STT olukorra: 139 aastat tegutsenud STT koondab peaaegu kõik töötajad ja uudistetegevus lõpeb märtsis. Tsitaat on tõlgitud soome keelest.",
+      "options": [
+        "Petteri Orpo",
+        "Riikka Purra",
+        "Alexander Stubb",
+        "Anders Adlercreutz"
+      ],
+      "quote": "Loodan, et alternatiive saaks veel läbi vaadata.",
+      "src": "Yle",
+      "type": "who",
+      "url": "https://yle.fi/a/74-20254246"
+    },
+    {
+      "cat": "sise",
+      "explain": "Tartu linnavalitsus keelas Lõõtsa tänaval asuva mängukeskuse NinjaZone tegevuse, sest kasutusluba puudus ja esines tuleohutusprobleeme. Tühistada tuli üle 70 sünnipäevabroneeringu.",
+      "lat": 58.378,
+      "lon": 26.729,
+      "place": "Tartu",
+      "prompt": "Millises linnas suleti kasutusloa puudumise tõttu äsja avatud laste mängukeskus NinjaZone?",
+      "src": "ERR",
+      "type": "map",
+      "url": "https://www.err.ee/1610180668/tartus-suleti-kasutusloa-puudumise-tottu-asja-avatud-laste-mangukeskus"
+    },
+    {
+      "answer": 2.2,
+      "cat": "majandus",
+      "decimals": 1,
+      "explain": "SKP kiirhinnangu järgi oli Eesti majanduskasv 2026. aasta kolmandas kvartalis aastases võrdluses 2,2 protsenti.",
+      "max": 10,
+      "min": 0.1,
+      "prompt": "Mitu protsenti kasvas kiirhinnangu järgi Eesti majandus 2026. aasta kolmandas kvartalis võrreldes aasta varasemaga?",
+      "src": "ERR",
+      "type": "number",
+      "unit": "%",
+      "url": "https://www.err.ee/1610180977/skp-kiirhinnang-kolmanda-kvartali-majanduskasv-oli-2-2-protsenti"
+    },
+    {
+      "answer": 3,
+      "cat": "meelelahutus",
+      "explain": "Eesti Laulule naasev OLLIE ütles Elu24 videointervjuus, et tal on sel aastal kõige rohkem suva – ERR-ile rääkis ta, et tahab seekord protsessi rohkem nautida.",
+      "headline": "Sarnaselt Uku Suvistele vankumatuks ristitud OLLIE: tead, mul on sellel aastal kõige rohkem ___",
+      "options": [
+        "pinget",
+        "tahtmist",
+        "lootust",
+        "suva"
+      ],
+      "src": "Elu24",
+      "type": "blank",
+      "url": "https://elu24.postimees.ee/8574012/videointervjuu-sarnaselt-uku-suvistele-vankumatuks-ristitud-ollie-tead-mul-on-sellel-aastal-koige-rohkem-suva"
+    },
+    {
+      "answer": 0,
+      "cat": "valis",
+      "explain": "Lahti saunalaenutus oli võlts. Päris lood: Tampere Hämeensilla kujud riietati naisvõimlemise tähistamiseks võimlemisriietesse ja Oulus Pikisaarel saab jalakäija ise valida, kui eredat valgust ta oma teele soovib.",
+      "options": [
+        "Lahtis saab nüüd raamatukogust laenutada ka mobiilse sauna",
+        "Tamperes tähistatakse Soome naisvõimlemist – Hämeensilla kujud said selga võimlemisriided",
+        "Kas see võiks olla linnade tulevik? Oulus saab jalakäija ise otsustada, kui valgeks ta oma teekonna soovib"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+      "src": "Yle",
+      "type": "fake",
+      "url": "https://yle.fi/a/74-20253825"
+    },
+    {
+      "answer": 0,
+      "cat": "sise",
+      "explain": "Valimiskomisjon kiitis heaks e-hääletamise nutiseadmega järgmise aasta Riigikogu valimistel – hääletada saab iOS-i ja Androidi valijarakendusega.",
+      "headline": "Riigikogu saab nüüdsest valida ka ___",
+      "options": [
+        "nutiseadmega",
+        "postiga",
+        "pangalingiga",
+        "välisesindustes"
+      ],
+      "src": "ERR",
+      "type": "blank",
+      "url": "https://www.err.ee/1610180752/riigikogu-saab-nuudsest-valida-ka-nutiseadmega"
+    },
+    {
+      "answer": 2,
+      "cat": "meelelahutus",
+      "explain": "Jaagup Tuisk rääkis Elu24-le, miks võib Wanda-Helene olla tema tänavune võiduvõti Eesti Laulul – nad võistlevad sel korral koos.",
+      "options": [
+        "Daniel Levi",
+        "Ott Lepland",
+        "Jaagup Tuisk",
+        "Stefan"
+      ],
+      "quote": "Jagatud rõõm on märksa suurem!",
+      "src": "Elu24",
+      "type": "who",
+      "url": "https://elu24.postimees.ee/8574189/videointervjuu-jagatud-room-on-marksa-suurem-jaagup-tuisk-paljastab-miks-wanda-helene-voib-olla-tema-tanavune-voiduvoti-eesti-laulul"
+    },
+    {
+      "cat": "sise",
+      "explain": "Narva lähistel valmisid Balti kaitsevööndi esimesed betoonpunkrid. Eestisse on neid kavas rajada ligi 600, valmis on 28; kaitsevöönd maksab ligi 60 miljonit eurot.",
+      "lat": 59.3772,
+      "lon": 28.1903,
+      "place": "Narva lähistel",
+      "prompt": "Kus valmisid Balti kaitsevööndi esimesed betoonpunkrid?",
+      "src": "ERR",
+      "type": "map",
+      "url": "https://www.err.ee/1610180692/idapiirile-rajatakse-60-miljoni-euro-eest-sadu-betoonpunkreid"
+    },
+    {
+      "answer": 43,
+      "cat": "valis",
+      "decimals": 0,
+      "explain": "RTV SLO andmetel vabastavad ELi liikmesriigid umbes 43 miljonit 159-liitrist barrelit naftat, millest ligikaudu pool on diislikütus. See on osa G7 kokkuleppest vabastada kokku 100 miljonit barrelit.",
+      "max": 300,
+      "min": 2,
+      "prompt": "Mitu miljonit barrelit naftat vabastab rühm ELi liikmesriike järgmise kolme kuu jooksul oma strateegilistest varudest?",
+      "src": "RTV SLO",
+      "type": "number",
+      "unit": "miljonit barrelit",
+      "url": "https://www.rtvslo.si/evropska-unija/clanice-eu-ja-bodo-sprostile-vec-kot-40-milijonov-sodov-nafte/798492"
+    },
+    {
+      "answer": 1,
+      "cat": "majandus",
+      "explain": "Pakiautomaatide tasu pealkiri oli võlts. Päris lood: Agrone Grupp viis lõpule Läti suurima piimatöötleja omandamise ning Auvere elektrijaam seisab novembri keskpaigani, sest remont venis plaanitust pikemaks.",
+      "options": [
+        "Agrone Grupp omandas Läti suurima piimatööstusettevõtte",
+        "Pakiautomaatidest pakkide kättesaamine muutub järgmisest aastast tasuliseks",
+        "Auvere elektrijaam on tööst väljas kuni novembri keskpaigani"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+      "src": "ERR",
+      "type": "fake",
+      "url": "https://www.err.ee/1610181865/auvere-elektrijaam-on-toost-valjas-kuni-novembri-keskpaigani"
+    }
+  ],
+  "source": "ERR, Elu24, Yle, LSM, RTV SLO",
+  "ticker": [
+    "Zverevist saab maailma esireket järgmisel esmaspäeval",
+    "Ukraina taasalustas rünnakuid Venemaa naftarafineerimistehaste vastu",
+    "Kuusk ja Polonia alistasid karikasarjas kõrgliigaklubi",
+    "Soome ja USA sõlmisid Washingtonis kaks koostöölepingut",
+    "Serviti tõusis meistriliigas ainuliidriks",
+    "Seadusmuudatus kohustaks vanu mitteelukondlikke hooneid põhjalikult renoveerima",
+    "Postimees Grupi majandusaasta lõppes miljonieurose kahjumiga",
+    "Autoremonditöökodades on puudus asjatundlikest spetsialistidest"
+  ]
+}
