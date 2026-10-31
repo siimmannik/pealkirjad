@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T04:52:44+00:00",
+  "label": "Reede, 30. oktoober 2026",
+  "questions": [
+    {
+      "answer": 1,
+      "cat": "kultuur",
+      "explain": "Botaanikaaia öiste valgusmatkade pealkiri oli võlts. Päriselt kirjutas ERR, et Draamateater lõpetas grupitellimuste müügi menulavastustele ja Taani soovib keelustada kiirekasvulised kanad.",
+      "options": [
+        "Taani soovib keelustada kiirekasvulised kanad",
+        "Tallinna botaanikaaed avab talveks öised valgusmatkad",
+        "Draamateater lõpetas grupitellimuste müügi menulavastustele"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+      "src": "ERR",
+      "type": "fake",
+      "url": "https://www.err.ee/1610180512/draamateater-lopetas-grupitellimuste-muugi-menulavastustele"
+    },
+    {
+      "answer": 200,
+      "cat": "valis",
+      "decimals": 0,
+      "explain": "Ametiühingu LAA teatel koondab airBaltic umbes 100 pilooti ja 200 salongitöötajat ehk kõik Riia baasi salongitöötajate kohad. Esialgu räägiti 500–700 töötajast; infot lepingute kohta hakatakse jagama laupäevast.",
+      "max": 2000,
+      "min": 20,
+      "prompt": "Mitu salongitöötajat kavatseb airBaltic Läti lennundustöötajate ametiühingu teatel koondada?",
+      "src": "LSM",
+      "type": "number",
+      "unit": "salongitöötajat",
+      "url": "https://eng.lsm.lv/article/economy/transport/28.10.2026-airbaltic-to-sack-100-pilots-200-flight-attendants.a669487/"
+    },
+    {
+      "answer": 2,
+      "cat": "meelelahutus",
+      "explain": "Tallinna Helitehases esines Soome laulja Käärijä, kelle Eurovisiooni-hitt on «Cha Cha Cha».",
+      "headline": "Helitehas hullus! ___ tõmbas Tallinnas pöörase «Cha Cha Cha» peo käima",
+      "options": [
+        "Erika Vikman",
+        "Joost Klein",
+        "Käärijä",
+        "Windows95man"
+      ],
+      "src": "Elu24",
+      "type": "blank",
+      "url": "https://elu24.postimees.ee/8574036/galerii-helitehas-hullus-kaarija-tombas-tallinnas-poorase-cha-cha-cha-peo-kaima"
+    },
+    {
+      "cat": "majandus",
+      "explain": "Aidu tuulepargi ehitus on olnud pikk ja keeruline. Sel nädalal veetakse Aidusse kahe tuuliku osi ning pargi esimene järk peaks valmima aasta lõpuks.",
+      "lat": 59.31,
+      "lon": 27.09,
+      "place": "Aidu (Ida-Virumaa)",
+      "prompt": "Kus asub pika ja keerulise ehitusloo läbinud tuulepark, kuhu veetakse sel nädalal kahe uue tuuliku osi ja mille esimene etapp peaks valmima aasta lõpuks?",
+      "src": "ERR",
+      "type": "map",
+      "url": "https://www.err.ee/1610179409/aidu-tuulepark-saab-veel-kaks-tuulikut"
+    },
+    {
+      "answer": 3,
+      "cat": "valis",
+      "explain": "Nii ütles Tytti Tuppurainen Yle saates A-talk. Rahandusministeeriumi ülevaated peavad toetama järgmise kevade valitsusläbirääkimisi. Tsitaat on tõlgitud soome keelest.",
+      "options": [
+        "Riikka Purra",
+        "Petteri Orpo",
+        "Antti Lindtman",
+        "Tytti Tuppurainen"
+      ],
+      "quote": "Me ei välista, et mõnda indeksit võiks üle vaadata.",
+      "src": "Yle",
+      "type": "who",
+      "url": "https://yle.fi/a/74-20254128"
+    },
+    {
+      "answer": 1,
+      "cat": "sise",
+      "explain": "Valimiskomisjoni otsusel saab järgmistel Riigikogu valimistel e-hääletada ka nutitelefonis või tahvelarvutis iOS-i ja Androidi rakendusega. 2023. aasta valimistel hääletas elektrooniliselt üle 312 000 inimese ehk 51,2% osalenutest.",
+      "headline": "Riigikogu saab nüüdsest valida ka ___",
+      "options": [
+        "posti teel",
+        "nutiseadmega",
+        "pangakaardiga",
+        "ID-kaardita"
+      ],
+      "src": "ERR",
+      "type": "blank",
+      "url": "https://www.err.ee/1610180752/riigikogu-saab-nuudsest-valida-ka-nutiseadmega"
+    },
+    {
+      "answer": 2,
+      "cat": "meelelahutus",
+      "explain": "Tallinna kõige kitsama korteri lugu oli võlts. Elu24-s ilmusid päriselt lood kärbeste käes kannatanud majaomanikust ja sellest, miks Jekaterina Linnamäe ühe luksusbrändi poodi ei kipu.",
+      "options": [
+        "«Kärbsed pugesid isegi voodisse!» Kärbeste terrori all elanud majaomanik pääses lõpuks aastatepikkusest õudusest",
+        "Jekaterina Linnamäe avaldab, kuidas ühe luksusbrändi poodi ta ei kipu: kingitusest ehk ära ei ütleks",
+        "Vaata, milline näeb välja Tallinna kõige kitsam korter: üürnikke see ei heiduta"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+      "src": "Elu24",
+      "type": "fake",
+      "url": "https://elu24.postimees.ee/8573978/videointervjuu-jekaterina-linnamae-avaldab-kuidas-uhe-luksusbrandi-poodi-ta-ei-kipu-kingitusest-ehk-ara-ei-utleks"
+    },
+    {
+      "cat": "sise",
+      "explain": "Tallinna loomaaia karukassid surusid end läbi võrgu ja pääsesid korduvalt välja; Maimu toodi 13,5 meetri kõrguselt alla mastitöödega tegelevate elektrikute abiga. Kaheaastastena peavad nad leidma uue kodu.",
+      "lat": 59.4262,
+      "lon": 24.6589,
+      "place": "Tallinna loomaaed",
+      "prompt": "Kus põgenesid karukassid Maimu ja Maru korduvalt aedikust ning üks neist ronis 13,5 meetri kõrgusele lakke?",
+      "src": "ERR",
+      "type": "map",
+      "url": "https://www.err.ee/1610180665/tallinna-loomaaed-otsib-karukassidele-uut-kodu"
+    },
+    {
+      "answer": 0,
+      "cat": "sise",
+      "explain": "Välisminister Margus Tsahkna ütles, et Zelenski soovib isiklikult osaleda Tallinnas 28.–29. jaanuaril toimuval Ukraina taastamiskonverentsil URC27.",
+      "options": [
+        "Margus Tsahkna",
+        "Kristen Michal",
+        "Hanno Pevkur",
+        "Ülle Madise"
+      ],
+      "quote": "Tema soov on kindlasti siin osaleda.",
+      "src": "ERR",
+      "type": "who",
+      "url": "https://www.err.ee/1610180305/tsahkna-zelenski-soov-on-kindlasti-tallinnas-konverentsil-osaleda"
+    },
+    {
+      "answer": 14000,
+      "cat": "meelelahutus",
+      "decimals": 0,
+      "explain": "Sauna tänaval asuva ja naabrite häirimise tõttu tähelepanu pälvinud peolokaali ruumide eest küsitakse 14 000 eurot kuus; äripinda on kokku 901 m².",
+      "max": 150000,
+      "min": 1500,
+      "prompt": "Mitu eurot kuus küsitakse renti Tallinna vanalinnas suletud peolokaali Manna La Roosa ruumide eest?",
+      "src": "Elu24",
+      "type": "number",
+      "unit": "eurot kuus",
+      "url": "https://elu24.postimees.ee/8573357/piilu-sisse-skandaalse-peolokaali-ruumid-otsivad-uut-omanikku-krobe-hind-huvilisi-ei-heiduta"
+    },
+    {
+      "answer": 1,
+      "cat": "valis",
+      "explain": "Pogačar on maailma parima rattasõitja auhinna (sloveeni k Zlato kolo) võitnud kolm korda – 2021, 2024 ja 2025. Neljas võit tõstaks ta rekordiomaniku Alberto Contadoriga samale tasemele; auhind antakse üle 28. novembril Monacos. Pealkiri on tõlgitud sloveeni keelest.",
+      "headline": "Tadej Pogačar jahib rekordiomanikku ___",
+      "options": [
+        "Eddy Merckxi",
+        "Alberto Contadorit",
+        "Chris Froome'i",
+        "Primož Rogličit"
+      ],
+      "src": "RTV SLO",
+      "type": "blank",
+      "url": "https://www.rtvslo.si/sport/kolesarstvo/tadej-pogacar-lovi-rekorderja-alberta-contadorja/798470"
+    },
+    {
+      "answer": 0,
+      "cat": "sise",
+      "explain": "Transpordiameti tõukerataste rendikeelu pealkiri oli võlts. Päriselt kirjutas ERR, et koolinoored mängivad Tallinnas trammidega ohtlikke mänge ja Euroopa Komisjon keeldus andmast Balti riikidele droonitõrjeks 500 miljonit.",
+      "options": [
+        "Transpordiamet kaalub talvel elektritõukerataste rendi keelamist",
+        "Koolinoored mängivad Tallinnas trammidega ohtlikke mänge",
+        "Euroopa Komisjon keeldus andmast Balti riikidele droonitõrjeks 500 miljonit"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+      "src": "ERR",
+      "type": "fake",
+      "url": "https://www.err.ee/1610180140/koolinoored-mangivad-tallinnas-trammidega-ohtlikke-mange"
+    },
+    {
+      "answer": 7.3,
+      "cat": "sise",
+      "decimals": 1,
+      "explain": "ERR-i pealkirja järgi saavad päästjad ja politseinikud palgatõusuks 7,3 miljonit eurot.",
+      "max": 100,
+      "min": 0.5,
+      "prompt": "Mitu miljonit eurot saavad päästjad ja politseinikud palgatõusuks?",
+      "src": "ERR",
+      "type": "number",
+      "unit": "miljonit eurot",
+      "url": "https://www.err.ee/1610180284/paastjad-ja-politseinikud-saavad-palgatousuks-7-3-miljonit-eurot"
+    },
+    {
+      "answer": 2,
+      "cat": "meelelahutus",
+      "explain": "Nii ütles Elu24 videointervjuus laulja OLLIE, keda pealkiri kirjeldab sarnaselt Uku Suvistele „vankumatuks ristituna“.",
+      "options": [
+        "Uku Suviste",
+        "Stefan",
+        "OLLIE",
+        "Nublu"
+      ],
+      "quote": "Tead, mul on sellel aastal kõige rohkem suva.",
+      "src": "Elu24",
+      "type": "who",
+      "url": "https://elu24.postimees.ee/8574012/videointervjuu-sarnaselt-uku-suvistele-vankumatuks-ristitud-ollie-tead-mul-on-sellel-aastal-koige-rohkem-suva"
+    },
+    {
+      "answer": 1,
+      "cat": "valis",
+      "explain": "Kanada teadlaste bakterileiu pealkiri oli võlts. NPR kirjutas päriselt Antarktika Danger Islandsi pingviinide surmast (peamine kahtlusalune oli linnugripp, kuid leiti midagi ootamatut) ja Agatha Christie mahajäetud, lagunevast kodust Bagdadis.",
+      "options": [
+        "Mis tappis üle 500 pingviini? Kuidas teadlased mõistatuse lahendasid",
+        "Kanada teadlased leidsid Arktika jää alt seni tundmatu bakteriliigi",
+        "Tervitused Bagdadist, kus Agatha Christie vana kodu pakub omaenda mõistatust"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+      "src": "NPR",
+      "type": "fake",
+      "url": "https://www.npr.org/2026/10/29/nx-s1-6020451/avian-flu-penguins-pathogen-antarctica-cholera"
+    },
+    {
+      "cat": "sise",
+      "explain": "METK-i koolituspäev toimus Nurmsi droonikeskuses. Väätsa Agro on kasutanud droone põllult info kogumiseks juba kuus aastat; METK-i hinnangul saaks droone kasutada umbes tosinas eri töös.",
+      "lat": 58.8653,
+      "lon": 25.7303,
+      "place": "Nurmsi droonikeskus (Paide lähedal)",
+      "prompt": "Kus toimus Maaelu Teadmuskeskuse koolituspäev, kus põllumeestele tutvustati agrodroone?",
+      "src": "ERR",
+      "type": "map",
+      "url": "https://www.err.ee/1610180740/agrodroonid-teevad-eestis-esimesi-lende"
+    }
+  ],
+  "source": "ERR, Elu24, Yle, NPR, LSM, RTV SLO",
+  "ticker": [
+    "Pipedrive koondab massiliselt töötajaid ja paneb kontoreid kinni",
+    "Euroopa Keskpank jättis intressimäärad muutmata",
+    "Soome uudisteagentuur STT lõpetab märtsis tegevuse",
+    "Marina Kaljurand riigikogu valimistel ei kandideeri",
+    "Valmis president Ülle Madise ametlik foto",
+    "Gaasi talvise hinna prognoosid esialgu head ei tõota",
+    "Prodigyboys avaldas albumi \"Moosekandid\"",
+    "Starship plaanib pakirobotite ohutuse parandamiseks tarkvaramuudatusi"
+  ]
+}
