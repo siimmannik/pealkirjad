@@ -1,0 +1,236 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T06:51:52+02:00",
+  "label": "Esmaspäev, 2. november 2026",
+  "questions": [
+    {
+      "cat": "sise",
+      "explain": "Setomaa lasteaia lapsed pidasid laupäeval Värskas oma «olümpiamänge».",
+      "lat": 57.9583,
+      "lon": 27.6383,
+      "place": "Värska",
+      "prompt": "Kus pidasid Setomaa lasteaia pisikesed oma «olümpiamänge»?",
+      "src": "ERR",
+      "type": "map",
+      "url": "https://www.err.ee/1610182477"
+    },
+    {
+      "answer": 1,
+      "cat": "meelelahutus",
+      "explain": "Võlts oli pealkiri eestlaste lemmikkostüümist. Päris lood: Heidi Klum saabus oma halloweenipeole hiiglasliku mahalõigatud käena ja Eesti tuntud näod üllatasid halloweeni-kostüümidega.",
+      "options": [
+        "Halloweenikuninganna Heidi Klum saabus peole hiiglasliku mahalõigatud käena",
+        "Eestlaste lemmik halloweeni-kostüüm oli tänavu taas nõid",
+        "Õudne nunn, punased lipud ja tulevane abikaasa! Eesti tuntud näod üllatasid halloweeni-kostüümidega"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+      "src": "Elu24",
+      "type": "fake",
+      "url": "https://elu24.postimees.ee/8575060/oovastavad-klopsud-halloweenikuninganna-heidi-klum-saabus-peole-hiiglasliku-mahaloigatud-kaena"
+    },
+    {
+      "answer": 5000,
+      "cat": "valis",
+      "decimals": 0,
+      "explain": "LSM-i ülevaate järgi kasvas Balti kaitsetööstuse ettevõtete arv 2019–2024 232-lt 300-le; Läti üksi võib lähiajal vajada veel 5000 spetsialisti.",
+      "max": 50000,
+      "min": 200,
+      "prompt": "Mitut lisaspetsialisti võib tööstuse esindajate hinnangul lähiajal vajada üksnes Läti kaitsetööstus?",
+      "src": "LSM",
+      "type": "number",
+      "unit": "spetsialisti",
+      "url": "https://eng.lsm.lv/article/society/defence/31.10.2026-baltic-defence-industry-gains-momentum.a669924/"
+    },
+    {
+      "answer": 1,
+      "cat": "kultuur",
+      "explain": "Folklorist Ülo Valk rääkis, et hoolimata Eesti ilmaliku maa mainest on kolmandik eestlastest kogenud midagi seletamatut.",
+      "headline": "Ülo Valk: ___ eestlastest on kogenud midagi seletamatut",
+      "options": [
+        "pooled",
+        "kolmandik",
+        "kümnendik",
+        "enamik"
+      ],
+      "src": "ERR",
+      "type": "blank",
+      "url": "https://novaator.err.ee/1610180278"
+    },
+    {
+      "answer": 1,
+      "cat": "valis",
+      "explain": "Soome välisminister Elina Valtonen kirjutas pühapäeval X-is, et Vene sportlastel pole järgmisel aastal Soome asja, kui Venemaa jätkab sõda Ukrainas. Tsitaat on tõlgitud soome keelest.",
+      "options": [
+        "Alexander Stubb",
+        "Elina Valtonen",
+        "Petteri Orpo",
+        "Antti Häkkänen"
+      ],
+      "quote": "Vene sportlastel pole Soome mitte mingit asja.",
+      "src": "Yle",
+      "type": "who",
+      "url": "https://yle.fi/a/74-20254471"
+    },
+    {
+      "cat": "sport",
+      "explain": "Ammulaskmise MK-sarja finaal peeti Pärnumaal Häädemeestel. Järgmisel suvel, 5.–11. juulini, toimuvad Pärnumaal ka maailmameistrivõistlused.",
+      "lat": 58.0767,
+      "lon": 24.4985,
+      "place": "Häädemeeste",
+      "prompt": "Kus peeti ammulaskmise MK-sarja finaal, mida Eesti võõrustas esimest korda?",
+      "src": "ERR",
+      "type": "map",
+      "url": "https://sport.err.ee/1610182495"
+    },
+    {
+      "answer": 35,
+      "cat": "meelelahutus",
+      "decimals": 0,
+      "explain": "Elu24 avaldas Oleg Grossi meenutused 35 aastast kaubanduses: porised kontsakingad, suur põleng ja poodide suurim tõmbenumber.",
+      "max": 300,
+      "min": 3,
+      "prompt": "Mitu aastat on ärimees Oleg Gross kaubanduses tegutsenud?",
+      "src": "Elu24",
+      "type": "number",
+      "unit": "aastat",
+      "url": "https://elu24.postimees.ee/8574582/varvikad-meenutused-oleg-grossi-35-aastat-kaubanduses-porised-kontsakingad-suur-poleng-ja-poodide-suurim-tombenumber"
+    },
+    {
+      "answer": 2,
+      "cat": "kultuur",
+      "explain": "Võlts oli arvustus «Sügis, mis ei tahtnud lõppeda». Päris lood: «Keelesäuts» rääkis rahvapärimuse laevavaimust kotermannist ning Viljandi muuseumis on näha Köleri kadunud maali koopia, mis taastati mustvalge foto põhjal tehisaru abil.",
+      "options": [
+        "Keelesäuts. Koduselt koputav kotermann",
+        "Viljandi muuseumis saab näha Johann Köleri kadunud hiigelmaali koopiat",
+        "Arvustus. Sügis, mis ei tahtnud lõppeda"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+      "src": "ERR",
+      "type": "fake",
+      "url": "https://www.err.ee/1610182471"
+    },
+    {
+      "answer": 2,
+      "cat": "valis",
+      "explain": "Arheoloogid leidsid Luxori hauakambri umbes 3500 aasta vanuselt seinamaalilt koera nime – see on esimene teadaolev Vana-Egiptuse koeranimi, milles on Anubise epiteet. Pealkiri on tõlgitud sloveeni keelest.",
+      "headline": "3500 aasta järel selgus jumal Anubisega seotud Egiptuse ___ nimi",
+      "options": [
+        "kassi",
+        "pistriku",
+        "koera",
+        "ahvi"
+      ],
+      "src": "RTV SLO",
+      "type": "blank",
+      "url": "https://www.rtvslo.si/kultura/dediscina/po-3500-letih-razkrili-ime-egipcanskega-psa-povezanega-z-bogom-anubisom/798693"
+    },
+    {
+      "answer": 2,
+      "cat": "sise",
+      "explain": "Õiguskantsleri kandidaadiks esitatud Oliver Kask ütles, et ametkond ei tohi olla poliitiline ja ta keskendub sotsiaalsetele õigustele.",
+      "options": [
+        "Ülle Madise",
+        "Liisa Pakosta",
+        "Oliver Kask",
+        "Lavly Perling"
+      ],
+      "quote": "Õiguskantsleri institutsioon ei tohi olla poliitiline.",
+      "src": "ERR",
+      "type": "who",
+      "url": "https://www.err.ee/1610182405"
+    },
+    {
+      "answer": 3,
+      "cat": "meelelahutus",
+      "explain": "Fitnessisportlane Christin-Amani Kiivikas saavutas 34 võistleja seas kolmanda koha ja kirjutas Instagramis, et on maailma kolmas.",
+      "headline": "Amani Kiivikas rõõmustab ___ üle: see emotsioon on lihtsalt kirjeldamatu!",
+      "options": [
+        "kulla",
+        "hõbeda",
+        "võidu",
+        "pronksi"
+      ],
+      "src": "Elu24",
+      "type": "blank",
+      "url": "https://elu24.postimees.ee/8575011/maailma-kolmas-amani-kiivikas-roomustab-pronksi-ule-see-emotsioon-on-lihtsalt-kirjeldamatu"
+    },
+    {
+      "answer": 125,
+      "cat": "sport",
+      "decimals": 0,
+      "explain": "Murcia alistas kodus Lleida 125:98. 125 punkti on meeskonna kõigi aegade rekord Hispaania kõrgliigas.",
+      "max": 1000,
+      "min": 10,
+      "prompt": "Mitu punkti viskas Sander Raieste klubi UCAM Murcia Hispaania kõrgliigas Lleida vastu, püstitades klubi kõigi aegade rekordi?",
+      "src": "ERR",
+      "type": "number",
+      "unit": "punkti",
+      "url": "https://sport.err.ee/1610182741"
+    },
+    {
+      "answer": 0,
+      "cat": "valis",
+      "explain": "Võlts oli pealkiri Madridi rahesajust. Päris lood: Ecuadoris El Niñoga seotud paduvihmade üleujutus kandis maja jõkke ning Itaalias päästis kopter kaljuseinale lõksu jäänud ronijad.",
+      "options": [
+        "Haruldane novembrirahe kattis Madridi tänavad valgeks",
+        "Video jäädvustas Ecuadori üleujutustes kokku variseva maja",
+        "Dramaatiline kopteripääste: Itaalias kaljuseinale lõksu jäänud ronijad pääsesid"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+      "src": "Al Jazeera",
+      "type": "fake",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/video-captures-house-collapsing-due-to-ecuador-floods"
+    },
+    {
+      "cat": "sise",
+      "explain": "Raasiku vallas Arukülas raiuti Suvila 25 ja 27 kruntidel puid rohkem, kui raieluba lubas. Vald loeb kännud üle ja alustab menetlust.",
+      "lat": 59.3633,
+      "lon": 25.0767,
+      "place": "Aruküla",
+      "prompt": "Millise asula männikust jäi pärast üleraiet alles lage plats, nii et vald uurib juhtumit?",
+      "src": "ERR",
+      "type": "map",
+      "url": "https://www.err.ee/1610182402"
+    },
+    {
+      "answer": 0,
+      "cat": "meelelahutus",
+      "explain": "Räppar säm rääkis saates «Hommik Anuga» oma investeerimisportfellist, uuest albumist ja lapsepõlveunistusest rikkaks saada.",
+      "options": [
+        "säm",
+        "Nublu",
+        "Reket",
+        "Päevakoer"
+      ],
+      "quote": "Mulle ei meeldi nende summadega keksida.",
+      "src": "Elu24",
+      "type": "who",
+      "url": "https://elu24.postimees.ee/8575038/kuuekohaline-summa-rappar-sam-oma-investeerimisportfellist-mulle-ei-meeldi-nende-summadega-keksida"
+    },
+    {
+      "answer": 1,
+      "cat": "sise",
+      "explain": "Võlts oli pealkiri talisuplejatest. Päris lood: Järvamaal Karinu külas avati endises küünis eraalgatuslik loodushariduskeskus ning pühapäevaks lubati pilvist ja udust ilma.",
+      "options": [
+        "Järvamaal avati eraalgatuslik loodushariduskeskus",
+        "Talisuplejad avasid Pirita rannas hooaja rekordarvu osalejatega",
+        "Pühapäev tuleb pilvine ja udune"
+      ],
+      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+      "src": "ERR",
+      "type": "fake",
+      "url": "https://www.err.ee/1610182414"
+    }
+  ],
+  "source": "ERR, Elu24, LSM, RTV SLO, Yle, Al Jazeera",
+  "ticker": [
+    "Vseviov: laperdava keskpärasuse asemel vajame julget sihikindlust",
+    "Rekordilähedane vabakava tõstis Mihhail Selevko GP-etapil pjedestaalile",
+    "Stiven Aas võitis esimese eestlasena WBA Balti profipoksi meistrivöö",
+    "Hamilton jõudis Ferrari roolis uue tähiseni",
+    "Marc Marquez astus sammu kaheksanda MM-tiitli suunas",
+    "Kolm päeva kestnud katsumus tõi Külli Sizaskile MM-tiitli",
+    "Hein andis ülivõimsas hoos ründajale väravasöödu ja Werder tõusis viiendaks",
+    "FBI: miljarditesse ulatuva krüptovarguse taga on Põhja-Korea"
+  ]
+}
