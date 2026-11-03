@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-03",
+ "generatedAt": "2026-11-03T06:50:49+02:00",
+ "label": "Teisipäev, 3. november 2026",
+ "questions": [
+  {
+   "cat": "kultuur",
+   "explain": "Tallinnas. Eesti Kaasaegse Kunsti Muuseum (EKKM) muudab sisepingete keskel juhtimist ja koondab kolm töötajat.",
+   "lat": 59.4447,
+   "lon": 24.7517,
+   "place": "Tallinn (EKKM)",
+   "prompt": "Millises linnas asuv kaasaegse kunsti muuseum muudab sisepingete tõttu juhtimist ja koondab kolm töötajat?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610183455/sisepingetes-ekkm-muudab-juhtimist-ja-koondab-kolm-tootajat"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Kerdo Mölder. Ta esines 31. oktoobril koos Diana Klasiga Soomes Ämmässuo Grillis ning ühine etteaste päädis suudlusega.",
+   "options": [
+    "Koit Toome",
+    "Tanel Padar",
+    "Kerdo Mölder",
+    "Ott Lepland"
+   ],
+   "quote": "Ma ei tea, aga suudlus oli taevalik!",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8575119/uuesti-koos-kerdo-ja-diana-uhine-esinemine-soomes-paadis-kuuma-suudlusega-kerdo-ma-ei-tea-aga-suudlus-oli-taevalik"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Andris Kulbergs ja kaardilugeja Andis Veinbergs võitsid Riias Biķernieki rajal Rallysprint Latvija ajalooliste autode klassi Mitsubishi Lancer Evo VI-ga. Pealkiri on tõlgitud.",
+   "headline": "Läti peaminister Kulbergs nautis nädalavahetusel võiduga oma ___",
+   "options": [
+    "golfikirge",
+    "rallikirge",
+    "purjetamiskirge",
+    "jahikirge"
+   ],
+   "src": "LSM",
+   "type": "blank",
+   "url": "https://eng.lsm.lv/article/politics/politics/02.11.2026-latvian-prime-minister-kulbergs-enjoys-his-rally-passion-with-weekend-win.a670120/"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Talverehvide nõude pikendamine oli võlts. Päris lood: Work in Estonia hakkab inseneripuuduse tõttu meelitama välisspetsialiste tööstusesse ja Reformierakonna juhatus valis uueks aseesimeheks Signe Riisalo.",
+   "options": [
+    "Work in Estonia programm keskendub edaspidi välisspetsialistide meelitamisele tööstusesse",
+    "Transpordiamet pikendab talverehvide kohustuslikku kasutusaega kahe nädala võrra",
+    "Reformierakonna uus aseesimees on Signe Riisalo"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610183371/reformierakonna-uus-aseesimees-on-signe-riisalo"
+  },
+  {
+   "answer": 190,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "190 kilomeetri kaugusel. Saar tekkis tõenäoliselt 2025. aasta septembris, kui liustiku serv taandus; nüüd lahutab seda liustikust umbes 400 meetri laiune väin.",
+   "max": 2000,
+   "min": 10,
+   "prompt": "Norra Teravmägedes paljastus Austfonna liustiku sulamisel uus väike saar. Kui kaugel Venemaast see Elu24 pealkirja järgi asub?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "km",
+   "url": "https://elu24.postimees.ee/8575619/video-nato-idatiival-tekkis-salaparane-saar-vaid-190-kilomeetri-kaugusel-venemaast"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Manchester Unitedi peatreener Michael Carrick enne teisipäevast Meistrite liiga mängu Romaga, kuigi meeskond pole võitnud üheksa mängu järjest. Tsitaat on tõlgitud sloveeni keelest.",
+   "options": [
+    "Ruben Amorim",
+    "Paolo Zanetti",
+    "Gian Piero Gasperini",
+    "Michael Carrick"
+   ],
+   "quote": "Võib-olla tundub teile, et ma pole täie mõistuse juures, aga ootan pikisilmi kohtumist Romaga.",
+   "src": "RTV SLO",
+   "type": "who",
+   "url": "https://www.rtvslo.si/sport/nogomet/liga-prvakov-v-nogometu/carrick-morda-se-vam-zdi-da-nisem-pri-zdravi-pameti-a-komaj-cakam-obracun-z-romo/798824"
+  },
+  {
+   "answer": 2,
+   "cat": "kultuur",
+   "explain": "Müügile tulid 2027. aasta jaanuari ja veebruari etenduste piletid; kella 13.30-ks oli veebis müüdud umbes 8400 ja kassas umbes 500 piletit.",
+   "headline": "Draamateater müüs menulavastuste piletid veebis maha mõne ___",
+   "options": [
+    "päevaga",
+    "tunniga",
+    "minutiga",
+    "nädalaga"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610183572/draamateater-muus-menulavastuste-piletid-veebis-maha-mone-minutiga"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "Tampere maa-alune rattaparkla oli võlts. Päris lood: Norra poliitikud tahavad keelata turistidel merekala väljaveo ning kodumaise toodangu osa Soome lemmikloomatoidus on tõusnud ligi kolmandikuni.",
+   "options": [
+    "Tampere kesklinna avatakse Soome esimene maa-alune jalgrattaparkla 5000 rattale",
+    "NRK: Norra poliitikud tahavad keelata turistidel merekala riigist välja viimise – see ei puudutaks lõhet ega forelli",
+    "Kodumaise lemmikloomatoidu tootmine kahekordistus viie aastaga – ka välismaal tahetakse Soome toitu"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20252127"
+  },
+  {
+   "cat": "sise",
+   "explain": "Põltsamaal. Linna põhikoolis hakkab noorte korrarikkujate tõttu tööle turvateenistus.",
+   "lat": 58.6528,
+   "lon": 25.9708,
+   "place": "Põltsamaa",
+   "prompt": "Millise linna põhikoolis alustab noorte huligaanide pärast tööd turvateenistus?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610183531/poltsamaa-pohikoolis-alustab-noorte-huligaanide-parast-tood-turvateenistus"
+  },
+  {
+   "answer": 388,
+   "cat": "sise",
+   "decimals": 0,
+   "explain": "388. Viimased kinnipidamised on toimunud ainult Tallinnas; Lätile on üle antud 148 inimest. PPA hinnangul võib surve kevadel taas tõusta.",
+   "max": 5000,
+   "min": 20,
+   "prompt": "Mitu välismaalast on politsei- ja piirivalveamet juulist saadik ilma seadusliku aluseta Eestisse sisenemise eest kinni pidanud?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "inimest",
+   "url": "https://www.err.ee/1610183497/ebaseaduslik-sisseranne-on-eestis-ajutiselt-vahenenud-kuid-kevadel-voib-surve-tousta"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Haapsalu kõrvitsalaternate lugu oli võlts. Päris lood: Briti kuningas jäi paraadil vihmavarjuta ja „Laululahingu” ootamatu lõpp tekitas sotsiaalmeedias pahameelt.",
+   "options": [
+    "«Kus on vihmavari?» Paraadil osalenud Briti kuningat tabas ebameeldiv üllatus",
+    "«Laululahingu» ootamatu lõpp tekitas sotsiaalmeedias möllu: enam edasi ei vaata, täiesti arusaamatu!",
+    "«Selline vaatepilt on Eestis haruldane!» Haapsalu promenaadile kogunes sadu kõrvitsalaternaid"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8575371/kuidas-nii-laululahingu-ootamatu-lopp-tekitas-sotsiaalmeedias-mollu-enam-edasi-ei-vaata-taiesti-arusaamatu"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Kommentaator Raul Rebane leiab, et inimesed on kriisideks ebaühtlaselt valmis ja just kodanikud on Eesti suurim kasutamata kaitseressurss.",
+   "options": [
+    "Martin Herem",
+    "Raul Rebane",
+    "Ahto Lobjakas",
+    "Ilmar Raag"
+   ],
+   "quote": "Eesti suurim kasutamata kaitseressurss oleme me ise.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610183263/raul-rebane-eesti-suurim-kasutamata-kaitseressurss-oleme-me-ise"
+  },
+  {
+   "answer": 28,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "28 aastat. 57-aastane Bushby ületas džungleid ja jäätunud meresid, enne kui jõudis emotsionaalsele kojutulekule Põhja-Inglismaal Hullis.",
+   "max": 300,
+   "min": 3,
+   "prompt": "Briti seikleja Karl Bushby jõudis jalgsi ümber maailma käinuna tagasi koju Hulli. Mitu aastat tema matk kestis?",
+   "src": "Al Jazeera",
+   "type": "number",
+   "unit": "aastat",
+   "url": "https://www.aljazeera.com/news/2026/11/2/british-adventurer-karl-bushby-returns-home-after-28-year-walk-around-world"
+  },
+  {
+   "answer": 3,
+   "cat": "meelelahutus",
+   "explain": "Tuntud striimer võrdles Eesti ja Soome hindu ning nimetas hinnavahet absurdseks.",
+   "headline": "«Need hinnad tunduvad absurdsed!» Tuntud striimer tõi välja Eesti ja ___ pöörase hinnavahe",
+   "options": [
+    "Läti",
+    "Rootsi",
+    "Leedu",
+    "Soome"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8575165/video-need-hinnad-tunduvad-absurdsed-tuntud-striimer-toi-valja-eesti-ja-soome-poorase-hinnavahe"
+  },
+  {
+   "answer": 2,
+   "cat": "sport",
+   "explain": "Tartu EM-i kandidatuur oli võlts. Päris lood: Rein Taaramäe koostöö Kinan Racing Teamiga lõpeb ja 17-aastane Steven Runin sai Dakari noorte olümpiamängudel meresõudmise rannasprindis 11. koha.",
+   "options": [
+    "Rein Taaramäe ei jätka Jaapani profitiimis",
+    "Runin sai meresõudmise rannasprindi olümpiadebüüdil 11. koha",
+    "Tartu kandideerib 2030. aasta lühiraja ujumise EM-i korraldajaks"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610183491/rein-taaramae-ei-jatka-jaapani-profitiimis"
+  },
+  {
+   "cat": "sise",
+   "explain": "Tartumaal. Sotsiaalse kiirabi pilootprojekti on rohkem kui aasta jooksul kasutatud umbes 30 korda, mis on oodatust vähem.",
+   "lat": 58.378,
+   "lon": 26.729,
+   "place": "Tartumaa (Tartu)",
+   "prompt": "Millises maakonnas on sotsiaalse kiirabi teenust üle aasta kestnud katse jooksul kasutatud vaid umbes 30 korda – prognoositust vähem?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610183537/tartumaal-on-sotsiaalse-kiirabi-teenust-kasutanud-prognoositust-vahem-inimesi"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, Al Jazeera",
+ "ticker": [
+  "Tehisaru muudab noortele esimese töökoha leidmise keerulisemaks",
+  "Riia lennujaam kaasab investoreid lennundustaristu arendamisse",
+  "Ülo Pikkov pälvis Krakowis auhinna animatsiooni õpetamise eest",
+  "Raudtee ehitustööd on pikendanud Lõuna-Eestist hommikul rongiga Tallinna jõudmise aega",
+  "Eelarvekriis raputab Belgia valitsust",
+  "Võimsas hoos McDavid jätkab NHL-is rekordite ületamist",
+  "Lätil ebaõnnestus Venemaalt tulnud õhuobjekti allavõtmine püüdurdrooniga",
+  "Eesti Interpreetide Nädal toob publiku ette kümme kontserti ja üle 50 muusiku"
+ ]
+}
