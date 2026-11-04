@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-04",
+ "generatedAt": "2026-11-04T04:50:39+00:00",
+ "label": "Kolmapäev, 4. november 2026",
+ "questions": [
+  {
+   "answer": 1,
+   "cat": "sport",
+   "explain": "Võlts oli ujujate pealkiri – tegelikult läheb Eesti detsembris Pekingis toimuvale lühiraja MM-ile seitsme ujujaga. Päris lood: Haas loobus Esteban Oconist ja annab võimaluse Rafael Camarale ning Liis Kapten tegi Tšiilis San Pedro de la Pazis karjääri parima MK-tulemuse.",
+   "options": [
+    "Haas näitas Oconile ust ja annab võimaluse noorele Brasiilia talendile",
+    "Ujumise lühiraja MM-il esindab Eestit üheksa sportlast",
+    "Liis Kapten ületas Tšiilis krambid ja tegi karjääri parima MK-tulemuse"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610184895/eesti-laheb-mm-ile-seitsme-ujujaga"
+  },
+  {
+   "answer": 9900,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Vastseliinas asuva 2018. aasta Ligier JS50 mopeedauto müüja küsib selle eest 9900 eurot, mis tekitas kommentaatorites arutelu, kas hinnas pole üks null liiast.",
+   "max": 60000,
+   "min": 500,
+   "prompt": "Mitu eurot küsitakse Facebookis müügis oleva roosa, Hello Kitty kleebistega Ligier' mopeedauto eest?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "eurot",
+   "url": "https://elu24.postimees.ee/8575669/kas-pariselt-maksab-nii-palju-voi-on-uks-null-liiast-omaparase-soiduki-muugikuulutus-tekitab-arutelu"
+  },
+  {
+   "cat": "sise",
+   "explain": "Kambja valla Tõrvandi koolihoone päikesevarjestus oli seinal olnud umbes kaks aastat; vallavanem Kajar Lemberi sõnul tekkis turvarisk. Ekspertiis peaks fassaadi saatuse selgitama enne aasta lõppu.",
+   "lat": 58.333,
+   "lon": 26.717,
+   "place": "Tõrvandi (Kambja vald)",
+   "prompt": "Kus asub uus koolihoone, mille fassaadilt eemaldati kogu puidust päikesevarjestus, sest liimpuidu lamellid läksid lahti?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610184913/torvandi-uuelt-koolihoone-fassaadilt-eemaldati-kogu-paikesevarjestus"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Nii rääkis Manchester Unitedi peatreener Michael Carrick enne Meistrite liiga 4. vooru kohtumist Romaga Old Traffordil. Tsitaat on tõlgitud sloveeni keelest.",
+   "options": [
+    "Diego Simeone",
+    "Ruben Amorim",
+    "Michael Carrick",
+    "Vincent Kompany"
+   ],
+   "quote": "Võib-olla tundub teile, et ma pole täie mõistuse juures, aga ma ei jõua Romaga kohtumist ära oodata.",
+   "src": "RTV SLO",
+   "type": "who",
+   "url": "https://www.rtvslo.si/sport/nogomet/liga-prvakov-v-nogometu/carrick-morda-se-vam-zdi-da-nisem-pri-zdravi-pameti-a-komaj-cakam-obracun-z-romo/798824"
+  },
+  {
+   "answer": 1,
+   "cat": "majandus",
+   "explain": "Küberrünnakud on suunatud supermarketite külmasüsteemidele; rünnatud riikide hulka lisandusid Rumeenia, Saksamaa ja Suurbritannia.",
+   "headline": "___ suunatud küberrünnakud tabasid vähemalt 11 Euroopa riiki",
+   "options": [
+    "Kassasüsteemidele",
+    "Külmikutele",
+    "Pangaautomaatidele",
+    "Valvekaameratele"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610185054/kulmikutele-suunatud-kuberrunnakud-tabasid-vahemalt-11-euroopa-riiki"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Põhjapõtrade pealkiri oli võlts. Päris lood: Ähtäri loomapargi hiidpandadele ettevaatusabinõuna soetatud enneaegsete vastsündinute inkubaatorid kingiti Ukrainale ning Eppu Normaali lahkumiskontserdid andsid hoogu restoraniettevõtte NoHo Partners kasvule.",
+   "options": [
+    "Ähtäri pandadele hangitud inkubaatorid annetati Ukrainale",
+    "Eppu Normaali lahkumiskontserdid kiirendasid NoHo Partnersi kasvu",
+    "Lapi põhjapõtrade arv tõusis viimase 20 aasta suurimaks"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20254617"
+  },
+  {
+   "answer": 86000,
+   "cat": "sise",
+   "decimals": 0,
+   "explain": "Maks kehtib umbes 30 000 registrisse jäetud ja ligi 56 000 alla seitsme aasta peatatud kandega sõidukile. Transpordiamet kustutas 1. novembril registrist üle 70 000 sõiduki.",
+   "max": 500000,
+   "min": 2000,
+   "prompt": "Mitmele sõidukile hakkab Transpordiameti andmetel jaanuarist kohalduma mootorsõidukimaks, sest need jäid registrisse alles?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "sõidukit",
+   "url": "https://www.err.ee/1610185006/kumned-tuhanded-romusoidukid-jaid-registrisse-ja-lahevad-nuud-maksu-alla"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Anni Rahula avaldas Tomi sünnipäeval, millise mulje mees talle alguses jättis.",
+   "options": [
+    "Getter Jaani",
+    "Anni Rahula",
+    "Liisi Koikson",
+    "Kristel Aaslaid"
+   ],
+   "quote": "Arvasin, et ta on veidi ülbe ja isegi igav!",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8576780/arvasin-et-ta-on-veidi-ulbe-ja-isegi-igav-anni-rahula-avaldas-tomi-sunnipaeval-millise-mulje-mees-talle-alguses-jattis"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "Üks kaubalennuk viib korraga 120 veist ja seni on ainus sihtkoht Usbekistan; prognoositakse vähemalt 20 lendu. Pealkiri on tõlgitud inglise keelest.",
+   "headline": "Läti alustas ___ eksporti Riia lennujaama kaudu",
+   "options": [
+    "veiste",
+    "hobuste",
+    "lammaste",
+    "mesilaste"
+   ],
+   "src": "LSM",
+   "type": "blank",
+   "url": "https://eng.lsm.lv/article/economy/transport/03.11.2026-latvia-begins-cattle-exports-via-riga-airport.a670289/"
+  },
+  {
+   "cat": "majandus",
+   "explain": "Ristiku tänava lõpus asuv hoone oli kunagi Tallinna garnisoni peavahihoone ja seejärel filmiarhiivi kasutuses. RKAS ei ole parimat pakkumust veel avalikustanud.",
+   "lat": 59.4487,
+   "lon": 24.7056,
+   "place": "Tallinn, Ristiku 84",
+   "prompt": "Kus asub endine filmiarhiivi kinnistu, mida Riigi Kinnisvara müüb 790 000-eurose alghinnaga ja millele laekus kuus pakkumist?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610184826/filmiarhiivi-endist-kinnistut-tallinnas-tahab-endale-kuus-ostuhuvilist"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Suitsusauna-kohtingusaade oli välja mõeldud. Päris lood: Michael Jacksoni tütar rääkis 17 aastat oodatud pärandusest ja Martin Himma meenutas kohtumist Austria politseiga.",
+   "options": [
+    "Michael Jacksoni tütar suurest pärandusest: oleme vendadega juba 17 aastat oodanud",
+    "«Kogu Eesti räägib sellest!» Uus kohtingusaade viib osalejad esimesele kohtumisele suitsusauna",
+    "Murdmaasuusataja Martin Himma kokkupuutest Austria politseiga: lõpuks soovisin, et nad mulle trahvi teeksid"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8575479/murdmaasuusataja-martin-himma-kokkupuutest-austria-politseiga-lopuks-soovisin-et-nad-mulle-trahvi-teeksid"
+  },
+  {
+   "answer": 3,
+   "cat": "sise",
+   "explain": "Julgeolekuekspert Meelis Oidsalu hoiatas, et uus riigikaitse arengukava võib muutuda kõigi väeliikide soovinimekirjaks.",
+   "options": [
+    "Rainer Saks",
+    "Leo Kunnas",
+    "Kusti Salm",
+    "Meelis Oidsalu"
+   ],
+   "quote": "Mulle on jäänud mulje, et kaitsevaldkonnas on jõulud.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610184829/oidsalu-mulle-on-jaanud-mulje-et-kaitsevaldkonnas-on-joulud"
+  },
+  {
+   "answer": 20,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Päästeoperatsioonis osalesid sõjalaev, seirelennuk ja merejalaväe eriüksus, samal ajal kui Somaalia piraatlus on taas hoogustunud.",
+   "max": 300,
+   "min": 2,
+   "prompt": "Mitu meeskonnaliiget päästis India merevägi Somaalia rannikul kaaperdatud Iraani kalalaevalt?",
+   "src": "NPR",
+   "type": "number",
+   "unit": "meeskonnaliiget",
+   "url": "https://www.npr.org/2026/11/03/g-s1-151468/indian-navy-rescues-20-crew-from-iranian-fishing-boat-hijacked-off-somalia"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Hirvede pealkiri oli võlts. Päris lood: lühiajalise töö loaga tuleb Eestisse varasemast vähem inimesi ning teenistuskoerte koolituskeskuse juht Rene Radala rääkis koerte uutest rollidest.",
+   "options": [
+    "Eestisse tullakse tööle varasemast ajast vähem",
+    "Rene Radala: teenistuskoertele tuleb julgeolekuolukorra tõttu rolle juurde",
+    "Hirvede arvukus Eestis langes ajaloo madalaimale tasemele"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610184881/eestisse-tullakse-toole-varasemast-ajast-vahem"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Kunstnik Ave Nahkur rääkis Elu24-le valusast lahkuminekust ja reetmisest, mida ta nimetas enda jaoks kõige suuremaks pauguks.",
+   "headline": "Kunstnik Ave Nahkur valusast lahkuminekust: reetmine oli ränk, see oli minu jaoks kõige suurem ___",
+   "options": [
+    "pauk",
+    "löök",
+    "pettumus",
+    "õppetund"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8576349/kunstnik-ave-nahkur-valusast-lahkuminekust-reetmine-oli-rank-see-oli-minu-jaoks-koige-suurem-pauk"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Raamatut esitleti Võrumaa Muuseumis. Üle 200-leheküljeline teos koondab Kuusingu maale ja linoollõikeid; koostaja on Kadri Asmer ja kujundaja Peeter Laurits.",
+   "lat": 57.8339,
+   "lon": 27.0194,
+   "place": "Võru",
+   "prompt": "Kus esitleti maalikunstnik Toomas Kuusingu 25 aasta loomingut koondavat kunstiraamatut „Harilikud inimesed. Harilikud maailmad”?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610184916/ilmus-toomas-kuusingu-kunstiraamat-mis-votab-kokku-25-aastat-loometood"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, LSM, RTV SLO, NPR",
+ "ticker": [
+  "Ott Tänak naaseb täiskohaga sõitjana autoralli MM-sarja",
+  "Henn avalikustas jalgpallikoondise koosseisu novembrikuu mängudeks",
+  "Peeter Volkonski pani kokku oma esimese lapsehoidja luulekogu",
+  "Kolmapäeval sajab vihma",
+  "Tööstusliit: Saksamaa vajab tehisaru arendamiseks drastilisi muudatusi",
+  "Festival Hullunud Tartu mängib tänavu vormidega",
+  "Eesti naiskond sai teada vastased Rahvuste liigas",
+  "Mirko Rajas: võtsime ülesandeks lugeda läbi kogu Pessoa looming"
+ ]
+}
