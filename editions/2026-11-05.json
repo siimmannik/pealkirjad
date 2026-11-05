@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-05",
+ "generatedAt": "2026-11-05T06:50:49+02:00",
+ "label": "Neljapäev, 5. november 2026",
+ "questions": [
+  {
+   "cat": "sise",
+   "explain": "Virtsus avati uus 28-meetrine raudbetoonist tuletorn – ainus selline Eesti 55 tuletorni seas. Esimene tuletorn ehitati sinna 1866. aastal ja see on hävinud mõlemas maailmasõjas.",
+   "lat": 58.5733,
+   "lon": 23.505,
+   "place": "Virtsu",
+   "prompt": "Kus avati 28 meetri kõrgune puna-valge tuletorn, mis on samas kohas juba kuues?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610186413/virtsus-avati-uus-tuletorn"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Helsingi metroo uudis oli võlts. Päris lood: Kempower otsib 15 miljoni euro suurust aastast säästu ja Soomes on ohus kuni 80 töökohta; Sipoosse kavandatakse üle 70 000 ruutmeetri suurust logistikakeskust.",
+   "options": [
+    "Kempower alustab muudatusläbirääkimisi – Soomes on ohus 80 töökohta",
+    "Helsingi metroo hakkab talvel sõitma ööpäev läbi ka argipäeviti",
+    "Sipoosse kavandatakse hiiglaslikku logistikakeskust – teostumisel toob see üle 200 töökoha"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20254963"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Nii reageeris „Ringvaate” saatejuht Marko Reikop, kui rallikommentaator Kalev Kruus paljastas, et uus WRC hooaeg algab 21. jaanuaril Monte Carlo ralliga.",
+   "options": [
+    "Kalev Kruus",
+    "Ott Tänak",
+    "Marko Reikop",
+    "Martin Järveoja"
+   ],
+   "quote": "Jeesus, seda sa ütlesid! … Seda sa ei pidanud ütlema!",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8576942/seda-sa-ei-pidanud-utlema-rallikommentaator-pani-marko-reikopi-kohmetusse-olukorda"
+  },
+  {
+   "answer": 1284,
+   "cat": "sise",
+   "decimals": 0,
+   "explain": "Tuleva aasta sisserände piirarv on 1284. Lisaks tuleb uus 0,2-protsendine kvoot, mille alusel võib välismaalasele maksta vaid 80 protsenti keskmisest palgast – ametiühingud näevad selles ohtu palgatasemele.",
+   "max": 20000,
+   "min": 100,
+   "prompt": "Kui suur on Eesti tuleva aasta sisserände piirarv (0,1% elanikkonnast)?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "inimest",
+   "url": "https://www.err.ee/1610186290/ametiuhingud-naevad-uues-sisserandekvoodis-ohtu-palgatasemele"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Sloveenia president Nataša Pirc Musar kohtus Kairos Egiptuse riigipeaga, et edendada majanduskoostööd; juttu oli ka pingetest Lähis-Idas. Pealkiri on tõlgitud sloveeni keelest.",
+   "headline": "Pirc Musar Kairos Egiptuse kolleegiga: Sloveenia püüab olla ajaloo ___ poolel",
+   "options": [
+    "võitjate",
+    "valel",
+    "õigel",
+    "helgel"
+   ],
+   "src": "RTV SLO",
+   "type": "blank",
+   "url": "https://www.rtvslo.si/slovenija/pirc-musar-v-kairu-z-egiptovskim-kolegom-slovenija-skusa-biti-na-pravi-strani-zgodovine/798943"
+  },
+  {
+   "answer": 2,
+   "cat": "kultuur",
+   "explain": "Kumu näituse pikendamise uudis oli võlts. Päris lood: Feministeerium avas Telliskivi galeriis koomiksinäituse „Väike feminism” ning Tallinna kirjanike majas peeti tõlkija ja luuletaja Kruusa Kalju mälestusõhtu.",
+   "options": [
+    "Telliskivis avatud koomiksinäitus toob esile argise feminismi",
+    "Galerii: kirjanike majas mälestati Kruusa Kaljut",
+    "Kumu pikendab rekordilise külastatavusega näitust jaanuari lõpuni"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://kultuur.err.ee/1610186200/telliskivis-avatud-koomiksinaitus-toob-esile-argise-feminismi"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Merily Timmer abiellus oma kallimaga Mauritiusel – Elu24 avaldas pulmast esimesed fotod.",
+   "headline": "Merily Timmer tõotab kallimaga ___ päikese all igavest armastust",
+   "options": [
+    "Bali",
+    "Mauritiuse",
+    "Tenerife",
+    "Seišellide"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8576875/esimesed-pulmaklopsud-merily-timmer-tootab-kallimaga-mauritiuse-paikese-all-igavest-armastust"
+  },
+  {
+   "cat": "sise",
+   "explain": "Presidendi kantselei palus kaitseväel ja kaitseliidul korraldada 2027. aasta riiklikud paraadid Tallinnas ja Põlvas; võidupüha paraad toimub Põlvas.",
+   "lat": 58.0603,
+   "lon": 27.0697,
+   "place": "Põlva",
+   "prompt": "Millises maakonnalinnas toimub tuleval suvel võidupüha paraad?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610186386/voidupuha-paraad-toimub-sel-suvel-polvas"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Nii ütles vabariiklane Byron Donalds, kes valiti Florida esimeseks mustanahaliseks kuberneriks; ta kinnitas ka toetust Donald Trumpile. Tsitaat on tõlgitud inglise keelest.",
+   "options": [
+    "Ron DeSantis",
+    "Rick Scott",
+    "Marco Rubio",
+    "Byron Donalds"
+   ],
+   "quote": "Oleme endiselt punased.",
+   "src": "Al Jazeera",
+   "type": "who",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/we-are-still-red-floridas-first-black-governor-upon-win"
+  },
+  {
+   "answer": 3,
+   "cat": "sport",
+   "explain": "FC Flora alistas Tartu Welco 7:2 ja pääses viimase meeskonnana Eesti karikasarja veerandfinaali.",
+   "headline": "Flora jäi juba 20. sekundil kaotusseisu, aga lõi siis Welcole ___",
+   "options": [
+    "viis",
+    "kuus",
+    "kaheksa",
+    "seitse"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://sport.err.ee/1610186428/flora-jai-juba-20-sekundil-kaotusseisu-aga-loi-siis-welcole-seitse"
+  },
+  {
+   "answer": 15,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Sämi kolmandal stuudioalbumil „Paar pilve taevas” on 15 lugu ja igaüks saab muusikavideo; projekti kogumaksumus on Sämi sõnul ligikaudu kuuekohaline summa.",
+   "max": 200,
+   "min": 2,
+   "prompt": "Mitu lugu on Sämi uuel albumil „Paar pilve taevas”, kui igaühele tehakse muusikavideo?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "lugu",
+   "url": "https://elu24.postimees.ee/8577500/julge-ettevotmine-sam-pani-uue-albumi-alla-poorase-summa-ise-olen-selle-kokku-kraapinud"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Peaminister Kristen Michal ütles nii Hanno Pevkuri poliitikast lahkumise kohta; ta püüdis Pevkurit jääma veenda, kuid mõistab tema otsust.",
+   "options": [
+    "Hanno Pevkur",
+    "Kristen Michal",
+    "Martin Herem",
+    "Jonatan Vseviov"
+   ],
+   "quote": "Eks me kõik läheme vahel inimlikult katki. Keegi pole ju rauast.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610186260/michal-pevkuri-lahkumisest-keegi-pole-rauast"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Lennujaama vaikse ruumi lugu oli võlts. Päris lood: Draamateater otsis uut töötajat pärast seda, kui jaanuari ja veebruari etenduste piletid müüdi minutitega läbi; Harry ja Meghani kolimisest kirjutas Elu24 samuti.",
+   "options": [
+    "Tallinna lennujaam avas reisijatele vaikse ruumi: sisse ei tohi võtta isegi telefoni",
+    "Draamateatri töökuulutus ajas rahva elevile: «Kui see pole jalg ukse vahele kõikidele etendustele, siis ma ei tea, mis on»",
+    "Harry ja Meghan kolisid salaja Inglise mõisa – USA Montecito häärber ootab nende tagasitulekut"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8577192/draamateatri-tookuulutus-ajas-rahva-elevile-kui-see-pole-jalg-ukse-vahele-koikidele-etendustele-siis-ma-ei-tea-mis-on"
+  },
+  {
+   "answer": 23.5,
+   "cat": "valis",
+   "decimals": 1,
+   "explain": "AKKA/LAA andmetel vähenes külastatavus 23,5% – 1,307 miljonilt 999 638-le. Ilma mullu toimunud koolinoorte laulu- ja tantsupeota oleks langus 17%.",
+   "max": 300,
+   "min": 2,
+   "prompt": "Mitu protsenti vähenes Lätis tänavu esimese üheksa kuuga kontsertide ja muusikaürituste külastatavus?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "%",
+   "url": "https://eng.lsm.lv/article/culture/culture/03.11.2026-concert-attendance-noticeably-down-in-latvia.a670293/"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Narva linn lõpetas klubi Ro-Ro rendilepingu maksmata üüri ja tuleohutusprobleemide tõttu; toetajate meelest püütakse kohalikku kultuuri maha suruda.",
+   "lat": 59.3772,
+   "lon": 28.1903,
+   "place": "Narva",
+   "prompt": "Millise linna muusika- ja kunstiklubi Ro-Ro peab pärast 25 tegevusaastat uue kodu leidma?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610186275/narva-kultuuriklubi-ro-ro-peab-parast-25-tegevusaastat-uue-kodu-leidma"
+  },
+  {
+   "answer": 0,
+   "cat": "sport",
+   "explain": "Iluuisutamise EM-i uudis oli võlts. Päris lood: Maari Randväli sai Dakari noorte olümpiamängudel taas neljanda koha ning värske maailma esireket Alexander Zverev kaotas Pariisi Mastersil Lorenzo Musettile.",
+   "options": [
+    "Tallinn saab 2028. aastal iluuisutamise Euroopa meistrivõistlused",
+    "Randväli tuli noorte olümpial taas neljandaks",
+    "Zverev sai esimeses mängus esireketina ajaloolise kaotuse"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610186389/randvali-tuli-noorte-olumpial-taas-neljandaks"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, LSM, RTV SLO, Al Jazeera",
+ "ticker": [
+  "Bigbank/Kalev alistas võõrsil Prantsusmaa viienda klubi, Pärnu kaotas kodus",
+  "Vseviov tõotab maksufestivalile valimisvõidu korral lõpu teha",
+  "Tartu Bigbank sai Võru Barrusest jagu ja tõusis Balti liiga liidriks",
+  "Neljapäeval on päikeseline ilm",
+  "Nafta hind langes alla 100 dollari barrelist",
+  "KOV-id kiidavad riigi plaani ehitada väikelinnadesse tuhat uut korterit",
+  "Latvala kohtade jagamisest: Ott ja Kalle võitsid Yarisega tiitli, nendega oli lihtne",
+  "PÖFF-i raames jõuab Eestisse ka Scorsese \"After Hoursi\" peaosatäitja Griffin Dunne"
+ ]
+}
