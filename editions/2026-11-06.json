@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-06",
+ "generatedAt": "2026-11-06T04:51:36Z",
+ "label": "Reede, 6. november 2026",
+ "questions": [
+  {
+   "answer": 1,
+   "cat": "sport",
+   "explain": "Curlingu-uudis oli võlts. Päriselt liitub mullune Balti ringsõidu üldvõitja Lauri Tamm 2027. aastaks Leedu tiimiga Energus Cycling Team ning Toyota pealik Jari-Matti Latvala ütles, et Sébastien Ogier sõidab järgmisel hooajal tõenäoliselt vaid kaks-kolm MM-rallit.",
+   "options": [
+    "Lauri Tamm liitub Leedu rattatiimiga",
+    "Eesti curlingupaar teenis MM-valikturniiril kolmanda võidu",
+    "Latvala kinnitas: Ogier teeb kaasa üksikutel rallidel"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610187931/lauri-tamm-liitub-leedu-rattatiimiga"
+  },
+  {
+   "answer": 58.2,
+   "cat": "valis",
+   "decimals": 1,
+   "explain": "Läti statistikaameti andmetel kasutas generatiivset tehisintellekti 58,2% internetikasutajatest, mida on 23,1 protsendipunkti rohkem kui aasta varem. Kõige aktiivsemad olid 16–24-aastased (91,3%).",
+   "max": 100,
+   "min": 1,
+   "prompt": "Mitu protsenti Läti internetikasutajatest kasutas 2026. aastal generatiivse tehisintellekti tööriistu?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "%",
+   "url": "https://eng.lsm.lv/article/society/society/05.11.2026-over-half-of-latvias-internet-users-also-use-ai.a670682/"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Raadiohääl ja DJ Allan Roosileht tegi naljaka video vanast WC-potist, mis oli mitu päeva seisnud Lasnamäel Maxima parklas kuuskede all – kohas, kuhu inimesed ebaseaduslikult prahti jätavad.",
+   "options": [
+    "Hannes Võrno",
+    "Marko Reikop",
+    "Allan Roosileht",
+    "Mart Juur"
+   ],
+   "quote": "Tõesti on tore, et inimese peale linn mõtleb.",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8577144/allan-roosileht-leidis-avaliku-pelgupaiga-toesti-on-tore-et-inimese-peale-linn-motleb"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Kavakava arhitektide projekteeritud ligi nullenergiahoone Noblessneris on Eesti suurim avalik puitehitis. Majas tegutsevad Eesti Loodusmuuseum, keskkonnaamet, keskkonnaagentuur ja teised asutused.",
+   "lat": 59.4512,
+   "lon": 24.73,
+   "place": "Noblessner, Tallinn",
+   "prompt": "Kus asub loodusmaja Taru, mis valiti Eesti aasta puitehitiseks?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610187967/eesti-aasta-puitehitiseks-valiti-loodusmaja-taru"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Itaalia valitsuse eelarveeelnõu järgi kaob koolidest ligi 7000 töökohta, sh 4925 õpetaja ametikohta, sest õpilaste arv on langenud 8,4 miljonilt 7,7 miljonile. Pealkiri on tõlgitud sloveeni keelest.",
+   "headline": "Itaalia vähendab demograafilise kriisi tõttu ___ arvu",
+   "options": [
+    "arstide",
+    "sõdurite",
+    "õpetajate",
+    "politseinike"
+   ],
+   "src": "RTV SLO",
+   "type": "blank",
+   "url": "https://www.rtvslo.si/svet/evropa/italija-bo-zaradi-demografske-krize-zmanjsala-stevilo-uciteljev/799066"
+  },
+  {
+   "answer": 1,
+   "cat": "kultuur",
+   "explain": "Nii ütles helilooja Sven Grünberg, kes pälvis PÖFF-i elutööpreemia – tema loometee on jõudmas 50 aastani.",
+   "options": [
+    "Erkki-Sven Tüür",
+    "Sven Grünberg",
+    "Peeter Vähi",
+    "Tõnu Kõrvits"
+   ],
+   "quote": "Muusika peaks aitama inimestel elada.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://kultuur.err.ee/1610187799/poff-i-elutoopreemia-palvinud-sven-grunberg-muusika-peaks-aitama-inimestel-elada"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Saunapulmade trend oli võlts. Elu24 kirjutas päriselt sellest, kuidas Eesti staarid registreerivad üha agaramalt oma kaubamärke, ning ennustusest, et loomaaiad võivad lähikümnenditel kaduda.",
+   "options": [
+    "Järgmistel aastakümnetel kaovad loomaaiad ja inimese suhe loomadega muutub",
+    "Nublu krõpsudest Malluka dressideni: Eesti staarid kaitsevad üha agaramalt oma kaubamärke",
+    "Uus trend Eesti staaride seas: pulmapidu peetakse hoopis saunas"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8577853/tohoh-nublu-kropsudest-malluka-dressideni-eesti-staarid-kaitsevad-uha-agaramalt-oma-kaubamärke"
+  },
+  {
+   "answer": 216,
+   "cat": "majandus",
+   "decimals": 0,
+   "explain": "Nordeconi müügitulu kasvas üheksa kuuga 216 miljoni euroni, umbes 46% rohkem kui aasta varem, kuid kasum jäi mullusega samale tasemele.",
+   "max": 2000,
+   "min": 10,
+   "prompt": "Milleni kasvas ehitusettevõtte Nordecon müügitulu selle aasta esimese üheksa kuuga?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "mln eurot",
+   "url": "https://www.err.ee/1610187884/ettevote-nordecon-kasvatas-muugitulu-46-protsenti-kuid-firma-kasumlikkus-langes"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Nii hindas USA vahevalimiste tulemusi Al Jazeera vanem poliitikaanalüütik Marwan Bishara. Tsitaat on tõlgitud inglise keelest.",
+   "options": [
+    "Anne Applebaum",
+    "Gadi Eisenkot",
+    "Abdul El-Sayed",
+    "Marwan Bishara"
+   ],
+   "quote": "USA valimised andsid sõjaõhutajatele hoobi.",
+   "src": "Al Jazeera",
+   "type": "who",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/aje-onl-nf_us-election-deals-a-blow-to-warmongers-051126"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Eesti Rahva Muuseumi näitus «Eestiaegne hõbe» keskendub omariikluse esimese perioodi hõbeseppadele ja avatakse reedel Tartus.",
+   "lat": 58.3963,
+   "lon": 26.747,
+   "place": "Eesti Rahva Muuseum, Tartu",
+   "prompt": "Kus avatakse reedel näitus «Eestiaegne hõbe», mis tutvustab aastatel 1918–1944 tegutsenud hõbeseppade loomingut?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610187811/galerii-erm-i-naitus-eestiaegne-hobe"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Taani koomiku telesaade on riigis pahameelt tekitanud ning selle kohta võttis sõna ka Taani peaminister.",
+   "headline": "Taanis tekitab koomiku telesaade pahameelt, sõna võttis ka ___",
+   "options": [
+    "kuninganna",
+    "peaminister",
+    "kultuuriminister",
+    "kroonprints"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8577228/taanis-tekitab-koomiku-telesaade-pahameelt-sona-vottis-ka-peaminister"
+  },
+  {
+   "answer": 0,
+   "cat": "sise",
+   "explain": "Ööpäevaringse raamatukogu uudis oli võlts. Päriselt kirjutas ERR, et Tartu vangla karistab Rootsi telekanali SVT andmetel Rootsi vange protestide ja reeglirikkumiste eest ning et pangad saavad õiguse kahtlasi makseid ajutiselt peatada.",
+   "options": [
+    "Tallinnas avati esimene ööpäevaringne iseteeninduslik raamatukogu",
+    "Rootsi vangide sõnakuulmatus tõi Tartu vanglas kaasa karmima korra",
+    "Pangad saavad õiguse kahtlasi makseid peatada, kuid kõiki pettusi see ei tõkesta"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610187904/rootsi-vangide-sonakuulmatus-toi-tartu-vanglas-kaasa-karmima-korra"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Lauamängude rekord oli võlts. Yle kirjutas päriselt, et Lapimaale avatakse ülirikastele mõeldud salajane luksuspaik ning et Google annetab miljoneid Muhose ja Vaala valdadele, kes kasutavad raha energiaprojektideks.",
+   "options": [
+    "Lapimaale avatakse uus salajane luksuspaik, mis püüab klientideks superrikkaid",
+    "Soome raamatukogudes laenutati oktoobris rekordarv lauamänge",
+    "Google annetab miljoneid oma andmekeskustega valdadele Muhosele ja Vaalale"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20255193"
+  },
+  {
+   "answer": 3,
+   "cat": "sise",
+   "explain": "Eesti Meremuuseum tellib umbes miljoni euro eest katamaraan-uurimislaeva, mis ehitatakse Lätis.",
+   "headline": "Meremuuseum tellib ___ miljoni euro eest uue uurimislaeva",
+   "options": [
+    "Soomest",
+    "Poolast",
+    "Norrast",
+    "Lätist"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610187961/meremuuseum-tellib-latist-miljoni-euro-eest-uue-uurimislaeva"
+  },
+  {
+   "answer": 15,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Sämi kolmandal stuudioalbumil on 15 lugu ja igaühele valmib video. Säm ütles, et projekti kulud ulatuvad ligikaudu kuuekohalise summani.",
+   "max": 200,
+   "min": 2,
+   "prompt": "Mitu lugu on räppar Sämi uuel stuudioalbumil «Paar pilve taevas», kui igale loole tehakse ka muusikavideo?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "lugu",
+   "url": "https://elu24.postimees.ee/8577500/julge-ettevotmine-sam-pani-uue-albumi-alla-poorase-summa-ise-olen-selle-kokku-kraapinud"
+  },
+  {
+   "cat": "sise",
+   "explain": "Pärnu linna Ermistusse Päraküla ja Lõuka küla lähedale kavandatud pargis võiks laskemoona toota kuni seitse ettevõtet. Elanikud muretsevad ohutuse, müra ja Männiku jõe pärast, mis on lõhe kudejõgi; 3 km raadiuses on 63 majapidamist.",
+   "lat": 58.365,
+   "lon": 23.99,
+   "place": "Ermistu, Pärnu",
+   "prompt": "Kuhu on kavandatud riigi suurim, 204-hektariline kaitsetööstuspark, mis teeb kohalikele elanikele muret?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610187964/parnusse-ermistusse-kavandatud-kaitsetoostuspark-teeb-sealsetele-elanikele-muret"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, Al Jazeera",
+ "ticker": [
+  "Reedel algab Eesti tennise aastalõputurniir",
+  "NATO käivitas platvormi liikmesriikide droonitõrje tugevdamiseks",
+  "Prantsusmaad tabas uus ulatuslik protestilaine",
+  "Kumu uues näituses lahatakse emadusega seotud hirme",
+  "Keila KK teenis Eesti-Läti liigas neljanda võidu",
+  "Meloni kritiseeris Euroopa killustatust Ukraina kõnelustel",
+  "Eesti Laul 2027 finaalkontserdi piletid on nüüd müügil",
+  "Reedel on vahelduva pilvisusega ilm"
+ ]
+}
