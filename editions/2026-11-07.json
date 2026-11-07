@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-07",
+ "generatedAt": "2026-11-07T06:51:18+02:00",
+ "label": "Laupäev, 7. november 2026",
+ "questions": [
+  {
+   "cat": "sise",
+   "explain": "Sõrve tuletorni külastas eelmisel aastal üle 25 000 inimese; Londonist tulnud naine veetis tornis umbes 45 minutit. Enamik Eesti tuletorne on avatud vaid suvehooajal.",
+   "lat": 57.9126,
+   "lon": 22.0539,
+   "place": "Sõrve tuletorn",
+   "prompt": "Millise tuletorni külastamiseks sõitis üks naine septembris spetsiaalselt Londonist Saaremaale?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610188891/eesti-tuletornid-on-reeglina-avatud-vaid-suvehooajal"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Elu24 kirjutas, et Eesti staarid registreerivad üha agaramalt oma kaubamärke – Nublu krõpsudest Malluka dressideni.",
+   "headline": "Nublu ___ Malluka dressideni: Eesti staarid kaitsevad üha agaramalt oma kaubamärke",
+   "options": [
+    "limonaadist",
+    "krõpsudest",
+    "sokkidest",
+    "energiajookidest"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8577853/tohoh-nublu-kropsudest-malluka-dressideni-eesti-staarid-kaitsevad-uha-agaramalt-oma-kaubamarke"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Sloveenia president Nataša Pirc Musar ütles seda tseremoonial, kus tähistati 35 aastat tolarist ja 20 aastat eurost. Tsitaat on tõlgitud sloveeni keelest.",
+   "options": [
+    "Robert Golob",
+    "Marta Kos",
+    "Nataša Pirc Musar",
+    "Borut Pahor"
+   ],
+   "quote": "Tolar ja euro. Mõlemal valuutal on meie riigi jaoks ajalooline tähendus.",
+   "src": "RTV SLO",
+   "type": "who",
+   "url": "https://www.rtvslo.si/gospodarstvo/pirc-musar-tolar-in-evro-obe-valuti-imata-za-naso-drzavo-zgodovinski-pomen/799182"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Infotundide lugu oli võlts. Päriselt jäid rahanduskomisjoni kaks erakorralist istungit reedel kvoorumi puudumise tõttu ära ning linnade ja valdade liit kardab, et võlanõustamiskohustus suurendab omavalitsuste töökoormust ja kulusid.",
+   "options": [
+    "Omavalitsused ei taha võlanõustamiskohustust",
+    "Riigikogu infotunnid hakkavad toimuma ka reedeti",
+    "Rahanduskomisjonil ebaõnnestus kahel korral erakorralise istungi pidamine"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610188525/rahanduskomisjonil-ebaonnestus-kahel-korral-erakorralise-istungi-pidamine"
+  },
+  {
+   "answer": 35,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Läti Michelini juhendis on 35 restorani, neist 12 lisandusid valikusse sel aastal. Tärni hoidsid alles Riia restoranid JOHN Chef's Hall ja Max Cekot Kitchen.",
+   "max": 500,
+   "min": 5,
+   "prompt": "Mitu restorani on Michelini juhendi 2027. aasta Läti valikus?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "restorani",
+   "url": "https://eng.lsm.lv/article/culture/food-drink/05.11.2026-latvias-2027-michelin-guide-has-35-restaurants.a670314/"
+  },
+  {
+   "answer": 3,
+   "cat": "meelelahutus",
+   "explain": "Raadiohääl Allan Roosileht tegi humoorika video vanast tualetist, mis oli mitu päeva seisnud Lasnamäel Maxima parklas kuuskede all.",
+   "options": [
+    "Ott Sepp",
+    "Märt Avandi",
+    "Tanel Padar",
+    "Allan Roosileht"
+   ],
+   "quote": "Tõesti on tore, et inimese peale linn mõtleb.",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8577144/allan-roosileht-leidis-avaliku-pelgupaiga-toesti-on-tore-et-inimese-peale-linn-motleb"
+  },
+  {
+   "answer": 0,
+   "cat": "sise",
+   "explain": "Tallinna halduskohus leidis, et karude küttimise luba oli viiest piirkonnast neljas lubamatu.",
+   "headline": "Kohus: viiest piirkonnast neljas oli ___ küttimise luba lubamatu",
+   "options": [
+    "karude",
+    "huntide",
+    "ilveste",
+    "kobraste"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610188753/kohus-viiest-piirkonnast-neljas-oli-karude-kuttimise-luba-lubamatu"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "Saunatelkide lugu oli võlts. Päriselt proovis Yle reporter Tamperes peagi liikuma hakkavat Põhjamaade pikimat trammi ning Jyväskylä Kirkkopuistosse toodi aastaid laos seisnud endine turukaev.",
+   "options": [
+    "Oulu linnaraamatukogu hakkab laenutama saunatelke",
+    "Tamperes hakkab peagi sõitma hiigeltramm, mis liigub „nagu uss” – hüppasime peale",
+    "Jyväskylä Kirkkopuistosse toodi kaev, millest enam vett ei saa – selle ülesanne on pakkuda rõõmu"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20255325"
+  },
+  {
+   "answer": 300,
+   "cat": "majandus",
+   "decimals": 0,
+   "explain": "Eesti Energia ettevõtetest kaob 300 töökohta, mis muudab elu Ida-Virumaal keerulisemaks ja hoogustab elanike lahkumist.",
+   "max": 4000,
+   "min": 20,
+   "prompt": "Mitu töökohta kaob Eesti Energia ettevõtetest suurkoondamise tõttu?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "töökohta",
+   "url": "https://www.err.ee/1610188829/eesti-energia-suurkoondamine-hoogustab-elanike-lahkumist-ida-virumalt"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "„Viies samm” esietendub Ugala teatri väikeses saalis Andres Noormetsa lavastuses; laval on Riho Kütsar ja Alden Kirss.",
+   "lat": 58.366,
+   "lon": 25.595,
+   "place": "Viljandi (Ugala teater)",
+   "prompt": "Millises linnas esietendub 7. novembril David Irelandi näidend „Viies samm”?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610188657/ugalas-esietendub-david-irelandi-viies-samm"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Pidžaamatrendi lugu oli võlts. Päriselt kirjutas Elu24 Taani koomiku pahameelt tekitanud telesaatest ja Draamateatri töökuulutusest, mis ajas rahva elevile.",
+   "options": [
+    "Taanis tekitab koomiku telesaade pahameelt, sõna võttis ka peaminister",
+    "Draamateatri töökuulutus ajas rahva elevile: «Kui see pole jalg ukse vahele kõikidele etendustele, siis ma ei tea, mis on»",
+    "Kinodes levib uus trend: vaatajad tulevad seansile pidžaamades"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8577192/draamateatri-tookuulutus-ajas-rahva-elevile-kui-see-pole-jalg-ukse-vahele-koikidele-etendustele-siis-ma-ei-tea-mis-on"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Kaks kitse, kes pandi Tokyos raudteejaama lähedal võsastunud rohtu niitma, said sotsiaalmeedia staarideks. Pealkiri on tõlgitud.",
+   "headline": "Umbrohtu tõrjuvatest ___ said ootamatud Tokyo kuulsused",
+   "options": [
+    "lammastest",
+    "alpakadest",
+    "kitsedest",
+    "kanadest"
+   ],
+   "src": "Al Jazeera",
+   "type": "blank",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/6-11-sv-tokyo-goats-weed-clearing"
+  },
+  {
+   "answer": 1,
+   "cat": "kultuur",
+   "explain": "Nii ütles Ülle Viinapuu, PÖFF-i pikaajalisim vabatahtlik, kes on osalenud 18 festivalil.",
+   "options": [
+    "Tiina Lokk",
+    "Ülle Viinapuu",
+    "Jarmo Reha",
+    "Priit Pärn"
+   ],
+   "quote": "Olen omamoodi vampiir.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://kultuur.err.ee/1610188780/poff-i-pikaajalisim-vabatahtlik-ulle-viinapuu-olen-omamoodi-vampiir"
+  },
+  {
+   "answer": 15,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Sämi kolmandal stuudioalbumil on 15 laulu ja igaühele tehakse muusikavideo; Säm ütles, et projekti kulud ulatuvad ligikaudu kuuekohalise summani.",
+   "max": 200,
+   "min": 2,
+   "prompt": "Mitu laulu on Sämi uuel albumil «Paar pilve taevas», millest igaühele tehakse ka muusikavideo?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "laulu",
+   "url": "https://elu24.postimees.ee/8577500/julge-ettevotmine-sam-pani-uue-albumi-alla-poorase-summa-ise-olen-selle-kokku-kraapinud"
+  },
+  {
+   "answer": 1,
+   "cat": "sport",
+   "explain": "Hokilugu oli võlts – tegelikult alistas Eesti Tallinnas Euroopa Rahvuste karikaturniiril Rumeenia 4:1. Päriselt püstitas Ralf Tribuntsov Wrocławis 100 m kompleksujumises rahvusrekordi ja Jobe Bellingham sai esimese kutse Inglismaa koondisesse.",
+   "options": [
+    "Tribuntsov püstitas Poolas uue rahvusrekordi",
+    "Eesti jäähokikoondis jäi Rumeeniale alla ja kaotas lootused turniirivõidule",
+    "Jobe Bellingham kutsuti esimest korda Inglismaa koondisesse"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610188894/tribuntsov-pustitas-poolas-uue-rahvusrekordi"
+  },
+  {
+   "cat": "majandus",
+   "explain": "Kiisa avariireservelektrijaama ülalpidamine maksab aastas pea kaks miljonit eurot – mullu olid püsikulud 1,8 miljonit eurot.",
+   "lat": 59.245,
+   "lon": 24.656,
+   "place": "Kiisa (Saku vald)",
+   "prompt": "Kus asub avariireservelektrijaam, mille püsikulud olid mullu 1,8 miljonit eurot ja mille riik otsustas müümise asemel rendile anda?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610186917/kiisa-jaama-ulalpidamine-maksab-aastas-pea-kaks-miljonit-eurot"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, Al Jazeera",
+ "ticker": [
+  "PÖFF-i elutööpreemia pälvisid Priit Pärn, Sven Grünberg ja Hilmar Oddsson",
+  "Euroopa Komisjon: Tiktoki algoritm võib kahjustada kasutajate vaimset tervist",
+  "Treeninguid muutnud Liiv: kui jalad on värsked, peaks minek hea olema",
+  "Öö vastu laupäeva toob sisemaale miinuskraadid",
+  "Erakonnad alles seavad paika valimiste esinumbreid",
+  "Triatleet Evamaria Albert avas noorte suveolümpiamängudel Eesti medaliarve",
+  "Tulekahju hävitas kuni viiendiku Soome seemnekartulist",
+  "Eesti Panga ökonomist: järgmistel kuudel hinnad pigem kasvavad samas tempos"
+ ]
+}
