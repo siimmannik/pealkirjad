@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-08",
+ "generatedAt": "2026-11-08T04:52:36Z",
+ "label": "Pühapäev, 8. november 2026",
+ "questions": [
+  {
+   "cat": "sise",
+   "explain": "Haapsalu peatänaval Posti tänaval leiti kevadel üle 60 puuduse; linn ja ehitaja YIT ei ole kokku leppinud, kes remondi teeb ja selle eest maksab.",
+   "lat": 58.9425,
+   "lon": 23.5405,
+   "place": "Haapsalu, Posti tänav",
+   "prompt": "Neli aastat tagasi üle 3,5 miljoni euroga korda tehtud peatänav laguneb ning linn ja ehitaja vaidlevad, kes peab selle remontima. Kus see tänav asub?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610189329/neli-aastat-tagasi-korda-tehtud-haapsalu-peatanav-laguneb"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Nii kommenteeris Luka Dončić oma erakordset hooaja algust NBA-s, mille järel on ta tõusnud ka MVP-kandidaatide esimese edetabeli tippu. Tsitaat on tõlgitud sloveeni keelest.",
+   "options": [
+    "Nikola Jokić",
+    "Giannis Antetokounmpo",
+    "Luka Dončić",
+    "Kristaps Porziņģis"
+   ],
+   "quote": "Pean jääma selleks, kes ma olen, ja viima meeskonna võimalikult paljude võitudeni.",
+   "src": "RTV SLO",
+   "type": "who",
+   "url": "https://www.rtvslo.si/sport/kosarka/liga-nba/doncic-o-izjemnem-zacetku-sezone-ostati-moram-to-kar-sem-in-ekipo-popeljati-do-cim-vec-zmag/799322"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Kingituste edasikinkimise uuringut ei olnud. Päris lood: selgusid aasta parimad kinoreklaamid ning füüsik Heinz von Foersteri 1960. aasta ennustus, mille järgi pidi maailmalõpp saabuma reedel, 13. novembril 2026.",
+   "options": [
+    "Selgusid 2026. aasta parimad kinoreklaamid",
+    "Uuring paljastas: iga neljas eestlane on saadud kingituse edasi kinkinud",
+    "Maailmalõpp juba järgmisel reedel?! Kuidas 1960. aasta hulljulge ennustus tänase teaduse valguses kokku kukub"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8578082/maailmalopp-juba-jargmisel-reedel-kuidas-1960-aasta-hulljulge-ennustus-tanase-teaduse-valguses-kokku-kukub"
+  },
+  {
+   "answer": 17,
+   "cat": "sport",
+   "decimals": 0,
+   "explain": "Eesti alistas Hispaania, Rumeenia ja Leedu ning turniiri koguskoor oli 17:4. Viimases mängus võideti Leedut 5:3.",
+   "max": 200,
+   "min": 2,
+   "prompt": "Eesti meeste jäähokikoondis võitis Tallinnas peetud Euroopa Rahvuste karika turniiril kõik kolm mängu. Mitu väravat lõi Eesti nendes mängudes kokku?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "väravat",
+   "url": "https://sport.err.ee/1610189443/hilised-varavad-aitasid-hokikoondisel-koduse-turniiri-taiseduga-lopetada"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Meediauurija Marju Himma, kes on Katrin Lusti tööd varemgi kritiseerinud, leiab, et vahel võiks lasta faktidel huvitava loo ära rikkuda.",
+   "headline": "Katrin Lusti tööd korduvalt kritiseerinud Marju Himma: vahel võiks lasta faktidel huvitava loo ära ___",
+   "options": [
+    "päästa",
+    "rikkuda",
+    "jutustada",
+    "lõpetada"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8578759/kuula-katrin-lusti-tood-korduvalt-kritiseerinud-marju-himma-vahel-voiks-lasta-faktidel-huvitava-loo-ara-rikkuda"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "Lahti prügiautode lugu oli võlts. Yle kirjutas tegelikult, et oksjonile läheb 1800. aastate keskel Vene keisrisuguvõsa valdusse jõudnud safiir ning et Vaasa üliõpilaskorterid on ääreni täis ja kodusid tehakse isegi endisest ööklubist.",
+   "options": [
+    "Lahti hakkab talvel teid soolama ka prügiautodega – linn loodab säästa sadu tuhandeid eurosid",
+    "Romanovite keisrisuguvõsale kuulunud safiir pannakse oksjonile",
+    "Vaasas tehakse kodusid isegi ööklubist – üliõpilaskorteri ja vabaturu hinnavahe on riigi suurim"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20255590"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Laud, mille ümber peeti 1920. aasta Tartu rahu läbirääkimisi, jõudis välisministeeriumi peamajja Tallinnas. Pärast muuseumi uuenduskuuri naaseb see Tartusse.",
+   "lat": 59.4316,
+   "lon": 24.7427,
+   "place": "Tallinn, välisministeerium (Islandi väljak)",
+   "prompt": "Tartu rahu ajalooline läbirääkimislaud viidi Tartu linnamuuseumi renoveerimise ajaks uude kohta, kus seda näidatakse välisdiplomaatidele. Kuhu?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610189413/tartu-rahu-ajalooline-labiraakimislaud-joudis-valisministeeriumisse"
+  },
+  {
+   "answer": 1,
+   "cat": "sport",
+   "explain": "Nii ütles Levadia peatreener Vjatšeslav Zahovaiko, kelle lepingut meisterklubi pikendas veel aasta võrra.",
+   "options": [
+    "Jürgen Henn",
+    "Vjatšeslav Zahovaiko",
+    "Igor Prins",
+    "Konstantin Vassiljev"
+   ],
+   "quote": "Tahame kaitsta tiitlit ja astuda sammu edasi Euroopas.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://sport.err.ee/1610189170/zahovaiko-jatkab-levadias-tahame-kaitsta-tiitlit-ja-astuda-sammu-edasi-euroopas"
+  },
+  {
+   "answer": 34.5,
+   "cat": "valis",
+   "decimals": 1,
+   "explain": "Läti statistikaameti andmetel kallinesid mootorikütused aastaga 34,5%, kõige rohkem diislikütus (38,1%).",
+   "max": 300,
+   "min": 2,
+   "prompt": "Mitu protsenti olid mootorikütuste hinnad Lätis 2026. aasta oktoobris aastaga tõusnud?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "%",
+   "url": "https://eng.lsm.lv/article/economy/economy/06.11.2026-fuel-prices-up-34-on-year-in-latvia.a670784/"
+  },
+  {
+   "answer": 2,
+   "cat": "ilm",
+   "explain": "Meteoroloogide sõnul hakkas polaarpööris nõrgenema ebatavaliselt vara, mis suurendab külmalainete ohtu põhjapoolkeral.",
+   "headline": "Polaarpööris hakkas nõrgenema ootamatult ___",
+   "options": [
+    "kiiresti",
+    "tugevalt",
+    "vara",
+    "järsult"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610189236/polaarpooris-hakkas-norgenema-ootamatult-vara"
+  },
+  {
+   "answer": 3,
+   "cat": "meelelahutus",
+   "explain": "Nii meenutas Sylvester Stallone oma kunagist tüli ja rivaalitsemist Arnold Schwarzeneggeriga.",
+   "options": [
+    "Arnold Schwarzenegger",
+    "Bruce Willis",
+    "Dolph Lundgren",
+    "Sylvester Stallone"
+   ],
+   "quote": "See oli väga karm, aga mulle meeldis!",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8578962/sylvester-stallone-tulist-arnold-schwarzeneggeriga-see-oli-vaga-karm-aga-mulle-meeldis"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Rahvusraamatukogu lugu oli võlts. Päris lood: kilepiima on osas poodides vähe, kuid farmerite sõnul toorpiimast puudu pole; seitsmekordne Eesti meister Kaur Tuule leiab, et harjutades saab igaüks kuubiku kinnisilmi kokku.",
+   "options": [
+    "Vaatamata kilepiima defitsiidile pole farmerite sõnul piimast puudust",
+    "Kiirkuubija: palju harjutades oskab igaüks kuubiku kinnisilmi kokku panna",
+    "Rahvusraamatukogu hakkab eksamisessiooni ajal avatud olema ööpäev läbi"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610189344/vaatamata-kilepiima-defitsiidile-pole-farmerite-sonul-piimast-puudust"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Saates „Isadepäev Vabariigi Presidendiga Mulgimaal” külastab president Raasilla, Holstre ja Mustla kogukondi. Saade on ETV eetris pühapäeval kell 20.30.",
+   "lat": 58.2308,
+   "lon": 25.8622,
+   "place": "Mustla, Viljandimaa",
+   "prompt": "ETV isadepäevasaade viib riigipea Mulgimaale rallirajale ja jalgpalliväljakule. Üks külastatud paikadest on Mustla. Kus see asub?",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://eeter.err.ee/1610189233/galerii-isadepaevasaade-viib-presidendiga-rallirajale-ja-jalgpalli-mangima"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Islandi andmekeskuste lugu oli võlts. Päris lood: Real Madrid võitis võõrsil Valenciat 3:0, ja Vatikani andmeil kogunes Paysandús paavsti missale umbes 40 000 inimest.",
+   "options": [
+    "Real Madrid alistas Valencia 3:0 ja tõusis La Liga liidri Barcelonaga punktide poolest võrdseks",
+    "Island avas maailma esimese täielikult maasoojusega töötava andmekeskuste linnaku",
+    "Paavst Leo pidas Uruguays esimese missa ja kutsus rahvahulka üles olema „sillaehitajad”"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Al Jazeera",
+   "type": "fake",
+   "url": "https://www.aljazeera.com/news/2026/11/7/pope-leo-hold-first-mass-in-uruguay-urges-crowd-to-be-bridge-builders"
+  },
+  {
+   "answer": 12,
+   "cat": "kultuur",
+   "decimals": 0,
+   "explain": "Säm tegi uue albumi jaoks 12 videot; ühes neist mängib ta merevees põleval klaveril, mis oli tema sõnul väga tähenduslik.",
+   "max": 120,
+   "min": 1,
+   "prompt": "Mitu muusikavideot tegi muusik Säm oma uue albumi jaoks (sh video, kus ta mängib merevees põleval klaveril)?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "videot",
+   "url": "https://eeter.err.ee/1610189182/sam-merevees-poleval-klaveril-mangimine-oli-minu-jaoks-vaga-tahenduslik"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Merily Timmer ja Madis Alesmaa pidasid novembri alguses pulmapeo Mauritiusel; Timmeri sõnul oleks Eestis sama raha eest saanud vaid toitlustuse ja joogid.",
+   "headline": "Merily Timmer pulmade maksumusest: Eestis oleks sama raha eest saanud vaid ___ ja joogid!",
+   "options": [
+    "peosaali",
+    "toitlustuse",
+    "ansambli",
+    "pulmakleidi"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8579146/klops-merily-timmer-pulmade-maksumusest-eestis-oleks-sama-raha-eest-saanud-vaid-toitlustuse-ja-joogid"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, Al Jazeera",
+ "ticker": [
+  "Käsipallikoondis kohtub tõelise tipuga: peame mängima oma parimat mängu",
+  "Tuumjaama planeeringus liigutakse edasi kolme asukohaga",
+  "Tervishoiukulude omaosalus on Eestis võrreldes Euroopa keskmisega liiga suur",
+  "Seismoloog: piirialuseid tunneleid on võimalik avastada juba kaevamise käigus",
+  "Aasta motosportlaseks valiti valitsev maailmameister Kevin Saar",
+  "Helsingi Kruunuvuori sillal avati trammiliiklus",
+  "Tenniserahvas valis aasta parimateks Lajali ja Neeli",
+  "Eisenkot sai ülesande moodustada uus Iisraeli valitsus"
+ ]
+}
