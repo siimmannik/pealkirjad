@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-09",
+ "generatedAt": "2026-11-09T04:51:46Z",
+ "label": "Esmaspäev, 9. november 2026",
+ "questions": [
+  {
+   "cat": "sport",
+   "explain": "Paide Linnanaiskond tuli oma esimesel kõrgliigahooajal Eesti meistriks ja tõi Paide Linnameeskonna klubile esimese meistritiitli.",
+   "lat": 58.8855,
+   "lon": 25.5572,
+   "place": "Paide",
+   "prompt": "Mis linna klubi naiskond tuli oma debüüthooajal jalgpallis Eesti meistriks? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://sport.err.ee/1610189893/paide-linnanaiskond-tuli-debuuthooajal-eesti-meistriks"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Jõuluturu pealkiri oli võlts – jõuluturg pole veel avatud. Päris lood: OLLIE tähistas debüütalbumit välja müüdud kontserdiga ning tõkkejooksja Anna Maria video kogus Instagramis ööpäevaga miljoneid vaatamisi.",
+   "options": [
+    "Korralik roki mürgel! OLLIE tähistas debüütalbumit välja müüdud kontserdiga",
+    "Miljonid vaatamised ööpäevaga! Eesti tõkkejooksja Anna Maria vallutas Instagrami: ei osanud midagi sellist oodata!",
+    "«Sellist järjekorda pole varem nähtud!» Vanalinna jõuluturg meelitas juba avaõhtul kohale tuhandeid"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8579256/galerii-korralik-roki-murgel-ollie-tahistas-debuutalbumit-valja-muudud-kontserdiga"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "RTV SLO avaldas tsitaadirubriigis Oscari võitnud Tšiili režissööri Sebastián Lelio (1974–2026) mõtte; ta on tuntud filmidega „Fantastiline naine” ja „Gloria”. Tsitaat on tõlgitud sloveeni keelest.",
+   "options": [
+    "Pablo Larraín",
+    "Guillermo del Toro",
+    "Sebastián Lelio",
+    "Alejandro González Iñárritu"
+   ],
+   "quote": "Filmi tegemine on nagu kingitus, mille kuhugi maha jätad, siis peidad end ära ja vaatad, mis juhtub.",
+   "src": "RTV SLO",
+   "type": "who",
+   "url": "https://www.rtvslo.si/kultura/citat/sebastian-lelio/799434"
+  },
+  {
+   "answer": 1,
+   "cat": "majandus",
+   "explain": "Eesti arendaja Invego võtab üle Riia Skonto staadioni ala, kuhu kerkib uus linnaosa; Läti ehitab endale uue rahvusstaadioni.",
+   "headline": "Eesti kinnisvaraarendaja ehitab Riia jalgpallistaadioni asemele uue ___",
+   "options": [
+    "kaubanduskeskuse",
+    "linnaosa",
+    "spordikompleksi",
+    "kontorilinnaku"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610189908/eesti-kinnisvaraarendaja-ehitab-riia-jalgpallistaadioni-asemele-uue-linnaosa"
+  },
+  {
+   "answer": 3000,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Tehnika omaniku sõnul võib paari eurone kook LED-ekraanile lennates tekitada 3000-eurose kahju.",
+   "max": 30000,
+   "min": 100,
+   "prompt": "Tallinnas lendas peol kook vastu LED-ekraani. Kui suure kahju võib tehnika omaniku sõnul paari eurone kook tekitada?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "eurot",
+   "url": "https://elu24.postimees.ee/8579511/video-tallinnas-lendas-peol-kook-led-ekraanile-tehnika-omanik-paari-eurone-kook-voib-tekitada-3000-eurose-kahju"
+  },
+  {
+   "answer": 0,
+   "cat": "kultuur",
+   "explain": "Virtuaalreaalsuse kunstimuuseumi pealkiri oli võlts. Päris lood: reedel alanud PÖFF on juba uue kunstilise juhi Triinu Trambergi näoga ning Hobusepea galeriis avati kolme vastupidavusalade huvilisest kunstniku näitus „Algaja õnn”.",
+   "options": [
+    "Pildid: Tartus avati Eesti esimene virtuaalreaalsuse kunstimuuseum",
+    "Tänavune PÖFF on juba uue kunstilise juhi Triinu Trambergi näoga",
+    "Pildid: Hobusepea galeriis avati näitus \"Algaja õnn\""
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://kultuur.err.ee/1610189854/tanavune-poff-on-juba-uue-kunstilise-juhi-triinu-trambergi-naoga"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Talve esimesed lumehelbed registreeriti laupäeva hommikul Ida-Lätis Rēzekne ilmajaamas. Pealkiri on tõlgitud inglise keelest.",
+   "headline": "___ piirkonnas sadas talve esimest lund",
+   "options": [
+    "Kuramaa",
+    "Zemgale",
+    "Vidzeme",
+    "Latgale"
+   ],
+   "src": "LSM",
+   "type": "blank",
+   "url": "https://eng.lsm.lv/article/weather/weather/07.11.2026-first-snow-of-winter-falls-in-latgale-region.a670946/"
+  },
+  {
+   "answer": 1,
+   "cat": "sport",
+   "explain": "Kanadas Grand Prix' etapil teiseks tulnud Niina Petrõkina loodab peagi ära teha neljakordse hüppe, sest konkurendid juba hüppavad neid.",
+   "options": [
+    "Eva-Lotta Kiibus",
+    "Niina Petrõkina",
+    "Aleksandr Selevko",
+    "Mihhail Selevko"
+   ],
+   "quote": "Konkurendid hüppavad, ma pean ka!",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://sport.err.ee/1610189812/petrokina-neljasest-huppest-konkurendid-huppavad-ma-pean-ka"
+  },
+  {
+   "cat": "sise",
+   "explain": "Põltsamaa põhikoolis on väike grupp noori alates kevadest korda rikkunud; omavalitsus palkas koolile turvafirma ja õpetajad said häirenupud.",
+   "lat": 58.6519,
+   "lon": 25.9706,
+   "place": "Põltsamaa",
+   "prompt": "Millise linna põhikoolis patrullivad nüüd pärast korduvaid korrarikkumisi turvafirma töötajad? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610189821/ak-nadal-kuidas-ennetada-opilaste-kaitumisprobleeme"
+  },
+  {
+   "answer": 500,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Zero Nine avaldas septembris uue singli ja samal kuul ilmus bändi ajaloost 500-leheküljeline raamat; ansambel lubab pidada ka 50. juubeli – loomulikult laval.",
+   "max": 5000,
+   "min": 50,
+   "prompt": "Kuusamo ansambli Zero Nine ajaloost ilmus septembris raamat. Kui mitu lehekülge on selles?",
+   "src": "Yle",
+   "type": "number",
+   "unit": "lehekülge",
+   "url": "https://yle.fi/a/74-20254587"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Suvel sotsiaalmeedias tugevat vastukaja tekitanud grillireklaamiga Rannarootsi lihatööstus pälvis 5. novembril Haapsalus tiitli „Läänemaa aasta ettevõte 2026”.",
+   "headline": "___ skandaali sattunud Rannarootsi noppis magusa tunnustuse",
+   "options": [
+    "Šašlõki",
+    "Verivorsti",
+    "Sibulagrilli",
+    "Grillvorsti"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8579300/sibulagrilli-skandaali-sattunud-rannarootsi-noppis-magusa-tunnustuse"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Isadepäeva riigipühaks muutmise pealkiri oli võlts. Päris lood: riigikontrolli hinnangul pole tervishoiu rahastus jätkusuutlik ja poliitikud vaidlevad lisaraha üle ning Eesti kaalub teadlastele lisatuge, sest Euroopa tippgrantide konkurents tiheneb.",
+   "options": [
+    "Poliitikud on eriarvamusel, kuidas leida tervishoidu lisaraha",
+    "Valitsus kaalub isadepäeva muutmist riigipühaks",
+    "Euroopa tippgrantide sõel tiheneb, Eesti kaalub teadlastele lisatuge"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610189833/poliitikud-on-eriarvamusel-kuidas-leida-tervishoidu-lisaraha"
+  },
+  {
+   "answer": 3,
+   "cat": "meelelahutus",
+   "explain": "Nii kommenteeris Merily Timmer oma pulmade maksumust.",
+   "options": [
+    "Anu Saagim",
+    "Kristel Aaslaid",
+    "Getter Jaani",
+    "Merily Timmer"
+   ],
+   "quote": "Eestis oleks sama raha eest saanud vaid toitlustuse ja joogid!",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8579146/klops-merily-timmer-pulmade-maksumusest-eestis-oleks-sama-raha-eest-saanud-vaid-toitlustuse-ja-joogid"
+  },
+  {
+   "answer": 300,
+   "cat": "sise",
+   "decimals": 0,
+   "explain": "ERR meenutas isadepäeval, et Eestis on üle 300 tuhande isa.",
+   "max": 3000,
+   "min": 20,
+   "prompt": "Pühapäeval oli isadepäev. Üle mitme tuhande isa on Eestis?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "tuhat isa",
+   "url": "https://www.err.ee/1610189897/tana-on-isadepaev-eestis-on-ule-300-tuhande-isa"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Põhjapõdravasika pealkiri oli võlts – vasikad sünnivad kevadel. Päris lood: MOT uuris, kuidas Kela jälgis kuni 2000 töötaja tööaega, ning Süürias paljastas üleujutus umbes 1300 aasta vanuse kaliifide puhkeala uusi osi.",
+   "options": [
+    "Kela jälgis isegi töötajate hiireklõpse – lubatud pausid olid küüliku kõditamine ja tualetis käimine",
+    "Rovaniemis sündis haruldane valge põhjapõdravasikas – loomapark palub rahval nime välja pakkuda",
+    "Üleujutusvesi paljastas 8. sajandi palee ümbert ehitisi – varem olid näha vaid varemed"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20254927"
+  },
+  {
+   "cat": "sise",
+   "explain": "EKRE volikogu kogunes pühapäeval Tartus, kinnitas valimisprogrammi ja loosungi „Vankumatult Eesti eest!” ning võttis vastu poliitilise avalduse.",
+   "lat": 58.378,
+   "lon": 26.729,
+   "place": "Tartu",
+   "prompt": "Kus kinnitas EKRE volikogu pühapäeval valimislubadused ja loosungi „Vankumatult Eesti eest!”? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610189767/ekre-kinnitas-volikogul-valimislubadused-ja-loosungi"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, LSM, RTV SLO",
+ "ticker": [
+  "Ukraina ründas Kiriši naftatöötlemistehast",
+  "Sao Paulos võidutses Norris, Mercedes kindlustas tootjate tiitli",
+  "Alcaraz sai esimest korda Pariisi Mastersil karika pea kohale tõsta",
+  "Esmaspäev tuleb pilvine ja vihmane",
+  "Helme: õigete valikutega saame viia palgad ja pensionid tõusule",
+  "Ametlik: Hugo Toom lõi käed Poola klubiga",
+  "Viimsi KK üllatas kodupubliku ees Riia VEF-i",
+  "Raul Ojamaa: tähelepanu keskpunkti astumine on mu jaoks huvitav väljakutse"
+ ]
+}
