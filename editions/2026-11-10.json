@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-10",
+ "generatedAt": "2026-11-10T04:54:14Z",
+ "label": "Teisipäev, 10. november 2026",
+ "questions": [
+  {
+   "cat": "sise",
+   "explain": "Kaitseväe akadeemia soovib laieneda Tartus endise kino Ekraani pinnale: omanik Estiko Grupp on valmis hoone riigile müüma umbes 2,9 miljoni euro eest. Kino asemele on kavas ehitada kuni viiekorruseline ja ligi 6000-ruutmeetrine õppehoone.",
+   "lat": 58.3775,
+   "lon": 26.719,
+   "place": "Tartu",
+   "prompt": "Riik plaanib osta ligi 2,9 miljoni euro eest endise kino Ekraani hoone, et ehitada selle asemele kaitseväe akadeemia uus õppehoone. Millises linnas see asub? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610191099/kaitsevae-akadeemia-soovib-laieneda-endise-kino-ekraani-pinnale"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Margus Saar arutles ETV «Terevisioonis» koos stilist Karolin Kuusikuga meeste talvemütside üle ning jagas moekunstnikele õpetussõnu.",
+   "options": [
+    "Hannes Võrno",
+    "Margus Saar",
+    "Mart Sander",
+    "Ott Sepp"
+   ],
+   "quote": "See ei ole mingi müts!",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8579790/see-ei-ole-mingi-muts-margus-saar-sattus-meeste-talvemutsidest-raakides-hoogu-ja-jagas-moekunstnikele-opetussonu"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Võlts oli pealkiri Pori talvepargist. Päris lood: Rovaniemi jõuluhooaja avamine pälvis traditsiooniliste jõulude pooldajatelt teravat kriitikat sambatantsijate pärast ning Kuopio taotleb 2030. aastate alguse elamumessi Savilahti alale kesklinna lähedal.",
+   "options": [
+    "Rovaniemi elanikel sai jõuluhooaja avamisel mõõt täis: sambatantsijad jõuluvana kõrval olid liiast",
+    "Porisse rajatakse Soome suurim siseruumides asuv talvepark – avamine on kavas järgmistel jõuludel",
+    "Kuopio taotleb elamumessi korraldamist – messiala asub kesklinna lähedal"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20255791"
+  },
+  {
+   "answer": 21,
+   "cat": "majandus",
+   "decimals": 0,
+   "explain": "Eestlased kaotasid tänavu üheksa kuuga kelmidele umbes 21 miljonit eurot – ligi 4 miljonit vähem kui mullu samal ajal. Kõige hullem oli aprill, kui inimestelt peteti välja üle nelja miljoni euro.",
+   "max": 400,
+   "min": 2,
+   "prompt": "Kui palju raha kaotasid eestlased tänavu esimese üheksa kuuga kelmidele?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "miljonit eurot",
+   "url": "https://www.err.ee/1610190988/eestlased-kaotasid-kelmidele-uheksa-kuuga-21-miljonit-eurot"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Kirjastuses Škrateljc ilmus sarjas „Suured Sloveenia eeposed koomiksis” koomiks preestrist ja luuletajast Simon Gregorčičist, keda kutsutakse Goriška ööbikuks; autorid on Žiga X Gombač ja Gašper Krajnc. Pealkiri on tõlgitud sloveeni keelest.",
+   "headline": "Goriška ööbik, koomiksikangelane: preester, kes kirjutab ___",
+   "options": [
+    "jutlusi",
+    "palvelaule",
+    "armastusluuletusi",
+    "näidendeid"
+   ],
+   "src": "RTV SLO",
+   "type": "blank",
+   "url": "https://www.rtvslo.si/kultura/knjige/goriski-slavcek-stripovski-junak-duhovnik-ki-pise-ljubezenske-pesmi/799543"
+  },
+  {
+   "answer": 0,
+   "cat": "sport",
+   "explain": "Võlts oli pealkiri Rakvere rannavõrkpalliturniirist. Päris lood: Sten Piirimägi lõpetas TCR Spain sarja üldarvestuses teisena ning Tallinna maleturniiril täideti kaks rahvusvahelise meistri normi.",
+   "options": [
+    "Rakvere saab järgmisel suvel rannavõrkpalli Euroopa tuuri etapi",
+    "Sten Piirimägi saavutas Hispaania ringrajasarja kokkuvõttes teise koha",
+    "Tallinnas täideti kaks rahvusvahelise meistri normi males"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610190955/sten-piirimagi-saavutas-hispaania-ringrajasarja-kokkuvottes-teise-koha"
+  },
+  {
+   "answer": 10000,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Ameerikas sündinud ja kasvanud Erika Eleniak teenib allikate sõnul OnlyFansis 10 000 dollarit päevas. Tema vanaonu Arkadi Pessegov oli Kuressaares sündinud filmiprodutsent, kes abiellus näitleja Lulo Purrega.",
+   "max": 100000,
+   "min": 500,
+   "prompt": "Elu24 kirjutas, et USA-s elav näitleja Erika Eleniak, kelle juured viivad Saaremaale, on liitunud OnlyFansiga. Mitu dollarit päevas ta seal allikate sõnul teenib?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "dollarit",
+   "url": "https://elu24.postimees.ee/8578766/onlyfansiga-liitunud-usas-elava-naitleja-erika-eleniaki-juured-viivad-saaremaale"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "USA-asjatundja Andreas Kaju sõnul kaotasid vabariiklased vahevalimistel ka traditsiooniliselt vabariiklikes osariikides, mistõttu senati tagasivõitmine võib olla ebarealistlik isegi kahe või nelja aasta pärast.",
+   "options": [
+    "Karmo Tüür",
+    "Erkki Bahovski",
+    "Hille Hanso",
+    "Andreas Kaju"
+   ],
+   "quote": "Vabariiklased kaevasid endale sügava augu, millest väljatulek võtab pikalt aega.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610191135/kaju-usa-vahevalimistest-vabariiklased-kaevasid-endale-sugava-augu"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Näitus „Kaotatud saared” avati Pärnu Uue Kunsti Muuseumis. Juha Metso käis aastatel 1999–2019 Suursaarel seitsmel kultuurimatkal.",
+   "lat": 58.381,
+   "lon": 24.502,
+   "place": "Pärnu",
+   "prompt": "Kus avati Kotkast pärit fotograafi Juha Metso näitus „Kaotatud saared”, mis tutvustab Talvesõjas Nõukogude Liidule kaotatud Soome saari? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610190994/talvesojas-noukogude-liidule-kaotatud-soome-saared-joudsid-fotonaitusele"
+  },
+  {
+   "answer": 371000,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Kuldīga omavalitsus paneb Lielīvande mõisakompleksi oksjonile alghinnaga 371 000 eurot. 11,45 hektari suurusel kinnistul on kuus hoonet, sealhulgas hotelli- ja toitlustushoone ning spordisaal.",
+   "max": 5000000,
+   "min": 30000,
+   "prompt": "Lätis Kuldīga piirkonnas pannakse 11. novembril oksjonile Lielīvande mõisakompleks, mis on kohaliku küla ainus kogunemiskoht. Kui suur on alghind?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "eurot",
+   "url": "https://eng.lsm.lv/article/society/society/09.11.2026-lielivande-manor-complex-looking-for-new-hands.a671095/"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Rahandusminister Jürgen Ligi jagas haruldast fotot oma isast – Elu24 pealkirja järgi on sarnasus hämmastav.",
+   "headline": "«Hämmastav sarnasus!» Jürgen Ligi jagab haruldast fotot oma ___",
+   "options": [
+    "emast",
+    "isast",
+    "vanaisast",
+    "pojast"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8579567/foto-hammastav-sarnasus-jurgen-ligi-jagab-haruldast-fotot-oma-isast"
+  },
+  {
+   "answer": 1,
+   "cat": "majandus",
+   "explain": "Võlts oli pealkiri õunasaagist. Päris lood: Tallinna Sadama kolmanda kvartali puhaskasum kasvas aastaga 11% ligi 10 miljoni euroni ning kodusigade arvukus pole sigade Aafrika katku eelsele tasemele taastunud.",
+   "options": [
+    "Tallinna Sadam teenis kolmandas kvartalis ligi 10 miljonit eurot puhaskasumit",
+    "Eesti õunasaak oli tänavu viimase kümne aasta suurim",
+    "Kodusigade arvukus pole katkueelsele tasemele naasnud"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610190976/tallinna-sadam-teenis-kolmandas-kvartalis-ligi-10-miljonit-eurot-puhaskasumit"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "USA president Donald Trump ütles pärast kõnelusi Katari peaministriga, et sõda Iraaniga on „sisuliselt läbi”; Iraani ametnikud nimetasid seda „võltsuudiseks”. Tsitaat on tõlgitud inglise keelest.",
+   "options": [
+    "Marco Rubio",
+    "JD Vance",
+    "Donald Trump",
+    "Pete Hegseth"
+   ],
+   "quote": "Sõda Iraaniga on sisuliselt läbi.",
+   "src": "Al Jazeera",
+   "type": "who",
+   "url": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm"
+  },
+  {
+   "cat": "sise",
+   "explain": "Narva ja Järvamaa koolinoorte keelesõbra valikkursus algas Paides: Narva gümnasistid saavad paari Järvamaa eakaaslastega ja harjutavad koos eesti keelt.",
+   "lat": 58.8853,
+   "lon": 25.5572,
+   "place": "Paide",
+   "prompt": "Kus algas valikkursus, kus Narva eesti keelt õppivad gümnasistid harjutavad keelt koos Järvamaa eakaaslastega keelesõpradena? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610191105/narva-ja-jarvamaa-gumnasistid-hakkavad-keelesopradena-eesti-keelt-harjutama"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Võlts oli pealkiri Hiiumaa kummipartidest. Päris lood: Peeter Ernits nõudis Tallinna loomaaia direktori Heinma lahkumist ning Ergo Kuld rääkis lahutusejärgsest valust.",
+   "options": [
+    "Peeter Ernits nõuab direktor Heinma lahkumist: mida kiiremini, seda parem",
+    "Ergo Kuld lahutuse järel kogetud valust: leidsin end hotellitoas kägaras nutmas",
+    "«Ei uskunud oma silmi!» Hiiumaa randa uhtus tormi järel sadu kummiparte"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8579280/sudantlohestav-tunnistus-ergo-kuld-lahutuse-jarel-kogetud-valust-leidsin-end-hotellitoas-kagaras-nutmas"
+  },
+  {
+   "answer": 0,
+   "cat": "sise",
+   "explain": "Välisminister Margus Tsahkna teatas, et välisministeeriumi uueks kantsleriks saab Taimar Peterkop.",
+   "headline": "Välisministeeriumi uueks ___ saab Taimar Peterkop",
+   "options": [
+    "kantsleriks",
+    "asekantsleriks",
+    "suursaadikuks",
+    "nõunikuks"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610191003/valisministeeriumi-uueks-kantsleriks-saab-taimar-peterkop"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, Al Jazeera",
+ "ticker": [
+  "Mardi- ja kadrikombestik pürgib UNESCO vaimse kultuuripärandi nimekirja",
+  "Elektrilevi nõukogu leidis ettevõttele uue juhi",
+  "Teisipäeval on nii päikest kui ka vihma",
+  "Harri Heliövaara tegi Soome tenniseajalugu",
+  "Kirjandusteadlased on asunud ette valmistama uut Eesti kirjanduslugu",
+  "Venno alustas uues riigis edukalt, Viiber pälvis Saksamaal MVP auhinna",
+  "Tallinnas toimuv rahvusvaheline filmikongress keskendub rahastusele ja tehisintellektile",
+  "Türgis Antalyas leiab aset järjekordne üleilmne kliimakonverents"
+ ]
+}
