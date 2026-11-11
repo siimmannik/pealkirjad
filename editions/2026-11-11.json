@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-11",
+ "generatedAt": "2026-11-11T04:56:59Z",
+ "label": "Kolmapäev, 11. november 2026",
+ "questions": [
+  {
+   "cat": "sise",
+   "explain": "Käsmu meremuuseumi kasutuses olnud kinnistu Haljala vallas Käsmu külas anti koos rendilepinguga üle Tallinnas asuvale Eesti meremuuseumile. Asutaja Aarne Vaik vaidlustab selle kohtus: „See on meie selja taga tehtud.”",
+   "lat": 59.6033,
+   "lon": 25.9178,
+   "place": "Käsmu",
+   "prompt": "Kultuuriministeerium andis kohaliku meremuuseumi renditud kinnistu koos rendilepinguga üle Eesti meremuuseumile ning muuseumi asutaja Aarne Vaik läheb kohtusse. Millises külas see meremuuseum asub? Märgi küla kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610191528/riigi-kinnisvaratehingus-pettunud-kasmu-meremuuseum-laheb-kohtusse"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Võlts oli Kaljukitsede rahaõnne pealkiri. Elu24 avaldas päris pealkirjadena 10. novembri päevahoroskoobi Veevalajatest ja Kaksikutest ning nädalahoroskoobi Skorpionist ja Lõvist.",
+   "options": [
+    "10. november: Veevalajal on suurepärane päev unistuste visandamiseks; Kaksikutel tasub jagada häid mõtteid",
+    "Novembri täiskuu toob Kaljukitsedele ootamatu rahaõnne, Jäärad peaksid riskidest hoiduma",
+    "Skorpioni suhtes võib toimuda kiire ja üllatav areng, Lõvi elutee võib võtta ootamatu suuna"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8580364/paevahoroskoop-10-november-veevalajal-on-suureparane-paev-unistuste-visandamiseks-kaksikutel-tasub-jagada-haid-motteid"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Haridusminister Kristina Kallas ei usu, et järgmise kevade sisseastumisstress oleks väiksem, sest konkurents gümnaasiumidesse jääb sama kõrgeks. Tema sõnul on uus SAIS3 valmis, välja arvatud eelistuste seadmise funktsioon.",
+   "options": [
+    "Andrei Kant",
+    "Liina Kersna",
+    "Kristina Kallas",
+    "Mailis Reps"
+   ],
+   "quote": "SAIS ei muuda seda stressi vähemaks.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610191744/kallas-pohikoolilopetajate-sisseastumisstress-kordub-ka-tuleval-aastal"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Alates 13. novembrist langeb talvine kiiruspiirang Riia Dienvidu silla estakaadidel 70-lt 50 km/h-le. Pealkiri on tõlgitud inglise keelest.",
+   "headline": "Riia Dienvidu sillal tuleb reedest sõita ___",
+   "options": [
+    "kiiremini",
+    "aeglasemalt",
+    "tasu eest",
+    "ühes suunas"
+   ],
+   "src": "LSM",
+   "type": "blank",
+   "url": "https://eng.lsm.lv/article/economy/transport/09.11.2026-slower-driving-on-dienvidu-bridge-in-riga-as-of-friday.a671142/"
+  },
+  {
+   "answer": 24.9,
+   "cat": "sise",
+   "decimals": 1,
+   "explain": "Norstati 12. oktoobrist 8. novembrini tehtud küsitluses toetas Keskerakonda 24,9 protsenti valimisõiguslikest kodanikest, Isamaad 22 ja SDE-d 17,8 protsenti.",
+   "max": 100,
+   "min": 1,
+   "prompt": "Mitu protsenti valimisõiguslikest kodanikest toetas Norstati värskeimas reitingus küsitluse liidrit Keskerakonda?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "%",
+   "url": "https://www.err.ee/1610192119/norstat-keskerakond-suurendas-edu-isamaa-ees-veelgi"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Võlts oli Tšiili päikeseelektrijaama pealkiri. Päris lood: Kamerun määras edasi lükatud parlamendi- ja kohalike valimiste kuupäevaks 7. veebruari ning Austraalia kriketiliit teatas, et ei ava „liivapaberiskandaali” uut uurimist.",
+   "options": [
+    "Kamerun määras kuupäeva kaks korda edasi lükatud parlamendi- ja kohalikele valimistele",
+    "Austraalia kriketiliit ei alusta „liivapaberiskandaali” uut uurimist",
+    "Tšiili avas maailma kõrgeimal asuva päikeseelektrijaama"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Al Jazeera",
+   "type": "fake",
+   "url": "https://www.aljazeera.com/news/2026/11/10/cameroon-sets-date-for-twice-delayed-legislative-and-local-elections"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Näitus avati Tartu linnaraamatukogu Annelinna harukogus. Esemed pärinevad trükikunstikeskuse Typa muuseumikogust ja endistest Eesti trükikodadest ning väljapanek on avatud aasta lõpuni.",
+   "lat": 58.3738,
+   "lon": 26.7571,
+   "place": "Tartu (Annelinna raamatukogu)",
+   "prompt": "Kus avati näitus „Valge põld, must seeme”, mis tutvustab eelmise sajandi trükiloomet paberi valmistamisest raamatute köitmiseni? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610191942/tartus-avati-naitus-eelmise-sajandi-trukiloomest"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Brigitte Susanne Hunt hoiatas isadepäeval mänguliselt üksikisasid, et nad oleksid tema tulekuks valmis. Tema sõnadest sündis naljahammaste veebileht, mis pakub üksikisadele riskitesti ja kriisijuhist.",
+   "options": [
+    "Getter Jaani",
+    "Brigitte Susanne Hunt",
+    "Liis Lass",
+    "Tanja Mihhailova-Saar"
+   ],
+   "quote": "Olge valmis, ma tulen!",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8580312/bsh-haire-brigitte-otsib-armastust-naljahambad-koostasid-veebipohise-kriisiplaani-ja-riskitesti"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Seitsme leibkonnaga Vinski küla jäi Balti kaitsevööndi tankitõrjekraavide ja riigipiiri vahele; Setomaal on kraave kaevatud umbes 23 kilomeetrit. Elanikud said kraavide vahele ka varuväljapääsu.",
+   "headline": "Setomaa küla on jäänud ___ ja piiri vahele",
+   "options": [
+    "tuuleparkide",
+    "rabade",
+    "tankitõrjekraavide",
+    "raudteeliinide"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610191957/setomaa-kula-on-jaanud-tankitorjekraavide-ja-piiri-vahele"
+  },
+  {
+   "answer": 3.7,
+   "cat": "valis",
+   "decimals": 1,
+   "explain": "Ministeerium kaasrahastab üheksa omavalitsuse projekte 3,7 miljoni euroga, projektide koguväärtus on 6,8 miljonit eurot. Raha läheb muu hulgas jalakäijate- ja jalgrattaaladele ning ühistranspordile.",
+   "max": 30,
+   "min": 0.1,
+   "prompt": "Mitu miljonit eurot eraldab Sloveenia infrastruktuuriministeerium üheksale omavalitsusele säästva liikuvuse projektide kaasrahastamiseks?",
+   "src": "RTV SLO",
+   "type": "number",
+   "unit": "miljonit eurot",
+   "url": "https://www.rtvslo.si/lokalne-novice/devetim-obcinam-3-7-milijona-evrov-za-razvoj-trajnostne-mobilnosti/799566"
+  },
+  {
+   "answer": 2,
+   "cat": "sport",
+   "explain": "Võlts oli võrkpallikoondise ja Brasiilia pealkiri. Päris lood: kergejõustiklased Vanamb ja Laul said Dakari noorte olümpiamängudel viienda koha ning Drell vedas Neptunase eurosarjas teise võiduni.",
+   "options": [
+    "Kergejõustiklased Vanamb ja Laul said noorte OM-il Dakaris viienda koha",
+    "Drell vedas Neptunase eurosarjas teise võiduni",
+    "Eesti võrkpallikoondis kohtub suvel Tallinnas kahel maavõistlusel Brasiiliaga"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610192026/kergejoustiklased-vanamb-ja-laul-said-noorte-om-il-dakaris-viienda-koha"
+  },
+  {
+   "answer": 491,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "35-aastane Evan Gershkovich viidi 2023. aasta märtsis väljamõeldud spionaažisüüdistusega Moskva Lefortovo vanglasse ja ta veetis vahi all 491 päeva. Oma kogemustest kirjutas ta raamatu.",
+   "max": 3000,
+   "min": 30,
+   "prompt": "Mitu päeva veetis USA ajakirjanik Evan Gershkovich Vene vanglas, millest ta nüüd oma debüütraamatus kirjutab?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "päeva",
+   "url": "https://elu24.postimees.ee/8579938/usa-ajakirjanik-evan-gershkovich-paljastab-oma-debuutraamatus-kuidas-ta-vene-vanglas-491-paeva-ellu-jai"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Nii ütles Soome välisminister Elina Valtonen oma sõbra Lenita Airisto kohta, kes suri 89-aastaselt; Valtoneni sõnul iseloomustas Airistot väsimatu ettevõtlikkus. Tsitaat on tõlgitud soome keelest.",
+   "options": [
+    "Sanna Marin",
+    "Petteri Orpo",
+    "Riikka Purra",
+    "Elina Valtonen"
+   ],
+   "quote": "Tundub tõesti tühi.",
+   "src": "Yle",
+   "type": "who",
+   "url": "https://yle.fi/a/74-20255965"
+  },
+  {
+   "cat": "sise",
+   "explain": "ERR-i teatel võivad püsivad puudused Rõuge valla lastekaitsetöös vallale maksma minna 6500 eurot.",
+   "lat": 57.7286,
+   "lon": 26.9214,
+   "place": "Rõuge",
+   "prompt": "Millise valla lastekaitsetöös on püsivad puudused, mis võivad vallale maksma minna 6500 eurot? Märgi vallakeskus kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610191465/pusivad-puudused-rouge-lastekaitse-toos-voivad-vallale-maksma-minna-6500-eurot"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Astroloog Margit Korbe kirjutas nädalaprognoosis, et 9. novembril said Lõvi märgis kokku Marss ja Jupiter Kuu lõunasõlmel – seda seostas ta kujundiga „kuninga langemine”.",
+   "headline": "Läheneme erilisele taevaseisule, mis viitab «kuninga ___»",
+   "options": [
+    "kroonimisele",
+    "tagasitulekule",
+    "langemisele",
+    "sünnile"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8579894/nadalaprognoos-laheneme-erilisele-taevaseisule-mis-viitab-kuninga-langemisele"
+  },
+  {
+   "answer": 0,
+   "cat": "sise",
+   "explain": "Võlts oli PPA pakiautomaatide pealkiri. Päris lood: raamatupidajad streigivad uue tööjõumaksude esitamise korra vastu ning Jüri Luik kandideerib riigikogu valimistel Isamaa nimekirjas.",
+   "options": [
+    "Politsei- ja piirivalveamet hakkab passe kätte toimetama ka pakiautomaatidesse",
+    "Raamatupidajad streigivad uue tööjõumaksude esitamise korra vastu",
+    "Jüri Luik kandideerib riigikokku Isamaa nimekirjas"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610191435/raamatupidajad-streigivad-uue-toojoumaksude-esitamise-korra-vastu"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, Al Jazeera",
+ "ticker": [
+  "Terviseametile otsitakse konkursiga peadirektorit",
+  "Ukraina andis võimsa löögi Ust-Luga sadama pihta",
+  "Kulbergs loodab valitsuse moodustada enne 18. novembrit",
+  "Majandusministeerium: soovime, et NutriScore'i üle toimuks laiem arutelu",
+  "Pangad ennustavad Eestis majanduskasvu jätkumist",
+  "Hendrik Agur lahkub Ida-Virumaa kutsehariduskeskuse juhi kohalt",
+  "Meediateadlane \"Impulsis\": vanuseline sotsiaalmeediakeeld õpetab lapsed valetama",
+  "Kahegeimilise edu käest andnud Tartu alustas eurosarja raske võiduga"
+ ]
+}
