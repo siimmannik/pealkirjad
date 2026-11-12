@@ -1,0 +1,244 @@
+{
+ "date": "2026-11-12",
+ "generatedAt": "2026-11-12T05:01:20Z",
+ "label": "Neljapäev, 12. november 2026",
+ "questions": [
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Nii ütles europarlamendi saadik Yana Toom ETV saate „Esimene stuudio” Brüsseli debatis. Tema sõnul jaguneb EL välispoliitikas kahte leeri ning Eestis napib varjendeid.",
+   "options": [
+    "Jaak Madison",
+    "Marina Kaljurand",
+    "Yana Toom",
+    "Urmas Paet"
+   ],
+   "quote": "Selliste liitlastega nagu Trump pole vaenlasi vajagi.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610192986/toom-selliste-liitlastega-nagu-trump-pole-vaenlasi-vajagi"
+  },
+  {
+   "answer": 100,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Elu24 kirjutas, et üheeurose döneri hullus Dortmundis lõppes sellega, et appi kihutas sada politseinikku ja helikopter.",
+   "max": 1000,
+   "min": 5,
+   "prompt": "Dortmundis läks üheeurose döneri kampaania käest ära: omanik kaotas rahvamassi üle kontrolli. Mitu politseinikku kihutas Elu24 andmetel appi?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "politseinikku",
+   "url": "https://elu24.postimees.ee/8580550/videod-uheeurose-doneri-hullus-dortmundis-omanik-kaotas-rahvamassi-ule-kontrolli-appi-kihutas-sada-politseinikku-ja-helikopter"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Võlts oli Hailuoto jäätee pealkiri. Päris lood: Kotka energiaettevõte kavatseb hakata Soome tooma välismaist põletatavat prügi ning Kiasmas on näha Briti kunstniku teos, mis on filmitud kaitsealuses eelajaloolises koopas.",
+   "options": [
+    "Soome prügi on liiga vähe – energiaettevõte kavatseb tuua põletamiseks jäätmeid välismaalt",
+    "Hailuoto jäätee avatakse sel talvel rekordiliselt vara – juba novembris",
+    "Briti kunstnik tõi nüüdiskunstimuuseumisse üle 10 000 aasta vanuse koopa"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20256249"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Näitus avati Toompea lossi kunstisaalis ja keskendub sümmeetriale, mis on mõlema kunstniku loomingus olulisel kohal. Väljapanek on avatud 14. jaanuarini.",
+   "lat": 59.4357,
+   "lon": 24.7392,
+   "place": "Toompea loss, Tallinn",
+   "prompt": "Kus avati kolmapäeval ehtekunstnik Raili Vinna ja graafik Vello Vinna ühisnäitus „Metall ja graafika”? Märgi koht kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610192644/galerii-toompea-lossis-avati-raili-ja-vello-vinna-uhisnaitus"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Endine tennisetäht Anett Kontaveit teatas oma kihlumisest – Elu24 sõnul eriti armsal moel.",
+   "headline": "Palju õnne! Anett Kontaveit teatas ___ eriti armsal moel",
+   "options": [
+    "rasedusest",
+    "kihlumisest",
+    "abiellumisest",
+    "uuest ametist"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8580954/klopsud-palju-onne-anett-kontaveit-teatas-kihlumisest-eriti-armsal-moel"
+  },
+  {
+   "answer": 9.4,
+   "cat": "majandus",
+   "decimals": 1,
+   "explain": "Teise ja kolmanda samba varad kasvasid kokku 9,37 miljardi euroni ehk aastaga umbes neljandiku võrra. Teise samba varad on ligikaudu kaheksa miljardit eurot.",
+   "max": 100,
+   "min": 0.5,
+   "prompt": "Milleni kasvasid Eesti Panga andmetel kolmanda kvartali lõpuks teise ja kolmanda pensionisamba varad kokku (miljardites eurodes)?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "miljardit eurot",
+   "url": "https://www.err.ee/1610192821/eesti-pensionifondide-varad-kasvasid-aastaga-neljandiku-vorra"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Nii ütles Läti Panga president Mārtiņš Kazāks 11. novembril Riias keskpanga aastakonverentsi avakõnes, kutsudes üles Euroopa ühtset turgu süvendama. Tsitaat on tõlgitud inglise keelest.",
+   "options": [
+    "Christine Lagarde",
+    "Joachim Nagel",
+    "Valdis Dombrovskis",
+    "Mārtiņš Kazāks"
+   ],
+   "quote": "Meie finantsturud ei vasta oma otstarbele ega sobi tulevikuks.",
+   "src": "LSM",
+   "type": "who",
+   "url": "https://eng.lsm.lv/article/economy/banks/11.11.2026-latvian-central-bank-governor-martins-kazaks-our-financial-markets-are-not-fit-for-purpose.a671260/"
+  },
+  {
+   "answer": 0,
+   "cat": "kultuur",
+   "explain": "Võlts oli Vanemuise pealkiri. Päris lood: uuringu järgi ei kaasa ühislaulmine enam kõiki elanikerühmi ning Piip ja Tuut teatris jõuab lavale „Romeo ja Julia” uus dramatiseering.",
+   "options": [
+    "Vanemuine toob lavale esimese täielikult tehisaru kirjutatud näidendi",
+    "Uuring: ühislaulmine ei kaasa enam kõiki elanikerühmi",
+    "Piip ja Tuut teatris jõuab lavale \"Romeo ja Julia\" uus dramatiseering"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://kultuur.err.ee/1610192791/uuring-uhislaulmine-ei-kaasa-enam-koiki-elanikeruhmi"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Elu24 kirjutas, kuidas Viimsi bussijuhi äkkpidurdus vallandas reisijate vahel tüli, kus mängu tulid tekiila ja kurk.",
+   "headline": "«Kes mu salati kinni maksab?!» Viimsi bussijuhi äkkpidurdus vallandas uskumatu tüli, mängu tulid tekiila ja ___",
+   "options": [
+    "sidrun",
+    "tomat",
+    "kurk",
+    "sool"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8580996/kes-mu-salati-kinni-maksab-viimsi-bussijuhi-akkpidurdus-vallandas-uskumatu-tuli-mangu-tulid-ka-tekiila-ja-kurk"
+  },
+  {
+   "answer": 1,
+   "cat": "kultuur",
+   "explain": "Eesti Draamateatri kunstiline juht Hendrik Toompere jr ütles „Pealtnägijale”, et teda ärritavad ülekohus ja lohakus, kuid neid ei lahendata enam sõimu ega peksuga.",
+   "options": [
+    "Elmo Nüganen",
+    "Hendrik Toompere jr",
+    "Tiit Ojasoo",
+    "Ott Aardam"
+   ],
+   "quote": "Suure sõimu ja peksu aeg on ammu möödas.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://kultuur.err.ee/1610192437/hendrik-toompere-jr-suure-soimu-ja-peksu-aeg-on-ammu-moodas"
+  },
+  {
+   "answer": 46,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Medali said 33 politseinikku ja 13 kodanikku, kes aitasid või päästsid möödunud aasta jooksul 29 juhtumi puhul inimelusid.",
+   "max": 500,
+   "min": 5,
+   "prompt": "Sloveenias Taceni politseiakadeemias anti üle medalid ennastsalgavuse ja vapruse eest politseinikele ja tavakodanikele. Mitu medalit jagati?",
+   "src": "RTV SLO",
+   "type": "number",
+   "unit": "medalit",
+   "url": "https://www.rtvslo.si/slovenija/33-policistov-in-13-obcanov-za-svoja-dejanja-prejelo-medalje-za-pozrtvovalnost-in-hrabrost/799687"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "11. klassi õpilastele pakutav tasuta Cambridge'i keeleeksam ei ole kohtade nappuse tõttu kõigile kättesaadav.",
+   "headline": "Kohtade nappus jätab 11. klassi õpilased ___ keeleeksamilt kõrvale",
+   "options": [
+    "Oxfordi",
+    "TOEFL-i",
+    "Cambridge'i",
+    "DELF-i"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610192923/kohtade-nappus-jatab-11-klassi-opilased-cambridge-i-keeleeksamilt-korvale"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Võlts oli koerte pulmapeo pealkiri. Päris lood: „Aktuaalse kaamera” järjekordne apsakas pakub nalja ning tuntud eestlased rääkisid ETV saates „Impulss” avameelselt nutisõltuvusest.",
+   "options": [
+    "«Aktuaalse kaamera» järjekordne apsakas pakub nalja. «Ootan põnevusega juba, mis homme juhtub!»",
+    "«Tahaks, et seda otsustan mina, mitte sõltuvust tekitavad äpid!» Tuntud eestlased rääkisid avameelselt nutisõltuvusest",
+    "Koerte pulmapidu Pirital kogus TikTokis miljoneid vaatamisi: «Peigmees oli väga närvis!»"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8581188/klipp-saatest-aktuaalse-kaamera-jarjekordne-apsakas-pakub-nalja-ootan-ponevusega-juba-mis-homme-juhtub"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "USA jättis teist aastat järjest vahele olulise ÜRO inimõiguste ülevaatuse; inimõigusorganisatsioonid hoiatavad, et see võib nõrgendada ülemaailmset aruandekohustust. Pealkiri on tõlgitud inglise keelest.",
+   "headline": "USA boikoteerib ÜRO inimõiguste ülevaatust ___ aastat järjest",
+   "options": [
+    "teist",
+    "kolmandat",
+    "neljandat",
+    "viiendat"
+   ],
+   "src": "NPR",
+   "type": "blank",
+   "url": "https://www.npr.org/2026/11/10/nx-s1-6034998/un-human-rights-us-geneva"
+  },
+  {
+   "answer": 3,
+   "cat": "sise",
+   "explain": "Nii kommenteeris Tarmo Jüristo ERR-ile 11. novembril Isamaa praegust tegevust.",
+   "options": [
+    "Ahto Lobjakas",
+    "Tõnis Saarts",
+    "Martin Mölder",
+    "Tarmo Jüristo"
+   ],
+   "quote": "Vaatan hämmeldusega, mida Isamaa praegu teeb.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610192635/juristo-vaatan-hammeldusega-mida-isamaa-praegu-teeb"
+  },
+  {
+   "answer": 2,
+   "cat": "majandus",
+   "explain": "Võlts oli Soome alkoholimüügi pealkiri. Päris lood: Norra pidurdab andmekeskuste rajamist ning Poola energiakontsern ütles tarnehäirete tõttu üles LNG-lepingu Katariga.",
+   "options": [
+    "Norra pidurdab andmekeskuste rajamist",
+    "Poola energiakontsern ütles tarnehäirete tõttu üles LNG-lepingu Katariga",
+    "Soome piirab alkoholi müüki kauplustes kella 18-ni"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610192672/norra-pidurdab-andmekeskuste-rajamist"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, NPR, LSM, RTV SLO",
+ "ticker": [
+  "Herem: droonid sisenesid Eesti õhuruumi nii kagust kui ka kirdest",
+  "Läänemets: liigutakse suunas, et Eesti võib riigieelarvest ilma jääda",
+  "Neljapäeval sajab vihma, mandri sisealadel võib tulla veidi lund",
+  "Riik on firmamatjate tõttu kaotanud viimastel aastatel sadu miljoneid eurosid",
+  "Uusi suuri ehitus- ja teetöid Tallinn eelarvega järgmiseks aastaks ei plaani",
+  "TalTech kaotas Põhja-Euroopa liigas kolmandat korda järjest",
+  "Liis Kapten parandas teist nädalat järjest oma parimat MK kohta",
+  "Aasta põllumees 2026 on seitsmenda põlvkonna põllumees Jakob Lindam"
+ ]
+}
