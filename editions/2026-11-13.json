@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-13",
+ "generatedAt": "2026-11-13T04:56:18Z",
+ "label": "Reede, 13. november 2026",
+ "questions": [
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Eelnõu järgi võiks politsei konfiskeerida elektritõukse, mille kiirust on tootja peidetud režiimiga või kasutaja ise lubatust suuremaks muutnud. Eestis on lubatud elektritõuksi suurim kiirus kuni 25 km/h.",
+   "headline": "Kliimaministeerium laiendab ___ konfiskeerimise õigust",
+   "options": [
+    "droonide",
+    "elektritõukside",
+    "ATV-de",
+    "paatide"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610193325/kliimaministeerium-laiendab-elektritoukside-konfiskeerimise-oigust"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Võlts oli Vaasa uisuraja pealkiri. Päris lood: Keminmaa vallavolikogu otsustas lastest täis saali ees, et mitmeotstarbeline spordihall ehitatakse siiski, ning Soome maksuameti e-teenus OmaVero on nädalavahetusel maas.",
+   "options": [
+    "OmaVero on kogu nädalavahetuse kasutusest väljas",
+    "Vallavolikogu istung tõi Keminmaal volikogusaali täis lapsi – põhjuseks spordihall",
+    "Vaasa kesklinna avatakse talveks uisurada, mida jahutatakse päikeseenergiaga"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20256566"
+  },
+  {
+   "answer": 3300,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Lidli palgasüsteemide eksperdi Mirva Närhi sõnul teenib täiskohaga müüja Helsingi piirkonnas keskmiselt umbes 3300 eurot kuus, mujal Soomes umbes 3000 eurot.",
+   "max": 30000,
+   "min": 500,
+   "prompt": "Kui suur on Elu24 andmetel täiskohaga Lidli müüja keskmine brutopalk Helsingi piirkonnas kuus?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "eurot",
+   "url": "https://elu24.postimees.ee/8582074/lidli-muuja-palk-soomes-ulatub-3300-euroni-kas-on-aeg-kott-pakkida-ja-pohjanaabrite-juurde-toole-minna"
+  },
+  {
+   "cat": "sise",
+   "explain": "ERR-i raadiouudiste järgi lubaks Lääne-Harju valla kavandatav detailplaneering rajada Klooga järve idakaldale kuni 400 leibkonnaga elamurajooni.",
+   "lat": 59.3083,
+   "lon": 24.2361,
+   "place": "Klooga järv",
+   "prompt": "Lääne-Harju vallavolikogu plaanib algatada detailplaneeringu, mis lubaks ühe järve idakaldale rajada kuni 400 leibkonnaga elamurajooni. Millise järve äärde? Märgi koht kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610193728/kloogale-planeeritakse-400-leibkonnale-uut-elamurajooni"
+  },
+  {
+   "answer": 0,
+   "cat": "sise",
+   "explain": "Nii pealkirjastas oma ERR-i arvamusloo ERR-i uudisteportaali toimetaja Argo Ideon. Tema sõnul on paljude poliitikute jaoks poliitika nüüd eelkõige elatise teenimise viis.",
+   "options": [
+    "Argo Ideon",
+    "Ahto Lobjakas",
+    "Vilja Kiisler",
+    "Andrei Hvostov"
+   ],
+   "quote": "Poliitikast on saanud ametikoht, kus puudub igasugune kirg.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610193487/argo-ideon-poliitikast-on-saanud-ametikoht-kus-puudub-igasugune-kirg"
+  },
+  {
+   "answer": 13,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "RTV SLO teatel palus ministeerium haldusüksustel alustada menetlust 13 inimese suhtes, kelle registreeritud elukoht on välismaal. Valitsus põhjendas kontrolli Venemaa pikaajalise agressiooniga Ukraina vastu.",
+   "max": 93,
+   "min": 1,
+   "prompt": "Sloveenia siseministeerium tegi ettepaneku alustada kodakondsuse äravõtmist osalt neist 93 Vene kodanikust, kes said Sloveenia kodakondsuse erakorralise naturalisatsiooni teel. Mitme välismaal elava inimese puhul?",
+   "src": "RTV SLO",
+   "type": "number",
+   "unit": "inimese",
+   "url": "https://www.rtvslo.si/slovenija/predlog-za-odvzem-slovenskega-drzavljanstva-13-ruskim-drzavljanom-ki-sicer-zivijo-v-tujini/799925"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Võlts oli tõsielusarja pealkiri. Päris lood: Elu24 näitas videot, kus Los Angelese lennujaama pagasikäitleja viskab kitarrikohvreid asfaldile, ning galeriid Eesti looduskosmeetikabrändi sünnipäevapeolt.",
+   "options": [
+    "Vaata, kes käisid Eesti looduskosmeetikabrändi glamuursel sünnipäevapeol",
+    "Uus tõsielusari otsib paare, kes on nõus kuu aega elama ilma elektri ja telefonita",
+    "Šokeeriv video: lennujaama pagasikäitleja viskab hinnalised kitarrid asfaldile nagu prügikotid"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8581562/sokeeriv-video-lennujaama-pagasikaitleja-viskab-hinnalised-kitarrid-asfaldile-nagu-prugikotid"
+  },
+  {
+   "cat": "sise",
+   "explain": "RMK ehitab Lahemaa rahvuspargi uue külastuskeskuse Sagadi mõisa. Mõisa hotell ja restoran suletakse ajutiselt 31. märtsil 2027 ning keskus peaks avatama 2028. aasta kevadel.",
+   "lat": 59.5361,
+   "lon": 26.0586,
+   "place": "Sagadi mõis",
+   "prompt": "RMK toob Lahemaa rahvuspargi külastuskeskuse Palmsest teise mõisa, mille hotell ja restoran suletakse remondi ajaks ning kus koondatakse 22 ametikohta. Kus see mõis asub? Märgi koht kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610193766/rmk-toob-lahemaa-rahvuspargi-kulastuskeskuse-palmsest-sagadi-moisa"
+  },
+  {
+   "answer": 1,
+   "cat": "kultuur",
+   "explain": "Nii ütles muusik Robert Linna Vikerraadio intervjuus oma esimesest sooloalbumist „Tabamata ime”. Mõned albumi lauluideed pärinevad umbes kümne aasta tagusest ajast.",
+   "options": [
+    "Ott Lepland",
+    "Robert Linna",
+    "Stig Rästa",
+    "Jüri Pootsmann"
+   ],
+   "quote": "Sahtel võib materjali täis olla, aga igal laulul on oma aeg.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://eeter.err.ee/1610193541/robert-linna-sahtel-voib-materjali-tais-olla-aga-igal-laulul-on-oma-aeg"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Al Jazeera teatel nõuab Californias esitatud hagi „katastroofiliste” tehisaru mudelite treenimise peatamist. Pealkiri on tõlgitud inglise keelest.",
+   "headline": "USA mittetulundusühingud kaebavad tehnoloogiahiiud kohtusse, et peatada ___ arendamine",
+   "options": [
+    "humanoidrobotite",
+    "näotuvastuse",
+    "tehisaru",
+    "isejuhtivate autode"
+   ],
+   "src": "Al Jazeera",
+   "type": "blank",
+   "url": "https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Võlts oli TTJA pealkiri. Päris lood: riik soovib leevendada perekonnanime nõudeid, mida eesti keele instituut ei poolda, ning Ecolines sai ministeeriumilt uue loa reisijate veoks Tallinnast Moskvasse.",
+   "options": [
+    "Riik soovib perekonnanime nõudeid leevendada, eesti keele instituut seda ei poolda",
+    "Ecolines sai ministeeriumilt uue loa reisijate veoks Tallinnast Moskvasse",
+    "TTJA hakkab jõulumüügi allahindlusi kontrollima tehisaru abil"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610193314/riik-soovib-perekonnanime-noudeid-leevendada-eesti-keele-instituut-seda-ei-poolda"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Ettetellijad said GTA 6 konsoolidele alla laadida alates 10. novembrist ja Eestis hüppas öine internetiliiklus järsult. Mängida saab alates 19. novembrist.",
+   "headline": "«Nüüd tuleb küll haigusleht võtta!» GTA 6 pani ___ hüppama ja mängusõbrad kihama",
+   "options": [
+    "elektritarbimise",
+    "internetiliikluse",
+    "konsoolimüügi",
+    "pitsamüügi"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8581351/13-aastat-ootamist-nuud-tuleb-kull-haigusleht-votta-gta-6-pani-internetiliikluse-huppama-ja-mangusobrad-kihama"
+  },
+  {
+   "cat": "sise",
+   "explain": "PPA ametnikud ja talisuplejad ujusid Tartus Emajões lodjakoja juures 108 meetrit. Traditsioon sai alguse 2013. aastal 95-meetrise distantsiga; õhk ja vesi olid umbes 3-kraadised.",
+   "lat": 58.378,
+   "lon": 26.729,
+   "place": "Tartu",
+   "prompt": "Politsei- ja piirivalveamet tähistas 108. sünnipäeva talisuplusega: ametnikud ja talisuplejad ujusid jões 108 meetrit. Millises linnas see toimus? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610194408/politsei-tahistas-108-sunnipaeva-talisuplusega-emajoes"
+  },
+  {
+   "answer": 300,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "LSM-i andmetel protestis ühendus Zemnieku saeima 26,8 miljoni euro suuruse hanke vastu, mis hõlmab 27 õppeasutust ja lubab tarnida toodangut kuni 300 km kauguselt väljaspool Riia piiri. Põllumehed kutsusid riialasi köögivilju tasuta ära viima.",
+   "max": 2000,
+   "min": 10,
+   "prompt": "Läti põllumehed kallasid neljapäeval Riia linnavalitsuse ette mitu tonni köögivilju, protestides koolide toitlustushanke vastu. Kui mitme kilomeetri kauguselt väljaspool Riia linnapiiri võib hanke tingimuste järgi toodangut tarnida?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "km",
+   "url": "https://eng.lsm.lv/article/economy/economy/12.11.2026-cabbage-patch-or-pile-by-riga-city-council-on-thursday-morning.a671597/"
+  },
+  {
+   "answer": 3,
+   "cat": "meelelahutus",
+   "explain": "Nii ütles kirjanik Sass Henno, kui Apollo Kristiine raamatupood loobus kaks päeva enne 13. novembri vestlusõhtut tema osalemisest. Õhtule olid välja kuulutatud ka Jim Ashilev, Kuu Elina ja Helen Toots.",
+   "options": [
+    "Jim Ashilev",
+    "Mihkel Raud",
+    "Andrus Kivirähk",
+    "Sass Henno"
+   ],
+   "quote": "Ma olen varsti kaks aastat vait olnud, aga tundub, et enam ei suuda neid liialdusi taluda.",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8581575/kaks-paeva-enne-vestlusohtut-apollo-ei-soovinud-sass-hennot-lavale-kirjanik-porutab-kuulujuttudest-lahtuv-vardjakari"
+  },
+  {
+   "answer": 0,
+   "cat": "kultuur",
+   "explain": "Võlts oli Kirjandusmuuseumi pealkiri. Päris lood: Norra otsustas Kanada ja Soome eeskujul Venemaa sportlasi võistlema mitte lubada ning Draamateatris jõuab lavale Florian Zelleri kriminaalse süžeega „Mets”.",
+   "options": [
+    "Kirjandusmuuseum avab külastajatele esimest korda oma käsikirjade hoidla",
+    "Norra järgis Kanada ja Soome eeskuju: Venemaa sportlasi võistlema ei lubata",
+    "Draamateatris jõuab lavale Florian Zelleri kriminaalse süžeega \"Mets\""
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://kultuur.err.ee/1610193757/draamateatris-jouab-lavale-florian-zelleri-kriminaalse-suzeega-mets"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, Al Jazeera",
+ "ticker": [
+  "Florida rannikul saadeti merepõhja legendaarne ookeanilaev",
+  "Hollandis puhkes valitsuskriis",
+  "Mihhail Selevko: lühikava on sel hooajal kõige suurem väljakutse",
+  "Reedel võib sadada nii vihma, lörtsi kui ka lund",
+  "Itaalia kommunistide endisest peakorterist sai viietärnihotell",
+  "Galerii: Tallinna tänavune jõulupuu jõudis Raekoja platsile",
+  "Vabatahtlikud IT-spetsialistid harjutavad Tallinna lennujaama küberründe tõrjumist",
+  "Kabe maailmameister Kevin Kurik: mind vaimustab mängu põnevus"
+ ]
+}
