@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-16",
+ "generatedAt": "2026-11-16T05:00:18+00:00",
+ "label": "Esmaspäev, 16. november 2026",
+ "questions": [
+  {
+   "answer": 700,
+   "cat": "sise",
+   "decimals": 0,
+   "explain": "Ettepaneku järgi väheneks vanemahüvitise perioodil kodus olnud vanema tulumaks iga lapse kohta 4 protsendipunkti; keskmist palka teeniv vanem võidaks umbes 700 eurot aastas lapse kohta. Väiksema sissetulekuga vanema minimaalne võit oleks 500 eurot.",
+   "max": 5000,
+   "min": 50,
+   "prompt": "Reformierakond tahab vähendada lastega kodus olnud vanemate tulumaksu: iga lapse kohta 4 protsendipunkti. Ligikaudu mitu eurot aastas iga lapse kohta võidaks erakonna arvestuse järgi keskmist palka teeniv lapsevanem?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "eurot",
+   "url": "https://www.err.ee/1610196727/reformierakond-tahab-vahendada-lastega-kodus-olnud-vanemate-tulumaksu"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Eesti Loodusmuuseum otsib TARU loodusmajja sündmuskorralduse assistenti; kuulutus, mis lubab tööd ka õhtuti, öösiti ja nädalavahetustel, ajas sotsiaalmeedia kasutajad kihama.",
+   "headline": "___ töökuulutus ajas ühismeedia kihama: õnneks istusin, aga tükk kana kukkus küll suust välja",
+   "options": [
+    "Kunstimuuseumi",
+    "Meremuuseumi",
+    "Loodusmuuseumi",
+    "Linnamuuseumi"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8583502/salaparane-positsioon-loodusmuuseumi-tookuulutus-ajas-uhismeedia-kihama-onneks-istusin-aga-tukk-kana-kukkus-kull-suust-valja"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Nii ütles Sloveenia jalgpallikoondise peatreener Boštjan Cesar enne Rahvuste liiga viimast alagrupimängu Põhja-Makedoonia vastu Skopjes. Tsitaat on tõlgitud sloveeni keelest.",
+   "options": [
+    "Matjaž Kek",
+    "Jan Oblak",
+    "Boštjan Cesar",
+    "Benjamin Šeško"
+   ],
+   "quote": "Peame olema agressiivsed esimesest minutist ja hoidma mängurütmi nagu Šveitsi vastu.",
+   "src": "RTV SLO",
+   "type": "who",
+   "url": "https://www.rtvslo.si/sport/nogomet/moramo-biti-agresivni-od-prve-minute-in-drzati-ritem-igre-kot-proti-svici/800233"
+  },
+  {
+   "cat": "sise",
+   "explain": "Narva rahvaarv langes tänavu esimest korda alla 50 000. Linnapea Jaan Toots ütles, et iga koondamine mõjub Narvale väga rängalt.",
+   "lat": 59.3772,
+   "lon": 28.1903,
+   "place": "Narva",
+   "prompt": "ERR-i saade „AK. Nädal” uuris, mida tähendab Ida-Virumaale Eesti Energia enam kui 300 töökoha kadumine. Millise linna rahvaarv langes tänavu esimest korda alla 50 000? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610196802/ak-nadal-mida-tahendab-ida-virumaale-enam-kui-300-tookoha-kadumine"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Brasiilia staadionite plastikukeeld oli välja mõeldud. Päriselt võitis Inglismaa Madridis Hispaaniat 3:2, mis oli Hispaania esimene kaotus alates 2024. aasta märtsist, ning Kanaari saartele jõudis ühe päevaga ligi 1500 migranti.",
+   "options": [
+    "Inglismaa üllatas Hispaaniat ja lõpetas La Roja 43 mängu pikkuse kaotuseta seeria",
+    "Brasiilia keelas ühekordsed plastnõud kõigil kõrgliiga jalgpallistaadionitel",
+    "Hispaania Kanaari saartele jõudis ühe päevaga ligi 1500 migranti"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Al Jazeera",
+   "type": "fake",
+   "url": "https://www.aljazeera.com/sports/2026/11/15/england-stun-spain-to-end-la-rojas-43-game-unbeaten-run"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Isamaa soovib järgmise riigikogu koosseisu liikmete põhipalka 10 protsenti vähendada ja tulevasi palgatõuse väiksemaks muuta. Praegu on riigikogu liikme palk 6655,81 eurot kuus.",
+   "headline": "Isamaa tahab väiksemat ___ riigikogu järgmisele koosseisule",
+   "options": [
+    "kuluhüvitist",
+    "palgatõusu",
+    "valimiskünnist",
+    "koosseisu"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610195494/isamaa-tahab-vaiksemat-palgatousu-riigikogu-jargmisele-koosseisule"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Muusik Andrus Muld kiitis sotsiaalmeedias Mihhail Kõlvartit, kes astus laupäeval Tondiraba jäähallis The League 13 heategevusmatšis poksiringi, ning torkas teisi poliitikuid.",
+   "options": [
+    "Alari Kivisaar",
+    "Andrus Muld",
+    "Marjen Võsujalg",
+    "Argo Ader"
+   ],
+   "quote": "Anastassia, palun kutsu Kaja Kallas ringi!",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8583716/anastassia-palun-kutsu-kaja-kallas-ringi-muusik-andrus-muld-votab-kolvarti-ees-mutsi-maha-ja-torkab-teisi-poliitikuid"
+  },
+  {
+   "answer": 1,
+   "cat": "sport",
+   "explain": "Olose pealkiri oli võlts: tegelikult ei mahtunud Eesti suusatajad Olosel 30 parema sekka. Päris lood olid noorjudokate 18 medalist ja Ermitsa sprindivõidust Idre võistlusel.",
+   "options": [
+    "Eesti noorjudokad tõid suurturniirilt 18 medalit",
+    "Eesti suusatajad sõitsid Olose hooaja avavõistlusel esikümnesse",
+    "Ermits alistas Idre sprindivõistluses Tomingase ja Külma"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610196742/ermits-alistas-idre-sprindivoistluses-tomingase-ja-kulma"
+  },
+  {
+   "answer": 9,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "VDD otsis 14. novembril läbi üheksa kahtlustatavatega seotud kohta ning leidis lõhkeseadeldisi, pürotehnikat, laskemoona ja hulga mobiiltelefone. Eestis peeti kinni kaheksa Lätist pärit inimest.",
+   "max": 200,
+   "min": 2,
+   "prompt": "Pärast Eesti droonitootja Threod Systems hoone vastu suunatud süütamiskatset tegi Läti julgeolekuteenistus VDD läbiotsimised kahtlustatavatega seotud kohtades. Mitmes kohas?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "kohas",
+   "url": "https://eng.lsm.lv/article/society/crime/15.11.2026-eight-latvian-nationals-arrested-over-suspected-estonia-drone-arson-plot.a672001/"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Akvarellistide aastanäitus avati Viljandis Kondase keskuses 14. novembril ja jääb avatuks 17. jaanuarini 2027.",
+   "lat": 58.3636,
+   "lon": 25.5903,
+   "place": "Viljandi",
+   "prompt": "Kondase keskuses avati Eesti Akvarellistide Ühenduse aastanäitus, kus on väljas 44 kunstniku tööd. Millises linnas Kondase keskus asub? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610196778/galerii-kondase-keskuses-avati-akvarellistide-uhenduse-aastanaitus"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Tartu Pauluse koguduse õpetaja Kristjan Luhamets rääkis Elu24-le hingedekuust ja elu mõttest: tema sõnul on mõistlik otsida oma elule püsivat alust.",
+   "headline": "Kirikuõpetaja Kristjan Luhamets: kui inimene, kellel on elu mõte kaotsi läinud, ___ kellegi teise eest, oleks tal kohe mõte olemas",
+   "options": [
+    "palvetaks",
+    "seisaks",
+    "hoolitseks",
+    "töötaks"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8580916/intervjuu-kirikuopetaja-kristjan-luhamets-kui-inimene-kellel-on-elu-mote-kaotsi-lainud-hoolitseks-kellegi-teise-eest-oleks-tal-kohe-mote-olemas"
+  },
+  {
+   "answer": 3,
+   "cat": "kultuur",
+   "explain": "Kukerpillide liige Ike Volkov rääkis ansambli 2027. aasta kevadisest tänutuurist „Veel viimne kord”, mille käigus antakse 15 kontserti, igas maakonnas üks.",
+   "options": [
+    "Ivo Linna",
+    "Tõnis Mägi",
+    "Riho Sibul",
+    "Ike Volkov"
+   ],
+   "quote": "Tuuriks valmistume nii, et käime trennis ja tõstame hantleid, meie vanuses peab käima.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://eeter.err.ee/1610196823/ike-volkov-kukerpillide-tanutuurist-sellist-tuuri-me-enam-rohkem-ei-tee"
+  },
+  {
+   "answer": 300000,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Hanoveri maakonna loomakaitseorganisatsioon on müünud pesukaru pildiga riideid ja kruuse ning teeninud üle 290 000 dollari. Tavaliselt saab organisatsioon annetusi alla 20 000 dollari aastas.",
+   "max": 3000000,
+   "min": 10000,
+   "prompt": "Virginias alkoholipoodi tunginud ja seal oimetuks jäänud pesukarust sai internetimeem. Ligikaudu mitu dollarit on kohalik loomakaitseorganisatsioon pesukaru pildiga kaupa müües kokku saanud?",
+   "src": "Yle",
+   "type": "number",
+   "unit": "dollarit",
+   "url": "https://yle.fi/a/74-20257071"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Kinoseansi katkestanud nahkhiir oli välja mõeldud. Päris lood olid Draamateatri lavastaja Hendrik Toompere Facebooki-postitusest ebaviisaka teatrikülastaja kohta ja Nvidia asutaja Jensen Huangi ümber tekkinud meemilainest.",
+   "options": [
+    "«Peaaegu lõin lauba vastu maad!» Hendrik Toompere tegi ebaviisakale teatrikülastajale ootamatu žesti",
+    "«Sellist asja pole ma veel näinud!» Tallinna kinos katkestati seanss, kui saali lendas nahkhiir",
+    "Skandaal paisub! Jensen Huangi salaelust ja ta armukese spioonikahtlustest sündis meeletu meemilaine üle kogu maailma"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8583669/peaaegu-loin-lauba-vastu-maad-hendrik-toompere-tegi-ebaviisakale-teatrikulastajale-ootamatu-zesti"
+  },
+  {
+   "cat": "sise",
+   "explain": "Inspektorid käisid Pärnus Mai elurajoonis, kuid paljud kodud olid pimedad ja ustele jäid meeldetuletuslipikud. Mullu leiti kontrollitud kodudest suitsuandur umbes 83 protsendis.",
+   "lat": 58.3859,
+   "lon": 24.4971,
+   "place": "Pärnu",
+   "prompt": "Lääne päästekeskuse inspektorid käisid kolmapäeva õhtul ühe linna Mai elurajooni kortermajades suitsuandureid kontrollimas. Üle Eesti pole igas viiendas majapidamises töötavat suitsuandurit. Millises linnas inspektorid käisid? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610196859/igas-viiendas-majapidamises-pole-tootavat-suitsuandurit"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "ESA astronaudi Kuu-lend oli välja mõeldud. Päriselt jõustus Pekingis keeld droone omada ja SpaceX püüdis esimest korda kosmoselaeva kinni, mis on samm täielikult korduskasutatavate rakettide suunas.",
+   "options": [
+    "Pekingis jõustus keeld droone omada",
+    "SpaceX-il õnnestus esmakordselt kosmoselaev kinni püüda",
+    "Euroopa Kosmoseagentuur saatis esimest korda oma astronaudi Kuu orbiidile"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610196643/spacex-il-onnestus-esmakordselt-kosmoselaev-kinni-puuda"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, Al Jazeera",
+ "ticker": [
+  "Macron nimetas EL-i kaks peamist prioriteeti seoses Ukrainaga",
+  "Iraani kaardivägi teatas droonirünnakust Bahreini sõjaväebaasile",
+  "Võru lülitas karikasarjas Selveri konkurentsist ja jõudis poolfinaali",
+  "Ronaldota Portugal jäi kodupubliku ees häbisse",
+  "Lääne-Eestis tuleb esmaspäeval nii vihma kui ka lörtsi",
+  "Amazon kaotas kanderaketi ebaõnnestunud stardi tõttu 40 satelliiti",
+  "Varajase muusika festivalil Tallinn feat. Reval toimub tänavu kaheksa kontserti",
+  "Aasta ettevõte on kaitsetööstusettevõte HEVI Optronics"
+ ]
+}
