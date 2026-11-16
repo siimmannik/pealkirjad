@@ -161,6 +161,14 @@ input[type=range]::-moz-range-thumb{width:22px;height:28px;background:var(--yell
 .namebox .lnk{color:var(--cyan);text-decoration:underline}
 .namebox .cta{padding:4px 12px;font-size:clamp(20px,4.6vw,24px)}
 
+/* shared leaderboard */
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.tabs button{background:#15151f;color:var(--white);padding:2px 10px}
+.tabs button:hover{background:var(--blue)}
+.tabs button[aria-selected="true"]{background:var(--yellow);color:var(--black)}
+.board .lb .li .d{font-size:.85em}
+.board .bnote{margin:6px 0 0}
+
 /* personal history */
 .hist{margin-top:16px}
 .hsum{display:flex;gap:6px 18px;flex-wrap:wrap;margin-top:8px;font-variant-numeric:tabular-nums}
@@ -244,6 +252,34 @@ const store = {
   set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
 };
 
+/* ---------- shared leaderboard (Supabase) ----------
+   Fill in after creating the Supabase project (Project Settings → API / API Keys).
+   Leave empty to keep results only in this browser. */
+const SB_URL = "https://xwdqbagphxgqlsctwkpt.supabase.co";
+const SB_KEY = "sb_publishable_aiwgcQZGyg5AWQeoY70Shg_la943t7B";
+const SB_ON = !!(SB_URL && SB_KEY);
+function newId(){
+  if (window.crypto && crypto.randomUUID) return crypto.randomUUID();
+  const b = new Uint8Array(16); (window.crypto || {getRandomValues: a => a.map(() => Math.random() * 256 | 0)}).getRandomValues(b);
+  b[6] = (b[6] & 15) | 64; b[8] = (b[8] & 63) | 128;
+  const h = [...b].map(x => x.toString(16).padStart(2, "0")).join("");
+  return `${h.slice(0,8)}-${h.slice(8,12)}-${h.slice(12,16)}-${h.slice(16,20)}-${h.slice(20)}`;
+}
+function playerId(){
+  let id = store.get("pj_pid", "");
+  if (!/^[0-9a-f-]{36}$/i.test(id)) { id = newId(); store.set("pj_pid", id); }
+  return id;
+}
+async function rpc(fn, args){
+  const headers = {"Content-Type": "application/json", "apikey": SB_KEY};
+  if (!SB_KEY.startsWith("sb_")) headers.Authorization = "Bearer " + SB_KEY;
+  const r = await fetch(SB_URL.replace(/\/+$/, "") + "/rest/v1/rpc/" + fn, {method: "POST", headers, body: JSON.stringify(args)});
+  const t = await r.text();
+  let j = null; try { j = t ? JSON.parse(t) : null; } catch {}
+  if (!r.ok) throw new Error((j && j.message) || ("HTTP " + r.status));
+  return j;
+}
+
 /* ---------- clock + seek animation ---------- */
 const WD = ["P","E","T","K","N","R","L"];
 function tickClock(){
@@ -275,7 +311,7 @@ function beep(freqs, dur=0.09){
 const SND = { ok:()=>beep([660,880,1320]), bad:()=>beep([220,160],0.16), tick:()=>beep([1200],0.03), click:()=>beep([520],0.04), end:()=>beep([523,659,784,1047],0.12) };
 
 /* ---------- state ---------- */
-const S = { editions:[], ed:null, qi:0, score:0, streak:0, res:[], plays:{}, timer:null, keyHandler:null, locked:false };
+const S = { editions:[], ed:null, qi:0, score:0, streak:0, res:[], plays:{}, timer:null, keyHandler:null, locked:false, board:{}, boardTab:"day" };
 
 /* ---------- boot ---------- */
 async function boot(){
@@ -290,6 +326,7 @@ async function boot(){
   S.editions = eds.filter(e => e && Array.isArray(e.questions) && e.questions.length);
   loadScores();
   if (!S.editions.length) return renderEmpty();
+  submitPending();
   S.ed = S.editions[0];
   setTicker(S.ed);
   renderHome();
@@ -331,6 +368,78 @@ function lbHtml(date){
   const row = (a, b, me) => `<div class="li ${me?"me":""}"><span class="pos">${me?"★":""}</span><span class="who">${a}</span><span class="dots"></span><span class="pts">${b}</span></div>`;
   return `<div class="lb">` + row("Sinu tulemus", fmt(p.score), true) + row("Õigeid vastuseid", `${p.correct}/${p.total}`) + row("Sinu rekord", fmt(best)) + row("Mängitud päevi", all.length) + `</div><p class="note">Tulemused on salvestatud ainult selles brauseris.</p>`;
 }
+/* ---------- shared leaderboard ---------- */
+const TABS = [["day","PÄEV"],["week","NÄDAL"],["all","KÕIK AJAD"]];
+const todayTallinn = () => new Intl.DateTimeFormat("sv-SE", {timeZone:"Europe/Tallinn"}).format(new Date());
+const dayBefore = iso => { const d = new Date(iso + "T12:00:00Z"); d.setUTCDate(d.getUTCDate() - 1); return d.toISOString().slice(0, 10); };
+const countsForBoard = date => { const t = todayTallinn(); return date === t || date === dayBefore(t); };
+const boardKey = (date, tab) => tab + ":" + date;
+async function loadBoard(date, tab, force){
+  const k = boardKey(date, tab), c = S.board[k];
+  if (!force && c && !c.err && Date.now() - c.t < 60000) return c;
+  try {
+    const rows = await rpc("leaderboard", {p_date:date, p_period:tab, p_player:playerId(), p_limit:10});
+    S.board[k] = {t:Date.now(), rows:Array.isArray(rows) ? rows : []};
+  } catch { S.board[k] = {t:Date.now(), rows:[], err:true}; }
+  return S.board[k];
+}
+function boardRowsHtml(b, tab){
+  if (!b) return `<p class="note">Laen edetabelit…</p>`;
+  if (b.err) return `<p class="note">Edetabelit ei õnnestunud laadida. Proovi hiljem uuesti.</p>`;
+  if (!b.rows.length) return `<p class="note">${tab === "day" ? "Selle päeva edetabel on veel tühi. Ole esimene!" : "Edetabel on veel tühi."}</p>`;
+  return `<div class="lb">` + b.rows.map((r, i) => {
+    const gap = i === 10 ? `<div class="li"><span class="pos"></span><span class="d">…</span></div>` : "";
+    const extra = tab === "day" ? `<span class="d">${r.correct}/${r.total}</span>` : `<span class="d">${r.games} ${r.games === 1 ? "päev" : "päeva"}</span>`;
+    return gap + `<div class="li ${r.is_me ? "me" : ""}"><span class="pos">${r.pos}.</span><span class="who">${esc(r.name)}</span><span class="dots"></span>${extra}<span class="pts">${fmt(r.score)}</span></div>`;
+  }).join("") + `</div>`;
+}
+function boardSection(){
+  return `<section class="board"><span class="h2 y">EDETABEL</span><div class="tabs" role="tablist">${TABS.map(([k, l]) => `<button role="tab" data-tab="${k}" aria-selected="${k === S.boardTab}">${l}</button>`).join("")}</div><p class="note bnote"></p><div class="bbody"></div></section>`;
+}
+function wireBoard(sec, date){
+  if (!sec) return;
+  const body = sec.querySelector(".bbody"), note = sec.querySelector(".bnote");
+  const show = async force => {
+    const tab = S.boardTab;
+    sec.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === tab)));
+    note.textContent = tab === "day" ? "Päev " + shortDate(date) + " · arvesse läheb esimene katse" : tab === "week" ? "7 päeva kuni " + shortDate(date) + " · punktide summa" : "Kõik päevad kuni " + shortDate(date) + " · punktide summa";
+    body.innerHTML = boardRowsHtml(force ? null : S.board[boardKey(date, tab)], tab);
+    const b = await loadBoard(date, tab, force);
+    if (S.boardTab === tab && body.isConnected) body.innerHTML = boardRowsHtml(b, tab);
+  };
+  sec.querySelectorAll(".tabs button").forEach(b => b.onclick = () => { SND.click(); S.boardTab = b.dataset.tab; show(false); });
+  sec._refresh = () => show(true);
+  show(false);
+}
+const refreshBoards = () => document.querySelectorAll("section.board").forEach(s => s._refresh && s._refresh());
+/* sends today's and yesterday's unsent first plays; returns "sent", "noname", "none" or "error" */
+let submitting = null;
+function submitPending(){
+  if (!SB_ON) return Promise.resolve("none");
+  if (!myName()) return Promise.resolve("noname");
+  if (submitting) return submitting;
+  submitting = (async () => {
+    const t = todayTallinn();
+    const todo = [t, dayBefore(t)].filter(d => S.plays[d] && !S.plays[d].sent);
+    if (!todo.length) return "none";
+    let res = "none";
+    for (const d of todo) {
+      const p = S.plays[d];
+      try {
+        await rpc("submit_score", {p_player:playerId(), p_date:d, p_name:myName(), p_score:p.score, p_correct:p.correct, p_total:p.total, p_grid:p.grid});
+        p.sent = true; res = "sent";
+      } catch (e) {
+        if (/kuupäev|skoor|ruudustik|vigased/.test(String(e && e.message))) p.sent = "rejected";
+        else if (res !== "sent") res = "error";
+      }
+    }
+    store.set("pj_plays", S.plays);
+    if (res === "sent") { S.board = {}; refreshBoards(); }
+    return res;
+  })().finally(() => { submitting = null; });
+  return submitting;
+}
+
 /* player-chosen name, kept only in this browser */
 const NAME_MAX = 24;
 const cleanName = v => String(v || "").replace(/[\u0000-\u001f\u007f]/g, "").replace(/\s+/g, " ").trim().slice(0, NAME_MAX);
@@ -345,14 +454,19 @@ function nameWidget(box, onSaved, editing){
     box.querySelector("#nmedit").onclick = () => { SND.click(); nameWidget(box, onSaved, true); };
     return;
   }
-  box.innerHTML = `<span class="lbl">SINU NIMI</span><input id="nminput" maxlength="${NAME_MAX}" autocomplete="nickname" placeholder="nt Mari T." aria-label="Sinu nimi"><button class="cta" id="nmsave">SALVESTA</button><span class="note" id="nmnote">${cur ? "" : "Nimi jääb ainult sellesse brauserisse."}</span>`;
+  box.innerHTML = `<span class="lbl">SINU NIMI</span><input id="nminput" maxlength="${NAME_MAX}" autocomplete="nickname" placeholder="nt Mari T." aria-label="Sinu nimi"><button class="cta" id="nmsave">SALVESTA</button><span class="note" id="nmnote">${cur ? "" : SB_ON ? "Nimi on edetabelis kõigile näha." : "Nimi jääb ainult sellesse brauserisse."}</span>`;
   const inp = box.querySelector("#nminput"), note = box.querySelector("#nmnote");
   inp.value = cur;
   const save = () => {
     const v = cleanName(inp.value);
     if (!v) { note.textContent = "Kirjuta enne salvestamist nimi."; inp.focus(); return; }
+    const changed = v !== cur;
     store.set("pj_name", v);
     SND.click(); nameWidget(box, onSaved, false); onSaved && onSaved();
+    if (SB_ON) (async () => {
+      if (changed && cur) { try { await rpc("set_player_name", {p_player:playerId(), p_name:v}); } catch {} }
+      if ((await submitPending()) !== "sent" && changed) { S.board = {}; refreshBoards(); }
+    })();
   };
   box.querySelector("#nmsave").onclick = save;
   inp.addEventListener("keydown", e => { e.stopPropagation(); if (e.key === "Enter") { e.preventDefault(); save(); } });
@@ -421,13 +535,14 @@ function renderHome(){
     </div>
     <div class="namebox" id="namebox"></div>
     <div class="cols">
-      <section><span class="h2 y">SINU TULEMUS ${esc(shortDate(ed.date))}</span>${lbHtml(ed.date)}</section>
+      ${SB_ON ? boardSection() : `<section><span class="h2 y">SINU TULEMUS ${esc(shortDate(ed.date))}</span>${lbHtml(ed.date)}</section>`}
       <section><span class="h2">ARHIIV</span>
         <div class="arch">${S.editions.map(e => { const p = myPlay(e.date); return `<button data-date="${esc(e.date)}"><span class="y">${esc(shortDate(e.date))}</span><span class="t">${esc(dayLabel(e))}</span><span class="dots"></span><span class="${p?"c":"d"}">${p ? fmt(p.score) : "—"}</span></button>`; }).join("")}</div>
       </section>
     </div>
     <section class="hist"><span class="h2 g" id="histhead">${myName() ? esc(myName().toUpperCase()) + " · AJALUGU" : "SINU AJALUGU"}</span>${historyHtml()}</section>`;
   nameWidget($("#namebox"), () => { $("#histhead").textContent = myName().toUpperCase() + " · AJALUGU"; });
+  if (SB_ON) wireBoard(main.querySelector("section.board"), ed.date);
   $("#go").onclick = startGame;
   $("#snd").onclick = () => { soundOn = !soundOn; store.set("pj_sound", soundOn); $("#snd").textContent = soundOn ? "HELI: SEES" : "HELI: VÄLJAS"; SND.click(); };
   main.querySelectorAll(".arch button").forEach(b => b.onclick = () => { S.ed = S.editions.find(e => e.date === b.dataset.date) || S.ed; setTicker(S.ed); renderHome(); });
@@ -693,8 +808,14 @@ async function renderResults(){
     </div>
     ${!myName() ? `<div class="namebox" id="resname"></div>` : ""}
     <section style="margin-top:18px"><span class="h2 y">SINU TULEMUS ${esc(shortDate(ed.date))}</span><div id="lbbox">${lbHtml(ed.date)}</div></section>
+    ${SB_ON ? `<div style="margin-top:18px">${boardSection()}</div>` : ""}
     <pre id="sharetxt" hidden></pre>`;
-  nameWidget($("#resname"));
+  nameWidget($("#resname"), SB_ON ? async () => {
+    if (!countsForBoard(ed.date)) return;
+    const el = $("#savenote"); if (el) el.textContent = "Saadan edetabelisse…";
+    const r = await submitPending();
+    if (el && el.isConnected) el.textContent = r === "error" ? "Edetabelisse saatmine ebaõnnestus. Proovin järgmisel korral uuesti." : "Tulemus on edetabelis.";
+  } : undefined);
   const emo = {ok:"🟩", half:"🟨", bad:"🟥", to:"⬛"};
   const shareText = () => `PEALKIRJAJAHT ${shortDate(ed.date)}${myName() ? " · " + myName() : ""} · ${fmt(S.score)} p\n${S.res.map(r => emo[r]).join("")}\n${rank[1]}`;
   $("#share").onclick = async () => {
@@ -709,6 +830,17 @@ async function renderResults(){
     store.set("pj_plays", S.plays);
     $("#savenote") && ($("#savenote").textContent = "Tulemus on salvestatud selles brauseris.");
     $("#lbbox") && ($("#lbbox").innerHTML = lbHtml(ed.date));
+  }
+  if (SB_ON) {
+    const sec = main.querySelector("section.board");
+    const setNote = t => { const el = $("#savenote"); if (el) el.textContent = t; };
+    if (first && !countsForBoard(ed.date)) { setNote("Arhiivimäng: tulemus jäi ainult siia brauserisse."); wireBoard(sec, ed.date); }
+    else if (first) {
+      setNote("Saadan edetabelisse…");
+      const r = await submitPending();
+      setNote(r === "sent" ? "Tulemus on edetabelis." : r === "noname" ? "Kirjuta oma nimi, siis läheb tulemus edetabelisse." : r === "error" ? "Edetabelisse saatmine ebaõnnestus. Proovin järgmisel korral uuesti." : "Tulemus on salvestatud.");
+      wireBoard(sec, ed.date);
+    } else wireBoard(sec, ed.date);
   }
 }
 

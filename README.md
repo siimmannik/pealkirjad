@@ -15,7 +15,11 @@ Küsimuste tüübid:
 - `index.html` on kogu mäng: staatiline leht, sisselogimist ei vaja.
 - `editions/index.json` sisaldab väljaannete kuupäevade loendit (`{"dates": ["YYYY-MM-DD", …]}`).
 - `editions/<YYYY-MM-DD>.json` on ühe päeva küsimustepakk.
-- Mängija nimi, tulemused ja mänguajalugu salvestatakse ainult tema brauserisse (localStorage). Jagatud edetabelit pole.
+- Mängija nimi, tulemused ja mänguajalugu salvestatakse tema brauserisse (localStorage).
+- Ühine edetabel (päev / nädal / kõik ajad) on Supabase'is: `index.html`-is on konstandid `SB_URL` ja `SB_KEY` (avalik publishable/anon võti). Kui need on tühjad, töötab mäng ainult brauseri tulemustega.
+  - Andmebaasi skeem ja funktsioonid: `supabase.sql` (käivita Supabase'i SQL Editoris). Tabelile otse ligi ei pääse; mäng kutsub ainult funktsioone `submit_score`, `set_player_name` ja `leaderboard`.
+  - Mängija tuvastatakse brauseris loodud juhusliku ID-ga (`pj_pid`), sisselogimist pole. Arvesse läheb iga päeva esimene katse, ainult tänane ja eilne väljaanne; skoor peab jääma võimaliku maksimumi piiresse.
+  - Sobimatu nime või tulemuse saab kustutada Supabase'i Table Editoris (tabel `scores`).
 - `vendor/d3.min.js` on kaardi projektsiooni jaoks (d3 7.9.0, ISC-litsents, vt `vendor/d3-LICENSE.txt`).
 
 Uue väljaande lisab igal hommikul Claude'i ajastatud ülesanne: see kirjutab uue JSON-faili kausta `editions/` ja lisab kuupäeva faili `index.json`.
