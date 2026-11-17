@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-17",
+ "generatedAt": "2026-11-17T04:59:52+00:00",
+ "label": "Teisipäev, 17. november 2026",
+ "questions": [
+  {
+   "cat": "sise",
+   "explain": "ERR-i andmetel saabusid kaks valget toonekurge Avinurmele ja ei kavatse ära lennata. Põldudel võib veel näha ka kiivitajaid, kuldnokki, laululuiki ja sookurgi, kuigi tavaliselt lõpeb ränne septembri lõpus või oktoobri esimesel poolel.",
+   "lat": 58.9853,
+   "lon": 26.8625,
+   "place": "Avinurme",
+   "prompt": "Kaks valget toonekurge jätsid tänavu sügisrände vahele ja jäävad talveks Eestisse. Millisesse Jõgevamaa alevikku nad saabusid? Märgi koht kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610197927/poldudel-voib-veel-randlinde-naha"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Ostjad kritiseerisid SKIMS-i advendikalendreid, sest ootasid oma raha eest enamat kui juuksekumme ja -klambreid. Bränd pakub pettunud klientidele raha tagasi.",
+   "headline": "«Seda ostes saate petta!» Kim Kardashiani brändi SKIMS ___ pälvivad kriitikat",
+   "options": [
+    "jõulupidžaamad",
+    "kinkekarbid",
+    "advendikalendrid",
+    "sukkpüksid"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8583418/video-seda-ostes-saate-petta-kim-kardashiani-brandi-skims-advendikalendrid-palvivad-kriitikat"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Nii ütles Carlos Alcaraz pärast seda, kui alistas Torinos ATP finaalturniiri avamängus Frances Tiafoe 6:2, 6:2. Tsitaat on tõlgitud sloveeni keelest.",
+   "options": [
+    "Jannik Sinner",
+    "Alexander Zverev",
+    "Taylor Fritz",
+    "Carlos Alcaraz"
+   ],
+   "quote": "Mitte kunagi varem oma karjääris pole ma hooaja finaalturniirile nii hästi ettevalmistatuna tulnud.",
+   "src": "RTV SLO",
+   "type": "who",
+   "url": "https://www.rtvslo.si/sport/tenis/teniski-turnirji/alcaraz-zelo-prepricljiv-se-nikoli-na-zakljucnem-turnirju-nisem-bil-tako-dobro-pripravljen/800316"
+  },
+  {
+   "answer": 1,
+   "cat": "kultuur",
+   "explain": "Harfiõppijate lugu oli võlts. Päris: aasta interpreedi tiitli said flöödimängija Mihkel Peäske, kontrabassimängija Regina Udod ja klavessiinimängija Reinut Tepp ning ERSO sajandat sünnipäeva tähistab raamat „ERSO sajand”.",
+   "options": [
+    "Aasta interpreedi tiitli pälvisid Mihkel Peäske, Regina Udod ja Reinut Tepp",
+    "Muusikakoolides kasvas tänavu enim harfiõppijate arv",
+    "ERSO 100. sünnipäevaks koondati sümfooniaorkesteri ajalugu kaante vahele"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://kultuur.err.ee/1610197087/aasta-interpreedi-tiitli-palvisid-mihkel-peaske-regina-udod-ja-reinut-tepp"
+  },
+  {
+   "answer": 7.8,
+   "cat": "meelelahutus",
+   "decimals": 1,
+   "explain": "Ametlikud Bondi-filmid on teeninud umbes 7,8 miljardit dollarit, mis teeb sellest kõigi aegade viienda kõige tulusama filmisarja. 40-aastane Pattinson on ametlikes filmides seitsmes Bondi kehastaja.",
+   "max": 60,
+   "min": 0.5,
+   "prompt": "Uueks James Bondiks kinnitati Robert Pattinson. Mitu miljardit dollarit on Elu24 andmetel ametlikud Bondi-filmid kokku teeninud?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "miljardit dollarit",
+   "url": "https://elu24.postimees.ee/8584531/uus-james-bond-on-selgunud-ja-tema-nimi-on-pattinson-robert-pattinson"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Nii ütles välisminister Margus Tsahkna, kommenteerides Bloombergi teadet, et USA kärbib oma vägesid Euroopas kardetust vähem. Tema sõnul oleks tegelikult vaja Ameerika suuremat kohalolu idatiival.",
+   "options": [
+    "Marko Mihkelson",
+    "Margus Tsahkna",
+    "Peeter Tali",
+    "Hanno Pevkur"
+   ],
+   "quote": "Kõige tähtsam on see, et Euroopa võtab rohkem vastutust.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610197846/tsahkna-tegelikult-oleks-vajadus-ameerika-suuremaks-kohaloluks-idatiival"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Jūrmala soojendusega pinkide lugu oli võlts. Päris: Läti piirivalvekolledži koerakeskuses sündis 10. novembril kaheksa Belgia lambakoera kutsikat ning pärast 3-eurose tollimaksu kehtestamist vähenes Lätti välismaalt saabuvate pakkide arv kolmandas kvartalis 27,2%.",
+   "options": [
+    "Läti piirivalvekolledžis sündis kaheksa kutsikat",
+    "Jūrmala rannapromenaadile paigaldatakse talveks soojendusega pingid",
+    "EL-i „Temu maksu” kehtestamine avaldas Lätis kohest mõju"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "LSM",
+   "type": "fake",
+   "url": "https://eng.lsm.lv/article/society/defence/16.11.2026-eight-puppies-born-at-latvian-border-guard-college.a672066/"
+  },
+  {
+   "answer": 4882,
+   "cat": "kultuur",
+   "decimals": 0,
+   "explain": "Dokfilm kogus avanädalavahetusel 4882 külastust ja jõudis edetabeli tippu. Teisena järgnes 1756 külastusega Ti Westi uus film.",
+   "max": 50000,
+   "min": 100,
+   "prompt": "Nathan Fielderi ja Lance Oppenheimi dokumentaalfilm „Sa võid näha kõike” tõusis avanädalavahetusel (13.–15. november) Eesti kinolevi tippu. Mitu külastust see kogus?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "külastust",
+   "url": "https://kultuur.err.ee/1610197651/dokfilm-sa-void-naha-koik-kogus-avanadavahetusel-eesti-kinolevis-ligi-5000-kulastust"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Elu24 tutvustas kümmet kuni 21-aastast tippsportlast kümnelt spordialalt. Kimi Antonelli krooniti 1. novembril Mexico City etapil vormel 1 maailmameistriks.",
+   "headline": "Kümme kuni ___-aastast superstaari eesotsas Lamine Yamali ja Kimi Antonelliga, kes kujundavad ümber spordi tuleviku",
+   "options": [
+    "18",
+    "19",
+    "21",
+    "23"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8582487/rekordipurustajate-polvkond-kumme-kuni-21-aastast-superstaari-eesotsas-lamine-yamali-ja-kimi-antonelliga-kes-kujundavad-umber-spordi-tuleviku"
+  },
+  {
+   "cat": "sise",
+   "explain": "Narva volikogu liikme Katri Raigi sõnul pole piiri sulgemine suur üllatus, kuid see on Narvale valus. Tema hinnangul kaob täielikult ka kaubavedu, mis viimastel aastatel käis lõunapiiri kaudu.",
+   "lat": 59.3792,
+   "lon": 28.1889,
+   "place": "Narva",
+   "prompt": "Endine linnapea Katri Raik ütles, et Eesti-Vene piiri sulgemine on valus piirilinnale, kus töötus on juba praegu poole suurem kui Eestis keskmiselt. Millisest linnast on jutt? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610197255/katri-raik-piiri-sulgemine-on-narvale-valus"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "Senaator Chris Van Hollen selgitas NPR-i saates „Morning Edition”, miks ta usub, et suudab Schumeri senati demokraatide juhi kohalt välja vahetada. Tsitaat on tõlgitud inglise keelest.",
+   "options": [
+    "Chris Van Hollen",
+    "Cory Booker",
+    "Chris Murphy",
+    "Elizabeth Warren"
+   ],
+   "quote": "Ma suudan Chuck Schumeri võita.",
+   "src": "NPR",
+   "type": "who",
+   "url": "https://www.npr.org/2026/11/16/nx-s1-6041687/chris-van-hollen-chuck-schumer-senate-leader"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Koolisööklate lugu oli võlts. Päris: Tallinnas on 81 õppimiskohustuslikku noort ilma koolikohata ning haridustöötajate liit soovib, et õpetaja palga alammäär tõuseks üle 2200 euro.",
+   "options": [
+    "Tallinn vajab koolikohata noorte jaoks veel üht ettevalmistava õppe rühma",
+    "Haridustöötajate liit soovib õpetajatele suuremat palgatõusu kui valitsuse pakutud kolm protsenti",
+    "Koolisööklates hakatakse toidujäätmeid kaaluma ja tulemusi avalikustama"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610197709/haridustootajate-liit-soovib-opetajatele-suuremat-palgatousu-kui-valitsuse-pakutud-kolm-protsenti"
+  },
+  {
+   "answer": 4068,
+   "cat": "sport",
+   "decimals": 0,
+   "explain": "Ronaldinho naasis platsile 4068 päeva pärast oma eelmist ametlikku mängu, mis oli 2015. aasta septembris Flamengo eest. Ravenna võitis derbi 2:0.",
+   "max": 40000,
+   "min": 100,
+   "prompt": "46-aastane Ronaldinho tuli Itaalia kolmanda liiga klubi Ravenna eest platsile ja andis derbis Forlì vastu väravasöödu. Mitu päeva oli möödunud tema eelmisest ametlikust mängust?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "päeva",
+   "url": "https://sport.err.ee/1610197612/tunjovi-liigarivaaliga-liitunud-ronaldinho-naasis-4068-paeva-jarel-platsile"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Venemaalt pärit pilvelõhkujate ronijad Angelina Nikolau ja Ivan Kuznetsov ronisid 1. juulil ilma julgestuseta Empire State Buildingu antenni tippu ja heiskasid seal lipu.",
+   "headline": "Empire State Buildingu tipus ___ teinud paar: ärge sellist asja järele tehke",
+   "options": [
+    "joogat",
+    "performance'it",
+    "piknikku",
+    "akrobaatikat"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8581759/video-empire-state-buildingu-tipus-performance-it-teinud-paar-arge-sellist-asja-jarele-tehke"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Tampere helkurilugu oli võlts. Päris: Soomes katsetatakse teisipäeva keskpäeval uut ohuteavitussüsteemi ning uuringu järgi annaksid Kemijärvele kavandatud pump-hüdroelektrijaamad pärast ehitust tööd vaid mõnele inimesele.",
+   "options": [
+    "Uut ohuteavitussüsteemi katsetatakse keskpäeval",
+    "Tampere hakkab bussipeatustes jagama tasuta helkureid",
+    "Uuring: pump-hüdroelektrijaam annaks pärast valmimist Kemijärvel tööd vaid mõnele inimesele"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20257341"
+  },
+  {
+   "cat": "sise",
+   "explain": "Viis välismaalast leiti Tallinnas Järvevana tee jalakäijate tunnelist. 24-aastane egiptlane sai kokkuleppemenetluses aasta vangistust, ta saadetakse välja ja talle kehtestati kuueaastane sissesõidukeeld.",
+   "lat": 59.437,
+   "lon": 24.7536,
+   "place": "Tallinn",
+   "prompt": "Harju maakohus mõistis vangi Egiptuse kodaniku, kes toimetas augustis Lätist Eestisse viis ebaseaduslikku sisserändajat. Nad leiti möödakäija teate peale ühest jalakäijate tunnelist. Millises linnas? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610197645/kohus-moistis-viis-inimest-eestisse-smugeldanud-egiptlase-vangi"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, NPR",
+ "ticker": [
+  "USA hokinaised tulid 12. korda maailmameistriks",
+  "Ukraina ründas teist päeva järjest Krimmi silda",
+  "Lähis-Itta saabus kolmas USA lennukikandja",
+  "Prorektor: rahastustaotluste AI-ga hindamine võib mõjutada kogu teadussüsteemi",
+  "Holm: pensionitõus riigieelarve vastuvõtmata jätmise taha ei jää",
+  "Meediamajad Äripäeva raadiost: meil jäävad uudiseid lugema inimesed",
+  "Esimese treileri saanud põnevussari \"Tüdruk Tallinnast\" jõuab vaatajateni 2027. aastal",
+  "Pakendimäärusega kimpus valgustitootja nõuab kliimaministeeriumilt tegusid"
+ ]
+}
