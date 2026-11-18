@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-18",
+ "generatedAt": "2026-11-18T04:56:52+00:00",
+ "label": "Kolmapäev, 18. november 2026",
+ "questions": [
+  {
+   "cat": "kultuur",
+   "explain": "Näitus on avatud Kodase elamuskeskuses Valgjärve lähedal. Keskuse juhi Sulev Nõmmanni sõnul olid samuraid aristokraadid, kes peale võitlusoskuse ka maalisid, joonistasid ja kirjutasid luulet.",
+   "lat": 58.0833,
+   "lon": 26.65,
+   "place": "Valgjärve (Kodase elamuskeskus)",
+   "prompt": "Ühes Põlvamaa elamuskeskuses saab veebruari lõpuni näha muusikaõpetaja Thomas Regelski kogusse kuuluvaid haruldasi Jaapani mõõku ja samuraikiivreid. Kus see elamuskeskus asub? Märgi koht kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610198761/kodases-saab-naha-haruldasi-jaapani-mooku-ja-samuraikiivreid"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Islandi jäähalli lugu oli võlts. Päris lood: Haitis toetati meeleavaldusel El Salvadori vägede lähetust jõukude vastu ning haruldased kaadrid Brasiilia awa rahvast juhtisid tähelepanu Amazonase ebaseadusliku tegevuse ohtudele.",
+   "options": [
+    "Haruldased kaadrid Amazonase põlisrahvast toovad eestkõnelejate sõnul esile seda ähvardavad ohud",
+    "Island avas maailma esimese vulkaanisoojusega köetava jäähalli",
+    "Haitilased avaldasid meelt El Salvadori jõukudevastase vägede lähetuse toetuseks"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Al Jazeera",
+   "type": "fake",
+   "url": "https://www.aljazeera.com/news/2026/11/17/haitians-protest-in-support-of-el-salvadors-anti-gang-troop-deployment"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "29-aastane Turu sotsiaalmeediatäht Erna Husko, kelle emal on Eesti juured, käis 12. novembril Helsingis NHL-i Global Series'i mängul.",
+   "headline": "Eesti juurtega «pepukuulsus» Erna Husko tegi NHLi mängul ___ mugides ausa ülestunnistuse hoki kohta",
+   "options": [
+    "popkorni",
+    "friikartuleid",
+    "hot dog’i",
+    "kringlit"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8584366/heldene-aeg-eesti-juurtega-pepukuulsus-erna-husko-tegi-nhli-mangul-hot-dog-i-mugides-ausa-ulestunnistuse-hoki-kohta"
+  },
+  {
+   "answer": 3,
+   "cat": "sport",
+   "explain": "Nii ütles võiduvärava löönud Palumets pärast seda, kui Eesti jalgpallikoondis alistas Rahvuste liigas kodus Bulgaaria 2:1 ja lõpetas aasta võiduga.",
+   "options": [
+    "Kristal",
+    "Sappinen",
+    "Anier",
+    "Palumets"
+   ],
+   "quote": "Olen kõige õnnelikum inimene!",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://sport.err.ee/1610197966/voiduvarava-autor-palumets-olen-koige-onnelikum-inimene"
+  },
+  {
+   "answer": 1.8,
+   "cat": "valis",
+   "decimals": 1,
+   "explain": "Novembri alguses tehti viis makset kokku ligi 2,6 miljoni euro ulatuses; kaks neist võeti tagasi, kuid kolm, kokku 1,8 miljonit eurot, jõudsid võltskontole. Juhtumit uurib politsei. Küsimus on tõlgitud sloveeni keelest.",
+   "max": 20,
+   "min": 0.1,
+   "prompt": "Sloveenia kiirteefirma Dars sai e-kirja, mille saatja esines Austria ehitusfirma Strabagina ja teatas uuest pangakontost. Umbes mitu miljonit eurot jõudis TV Slovenija andmetel võltskontole?",
+   "src": "RTV SLO",
+   "type": "number",
+   "unit": "miljonit eurot",
+   "url": "https://www.rtvslo.si/gospodarstvo/dars-prizadevamo-si-da-bi-denar-dobili-nazaj-vodja-financne-sluzbe-je-odstopila/800393"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Omniva droonivedude lugu oli välja mõeldud. Päris lood: Air Balticul võib lisarahastuseta detsembris raha otsa saada ning koolid peavad kodukorras sätestama isikliku nutiseadme kasutamise.",
+   "options": [
+    "Air Balticul võib lisarahastuseta detsembris raha otsa saada",
+    "Koolid peavad kodukorras sätestama isikliku nutiseadme kasutamise",
+    "Omniva hakkab Saaremaal pakke droonidega kohale toimetama"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610198701/air-balticul-voib-lisarahastuseta-detsembris-raha-otsa-saada"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Laulja Elisa Kolk (Elysa) rääkis podcastis «The Bali Frequency» esimest korda loo «The Last to Know» kirjutamisest. Laul saavutas Eesti Laul 2025 finaalis 8. koha.",
+   "options": [
+    "Grete Paia",
+    "Elisa Kolk",
+    "Getter Jaani",
+    "Kerli Kõiv"
+   ],
+   "quote": "Mu eraelu oli kogu riigi ees.",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8582707/elisa-kolk-esimest-korda-skandaalse-loo-the-last-to-know-kirjutamisest-ma-ei-saanud-kunagi-seda-ise-oma-sonadega-raakida"
+  },
+  {
+   "answer": 1,
+   "cat": "kultuur",
+   "explain": "ERR Novaatori loo järgi veetis Eestist pärit kanakull talve Venemaal, kus ta käis kanatehast rüüstamas.",
+   "headline": "Eesti kanakull talvitus Vene ___ rüüstates",
+   "options": [
+    "linnufarmi",
+    "kanatehast",
+    "prügimäge",
+    "kalakasvatust"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://novaator.err.ee/1610198419/eesti-kanakull-talvitus-vene-kanatehast-ruustates"
+  },
+  {
+   "cat": "majandus",
+   "explain": "ERR-i andmetel on kindlustusseltsid rahuldanud kolmveerandi Pärnu üleujutuse kahjuavaldustest.",
+   "lat": 58.3859,
+   "lon": 24.4971,
+   "place": "Pärnu",
+   "prompt": "Kindlustusseltsid on rahuldanud kolmveerandi kahjuavaldustest, mis esitati ühe Eesti linna üleujutuse järel. Millise linnaga on tegu? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610198749/kindlustusseltsid-on-rahuldanud-kolmveerandi-parnu-uleujutuse-kahjuavaldustest"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Latgales tänava keskturul polnud üle 30 aasta midagi uuendatud; nüüd vahetati sillutis ja rajati väikesed müügiputkad. Turuplatsi all on rauaaegsed latgali matmispaigad, mistõttu kaevamisi ei tehtud. Pealkiri on tõlgitud inglise keelest.",
+   "headline": "Rēzekne ___ ehitati 30 aasta järel ümber",
+   "options": [
+    "raudteejaam",
+    "bussijaam",
+    "keskturg",
+    "kultuurimaja"
+   ],
+   "src": "LSM",
+   "type": "blank",
+   "url": "https://eng.lsm.lv/article/society/society/17.11.2026-rezeknes-central-market-redeveloped-after-30-years.a672246/"
+  },
+  {
+   "answer": 700000,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Suurkogu toimus 16. novembril Tallinnas Südalinna teatris. Elu24 peatoimetaja Katrin Lust kirjutas, et liidu asepresident palus tal lahkuda, sest tegu olevat kinnise üritusega.",
+   "max": 5000000,
+   "min": 50000,
+   "prompt": "Eesti Kunstnike Liidu juhid pidid erakorralisel suurkogul liikmetele selgitama, kuidas nad suure rahakaotusega toime tulid. Ligikaudu kui suur oli Elu24 andmetel kaotus?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "eurot",
+   "url": "https://elu24.postimees.ee/8584561/valivad-uut-juhti-video-kunstnike-liidu-erakorralisel-suurkogul-visati-katrin-lust-uksest-valja"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Šveitsi helikopterikeelu lugu oli võlts. Päris lood: Jaapanis sulges üks linn liikvel oleva emakaru tõttu koolid ning USA kaotas leetritevaba riigi staatuse.",
+   "options": [
+    "Jaapani linn sulges liikvel emakaru tõttu koolid",
+    "Šveits keelas Alpides suusatajate vedamise helikopteriga",
+    "USA kaotas leetritevaba riigi staatuse"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610198425/jaapani-linn-sulges-liikvel-emakaru-tottu-koolid"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "Mika Aaltola ütles seda Suurbritannia kohta: ta kahtleb, kas riik naaseb EL-i täisliikmena, ja pakub selle asemel välja eritellimusel EL-i suhte. Tsitaat on tõlgitud soome keelest.",
+   "options": [
+    "Mika Aaltola",
+    "Petteri Orpo",
+    "Elina Valtonen",
+    "Antti Häkkänen"
+   ],
+   "quote": "Meil on vaja nende kaitsetööstust.",
+   "src": "Yle",
+   "type": "who",
+   "url": "https://yle.fi/a/74-20257554"
+  },
+  {
+   "answer": 125000,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "ERR Novaatori vahendatud uuringu järgi kasutasid kütid tänapäeva Araabia kõrbealadel mürgiga relvaotsi juba 125 000 aastat tagasi.",
+   "max": 1000000,
+   "min": 5000,
+   "prompt": "Praeguse kõrbe aladel Araabias elanud iidsed kütid kasutasid juba mürgiga relvaotsi. Kui mitu aastat tagasi?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "aastat",
+   "url": "https://novaator.err.ee/1610197711/iidsed-kutid-kasutasid-juba-125-000-aastat-tagasi-murgiga-relvaotsi"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Loomaaia pingviinide lugu oli võlts. Päris lood: Elu24 galerii näitas, kuidas Raekoja platsil kerkib Tallinna jõuluturg, ning nädalaprognoos soovitas praegu oma jõudu mitte demonstreerida.",
+   "options": [
+    "Tallinna loomaaia pingviinid said endale soojendusega talvebasseini",
+    "Vaata, kuidas kerkib Tallinna jõuluturg",
+    "On oht tegevuses üle piiri minna: praegu ei maksa oma jõudu demonstreerida"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8584598/galerii-vaata-kuidas-kerkib-tallinna-jouluturg"
+  },
+  {
+   "cat": "sise",
+   "explain": "ERR-i teatel algatas prokuratuur uurimise poe boonusraha kasutanud Viljandi ametniku asjus.",
+   "lat": 58.3639,
+   "lon": 25.59,
+   "place": "Viljandi",
+   "prompt": "Prokuratuur algatas uurimise ametniku asjus, kes oli kasutanud poe boonusraha. Kust pärit ametnikuga on tegu? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610198482/prokuratuur-algatas-poe-boonusraha-kasutanud-viljandi-ametniku-asjus-uurimise"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, Al Jazeera, LSM, RTV SLO",
+ "ticker": [
+  "Stubbi hinnangul tänavu Ukrainas rahu ei saavutata",
+  "Zverev sai taas Sheltonist jagu",
+  "Kultuurikomisjon saadab ERR-i seaduse eelnõu teisele lugemisele detsembris",
+  "Kütusehindade kõikumist võimendab Eestis hinnasõda kütuseturul",
+  "Poola ootab USA-lt sõjaväebaasi rajamise otsust",
+  "Hambaarst: ükski poest ostetud valgendustoode hambaid ei valgenda",
+  "Eesti toetab Rwandasse väljasaatmiskeskuse rajamist, kuid ise sinna ei panusta",
+  "Riik ei tea, miks puudega inimesi vähemaks jääb"
+ ]
+}
