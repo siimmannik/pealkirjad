@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-19",
+ "generatedAt": "2026-11-19T04:56:06+00:00",
+ "label": "Neljapäev, 19. november 2026",
+ "questions": [
+  {
+   "cat": "sise",
+   "explain": "Kümne riigi koostöös ehitatav Euroguard lasti vette Baltic Workboatsi laevatehases Nasvas Kuressaare lähedal. ERR-i andmetel on projekti väärtus 95 miljonit eurot.",
+   "lat": 58.2283,
+   "lon": 22.3847,
+   "place": "Nasva",
+   "prompt": "Saaremaal lasti kolmapäeval vette seni suurim Eestis ehitatud sõjalaev Euroguard, mis valmib kümne riigi koostöös. Millises Saaremaa alevikus asub selle ehitanud Baltic Workboatsi laevatehas? Märgi koht kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610199587/saaremaal-lasti-vette-seni-suurim-eestis-ehitatud-sojalaev"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Nii rääkis Prantsuse esileedi Brigitte Macron oma abikaasast, president Emmanuel Macronist, kirjutas Elu24.",
+   "options": [
+    "Carla Bruni",
+    "Brigitte Macron",
+    "Julie Gayet",
+    "Melania Trump"
+   ],
+   "quote": "Mu mees vajab psühhoanalüüsi, kuna ta ei ole oma võimukast vanaemast seni üle saanud.",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8585059/prantsuse-esileedi-brigitte-macron-mu-mees-vajab-psuhhoanaluusi-kuna-ta-ei-ole-oma-voimukast-vanaemast-seni-ule-saanud"
+  },
+  {
+   "answer": 81,
+   "cat": "majandus",
+   "decimals": 0,
+   "explain": "ERR-i teatel kaasas Anthropic rekordilisel börsidebüüdil 81 miljardit dollarit. Ettevõte noteeriti USA tehnoloogiabörsil Nasdaq.",
+   "max": 800,
+   "min": 5,
+   "prompt": "Tehisarufirma Anthropic tegi USA-s rekordilise börsidebüüdi. Mitu miljardit dollarit kaasas ettevõte ERR-i andmetel?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "mld dollarit",
+   "url": "https://www.err.ee/1610199835/anthropic-kaasas-rekordilisel-borsidebuudil-81-miljardit-dollarit"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Euroopa iga-aastases soolise võrdõiguslikkuse indeksis jääb Läti selgelt alla EL-i keskmise. Pealkiri on tõlgitud inglise keelest.",
+   "headline": "Läti on ___ poolest EL-is üsna madalal kohal",
+   "options": [
+    "digioskuste",
+    "teadusrahastuse",
+    "soolise võrdõiguslikkuse",
+    "internetikiiruse"
+   ],
+   "src": "LSM",
+   "type": "blank",
+   "url": "https://eng.lsm.lv/article/society/society/18.11.2026-latvia-ranks-fairly-low-in-eu-for-gender-equality.a672433/"
+  },
+  {
+   "answer": 1,
+   "cat": "sport",
+   "explain": "Kurlingupaari lugu oli välja mõeldud. Päriselt kirjutas ERR, et Eesti purjetamiskoondis läheb võistlema 40 riigi konkurentsis ning et Istanbuli Besiktas alistas esimest korda Madridi Reali.",
+   "options": [
+    "Eesti purjetamiskoondis asub võistlema 40 riigi konkurentsis",
+    "Eesti noorte kurlingupaar jõudis Soomes MM-valikturniiri finaali",
+    "Istanbuli Besiktas sai esimest korda Madridi Realist jagu"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610199718/eesti-purjetamiskoondis-asub-voistlema-40-riigi-konkurentsis"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Eike Epliku installatsioon on väljas Tartu Ülikooli kunstimuuseumi püsinäitusel, kus see asetab antiikkunsti kaasaegse kunstiga dialoogi.",
+   "lat": 58.3811,
+   "lon": 26.72,
+   "place": "Tartu Ülikooli kunstimuuseum (Tartu)",
+   "prompt": "Skulptor Eike Epliku installatsioon „Antiikhobuse pea” paigutati ühe muuseumi püsinäitusel antiikskulptuuride kipskoopiate vahele, kus see jääb vaatamiseks uue aasta maini. Kus see muuseum asub? Märgi koht kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610199535/eike-epliku-installatsioon-asetab-antiikkunsti-kaasaegse-kunstiga-dialoogi"
+  },
+  {
+   "answer": 300,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Pealkirjas on juttu 300-eurosest komplektist, artikli järgi maksab see 280–333 eurot. Iceeskiesi sõnul ei kajasta kaebused ettevõtte tegelikke standardeid.",
+   "max": 3000,
+   "min": 20,
+   "prompt": "Noore Eesti moebrändi Iceeskies dressikomplekt põhjustas pahameeletormi – kliendid kurtsid hilinenud tellimuste, määrdunud riiete ja kehva kvaliteedi üle. Mitu eurot maksab komplekt Elu24 pealkirja järgi?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "eurot",
+   "url": "https://elu24.postimees.ee/8585517/see-on-ju-s-ne-300-eurone-dressikomplekt-pohjustas-pahameeletormi-ettevotte-sonul-tehakse-neile-liiga"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Nii leiab justiits- ja digiminister Liisa Pakosta. Samal päeval teatas ERR, et Euroopa Komisjon nõuab Eestilt kiiret tehisaru järelevalveraamistikku.",
+   "options": [
+    "Margus Tsahkna",
+    "Kristina Kallas",
+    "Liisa Pakosta",
+    "Kristen Michal"
+   ],
+   "quote": "EL peaks looma keskse tehisaru järelevalveasutuse.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610199593/pakosta-el-peaks-looma-keskse-tehisaru-jarelevalveasutuse"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Sloveenia Panga uuringu järgi on leibkondade puhasvara mediaan 155 000 eurot ja 73 protsenti varast on kinnisvaras. Pealkiri on tõlgitud sloveeni keelest.",
+   "headline": "Sloveenia leibkondade vara on üle euroala keskmise, kuid enamasti ___",
+   "options": [
+    "hoiustes",
+    "kinnisvaras",
+    "aktsiates",
+    "pensionifondides"
+   ],
+   "src": "RTV SLO",
+   "type": "blank",
+   "url": "https://www.rtvslo.si/gospodarstvo/premozenje-slovenskih-gospodinjstev-nad-povprecjem-evroobmocja-a-vecinoma-v-nepremicninah/800502"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Koerte jõulumenüü lugu oli välja mõeldud. Päriselt kirjutas Elu24 Napalm Deathi kontserdist Paavli Kultuurivabrikus ja kosmeetikapoe telereklaamist, kus Eesti kaardilt oli kadunud Hiiumaa.",
+   "options": [
+    "Juba 40 aastat kõrvulukustavat müra: legendaarne Napalm Death küttis Paavli Kultuurivabriku kuumaks",
+    "Eestis tegutsev kosmeetikapood kaotas telereklaamis Eesti kaardilt väikesaare: see on jõuluime",
+    "«Pidime ukse taha järjekorra tegema!» Tartu kohvik pakub nüüd koertele oma jõulumenüüd"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8584918/galerii-ja-reportaaz-juba-40-aastat-korvulukustavat-mura-legendaarne-napalm-death-kuttis-paavli-kultuurivabriku-kuumaks"
+  },
+  {
+   "cat": "sport",
+   "explain": "Turniir peetakse Käärikul Otepää vallas. Eesti on B-alagrupis koos Aserbaidžaani, Leedu ja Ukrainaga, turniiri võitja pääseb otse EM-ile.",
+   "lat": 58.0069,
+   "lon": 26.395,
+   "place": "Kääriku",
+   "prompt": "Eesti U-16 neidude võrkpallikoondis alustab neljapäeval Aserbaidžaani vastu EEVZA turniiri, mis on ühtlasi EM-valiksarja esimene ring. Kus turniir toimub? Märgi koht kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://sport.err.ee/1610199670/eesti-neidude-u-16-koondis-puuab-kaarikul-eevza-turniiril-edasipaasu"
+  },
+  {
+   "answer": 3,
+   "cat": "kultuur",
+   "explain": "Nii rääkis oma loomingust kunstnik Simson von Seakyl ehk Seaküla Simson ERR-i portaalis Eeter.",
+   "options": [
+    "Jaan Toomik",
+    "Marko Mäetamm",
+    "Kiwa",
+    "Simson von Seakyl"
+   ],
+   "quote": "Tööd tehes valdab mind mõnus piin.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://eeter.err.ee/1610199322/seakula-simson-tood-tehes-valdab-mind-monus-piin"
+  },
+  {
+   "answer": 190,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Yle teatel müüdi Van Goghi maal rekordilise 190 miljoni dollari eest.",
+   "max": 2000,
+   "min": 10,
+   "prompt": "Vincent van Goghi maal, mis kujutab õitsvaid kastanipuid Prantsuse külas, kus kunstnik veetis oma viimased elukuud, müüdi rekordhinnaga. Mitme miljoni dollari eest?",
+   "src": "Yle",
+   "type": "number",
+   "unit": "mln dollarit",
+   "url": "https://yle.fi/a/74-20257791"
+  },
+  {
+   "answer": 3,
+   "cat": "meelelahutus",
+   "explain": "Rahvatantsuansambli Soveldaja kuulsaks tehtud videotrendiga liitus Läti riigipüha puhul Sigulda ansambel Vizbulīte, kelle klipp kogus Läti TV3 andmetel mõne tunniga üle 80 000 vaatamise.",
+   "headline": "Nüüd ka lätlased! Eesti ___ kuulsaks teinud videotrend jõudis lõunanaabriteni",
+   "options": [
+    "tudengid",
+    "koorilauljad",
+    "suusatajad",
+    "rahvatantsijad"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8585934/video-nuud-ka-latlased-eesti-rahvatantsijad-kuulsaks-teinud-videotrend-joudis-lounanaabriteni"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "Norra mootorsaanikeelu lugu oli välja mõeldud. Al Jazeera kirjutas päriselt, et Waymo peatas pärast California keeldu juhita sõidud kiirteedel kogu USA-s ning et Austraalia kehtestas sanktsioonid kolmele Iisraeli asunikule ja neljale organisatsioonile.",
+   "options": [
+    "Norra keelab alates 2028. aastast uute bensiinimootoriga mootorsaanide müügi",
+    "Waymo peatas pärast California keeldu juhita sõidud kiirteedel kogu USA-s",
+    "Austraalia kehtestas sanktsioonid Iisraeli asunike vastu"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Al Jazeera",
+   "type": "fake",
+   "url": "https://www.aljazeera.com/news/2026/11/18/waymo-suspends-driverless-freeway-rides-across-us-after-california-ban"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Lumelabürindi lugu oli välja mõeldud. Päriselt teatas ERR, et Tallinnas läheb remonti mitu trammitee lõiku ja et linn otsib lipuväljakule projekteerijat ja ehitajat.",
+   "options": [
+    "Tallinnas läheb mitu trammitee lõiku remonti",
+    "Tallinn otsib lipuväljaku projekteerijat ja ehitajat",
+    "Tallinn rajab Vabaduse väljakule talveks lumelabürindi"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610199445/tallinn-otsib-lipuvaljaku-projekteerijat-ja-ehitajat"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, Al Jazeera",
+ "ticker": [
+  "Gripivaktsiini varud said mõnes keskuses juba otsa",
+  "Norstati küsitlus näitab Keskerakonna edu kasvu",
+  "Riigikontroll: Eesti ei täida praeguse seisuga LULUCF-i esimese perioodi eesmärke",
+  "Leis ei ole nõus Ryanairi kriitikaga Eesti lennundusturu kohta",
+  "Pruunvetikad suudavad vajadusel iseseisvalt paljuneda",
+  "Kullamäe võitis Eurocupis, Ilver ja Rannula kaotasid Meistrite liigas",
+  "EISA lasi luua Eesti loodusest inspireeritud tunnuslõhnad",
+  "Kohus jättis Kikepera soo taastamistööde vastu esitatud kaebuse rahuldamata"
+ ]
+}
