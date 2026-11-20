@@ -1,0 +1,238 @@
+{
+ "date": "2026-11-20",
+ "generatedAt": "2026-11-20T04:56:50+00:00",
+ "label": "Reede, 20. november 2026",
+ "questions": [
+  {
+   "cat": "majandus",
+   "explain": "Sunly 125 miljoni eurone päikesepark asub Lääne-Nigula vallas Ristil ja võtab enda alla 270 hektarit. Kõrvale rajatakse ka akupark.",
+   "lat": 58.9967,
+   "lon": 24.0542,
+   "place": "Risti",
+   "prompt": "Läänemaal avati Eesti suurim päikesepark: 244 megavatti, 340 000 paneeli ja aastas ligi 90 000 majapidamise jagu elektrit. Millises alevikus see asub? Märgi koht kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610200867/laanemaal-avati-eesti-suurim-paikesepark"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Shenzhenis APEC-i tippkohtumisel märgati, et üsna lühikest kasvu Vladimir Putin kandis kõrge kontsaga saapaid.",
+   "headline": "Putini ebatavaline samm ja kõrged ___ Hiinas – kui kõrgele upitab end Vene liider, et pikem näida",
+   "options": [
+    "toolid",
+    "kontsad",
+    "mütsid",
+    "poodiumid"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8586364/video-putini-ebatavaline-samm-ja-korged-kontsad-hiinas-kui-korgele-upitab-end-vene-liider-et-pikem-naida"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Trammijuhtide värbamise lugu oli võlts. Päris uudised: kahesuunaliste trammide hankel osalevad CAF, PESA ja Škoda ning politsei hakkab ohtlikke ülekäiguradu tihedamalt valvama.",
+   "options": [
+    "Tallinna kahesuunaliste trammide hankel osaleb kolm tootjat",
+    "Tallinna Linnatransport otsib trammijuhte ka Lätist ja Leedust",
+    "Politsei koondab patrulle ülekäiguradade juurde korda pidama"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610199979/tallinna-kahesuunaliste-trammide-hankel-osaleb-kolm-tootjat"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Teade mehest, kes võis kanda haavlipüssi, tõi politsei suurte jõududega Tampere kesklinna – süüdlasteks osutusid vihmavari ja luud. Pealkiri on tõlgitud soome keelest.",
+   "headline": "Vihmavari ja ___ põhjustasid Tampere kesklinnas kolmapäeva õhtul silmatorkava politseioperatsiooni",
+   "options": [
+    "mopp",
+    "kepp",
+    "luud",
+    "kitarrikott"
+   ],
+   "src": "Yle",
+   "type": "blank",
+   "url": "https://yle.fi/a/74-20257866"
+  },
+  {
+   "answer": 3,
+   "cat": "majandus",
+   "explain": "ERR-i arvamusloos kirjutab Kaia Vask, et Eesti miinimumpalga ostujõud on EL-i madalaim ja parem palk aitaks ettevõtetel töötajaid hoida.",
+   "options": [
+    "Arto Aas",
+    "Signe Riisalo",
+    "Peep Peterson",
+    "Kaia Vask"
+   ],
+   "quote": "Töökusega meil probleeme ei ole, küll aga palgaga.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610199943/kaia-vask-tookusega-meil-probleeme-ei-ole-kull-aga-palgaga"
+  },
+  {
+   "answer": 11064,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "2025. aastal õppis Läti ülikoolides 11 064 välisüliõpilast (2024. aastal 10 425), mis on 13–14% kõigist üliõpilastest. Eestis oli 2024. aastal 4336 välisüliõpilast.",
+   "max": 100000,
+   "min": 1000,
+   "prompt": "Läti avalik-õiguslik meedia uuris, kui palju välistudengeid Läti ülikoolides õpib. Mitu välisüliõpilast oli Läti ülikoolides 2025. aastal?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "üliõpilast",
+   "url": "https://eng.lsm.lv/article/society/education/19.11.2026-latvia-has-around-11000-foreign-university-students.a672505/"
+  },
+  {
+   "cat": "sise",
+   "explain": "Riigikaitsemaja avati Tartus Raadi sõjaväelinnaku juures. Hoone projekteeris Kadarik Tüür Arhitektid.",
+   "lat": 58.378,
+   "lon": 26.729,
+   "place": "Tartu",
+   "prompt": "Avati riigikaitsemaja, kuhu kolivad ühe katuse alla kaitseväe, kaitseressursside ameti ja riigi kaitseinvesteeringute keskuse kohalikud üksused ning kaitseväe akadeemia õppevara jaoskond. Millises linnas? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610200882/tartus-avati-riigikaitsemaja"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Telefone korjav kohvik oli võlts. Päris lood: Võrumaal Rimmi külas tegutsenud Triinu baar peab viimased peod 20. ja 21. novembril ning Haagis lasi Pathé hüpnotiseerida kinokülastajaid, et nad lemmikfilmi justkui esimest korda näeksid.",
+   "options": [
+    "Legendaarne Triinu baar sulgeb uksed: «Kohtume teiega viimast korda!»",
+    "Hollandi kinokett pani filmifännid oma lemmikuid unustama ja siis vaatama «esimest korda»",
+    "Tallinna kohvik hakkab külastajatelt telefonid uksel ära korjama: «Tulge siia päriselt suhtlema!»"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8585989/pidu-saab-labi-legendaarne-triinu-baar-sulgeb-uksed-kohtume-teiega-viimast-korda"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Sloveenia rikkaimate edetabeli tipus on taas firma Perspektiva omanikud Vesna ja Dari Južna 622 miljoni euroga; edetabelisse pääsemiseks oli vaja 46 miljonit eurot. Pealkiri on tõlgitud sloveeni keelest.",
+   "headline": "Teist aastat järjest on tipus abielupaar Južna, Tadej Pogačar ___",
+   "options": [
+    "esikümnes",
+    "ootesaalis",
+    "kolmandal kohal",
+    "edetabelist väljas"
+   ],
+   "src": "RTV SLO",
+   "type": "blank",
+   "url": "https://www.rtvslo.si/gospodarstvo/na-vrhu-drugo-leto-zapored-zakonca-juzna-tadej-pogacar-v-cakalnici/800549"
+  },
+  {
+   "answer": 55,
+   "cat": "majandus",
+   "decimals": 0,
+   "explain": "Testamendi tõestamise tasu tõuseb 32,55 eurolt 55 eurole ning 50 000-eurose kinnisvaratehingu tasu 83,7 eurolt 140 eurole. Üle 550 000 euro tehingute tasu langeb.",
+   "max": 500,
+   "min": 5,
+   "prompt": "Uuest aastast tõusevad väiksemate tehingute ja pärimistoimingute notaritasud järsult. Mitu eurot (käibemaksuta) hakkab maksma testamendi tõestamine, mis seni maksis ligi 33 eurot?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "eurot",
+   "url": "https://www.err.ee/1610199946/vaiksemate-kinnisvaratehingute-ja-parimistoimingute-notaritasu-touseb-jarsult"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Nende sõnadega avaldas Tommy Cash oma juubeli puhul pöörase muusikavideo.",
+   "options": [
+    "Tommy Cash",
+    "Nublu",
+    "Kerli",
+    "Ewert Sundja"
+   ],
+   "quote": "Minu sünnipäevakingitus sulle!",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8586240/minu-sunnipaevakingitus-sulle-tommy-cash-avaldas-juubeli-puhul-poorase-muusikavideo"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Mehhiko tänavamuusikute lugu oli võlts. Päris lood: Kataris algas 48 võistkonnaga U-17 MM, kus USA asemel mängib Dominikaani Vabariik, ning Hollandi seaduse järgi ei tohi politsei jumalateenistuse ajal kirikusse siseneda.",
+   "options": [
+    "FIFA U-17 maailmameistrivõistlused algasid Kataris vaatamata USA loobumisele",
+    "Mehhiko keelas pealinna kesklinnas tänavamuusikutel võimendite kasutamise",
+    "Hollandi kirikus kaks aastat kestnud vahetpidamatu jumalateenistus kaitseb varjupaika taotlevat perekonda"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Al Jazeera",
+   "type": "fake",
+   "url": "https://www.aljazeera.com/news/2026/11/19/two-years-in-dutch-churchs-nonstop-service-shields-family-seeking-asylum"
+  },
+  {
+   "cat": "sise",
+   "explain": "Jutt on Palupera põhikoolist: kaks aastat tagasi liideti see Rõngu gümnaasiumiga, nüüd tahab valla uus juhtkond selle taasasutada.",
+   "lat": 58.1169,
+   "lon": 26.3436,
+   "place": "Palupera",
+   "prompt": "Elva valla uus juhtkond soovib taasasutada iseseisva üheksaklassilise põhikooli, mis kaks aastat tagasi kogukonna vastuseisust hoolimata Rõngu gümnaasiumiga liideti. Millises külas see kool asub? Märgi koht kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610199892/palupera-pohikooli-taasasutamine-puhus-elva-vallas-kired-taas-lokkele"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Elroni rongis prussakaid näinud reisija ehmus, raudteefirma tänas teda tagasiside eest.",
+   "headline": "«Nad roomasid otse mu kõrval!» Reisija ehmus Elroni rongis ___ nähes, firma on tagasiside eest tänulik",
+   "options": [
+    "ämblikke",
+    "lutikaid",
+    "prussakaid",
+    "rotte"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8586652/foto-nad-roomasid-otse-mu-korval-reisija-ehmus-elroni-rongis-prussakaid-nahes-firma-on-tagasiside-eest-tanulik"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Nii ütles europarlamendi liige Sven Mikser ERR-is.",
+   "options": [
+    "Margus Tsahkna",
+    "Sven Mikser",
+    "Urmas Paet",
+    "Kaja Kallas"
+   ],
+   "quote": "Euroopa ei pea prestiiži päästmiseks trügima iga laua taha.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610200945/mikser-euroopa-ei-pea-prestiizi-paastmiseks-trugima-iga-laua-taha"
+  },
+  {
+   "answer": 0,
+   "cat": "sise",
+   "explain": "Mobiilirakenduse lugu oli võlts. Päris uudised: kalameestel soovitatakse üle meetri pikkused röövkalad vette tagasi lasta ning Tallinn tahab Pärnu maantee ümberehitusega alustada järgmisel suvel.",
+   "options": [
+    "Kalapüügiload hakkab uuest aastast müüma ainult mobiilirakendus",
+    "Edaspidi on soovitatav üle meetri pikkused röövkalad tagasi vette lasta",
+    "Tallinn kavatseb Pärnu maantee ümberehitusega alustada järgmisel suvel"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610201005/edaspidi-peavad-kalamehed-ule-meetri-pikkused-roovkalad-tagasi-vette-laskma"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, Al Jazeera",
+ "ticker": [
+  "Valitsus kinnitas Euroopa Kohtu kohtuniku kandidaadiks Lauri Madise",
+  "Ukraina kaitsetööstus tutvustas Tallinnas oma sõjatehnoloogiat",
+  "Riigikohus otsustab, kas kevadistel valimistel saab esimest korda mobiiliga hääletada",
+  "Maratoni olümpiavõitjale määrati kolmeaastane võistluskeeld",
+  "Saalijalgpalli rahvaliiga uus hooaeg alustab 38 võistkonnaga",
+  "Hiigelküüliku kasvataja: mulle meeldivad ekstreemsused",
+  "Itaalia parlament kiitis heaks antisemitismi vastase seaduse",
+  "Presidendi kantselei saab valitsuse reservist ligi veerand miljonit eurot"
+ ]
+}
