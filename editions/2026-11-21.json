@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-21",
+ "generatedAt": "2026-11-21T04:58:49+00:00",
+ "label": "Laupäev, 21. november 2026",
+ "questions": [
+  {
+   "cat": "kultuur",
+   "explain": "Näitus avati 19. novembril Lennusadama väikeses näitusesaalis ja jääb avatuks 28. veebruarini. Üle poole teostest pärineb Tiit Pruuli erakogust.",
+   "lat": 59.4517,
+   "lon": 24.7382,
+   "place": "Lennusadam, Tallinn",
+   "prompt": "Eesti Meremuuseum ja Tallinna Sadam avasid kuraator Tiit Pruuli koostatud näituse „Kilukarbivaade ja Tallinna sadamad”, kus on üle 40 teose 19. sajandist 1980. aastateni. Millises meremuuseumi hoones see asub? Märgi koht kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610201185/galerii-lennusadamas-avati-tallinna-kilukarbivaatele-puhendatud-naitus"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "OECD ja Läti Panga uuringu järgi on kolm neljandikku Läti täiskasvanutest viimase kahe aasta jooksul kokku puutunud pettusekatsega ja iga neljas on langenud vähemalt ühe pettuse ohvriks; 55% ohvritest kaotas raha. Pealkiri on tõlgitud inglise keelest.",
+   "headline": "Uuring: iga ___ Läti kodanik on langenud pettuse ohvriks",
+   "options": [
+    "kolmas",
+    "neljas",
+    "kümnes",
+    "teine"
+   ],
+   "src": "LSM",
+   "type": "blank",
+   "url": "https://eng.lsm.lv/article/society/crime/20.11.2026-one-in-four-latvian-citizens-has-been-scammed-study-suggests.a672790/"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "41-aastane muusik ja produtsent Tom-Olaf Urb rääkis „Ringvaates”, et loob muusika kõrvalt ka parfüüme. Saatejuht uuris, kas muusika ei jää seetõttu tagaplaanile.",
+   "options": [
+    "Karl-Erik Taukar",
+    "Ott Lepland",
+    "Tom-Olaf Urb",
+    "Stig Rästa"
+   ],
+   "quote": "Mõtlesin, et pakendan need mõtted ja kohad, kus ma käinud olen, läbi parfüümi.",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8587385/tom-olaf-urbi-uus-tegevusvaldkond-ullatas-ringvaate-saatejuhti-kas-muusika-tagaplaanile-ei-jaa"
+  },
+  {
+   "answer": 60.7,
+   "cat": "majandus",
+   "decimals": 1,
+   "explain": "Elroni üheksa kuu kulud kasvasid 53,62 miljonilt eurolt 60,66 miljoni euroni. Reisijaid oli 5,85 miljonit ehk 2,7% rohkem kui aasta varem.",
+   "max": 600,
+   "min": 5,
+   "prompt": "Elroni üheksa kuu kulud kasvasid aastaga 13 protsenti, kuigi läbisõit peaaegu ei muutunud. Kui suured olid Elroni üheksa kuu kulud miljonites eurodes?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "mln eurot",
+   "url": "https://www.err.ee/1610192617/elroni-kulud-kerkisid-eelmise-aastaga-vorreldes-13-protsenti"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Ujuva uisuväljaku lugu oli võlts. Päriselt võitis Belgradi Crvena zvezda Euroliigas Barcelonat lisaajal 103:100 ning TV Slovenija juht Ksenija Horvat kinnitas, et 2027. aasta programmikava kavand ei näe ette Eurovisioonil osalemist.",
+   "options": [
+    "Zvezda võidutses Barcelonas pärast lisaaega",
+    "Ljubljana rajab jõuluajaks Ljubljanica jõele ujuva uisuväljaku",
+    "Ksenija Horvat: 2027. aasta programm on nii väikese rahaga, et osalemine Eurovisioonil pole võimalik"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "RTV SLO",
+   "type": "fake",
+   "url": "https://www.rtvslo.si/zabava-in-slog/glasba/ema/osnutek-programsko-produkcijskega-nacrta-ne-predvideva-sodelovanja-rtv-ja-na-evroviziji-2027/800695"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Peaminister Kristen Michal ütles „Aktuaalsele kaamerale”, et kaitseminister Martin Herem on talle kinnitanud oma toetust idapiiri sulgemisele.",
+   "options": [
+    "Margus Tsahkna",
+    "Kristen Michal",
+    "Igor Taro",
+    "Hanno Pevkur"
+   ],
+   "quote": "Tema minule on küll kinnitanud, et tema toetab meie samme, pole mingit kahtlust.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610201947/michal-herem-kinnitas-mulle-et-toetab-idapiiri-sulgemist"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "59-aastane Tarmo Kruusimäe esines 14. novembril bändiga The Gang Pärnus Trahter Postipoisis ja märkas kontserdi lõpus, et implantaadiga esihammas oli välja tulnud.",
+   "headline": "Muusik Tarmo Kruusimäe jäi kontserdi ajal ilma oma ___: ei kujuta ette, palju uus maksma läheb",
+   "options": [
+    "kitarrist",
+    "prillidest",
+    "esihambast",
+    "sõrmusest"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8586856/kallis-kaotus-muusik-tarmo-kruusimae-jai-kontserdi-ajal-ilma-oma-esihambast-ei-kujuta-ette-palju-uus-maksma-laheb"
+  },
+  {
+   "cat": "majandus",
+   "explain": "Tapale kavandatava andmekeskuse investeering võib ulatuda 3,4 miljardi euroni. Eleringil on andmekeskustelt kokku seitse liitumistaotlust 2900 megavati ulatuses.",
+   "lat": 59.2606,
+   "lon": 25.9586,
+   "place": "Tapa",
+   "prompt": "ERR-i andmekeskuste ülevaate järgi kavandavad Sustainable Investments ja Sinfra ühes Lääne-Virumaa linnas andmekeskust, mille investeering võib ulatuda 3,4 miljardi euroni. Millises linnas? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610199382/andmekeskuste-buum-eestis-kes-kuhu-ja-kui-palju"
+  },
+  {
+   "answer": 16.5,
+   "cat": "valis",
+   "decimals": 1,
+   "explain": "Saksamaa kantsleri sõnul lubas Katar 16,5 miljardit dollarit uusi investeeringuid; riigid süvendavad koostööd ka kaitse ja tehnoloogia vallas.",
+   "max": 300,
+   "min": 1,
+   "prompt": "Katari emiiri Berliini visiidi ajal teatas Saksamaa kantsler, et Katar lubas Saksamaale uusi investeeringuid. Mitme miljardi dollari ulatuses?",
+   "src": "Al Jazeera",
+   "type": "number",
+   "unit": "mld dollarit",
+   "url": "https://www.aljazeera.com/news/2026/11/20/qatar-and-germany-deepen-strategic-ties-during-emirs-berlin-visit"
+  },
+  {
+   "answer": 1,
+   "cat": "kultuur",
+   "explain": "Vinüülplaatide laenutamise lugu oli võlts. Päriselt said kolm teatrit riigilt kolmeaastase tegevustoetuse ning Carolina Pihelga lühiromaani „Lõikejoon” ingliskeelne tõlge esitati 2027. aasta Dublini kirjandusauhinnale.",
+   "options": [
+    "Tartu Uus Teater, VAT teater ja Von Krahl saavad riigilt kolmeaastase tegevustoetuse",
+    "Rahvusraamatukogu hakkab laenutama ka vinüülplaate ja plaadimängijaid",
+    "Carolina Pihelga \"Lõikejoon\" nomineeriti Dublini kirjandusauhinnale"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://kultuur.err.ee/1610201692/tartu-uus-teater-vat-teater-ja-von-krahl-saavad-riigilt-kolmeaastase-tegevustoetuse"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Videomängu „GTA VI” ilmumise puhul kogunesid fännid 19. novembri õhtul T1 keskuse aatriumisse, kus elektroonikapoe ees laius hiiglaslik LED-ekraan.",
+   "headline": "«GTA VI» tõi T1 kaubanduskeskusesse hullunud fännid, kohale sõideti isegi ___. «See on nagu filmis!»",
+   "options": [
+    "Pärnust",
+    "Tartust",
+    "Narvast",
+    "Soomest"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8586943/videoreportaaz-gta-vi-toi-t1-kaubanduskeskusesse-hullunud-fannid-kohale-soideti-isegi-tartust-see-on-nagu-filmis"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Haridusminister Anders Adlercreutz kritiseeris europarlamendi liikme Sebastian Tynkkyneni postitust, milles too nimetas SDP aseesimeest Nasima Razmyari „Trooja hobuseks”. Tsitaat on tõlgitud soome keelest.",
+   "options": [
+    "Petteri Orpo",
+    "Riikka Purra",
+    "Antti Lindtman",
+    "Anders Adlercreutz"
+   ],
+   "quote": "Nüüd on jutt europarlamendi liikmest. Ta esindab seal iseennast.",
+   "src": "Yle",
+   "type": "who",
+   "url": "https://yle.fi/a/74-20258100"
+  },
+  {
+   "cat": "sport",
+   "explain": "ISU Challenger sarja Tallinn Trophy peeti Lasnamäel Tondiraba jäähallis. Naiste arvestuses võitis itaallanna Lara Naki Gutmann 204,85 punktiga, Kaljuvere jäi napilt teiseks.",
+   "lat": 59.4435,
+   "lon": 24.8481,
+   "place": "Tondiraba jäähall, Tallinn",
+   "prompt": "Maria Eliise Kaljuvere võitis kodusel Tallinn Trophy iluuisutamisvõistlusel isikliku rekordiga (203,25 punkti) hõbemedali. Millises jäähallis võisteldi? Märgi koht kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://sport.err.ee/1610201854/kaljuvere-sai-kodusel-voistlusel-kaela-hobemedali"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Postkaartide ettelugemise lugu oli võlts. Päriselt küsitles Elu24 Tallinna tänavatel inimesi rahvusvahelise meestepäeva (19. november) kohta ning Meelis Lao esitles Apollo raamatupoes uut raamatut „Teine vaatus…”.",
+   "options": [
+    "«Hommikul alles meenus.» Kuidas tähistavad eestlased meestepäeva?",
+    "Meelis Lao esitles verivärsket raamatut suurele publikule: ka Even Tudeberg istus vaikselt",
+    "Eesti näitlejad loevad jõulukuus raadios ette vanu postkaarte: «Iga kaart on väike romaan»"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8586164/galerii-meelis-lao-esitles-verivarsket-raamatut-suurele-publikule-ka-even-tudeberg-istus-vaikselt"
+  },
+  {
+   "answer": 85,
+   "cat": "sport",
+   "decimals": 0,
+   "explain": "Selevko teenis lühikavas 85,01 punkti ja edestas hiinlast Yudong Cheni (82,88). Arlet Levandi oli kuues (78,48).",
+   "max": 1000,
+   "min": 10,
+   "prompt": "Mihhail Selevko võitis oma 24. sünnipäeval Helsingis Finlandia Trophy meeste lühikava, kuigi eksis ühes hüppes. Mitu punkti ta kogus (ümardatult täisarvuni)?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "punkti",
+   "url": "https://sport.err.ee/1610201893/mihhail-selevko-sai-eksimusest-hoolimata-sunnipaeval-esikoha"
+  },
+  {
+   "answer": 0,
+   "cat": "sise",
+   "explain": "Neljapäevase õppenädala lugu oli võlts. Päriselt otsib TI-Hüpe kahe miljoni euro eest koolide tehisaruäpi edasiarendajat ning Eesti taotleb vabastust varjupaigataotlejate ümberpaigutamisest.",
+   "options": [
+    "Haridusministeerium kaalub gümnaasiumides neljapäevast õppenädalat",
+    "TI-Hüpe otsib kahe miljoni euro eest koolide AI-rakenduse edasiarendajat",
+    "Eesti soovib varjupaigataotlejate ümberpaigutamisest vabastamist"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610201467/ti-hupe-otsib-kahe-miljoni-euro-eest-koolide-ai-rakenduse-edasiarendajat"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, Al Jazeera",
+ "ticker": [
+  "Kaitseväe luurekeskus: Venemaa ei suuda värbamisel kaotustega sammu pidada",
+  "Eesti jalgpallikoondis kohtub Rahvuste liigas Rumeeniaga",
+  "Paul Aron lahkus Alpine'i vormelimeeskonnast",
+  "Nädalavahetusel sajab nii vihma, lörtsi kui ka lund",
+  "Huthide rünnak kahjustas Saudi Araabia pealinna kõrgeimat hoonet",
+  "Saksamaa veab plaani Tiktoki Euroopa haru enamusosaluse ostmiseks",
+  "Elina Valtonen ei välista Soome Koonderakonna juhiks kandideerimist",
+  "Jefimova nihutas lühiraja MM-i eel isiklikku rekordit"
+ ]
+}
