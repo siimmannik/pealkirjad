@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-22",
+ "generatedAt": "2026-11-22T04:57:03+00:00",
+ "label": "Pühapäev, 22. november 2026",
+ "questions": [
+  {
+   "cat": "sport",
+   "explain": "Kohtla-Järvel peetud võistluse avapäeval parandati viis Eesti vanuseklassi tippmarki. Jäärats võitis ka 100 m rinnuliujumise ajaga 1.09,16.",
+   "lat": 59.3986,
+   "lon": 27.2731,
+   "place": "Kohtla-Järve",
+   "prompt": "Juunioride ja noorte lühiraja ujumise Eesti meistrivõistluste avapäeval tõi 15-aastane Emily-Pärli Jäärats 100 m liblikujumises ajaga 59,12 uue noorte ja juunioride Eesti rekordi. Millises linnas võisteldi? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://sport.err.ee/1610202646/15-aastane-jaarats-pustitas-juunioride-eesti-rekordi"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Melania Trump ütles seda New Yorgis Lincoln Centeris oma uue kaheosalise sarja esitlusel. Sari koosneb tänavuse Amazoni dokumentaalfilmi „Melania” kasutamata kaadritest. Tsitaat on tõlgitud sloveeni keelest.",
+   "options": [
+    "Susie Wiles",
+    "Ivanka Trump",
+    "Melania Trump",
+    "Karoline Leavitt"
+   ],
+   "quote": "Ütlen Donaldile sageli seda, mida teised talle öelda ei julge.",
+   "src": "RTV SLO",
+   "type": "who",
+   "url": "https://www.rtvslo.si/zabava-in-slog/znani/melania-v-novi-seriji-donaldu-pogosto-povem-cesar-si-mu-drugi-ne-upajo/800802"
+  },
+  {
+   "answer": 53000,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Elu24 andmetel küsib Uuspõld VIP-laua eest 53 000 eurot. Etendusel astuvad üles ka Ott Sepp, Meisterjaan ja Maiduk ning üks salajane esineja.",
+   "max": 400000,
+   "min": 2000,
+   "prompt": "Jan Uuspõld müüb oma 15. detsembri Unibet Arena etendusele „Varjatud puudused” VIP-lauda, mille ostjat ootab ees „eluaegne kokkulepe”. Mitu eurot see laud maksab?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "eurot",
+   "url": "https://elu24.postimees.ee/8587432/mida-hinda-jan-uuspold-muub-oma-etendusele-53-000-eurost-vip-lauda-ostjat-ootab-ees-eluaegne-kokkulepe"
+  },
+  {
+   "answer": 2,
+   "cat": "kultuur",
+   "explain": "30. Pimedate Ööde filmifestivali põhivõistluse peapreemia läks Peruu filmile „Kalju serval”. Peruu film võitis põhivõistluse esimest korda.",
+   "headline": "PÖFF-i peapreemia võitis ___ film \"Kalju serval\"",
+   "options": [
+    "Tšiili",
+    "Argentina",
+    "Peruu",
+    "Kolumbia"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://kultuur.err.ee/1610202655/poff-i-peapreemia-voitis-peruu-film-kalju-serval"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Võlts oli Peruu ilutulestikukeeld. Päris olid Al Jazeera lood Chelsea kodusest 1:4 kaotusest Leedsile ja USA armee lõhkamistest Iowas, mis on tekitanud keskkonna- ja terviseohtu puudutavaid hirme.",
+   "options": [
+    "Miks lõhkab USA armee Iowas pliirikkaid lõhkeaineid?",
+    "Peruu keelas pühade ajaks ilutulestiku kõigis suuremates linnades",
+    "Chelsea kaotas Leedsile 1:4 ja sai Premier League'is neljast mängust kolmanda kaotuse"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Al Jazeera",
+   "type": "fake",
+   "url": "https://www.aljazeera.com/sports/2026/11/21/chelsea-beaten-4-1-by-leeds-united-at-home-in-the-premier-league"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Ukraina president Volodõmõr Zelenski reageeris sellele, et Donald Trump nimetas Hiina-visiidi ajal Putinit oma sõbraks.",
+   "options": [
+    "Andri Sõbiha",
+    "Volodõmõr Zelenski",
+    "Vitali Klitško",
+    "Julia Svõrõdenko"
+   ],
+   "quote": "Trump võib nimetada Putinit, kuidas tahab, aga meie jaoks on ta tapja.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610202661/zelenski-trump-voib-nimetada-putinit-kuidas-tahab-aga-meie-jaoks-on-ta-tapja"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Elu24 galerii näitas, et kuigi talvehooaeg on alles alanud, on Tallinna uisuväljakud juba rahvast täis.",
+   "headline": "Rõõm jääl! Hooaeg on vaevu alanud, kuid Tallinna ___ on juba rahvast tulvil",
+   "options": [
+    "kelgumäed",
+    "uisuväljakud",
+    "jõuluturud",
+    "suusarajad"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8587619/galerii-room-jaal-hooaeg-on-vaevu-alanud-kuid-tallinna-uisuvaljakud-on-juba-rahvast-tulvil"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Festival toimus Rakvere Ukuaru muusikamajas. Orkestrid esitasid 2028. aasta laulupeo sümfooniaorkestrite repertuaari, et dirigendid saaksid enne nootide lõplikku valmimist tagasisidet anda.",
+   "lat": 59.3464,
+   "lon": 26.3558,
+   "place": "Rakvere",
+   "prompt": "Ukuaru muusikamajas toimus noorte sümfooniaorkestrite festival: kahe päeva jooksul andis 19 orkestrit 11 kontserti ja esines üle 680 noore muusiku 11 maakonnast. Millises linnas? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610201896/rakveres-toimub-noorte-sumfooniaorkestrite-festival"
+  },
+  {
+   "answer": 45000,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Yle andmetel on „Võitlevad metsised” soomlastele nii kallis teos, et selle konserveerimiseks koguti annetustena 45 000 eurot.",
+   "max": 500000,
+   "min": 5000,
+   "prompt": "Soomlaste armastatud maali „Võitlevad metsised” konserveerimiseks koguti rahvalt annetusi. Kui palju eurosid kokku saadi?",
+   "src": "Yle",
+   "type": "number",
+   "unit": "eurot",
+   "url": "https://yle.fi/a/74-20256527"
+  },
+  {
+   "answer": 2,
+   "cat": "sport",
+   "explain": "Võlts oli Kalevi spordihalli sulgemise uudis. Päris olid uudised Artti Aigro ja Kaimar Vagula suusahüpete MK-hooaja algusest Lillehammeris ning Hugo Toomist, kelle klubi Bydgoszcz Astoria alistas Słupski 95:58.",
+   "options": [
+    "Aigro alustas Lillehammeris MK-hooaega 20., Vagul 25. kohaga",
+    "Hugo Toom kerkis oma teises mängus parimaks lauavõitlejaks",
+    "Kalevi spordihall suletakse kevadel kaheks aastaks renoveerimiseks"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610202676/hugo-toom-kerkis-oma-teises-mangus-parimaks-lauavoitlejaks"
+  },
+  {
+   "answer": 3,
+   "cat": "meelelahutus",
+   "explain": "Laulja ja riigikogu liige, kolme lapse ema Luisa Värk rääkis lastekaitsepäeva puhul sellest, kui oluline on kiire elutempo keskel lapsi päriselt kuulata.",
+   "options": [
+    "Getter Jaani",
+    "Birgit Sarrap",
+    "Liisi Koikson",
+    "Luisa Värk"
+   ],
+   "quote": "Kui palju võib lapsele tähendada see, kui paneme korraks telefoni käest ja päriselt kuulame.",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8587458/klopsud-luisa-vark-vanemaks-olemisest-vahel-algabki-koige-olulisem-jutuajamine-sonadega-emme-tead-mis"
+  },
+  {
+   "answer": 44,
+   "cat": "majandus",
+   "decimals": 0,
+   "explain": "Costa pakkus välja 44 miljardi euro suuruse lisakärpe. Võrreldes Euroopa Komisjoni juulikuise algse ettepanekuga oleks kärbe kokku 204 miljardit eurot ehk 10,2 protsenti.",
+   "max": 600,
+   "min": 4,
+   "prompt": "Euroopa Ülemkogu eesistuja António Costa soovib Politico andmetel EL-i aastate 2028–2034 eelarvekava veelgi kärpida. Mitme miljardi euro võrra?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "miljardit eurot",
+   "url": "https://www.err.ee/1610202835/costa-soovib-karpida-el-i-eelarvet-44-miljardi-euro-vorra"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Raudtee ehitus on lõpetatud, kuid Iļģuciemsi ja Bolderāja jaamade kasutuselevõtu paberid viibivad, mistõttu reisironge tänavu tõenäoliselt ei tule. Seal pole reisironge sõitnud 67 aastat. Pealkiri on tõlgitud inglise keelest.",
+   "headline": "Riia–Bolderāja ___ peab ootama järgmise aastani",
+   "options": [
+    "trammiliin",
+    "kergliiklussild",
+    "bussiliin",
+    "rongiliin"
+   ],
+   "src": "LSM",
+   "type": "blank",
+   "url": "https://eng.lsm.lv/article/economy/transport/20.11.2026-riga-bolderaja-train-line-will-have-to-wait-for-next-year.a672683/"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Võlts oli Pärnu piparkoogimaja lugu. Päris olid Elu24 galerii Raivo Heina juubelipeost ja talve saabumise lugu.",
+   "options": [
+    "«Tellija tahtis midagi erilist!» Pärnu pagar küpsetas jõuludeks 40-kilose piparkoogimaja",
+    "Vaata, kes tulid miljonär Raivo Heina suursugusele juubelipeole!",
+    "Talv koputab uksele! Eestis sajab lund, kuid ees ootab ka ebameeldiv üllatus"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8587650/galerii-vaata-kes-tulid-miljonar-raivo-heina-suursugusele-juubelipeole"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Ugala on Viljandi teater. Ibsen kirjutas „Metsparti” 1884. aastal; Kalmet on öelnud, et nägi omal ajal ka Voldemar Panso 1969. aasta lavastust.",
+   "lat": 58.3639,
+   "lon": 25.59,
+   "place": "Viljandi",
+   "prompt": "Madis Kalmeti lavastatud Henrik Ibseni näidend „Metspart”, kus Hjalmar Ekdalit mängib Janek Vadi, esietendub Ugala teatri suures saalis. Millises linnas Ugala asub? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610201827/ugalas-esietenduv-metspart-tuletab-meelde-et-ka-toel-on-omad-tagajarjed"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Võlts oli Haapsalu saunabussi uudis. Päris olid uudised Männiku karjääri uuest kaevandusalast, mis jääb ette kaitseväe harjutusalale, ja ööklubi Hollywood sulgemisest.",
+   "options": [
+    "Uus kaevandusala Männiku karjääris jääb kaitseväe harjutusalale ette",
+    "Haapsalu hakkab talvel kesklinnas tasuta saunabussi pakkuma",
+    "Ööklubi Hollywood sulges uksed"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://kultuur.err.ee/1610202775/ooklubi-hollywood-sulges-uksed"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, LSM, RTV SLO, Al Jazeera",
+ "ticker": [
+  "Joller tahab tagasiastumist Reformierakonnaga arutada",
+  "Ukraina droonid ründasid Soome lahel Vene kaubalaeva",
+  "Kulbergs kutsub EL-i riike üles sulgema piire Venemaa kodanikele",
+  "FT: Valge Maja tahab Ukraina-Vene rahukokkulepet jaanuari alguseks",
+  "James Harden viskas 51 punkti ja möödus Kobe Bryantist",
+  "Kaitsevägi andis võimaliku drooniohu hoiatuse Lääne- ja Ida-Virumaale",
+  "Kubits: kultuuriinimesed peavad poliitikutele oma ootused selgelt välja ütlema",
+  "Kristel Uiboaed: keeleandmed on enamat kui tehisaru tooraine"
+ ]
+}
