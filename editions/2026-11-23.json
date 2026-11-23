@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-23",
+ "generatedAt": "2026-11-23T04:55:23+00:00",
+ "label": "Esmaspäev, 23. november 2026",
+ "questions": [
+  {
+   "cat": "sise",
+   "explain": "Karu nähti pühapäeval Tartus Emajõe kaldal. Politsei kontrollis, kas loom läks tagasi metsa.",
+   "lat": 58.378,
+   "lon": 26.729,
+   "place": "Tartu",
+   "prompt": "Pühapäeva hommikul liikus linnas ringi karu: teda nähti jõe kaldal Kaupmehe tänava ja Ropka tee vahel ning viimati Iirise tänava lähedal. Millises linnas? Märgi kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610203000/tartu-linnas-liikus-ringi-karu"
+  },
+  {
+   "answer": 100,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Rahvusraamatukogu sai uue ilme 100 miljoni euro eest. Maja on kõigile avatud alles järgmisel maikuul, kuid seal toimuvad juba üritused.",
+   "max": 1000,
+   "min": 10,
+   "prompt": "Eesti Rahvusraamatukogu Tõnismäe hoone renoveerimine algas 2022. aastal ja kõigile külastajatele avatakse maja järgmisel maikuul. Mitu miljonit eurot maksis Elu24 andmetel hoonele uue ilme andmine?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "miljonit eurot",
+   "url": "https://elu24.postimees.ee/8587575/fotod-valgust-ja-avarust-on-palju-isegi-vetsus-100-miljoni-euro-eest-uue-ilme-saanud-rahvusraamatukogu-puuab-pilke"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Charles Le Bruni 1655. aasta maal „Püha perekond” kadus pärast 1945. aasta suve; 2021. aastal võttis Kanada ostja ühendust Preisi losside ja aedade sihtasutusega ning nüüd jõudis teos tagasi Potsdami. Pealkiri on tõlgitud sloveeni keelest.",
+   "headline": "Enam kui kaheksa aastakümne järel naaseb kadunud ___ Potsdami Uude paleesse",
+   "options": [
+    "keisripokaal",
+    "kuningatroon",
+    "barokkmaal",
+    "renessansimaal"
+   ],
+   "src": "RTV SLO",
+   "type": "blank",
+   "url": "https://www.rtvslo.si/kultura/dediscina/po-vec-kot-osmih-desetletjih-se-izgubljena-barocna-slika-vraca-v-potsdamsko-novo-palaco/800911"
+  },
+  {
+   "answer": 1,
+   "cat": "kultuur",
+   "explain": "Nii ütles seltskonnafotograaf Erlend Štaub, kellest Kullar Viimne tegi dokumentaalfilmi „Fotograaf Cannes'is”. Štaubi sõnul oleks punane vaip ilma fotograafideta tühi ja emotsioonitu.",
+   "options": [
+    "Renee Altrov",
+    "Erlend Štaub",
+    "Kaupo Kikkas",
+    "Rasmus Jurkatam"
+   ],
+   "quote": "Kui räägime punasest vaibast, siis fotograaf on glamuuri väga suur osa.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://kultuur.err.ee/1610201665/erlend-staub-ilma-fotograafideta-poleks-punasel-vaibal-ka-glamuuri"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Kirbuturu mängukonsooli lugu oli välja mõeldud. Päris lugudes jagasid eestlased nippe kesklinnas häda tegemiseks ning soomlane leidis musta reede ajal Eesti e-poest 40% soodsama Sony teleri, kuid tellimus tühistati.",
+   "options": [
+    "Eesti veebipood tühistas soomlase soodusostu, kuid pidi hiljem silmitsi seisma krõbeda nõudega",
+    "«Ma ei uskunud oma silmi!» Eestlane leidis kirbuturult 1980ndate mängukonsooli, mis töötab siiani",
+    "«Kui oled piisavalt julge, siis igal pool!» Eestlased jagavad lõbusaid nippe, kus kesklinnas häbita häda teha"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8587588/kui-oled-piisavalt-julge-siis-igal-pool-eestlased-jagavad-lobusaid-nippe-kus-kesklinnas-habita-hada-teha"
+  },
+  {
+   "answer": 4000,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Richmond Auctionsi oksjonimajas müüdud juuksesalk pärines kõrtsmik John Gadsbylt, kes korraldas Washingtoni kaks viimast sünnipäevapidu. Ostja nime ei avalikustatud.",
+   "max": 50000,
+   "min": 200,
+   "prompt": "USA esimese presidendi George Washingtoni juuksesalk müüdi laupäeval Lõuna-Carolinas oksjonil. Mitme dollari eest?",
+   "src": "Yle",
+   "type": "number",
+   "unit": "dollarit",
+   "url": "https://yle.fi/a/74-20258363"
+  },
+  {
+   "answer": 1,
+   "cat": "sport",
+   "explain": "Ujumisliidu EM-i taotlus oli välja mõeldud. Päris lood: Marek-Adrian Mäsak sai Taškendis judo juunioride MM-il pronksi ning seitsmevõistleja Pippi Lotta Enok esitles raamatut „Kaheksas ala”.",
+   "options": [
+    "Mäsak saavutas judo juunioride MM-il kolmanda koha",
+    "Eesti ujumisliit taotleb 2028. aasta lühiraja EM-i Tallinna",
+    "Enok andis välja raamatu: see räägib kõigest, mis toimus medalite taga"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610202856/masak-saavutas-judo-juunioride-mm-il-kolmanda-koha"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Madripidu peeti Sindi seltsimajas, kohal olid ka Tipp ja Täpp. Sel aastal läks peol kogutud raha Türi muuseumile.",
+   "lat": 58.4,
+   "lon": 24.6667,
+   "place": "Sindi",
+   "prompt": "Rahvatantsurühm „Kevade” tähistas oma 40. ja ERR-i 100. sünnipäeva ERR-i telesaadete teemalise madripeoga, kuhu tuli üle 150 inimese ning üheksa tantsurühma Pärnumaalt ja üks Jõgevalt. Millise linna seltsimajas pidu peeti? Märgi kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610203150/sindi-madripeol-kohtusid-rahvatants-ja-err-i-armastatud-telesaated"
+  },
+  {
+   "answer": 3,
+   "cat": "meelelahutus",
+   "explain": "Selgeltnägija Merily Timmer rääkis podcastis „Hingetee”, et püüdis aastaid oma võimeid vältida, kuni kummalised kogemused panid ta elusuunda muutma.",
+   "options": [
+    "Anu Saagim",
+    "Kati Murutar",
+    "Tanja Mihhailova-Saar",
+    "Merily Timmer"
+   ],
+   "quote": "Mul oli tunne, et mul on hääled peas!",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8587671/mul-oli-tunne-et-mul-on-haaled-peas-merily-timmer-paljastab-kuidas-temast-tegelikult-selgeltnagija-sai"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Flamingode lugu oli välja mõeldud. Päris lood: Türgis Rize provintsis muutus Değirmendere oja punaseks ja võimud alustasid uurimist ning teises Türgi piirkonnas hirmutas elanikke vabalt ringi liikuv lõvi.",
+   "options": [
+    "Punase oja mõistatus Türgis",
+    "Tuhanded flamingod sulgesid Küprosel lennujaama raja",
+    "Vabalt ringi liikuv lõvi tekitab Türgis elanikes hirmu"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Al Jazeera",
+   "type": "fake",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/mystery-of-the-red-stream-in-turkiye"
+  },
+  {
+   "answer": 0,
+   "cat": "sise",
+   "explain": "Kooli nimekonkursil pakuti kõige sagedamini ajaloolise Elfriede Lenderi gümnaasiumi nime taastamist. Direktor Ingar Dubolazovi sõnul liigub kool eestikeelse õppe poole.",
+   "headline": "Tallinna kesklinna vene gümnaasiumist võib saada ___ gümnaasium",
+   "options": [
+    "Lenderi",
+    "Westholmi",
+    "Kreutzwaldi",
+    "Tõnismäe"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://www.err.ee/1610203024/tallinna-kesklinna-vene-gumnaasiumist-voib-saada-lenderi-gumnaasium"
+  },
+  {
+   "answer": 17,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Läti Eurovisiooni eelvõistlusel „Supernova” võistleb 17 esinejat, kelle nimed avalikustati reede hommikul.",
+   "max": 300,
+   "min": 3,
+   "prompt": "Lätis avalikustati Eurovisiooni eelvõistlusel „Supernova” osalejad, kes võistlevad lähikuudel pileti eest Bulgaariasse. Mitu esinejat eelvõistlusel osaleb?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "esinejat",
+   "url": "https://eng.lsm.lv/article/culture/music/20.11.2026-latvias-eurovision-hopefuls-revealed.a672695/"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Nii ütles kolonelleitnant Taavi Liias ERR-i saates „Ukraina stuudio”, kus oli pühapäeval külas ka peaminister Kristen Michal.",
+   "options": [
+    "Martin Herem",
+    "Vladimir Sazonov",
+    "Taavi Liias",
+    "Ants Kiviselg"
+   ],
+   "quote": "Kertši silla hävitamine võib oluliselt raskendada Venemaa vägede varustamist.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610203231/liias-kertsi-silla-havitamine-voib-oluliselt-raskendada-venemaa-vagede-varustamist"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "„Telehommiku” saatejuht Kristjan Gold, kes andis mullu välja kokaraamatu „Filmiköök. Ekraanilt taldrikule”, valmistas videos legendaarsest jõulufilmist inspireeritud roa.",
+   "headline": "«Äkki õnnestub seda tatist novembrit mõnusamaks teha!» Saatejuht Kristjan Gold tõi legendaarse ___ kööki ja jagas isuäratavat retsepti",
+   "options": [
+    "multifilmi",
+    "jõulufilmi",
+    "telesarja",
+    "muinasjutu"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8587963/video-akki-onnestub-seda-tatist-novembrit-monusamaks-teha-saatejuht-kristjan-gold-toi-legendaarse-joulufilmi-kooki-ja-jagas-isuaratavat-retsepti"
+  },
+  {
+   "cat": "sport",
+   "explain": "Sisesõudmise pikamaa meistrivõistlused peeti Viljandi spordikoolis, kus Kaarel Kiiver võitis meeste ja Doris Meinbek naiste tiitli.",
+   "lat": 58.3639,
+   "lon": 25.59,
+   "place": "Viljandi",
+   "prompt": "Sisesõudmise Eesti meistrivõistlustel pikal distantsil kaitsesid meistritiitlit Kaarel Kiiver ja Doris Meinbek. Millise linna spordikoolis laupäeval võisteldi? Märgi kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://sport.err.ee/1610203045/kiiver-ja-meinbek-kaitsesid-pikamaa-distantsil-meistritiitlit"
+  },
+  {
+   "answer": 2,
+   "cat": "kultuur",
+   "explain": "ERM-i taskulambiekskursioonid olid välja mõeldud. Päris lood: ERM-i vanemteadur Aivar Jürgenson kirjutas, et võimud lahendasid vaid 5–10% Kaukaasia eestlaste hobusevargustest, ning Juhan Maiste esitles Järvamaal raamatut Kirna mõisast.",
+   "options": [
+    "Kaukaasia eestlasi kimbutasid aastakümneid kohalikud hobusevargad",
+    "Juhan Maiste esitles raamatut Kirna mõisa ajaloost",
+    "Eesti Rahva Muuseum hakkab talvel korraldama öiseid taskulambiekskursioone"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610202850/juhan-maiste-esitles-raamatut-kirna-moisa-ajaloost"
+  }
+ ],
+ "source": "ERR, Elu24, Yle, Al Jazeera, LSM, RTV SLO",
+ "ticker": [
+  "Verstappen teenis Vegases hooaja neljanda võidu, Ferrarid põrkasid kokku",
+  "Saaremaa tahab parandada kortermajade kriisivalmidust",
+  "Eestlased eelistavad jõulupuuna harilikku Eesti kuuske",
+  "Eesti idusektor kasvab muust majandusest kiiremini",
+  "Marc Marquez võitis rekordit kordava kaheksanda MM-tiitli",
+  "Galerii: Lasnamäe paviljonis alustati uut hooaega 500 autori teosega",
+  "Bigbank/Kalev näitas Riias VEF-i vastu võimu, Tartu kaotas Ogrele",
+  "Selgus Eesti korvpallikoondise koosseis mängudeks Prantsusmaa ja Soomega"
+ ]
+}
