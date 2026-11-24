@@ -1,0 +1,240 @@
+{
+ "date": "2026-11-24",
+ "generatedAt": "2026-11-24T05:03:30+00:00",
+ "label": "Teisipäev, 24. november 2026",
+ "questions": [
+  {
+   "cat": "kultuur",
+   "explain": "Palamuse muuseumis valmistuti esmaspäeval teisipäevaseks kadrisantimiseks, kadripäev ise on kolmapäeval. Muuseumis meenutati, et santide visatud terad tuleb pärast maast kokku korjata, sest need on õnneterad.",
+   "lat": 58.6836,
+   "lon": 26.5839,
+   "place": "Palamuse",
+   "prompt": "Kadripäeva eel valmistuti ühe Jõgevamaa aleviku muuseumis kadrisantimiseks: räägiti kommetest ja harjutati tantsusamme. Aleviku vana kihelkonnakool on tuntud Oskar Lutsu „Kevade” kaudu. Millises alevikus? Märgi koht kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610204062/palamuse-muuseumis-valmistuti-kadrisantimiseks"
+  },
+  {
+   "answer": 0,
+   "cat": "valis",
+   "explain": "NATO peasekretär Mark Rutte ütles Berliinis vastuseks teadetele, et Venemaa võib saata kosmosesse tuumarelvaga satelliidi, et see hõlmab ka julgeoleku tagamist kosmoses. Tsitaat on tõlgitud sloveeni keelest.",
+   "options": [
+    "Mark Rutte",
+    "Friedrich Merz",
+    "Ursula von der Leyen",
+    "Kaja Kallas"
+   ],
+   "quote": "Hoolitseme alati selle eest, et kaitseksime NATO territooriumi iga sentimeetrit.",
+   "src": "RTV SLO",
+   "type": "who",
+   "url": "https://www.rtvslo.si/svet/rutte-ob-porocilih-o-ruskem-jedrskem-orozju-v-vesolju-branili-bomo-vsak-centimeter-ozemlja-nata/801033"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Alar Karis rääkis Vikerraadio saates „Käbi ei kuku” oma lapsepõlvest ja noorusest, kus tembud viisid kokku ka miilitsaga. „Mina olin toona juba sportlik, jooksin eest ära,” meenutas ta.",
+   "headline": "President Alar Karis meenutas lapsepõlve, millest ei puudunud ka ___ külaskäik",
+   "options": [
+    "jõuluvana",
+    "miilitsa",
+    "direktori",
+    "tuletõrje"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8587995/kohtingud-surnuaias-ja-vandalism-president-alar-karis-meenutas-lapsepolve-millest-ei-puudunud-ka-miilitsa-kulaskaik"
+  },
+  {
+   "answer": 343,
+   "cat": "majandus",
+   "decimals": 0,
+   "explain": "Koondamisteate saab 343 töötajat, peamiselt Ida-Virumaal. Algselt plaaniti koondada umbes 390 ametikohta, kuid arvu vähendati 47 võrra.",
+   "max": 3000,
+   "min": 30,
+   "prompt": "Eesti Energia kontsern lõpetas kollektiivse koondamise konsultatsioonid. Mitu töötajat saab koondamisteate?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "töötajat",
+   "url": "https://www.err.ee/1610203651/eesti-energias-saab-koondamisteate-343-tootajat"
+  },
+  {
+   "answer": 0,
+   "cat": "kultuur",
+   "explain": "Audioraamatute pealkiri oli võlts. Päris lood: lastekirjanduse tõlkeauhinna Paabeli Torn võitjad kuulutati välja 20. novembril ning Katariina Libe põnevik „Udna” räägib salapärasest sektist Lõuna-Eesti ürgmetsas.",
+   "options": [
+    "Eesti raamatukogudes laenutati tänavu rekordarv audioraamatuid",
+    "Selgusid lastekirjanduse tõlkeauhinna Paabeli Torn võitjad",
+    "Katariina Libe avaldas uue romaani \"Udna\""
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://kultuur.err.ee/1610203675/selgusid-lastekirjanduse-tolkeauhinna-paabeli-torn-voitjad"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Läti jalgpalliliit lõpetas 20. novembril itaallasest peatreeneri Paolo Nicolato lepingu: 30 mängus tuli 5 võitu, 10 viiki ja 15 kaotust. Uus treener loodetakse leida jaanuari keskpaigaks. Pealkiri on tõlgitud inglise keelest.",
+   "headline": "Läti otsib koondisele uut ___",
+   "options": [
+    "hokitreenerit",
+    "korvpallitreenerit",
+    "jalgpallitreenerit",
+    "võrkpallitreenerit"
+   ],
+   "src": "LSM",
+   "type": "blank",
+   "url": "https://eng.lsm.lv/article/culture/sport/23.11.2026-latvia-on-the-lookout-for-a-new-international-football-coach.a673031/"
+  },
+  {
+   "answer": 3,
+   "cat": "sise",
+   "explain": "Karmen Joller astus 23. novembril sotsiaalministri ametist tagasi. „Aktuaalsele kaamerale” ütles ta, et ministrina oma ettevõtte juhatusest lahkumata jätmine oli lihtsalt rumal käitumine.",
+   "options": [
+    "Liisa Pakosta",
+    "Kristina Kallas",
+    "Signe Riisalo",
+    "Karmen Joller"
+   ],
+   "quote": "Mis siin rääkida, minister oli rumal.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610204068/karmen-joller-mis-siin-raakida-minister-oli-rumal"
+  },
+  {
+   "answer": 200000,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Reisi 16 võitjat valitakse enam kui 200 000 kandideerija seast.",
+   "max": 1000000,
+   "min": 5000,
+   "prompt": "Austraalias Canberras asuv Soome saatkond kuulutas välja kohtingureisi „Armu soomlasesse!”, millega viiakse Helsingisse 16 austraallast. Kui palju inimesi kandideeris Elu24 andmetel (enam kui)?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "kandideerijat",
+   "url": "https://elu24.postimees.ee/8587276/enneolematu-huvi-armu-soomlasesse-austraalias-asuva-soome-saatkonna-valjakuulutatud-kohtingureisile-kandideeris-meeletu-hulk-inimesi"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Rovaniemi pealkiri oli võlts. Päris lood: Kotka Titaanide sõit Suolahti Urhode vastu mängima oli täis äpardusi ning Soome tervise- ja heaoluinstituut THL soovitab kõrgemat maksu küllastunud rasva, suhkru- või soolarikastele toodetele ja madalamat köögiviljadele, puuviljadele ja marjadele.",
+   "options": [
+    "Hokimeeskonna sõit oli täis äpardusi: buss läks katki, teine jäi hange kinni ja halli vahetati keset mängu",
+    "Rovaniemi kaalub virmaliste vaatajatele turismimaksu kehtestamist",
+    "THL teeb ettepaneku: ebatervislikele toodetele kõrgem maks ja tervislikele madalam"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Yle",
+   "type": "fake",
+   "url": "https://yle.fi/a/74-20258568"
+  },
+  {
+   "answer": 2,
+   "cat": "sport",
+   "explain": "Manchester United kaotas uue peatreeneri Mauricio Pochettino esimeses mängus Liverpoolile 0:4.",
+   "headline": "Pochettino tegi ___ aasta halvima ManU debüüdi: mängijad tahavad võidelda",
+   "options": [
+    "kümne",
+    "viiekümne",
+    "saja",
+    "kahekümne"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://sport.err.ee/1610203522/pochettino-tegi-saja-aasta-halvima-manu-debuudi-mangijad-tahavad-voidelda"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Lapimaa-pealkiri oli võlts. Päris lood: Soome kaupluse müüja kollektiivlepingu madalaim tasu on üle 1400 euro kuus (Soome keskmine palk on 4350 eurot) ning Elu24 kirjutas Nvidia ekstegevjuhi Jensen Huangi tunnuseks saanud nahktagist.",
+   "options": [
+    "Ekspert paljastab: nii palju teenib Soome Prisma müüja kuus",
+    "Jensen Huangi nahktagid osutusid kõnekaks. Mida räägivad tema ja teiste tehnoloogiagurude «vormiriided» nende kohta?",
+    "«Pimedus mind ei hirmuta!» Tuntud saatejuht kolis talveks Lapimaale"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8588414/ekspert-paljastab-nii-palju-teenib-soome-prisma-muuja-kuus"
+  },
+  {
+   "cat": "sport",
+   "explain": "Viljandi JK Tulevik alistas Männimäe jalgpallihallis FC Tallinna 2:1. Otsustav kordusmäng peetakse 28. novembril Lasnamäe spordikompleksi kunstmuruväljakul.",
+   "lat": 58.3639,
+   "lon": 25.59,
+   "place": "Viljandi",
+   "prompt": "Jalgpalli esiliiga üleminekumängude avakohtumises alistas kodumeeskond Männimäe jalgpallihallis 470 pealtvaataja ees FC Tallinna 2:1. Millises linnas mängiti? Märgi koht kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://sport.err.ee/1610203426/viljandi-tulevik-astus-esiliiga-lavele"
+  },
+  {
+   "answer": 130,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "NPR-i andmetel maksis ettevõte 300 aakri eest üle 130 miljoni dollari; kohalikud albaanlased vaidlustavad maa omandiõiguse.",
+   "max": 2000,
+   "min": 10,
+   "prompt": "Jared Kushneri heaks töötav ettevõte ostis aprillis Albaanias 300 aakrit maad luksusarenduse jaoks, kuigi osa kohalikke väidab, et maa kuulub neile. Mitme miljoni dollari eest (üle)?",
+   "src": "NPR",
+   "type": "number",
+   "unit": "miljonit dollarit",
+   "url": "https://www.npr.org/2026/11/22/nx-s1-6012022/luxury-development-planned-on-land-some-albanians-say-is-theirs-not-jared-kushners"
+  },
+  {
+   "answer": 1,
+   "cat": "kultuur",
+   "explain": "Kuressaarest pärit laulja ja näitleja Kristel Aaslaid meenutas Vikerraadio saates „Heli nälg”, et porgandivõtmise ajal kasutasid lapsed kastiauto allalastud külgi lavana.",
+   "options": [
+    "Lenna Kuurmaa",
+    "Kristel Aaslaid",
+    "Birgit Sarrap",
+    "Getter Jaani"
+   ],
+   "quote": "Kui kõik täiskasvanud põllul tööd tegid, siis meie vastutasime meelelahutusliku programmi eest.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://eeter.err.ee/1610203666/kristel-aaslaid-lapsena-andsime-oega-porgandipollul-kastiautos-kontserte"
+  },
+  {
+   "answer": 3,
+   "cat": "meelelahutus",
+   "explain": "Muusik Jaagup Kreem (53) rääkis TV3 uudistele, et tal täitus 100 päeva ilma alkoholita.",
+   "headline": "Jaagup Kreem pole ___ päeva alkoholi tarbinud: kõige lollim on öelda, et ma mitte kunagi enam seda ei tee",
+   "options": [
+    "30",
+    "365",
+    "1000",
+    "100"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8588675/video-jaagup-kreem-pole-100-paeva-alkoholi-tarbinud-koige-lollim-on-oelda-et-ma-mitte-kunagi-enam-seda-ei-tee"
+  },
+  {
+   "answer": 1,
+   "cat": "sport",
+   "explain": "Kergejõustiku pealkiri oli võlts. Päris lood: FCI Levadia kapten Rasmus Peetson pikendas lepingut kolmeks hooajaks ning Erik Makke aitas Stephen F. Austini ülikooli võiduni Temple'i üle 72:70.",
+   "options": [
+    "Levadia kapten sõlmis klubiga uue lepingu",
+    "Kergejõustikuliit kaalub sisehooaja Eesti meistrivõistluste viimist Tartusse",
+    "Heas hoos Makke vedas koduülikooli NCAA-s järjekordse võiduni"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610203615/levadia-kapten-solmis-klubiga-uue-lepingu"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, NPR",
+ "ticker": [
+  "Konkurentsiamet soovib eelarve suurendamist või järelevalvetasude alandamist",
+  "Lasterikka pere toetus soodustas kolmandate laste sündi",
+  "Pakosta soovib muuta ettevõtete trahvimäärasid suuremaks",
+  "Komisjonis patiseis: eelarvet sel nädalal veel lõpphääletusele saata ei saa",
+  "Novembris jõuab kinodesse auhinnatud Eesti lühifilme koondav kassett",
+  "Itaalia meedia: Sinner läheb operatsioonile ja vigastuspaus venib pikemaks",
+  "NATO paigutab Poola luurelennuki",
+  "Raadio 2 lükkas käima aastahitt 2026 hääletuse"
+ ]
+}
