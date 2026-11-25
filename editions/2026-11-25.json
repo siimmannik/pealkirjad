@@ -1,236 +1,236 @@
 {
-  "date": "2026-11-25",
-  "generatedAt": "2026-11-25T04:57:13+00:00",
-  "label": "Kolmapäev, 25. november 2026",
-  "questions": [
-    {
-      "cat": "sise",
-      "explain": "Tegu on Tartu Sõpruse sillaga, mis ehitati 1981. aastal. Sild ise maksis 12 miljonit eurot, kogu ala koos ümbrusega ligi 20,5 miljonit; jalakäijate trepid valmivad järgmise aasta alguses.",
-      "lat": 58.378,
-      "lon": 26.729,
-      "place": "Tartu",
-      "prompt": "Ligi kaks aastat kestnud ehitustööde järel avati teisipäeval taas liiklusele Eesti pikim sild, mille ja selle ümbruse rekonstrueerimine läks maksma ligi 20,5 miljonit eurot. Millises linnas see sild asub? Märgi linn kaardil.",
-      "src": "ERR",
-      "type": "map",
-      "url": "https://www.err.ee/1610204977/galerii-liiklus-naaseb-tartu-sopruse-sillale"
-    },
-    {
-      "answer": 2,
-      "cat": "meelelahutus",
-      "explain": "Nii ütles tšellist Silvia Ilves Kanal 2 saates „Silmast silma” Neeme Rauaga. Ta rääkis, et sai abikaasa jõukusest teada alles hiljem.",
-      "options": [
-        "Getter Jaani",
-        "Grete Paia",
-        "Silvia Ilves",
-        "Liis Lemsalu"
-      ],
-      "quote": "Ma ei ole kullakaevaja ja mulle meeldib, et meil ei ole peres laristamist.",
-      "src": "Elu24",
-      "type": "who",
-      "url": "https://elu24.postimees.ee/8588621/silvia-ilves-ma-ei-ole-kullakaevaja-ja-mulle-meeldib-et-meil-ei-ole-peres-laristamist"
-    },
-    {
-      "answer": 1,
-      "cat": "valis",
-      "explain": "Euroopa volinik Valdis Dombrovskis hoiatas, et Sloveenia vastu võidakse järgmisel kevadel algatada ülemäärase eelarvepuudujäägi menetlus; Euroopa Komisjoni hinnangul on 2027. aasta eelarve eelnõu puudujääk 4,5% SKP-st. Sellise hoiatuse said vaid Sloveenia ja Hispaania. Pealkiri on tõlgitud sloveeni keelest.",
-      "headline": "Brüssel hoiatab ülemäärase ___ menetluse eest. Ministeerium: jääme reeglite piiresse.",
-      "options": [
-        "riigivõla",
-        "eelarvepuudujäägi",
-        "inflatsiooni",
-        "palgakasvu"
-      ],
-      "src": "RTV SLO",
-      "type": "blank",
-      "url": "https://www.rtvslo.si/slovenija/bruselj-slovenijo-svari-pred-postopkom-preseznega-primanjkljaja/801118"
-    },
-    {
-      "answer": 1,
-      "cat": "sise",
-      "explain": "Gaasilaternate lugu oli võlts. Päriselt teatas ERR, et Tallinna loomaaia direktor Kaupo Heinma lahkub omal soovil ametist ning et valmis Petrooleumi tänava ümberehituse põhiprojekt, mis hõlmab sõiduteed, valgustust, kergliiklusteid ja trammiteed.",
-      "options": [
-        "Tallinna loomaaia direktor Kaupo Heinma lahkub ametist",
-        "Tallinna linnavalitsus kaalub vanalinna tänavavalgustuse vahetamist gaasilaternate vastu",
-        "Tallinn sai valmis Petrooleumi tänava ümberehituse põhiprojekti"
-      ],
-      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
-      "src": "ERR",
-      "type": "fake",
-      "url": "https://www.err.ee/1610204971/tallinna-loomaaia-direktor-kaupo-heinma-lahkub-ametist"
-    },
-    {
-      "answer": 27,
-      "cat": "valis",
-      "decimals": 0,
-      "explain": "NPR-i teatel süüdistavad 27 elanikku kaevandust mürgitamises; kohtuasi toob esile elektriautode buumi inimliku hinna, sest vask ja koobalt on akude toorained.",
-      "max": 400,
-      "min": 2,
-      "prompt": "Kongo DV-s esitasid kohalikud elanikud pretsedenditu hagi Hiina omanduses oleva vase- ja koobaltikaevanduse vastu, süüdistades seda mürgitamises. Mitu elanikku on NPR-i andmetel hagejate seas?",
-      "src": "NPR",
-      "type": "number",
-      "unit": "elanikku",
-      "url": "https://www.npr.org/2026/11/24/nx-s1-6042912/drc-congo-mining-china-copper-colbalt-critical-minerals"
-    },
-    {
-      "answer": 2,
-      "cat": "meelelahutus",
-      "explain": "Elu24 tõi välja seitse põhjust, miks Robert Pattinson on James Bondi rollis enneolematu valik – pealkirja tsitaadi järgi sobib ta osasse vaid vanuse poolest.",
-      "headline": "«Ta sobib vaid ___ poolest»: seitse põhjust, miks Robert Pattinson on enneolematu 007",
-      "options": [
-        "pikkuse",
-        "välimuse",
-        "vanuse",
-        "aktsendi"
-      ],
-      "src": "Elu24",
-      "type": "blank",
-      "url": "https://elu24.postimees.ee/8587879/ta-sobib-vaid-vanuse-poolest-seitse-pohjust-miks-robert-pattinson-on-enneolematu-007"
-    },
-    {
-      "answer": 1,
-      "cat": "sise",
-      "explain": "Nii kommenteeris Kaimo Kuusk Venemaa ähvardusi Eesti suunal.",
-      "options": [
-        "Kusti Salm",
-        "Kaimo Kuusk",
-        "Hanno Pevkur",
-        "Margus Tsahkna"
-      ],
-      "quote": "Vägivallatseja mängib ohvrit.",
-      "src": "ERR",
-      "type": "who",
-      "url": "https://www.err.ee/1610204641/kaimo-kuusk-venemaa-ahvardustest-vagivallatseja-mangib-ohvrit"
-    },
-    {
-      "cat": "sise",
-      "explain": "Hiiumaa vald plaanib sünnitoetuse maksmise tuua seitsmendale raseduskuule, sest pered peavad sünnituseks sõitma Kuressaarde või mandrile. Lõpliku otsuse teeb volikogu detsembris.",
-      "lat": 58.9978,
-      "lon": 22.7497,
-      "place": "Kärdla (Hiiumaa vald)",
-      "prompt": "Saare vald plaanib tõsta sünnitoetuse 1000 euroni ja maksta suurema osa sellest välja juba seitsmendal raseduskuul, sest alates 1. juulist pole saarel regulaarset sünnitusabi. Millise valla keskusega on tegu? Märgi linn kaardil.",
-      "src": "ERR",
-      "type": "map",
-      "url": "https://www.err.ee/1610204959/hiiumaa-vald-plaanib-tuua-sunnitoetuse-maksmise-seitsmendale-raseduskuule"
-    },
-    {
-      "answer": 1,
-      "cat": "valis",
-      "explain": "Atacama lugu oli võlts. Päris lood: Spordiarbitraažikohus otsustas jaanuaris peetud vastuolulise finaali järel Senegali kasuks ning teadlased kasutavad Brasiilias ümberkujundatud sääski haiguste vastu võitlemiseks.",
-      "options": [
-        "Senegal kuulutati Maroko asemel taas 2025. aasta Aafrika rahvuste karika võitjaks",
-        "Tšiili sulges valgusreostuse tõttu turistidele Atacama kõrbe tähevaatlusalad",
-        "Kuidas Brasiilia sääsed aitavad denguega võidelda"
-      ],
-      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
-      "src": "Al Jazeera",
-      "type": "fake",
-      "url": "https://www.aljazeera.com/sports/2026/11/24/senegal-reinstated-as-2025-africa-cup-of-nations-winners-over-morocco"
-    },
-    {
-      "answer": 4,
-      "cat": "meelelahutus",
-      "decimals": 0,
-      "explain": "Mäggi kirjutas sotsiaalmeedias lihtsalt: „Neli põtra.”",
-      "max": 50,
-      "min": 1,
-      "prompt": "Suhtekorraldaja ja endine minister Janek Mäggi avastas oma Pirita koduaiast üllatavad tegelased ning jagas neist fotot ja videot. Mitu põtra tema aias oli?",
-      "src": "Elu24",
-      "type": "number",
-      "unit": "põtra",
-      "url": "https://elu24.postimees.ee/8588945/video-tuntud-suhtekorraldaja-janek-maggi-avastas-oma-koduaiast-ullatavad-tegelased"
-    },
-    {
-      "answer": 2,
-      "cat": "kultuur",
-      "explain": "Pianist Kalle Randalu rääkis saates „Plekktrumm” interpreteerimisest ja oma hääle leidmisest. 25. novembril saab ta 70-aastaseks.",
-      "headline": "Kalle Randalu: kui teiste ___ mööda käia, siis enda omi ei jää",
-      "options": [
-        "radu",
-        "rööpaid",
-        "jalajälgi",
-        "teid"
-      ],
-      "src": "ERR",
-      "type": "blank",
-      "url": "https://kultuur.err.ee/1610204911/kalle-randalu-kui-teiste-jalajalgi-mooda-kaia-siis-enda-omi-ei-jaa"
-    },
-    {
-      "answer": 3,
-      "cat": "valis",
-      "explain": "Nii ütles Luxairi kommertsjuht Thomas Fischer: lennufirma avab 3. mail 2027 esimese otseühenduse Luxembourgi ja Riia vahel, lennud toimuvad esmaspäeviti ja reedeti. Tsitaat on tõlgitud inglise keelest.",
-      "options": [
-        "Michael O'Leary",
-        "Luc Frieden",
-        "József Váradi",
-        "Thomas Fischer"
-      ],
-      "quote": "Riiaga avame oma klientidele ukse Baltimaadesse.",
-      "src": "LSM",
-      "type": "who",
-      "url": "https://eng.lsm.lv/article/economy/transport/24.11.2026-spring-connection-planned-between-latvia-and-luxembourg.a673216/"
-    },
-    {
-      "answer": 236,
-      "cat": "majandus",
-      "decimals": 0,
-      "explain": "Pipedrive koondab Eestis 236 inimest, selgus töötukassale esitatud teatest.",
-      "max": 2000,
-      "min": 20,
-      "prompt": "Tarkvarafirma Pipedrive teatas töötukassale koondamisest Eestis. Mitu inimest koondatakse?",
-      "src": "ERR",
-      "type": "number",
-      "unit": "inimest",
-      "url": "https://www.err.ee/1610204908/pipedrive-koondab-eestis-236-inimest"
-    },
-    {
-      "answer": 0,
-      "cat": "meelelahutus",
-      "explain": "Kasutatud raamatute trend oli võlts. Päriselt kirjutas Elu24 uuest paljastusraamatust prints Williami plaanide kohta ning Sven Grünbergi elutööst tähtede vaatenurgast.",
-      "options": [
-        "Ootamatu trend: eestlased kingivad tänavu jõuludeks üha rohkem kasutatud raamatuid",
-        "Uus paljastusraamat: prints William kavatseb kuningaks saades suurpuhastust, jättes pereliikmed just sellest ilma",
-        "Sven Grünbergi silmapaistev elutöö on tähtedes kirjas"
-      ],
-      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
-      "src": "Elu24",
-      "type": "fake",
-      "url": "https://elu24.postimees.ee/8587831/uus-paljastusraamat-prints-william-kavatseb-kuningaks-saades-suurpuhastust-jattes-pereliikmed-just-sellest-ilma"
-    },
-    {
-      "cat": "majandus",
-      "explain": "Haapsalu 1 Energiapark OÜ teatas Haapsalu linnavalitsusele, et loobub tuulepargi plaanist; tuulikute tiivikute tipu kõrgus oleks olnud kuni 280 meetrit.",
-      "lat": 58.9431,
-      "lon": 23.5414,
-      "place": "Haapsalu",
-      "prompt": "Arendaja loobus kuni kümne tuulikuga tuulepargi plaanist kuues külas (Käpla, Jõõdre, Lannuste, Vätse, Haeska ja Ammuta), sest uuringu järgi jääb ala kaitsealuste lindude lennukoridoridesse. Millise Läänemaa linna haldusalas need külad asuvad? Märgi linn kaardil.",
-      "src": "ERR",
-      "type": "map",
-      "url": "https://www.err.ee/1610204932/arendaja-loobus-haapsalu-tuulepargi-plaanist"
-    },
-    {
-      "answer": 2,
-      "cat": "sport",
-      "explain": "Kalevi staadioni lugu oli võlts. Päriselt teatas ERR, et Henry Sildaru alustab MK-hooaega alles detsembri keskel USA-s ning et kaitsja Taijo Teniste sõlmis lepingu Tartu JK Welcoga.",
-      "options": [
-        "Henry Sildaru jätab hooaja esimesed MK-etapid vahele",
-        "Teniste läheb Tartu Welcoga Premium liigasse",
-        "Kalevi staadioni kunstmuru vahetatakse talvel soojendusega muru vastu"
-      ],
-      "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
-      "src": "ERR",
-      "type": "fake",
-      "url": "https://sport.err.ee/1610204896/henry-sildaru-jatab-hooaja-esimesed-mk-etapid-vahele"
-    }
-  ],
-  "source": "ERR, Elu24, LSM, RTV SLO, Al Jazeera, NPR",
-  "ticker": [
-    "Valitsus leevendab kütteperioodil kaugkütte ja võrgutasude hinda",
-    "Stalnuhhin sai kahtlustuse mõjuvõimuga kauplemises",
-    "Inimesed võtavad sissetulekuga võrreldes aina suuremaid laene",
-    "Mullu elas absoluutses vaesuses kolm protsenti Eesti elanikest",
-    "Rahanduskomisjon tõmbas veebikasiinode maksusoodustusele pidurit",
-    "Prantsuse ravimihiid ostab 41 miljardi euro eest USA ravimifirma",
-    "Temnikova ja Kasela galerii viib Art Basel Miami Beachile Marje Taska loomingu",
-    "Siseministeerium: EKÕK peab metropoliit Eugeni juhatusest eemaldama"
-  ]
+ "date": "2026-11-25",
+ "generatedAt": "2026-11-25T04:57:13+00:00",
+ "label": "Kolmapäev, 25. november 2026",
+ "questions": [
+  {
+   "cat": "sise",
+   "explain": "Tegu on Tartu Sõpruse sillaga, mis ehitati 1981. aastal. Sild ise maksis 12 miljonit eurot, kogu ala koos ümbrusega ligi 20,5 miljonit; jalakäijate trepid valmivad järgmise aasta alguses.",
+   "lat": 58.378,
+   "lon": 26.729,
+   "place": "Tartu",
+   "prompt": "Ligi kaks aastat kestnud ehitustööde järel avati teisipäeval taas liiklusele Eesti pikim sild, mille ja selle ümbruse rekonstrueerimine läks maksma ligi 20,5 miljonit eurot. Millises linnas see sild asub? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610204977/galerii-liiklus-naaseb-tartu-sopruse-sillale"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Nii ütles tšellist Silvia Ilves Kanal 2 saates „Silmast silma” Neeme Rauaga. Ta rääkis, et sai abikaasa jõukusest teada alles hiljem.",
+   "options": [
+    "Getter Jaani",
+    "Grete Paia",
+    "Silvia Ilves",
+    "Liis Lemsalu"
+   ],
+   "quote": "Ma ei ole kullakaevaja ja mulle meeldib, et meil ei ole peres laristamist.",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8588621/silvia-ilves-ma-ei-ole-kullakaevaja-ja-mulle-meeldib-et-meil-ei-ole-peres-laristamist"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Euroopa volinik Valdis Dombrovskis hoiatas, et Sloveenia vastu võidakse järgmisel kevadel algatada ülemäärase eelarvepuudujäägi menetlus; Euroopa Komisjoni hinnangul on 2027. aasta eelarve eelnõu puudujääk 4,5% SKP-st. Sellise hoiatuse said vaid Sloveenia ja Hispaania. Pealkiri on tõlgitud sloveeni keelest.",
+   "headline": "Brüssel hoiatab ülemäärase ___ menetluse eest. Ministeerium: jääme reeglite piiresse.",
+   "options": [
+    "riigivõla",
+    "eelarvepuudujäägi",
+    "inflatsiooni",
+    "palgakasvu"
+   ],
+   "src": "RTV SLO",
+   "type": "blank",
+   "url": "https://www.rtvslo.si/slovenija/bruselj-slovenijo-svari-pred-postopkom-preseznega-primanjkljaja/801118"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Gaasilaternate lugu oli võlts. Päriselt teatas ERR, et Tallinna loomaaia direktor Kaupo Heinma lahkub omal soovil ametist ning et valmis Petrooleumi tänava ümberehituse põhiprojekt, mis hõlmab sõiduteed, valgustust, kergliiklusteid ja trammiteed.",
+   "options": [
+    "Tallinna loomaaia direktor Kaupo Heinma lahkub ametist",
+    "Tallinna linnavalitsus kaalub vanalinna tänavavalgustuse vahetamist gaasilaternate vastu",
+    "Tallinn sai valmis Petrooleumi tänava ümberehituse põhiprojekti"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610204971/tallinna-loomaaia-direktor-kaupo-heinma-lahkub-ametist"
+  },
+  {
+   "answer": 27,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "NPR-i teatel süüdistavad 27 elanikku kaevandust mürgitamises; kohtuasi toob esile elektriautode buumi inimliku hinna, sest vask ja koobalt on akude toorained.",
+   "max": 400,
+   "min": 2,
+   "prompt": "Kongo DV-s esitasid kohalikud elanikud pretsedenditu hagi Hiina omanduses oleva vase- ja koobaltikaevanduse vastu, süüdistades seda mürgitamises. Mitu elanikku on NPR-i andmetel hagejate seas?",
+   "src": "NPR",
+   "type": "number",
+   "unit": "elanikku",
+   "url": "https://www.npr.org/2026/11/24/nx-s1-6042912/drc-congo-mining-china-copper-colbalt-critical-minerals"
+  },
+  {
+   "answer": 2,
+   "cat": "meelelahutus",
+   "explain": "Elu24 tõi välja seitse põhjust, miks Robert Pattinson on James Bondi rollis enneolematu valik – pealkirja tsitaadi järgi sobib ta osasse vaid vanuse poolest.",
+   "headline": "«Ta sobib vaid ___ poolest»: seitse põhjust, miks Robert Pattinson on enneolematu 007",
+   "options": [
+    "pikkuse",
+    "välimuse",
+    "vanuse",
+    "aktsendi"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8587879/ta-sobib-vaid-vanuse-poolest-seitse-pohjust-miks-robert-pattinson-on-enneolematu-007"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Nii kommenteeris Kaimo Kuusk Venemaa ähvardusi Eesti suunal.",
+   "options": [
+    "Kusti Salm",
+    "Kaimo Kuusk",
+    "Hanno Pevkur",
+    "Margus Tsahkna"
+   ],
+   "quote": "Vägivallatseja mängib ohvrit.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610204641/kaimo-kuusk-venemaa-ahvardustest-vagivallatseja-mangib-ohvrit"
+  },
+  {
+   "cat": "sise",
+   "explain": "Hiiumaa vald plaanib sünnitoetuse maksmise tuua seitsmendale raseduskuule, sest pered peavad sünnituseks sõitma Kuressaarde või mandrile. Lõpliku otsuse teeb volikogu detsembris.",
+   "lat": 58.9978,
+   "lon": 22.7497,
+   "place": "Kärdla (Hiiumaa vald)",
+   "prompt": "Saare vald plaanib tõsta sünnitoetuse 1000 euroni ja maksta suurema osa sellest välja juba seitsmendal raseduskuul, sest alates 1. juulist pole saarel regulaarset sünnitusabi. Millise valla keskusega on tegu? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610204959/hiiumaa-vald-plaanib-tuua-sunnitoetuse-maksmise-seitsmendale-raseduskuule"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Atacama lugu oli võlts. Päris lood: Spordiarbitraažikohus otsustas jaanuaris peetud vastuolulise finaali järel Senegali kasuks ning teadlased kasutavad Brasiilias ümberkujundatud sääski haiguste vastu võitlemiseks.",
+   "options": [
+    "Senegal kuulutati Maroko asemel taas 2025. aasta Aafrika rahvuste karika võitjaks",
+    "Tšiili sulges valgusreostuse tõttu turistidele Atacama kõrbe tähevaatlusalad",
+    "Kuidas Brasiilia sääsed aitavad denguega võidelda"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Al Jazeera",
+   "type": "fake",
+   "url": "https://www.aljazeera.com/sports/2026/11/24/senegal-reinstated-as-2025-africa-cup-of-nations-winners-over-morocco"
+  },
+  {
+   "answer": 4,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Mäggi kirjutas sotsiaalmeedias lihtsalt: „Neli põtra.”",
+   "max": 50,
+   "min": 1,
+   "prompt": "Suhtekorraldaja ja endine minister Janek Mäggi avastas oma Pirita koduaiast üllatavad tegelased ning jagas neist fotot ja videot. Mitu põtra tema aias oli?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "põtra",
+   "url": "https://elu24.postimees.ee/8588945/video-tuntud-suhtekorraldaja-janek-maggi-avastas-oma-koduaiast-ullatavad-tegelased"
+  },
+  {
+   "answer": 2,
+   "cat": "kultuur",
+   "explain": "Pianist Kalle Randalu rääkis saates „Plekktrumm” interpreteerimisest ja oma hääle leidmisest. 25. novembril saab ta 70-aastaseks.",
+   "headline": "Kalle Randalu: kui teiste ___ mööda käia, siis enda omi ei jää",
+   "options": [
+    "radu",
+    "rööpaid",
+    "jalajälgi",
+    "teid"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://kultuur.err.ee/1610204911/kalle-randalu-kui-teiste-jalajalgi-mooda-kaia-siis-enda-omi-ei-jaa"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Nii ütles Luxairi kommertsjuht Thomas Fischer: lennufirma avab 3. mail 2027 esimese otseühenduse Luxembourgi ja Riia vahel, lennud toimuvad esmaspäeviti ja reedeti. Tsitaat on tõlgitud inglise keelest.",
+   "options": [
+    "Michael O'Leary",
+    "Luc Frieden",
+    "József Váradi",
+    "Thomas Fischer"
+   ],
+   "quote": "Riiaga avame oma klientidele ukse Baltimaadesse.",
+   "src": "LSM",
+   "type": "who",
+   "url": "https://eng.lsm.lv/article/economy/transport/24.11.2026-spring-connection-planned-between-latvia-and-luxembourg.a673216/"
+  },
+  {
+   "answer": 236,
+   "cat": "majandus",
+   "decimals": 0,
+   "explain": "Pipedrive koondab Eestis 236 inimest, selgus töötukassale esitatud teatest.",
+   "max": 2000,
+   "min": 20,
+   "prompt": "Tarkvarafirma Pipedrive teatas töötukassale koondamisest Eestis. Mitu inimest koondatakse?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "inimest",
+   "url": "https://www.err.ee/1610204908/pipedrive-koondab-eestis-236-inimest"
+  },
+  {
+   "answer": 0,
+   "cat": "meelelahutus",
+   "explain": "Kasutatud raamatute trend oli võlts. Päriselt kirjutas Elu24 uuest paljastusraamatust prints Williami plaanide kohta ning Sven Grünbergi elutööst tähtede vaatenurgast.",
+   "options": [
+    "Ootamatu trend: eestlased kingivad tänavu jõuludeks üha rohkem kasutatud raamatuid",
+    "Uus paljastusraamat: prints William kavatseb kuningaks saades suurpuhastust, jättes pereliikmed just sellest ilma",
+    "Sven Grünbergi silmapaistev elutöö on tähtedes kirjas"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "Elu24",
+   "type": "fake",
+   "url": "https://elu24.postimees.ee/8587831/uus-paljastusraamat-prints-william-kavatseb-kuningaks-saades-suurpuhastust-jattes-pereliikmed-just-sellest-ilma"
+  },
+  {
+   "cat": "majandus",
+   "explain": "Haapsalu 1 Energiapark OÜ teatas Haapsalu linnavalitsusele, et loobub tuulepargi plaanist; tuulikute tiivikute tipu kõrgus oleks olnud kuni 280 meetrit.",
+   "lat": 58.9431,
+   "lon": 23.5414,
+   "place": "Haapsalu",
+   "prompt": "Arendaja loobus kuni kümne tuulikuga tuulepargi plaanist kuues külas (Käpla, Jõõdre, Lannuste, Vätse, Haeska ja Ammuta), sest uuringu järgi jääb ala kaitsealuste lindude lennukoridoridesse. Millise Läänemaa linna haldusalas need külad asuvad? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610204932/arendaja-loobus-haapsalu-tuulepargi-plaanist"
+  },
+  {
+   "answer": 2,
+   "cat": "sport",
+   "explain": "Kalevi staadioni lugu oli võlts. Päriselt teatas ERR, et Henry Sildaru alustab MK-hooaega alles detsembri keskel USA-s ning et kaitsja Taijo Teniste sõlmis lepingu Tartu JK Welcoga.",
+   "options": [
+    "Henry Sildaru jätab hooaja esimesed MK-etapid vahele",
+    "Teniste läheb Tartu Welcoga Premium liigasse",
+    "Kalevi staadioni kunstmuru vahetatakse talvel soojendusega muru vastu"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://sport.err.ee/1610204896/henry-sildaru-jatab-hooaja-esimesed-mk-etapid-vahele"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Al Jazeera, NPR",
+ "ticker": [
+  "Valitsus leevendab kütteperioodil kaugkütte ja võrgutasude hinda",
+  "Stalnuhhin sai kahtlustuse mõjuvõimuga kauplemises",
+  "Inimesed võtavad sissetulekuga võrreldes aina suuremaid laene",
+  "Mullu elas absoluutses vaesuses kolm protsenti Eesti elanikest",
+  "Rahanduskomisjon tõmbas veebikasiinode maksusoodustusele pidurit",
+  "Prantsuse ravimihiid ostab 41 miljardi euro eest USA ravimifirma",
+  "Temnikova ja Kasela galerii viib Art Basel Miami Beachile Marje Taska loomingu",
+  "Siseministeerium: EKÕK peab metropoliit Eugeni juhatusest eemaldama"
+ ]
 }
