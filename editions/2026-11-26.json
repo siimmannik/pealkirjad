@@ -1,0 +1,237 @@
+{
+ "date": "2026-11-26",
+ "generatedAt": "2026-11-26T04:57:53Z",
+ "label": "Neljapäev, 26. november 2026",
+ "questions": [
+  {
+   "cat": "sise",
+   "explain": "Vabade Rahvaste Liiga kongress peeti Narvas. Liiga esindajad töötavad eksiilis ja nende partner Eestis on URALIC keskus.",
+   "lat": 59.3775,
+   "lon": 28.1978,
+   "place": "Narva",
+   "prompt": "Vabade Rahvaste Liiga, mis ütleb end esindavat 11 Venemaa põlisrahvast ja mille Venemaa on kuulutanud terroriorganisatsiooniks, pidas Eestis kongressi ning otsib Eestilt tunnustust. Millises linnas kongress toimus? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610206522/venemaa-polisrahvaste-esindajad-otsivad-eestilt-tunnustust"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Ööl vastu kolmapäeva veeti Tartu maanteel veoki haagisel tiibadeta Airbusi kere. Asjaarmastajate sõnul on tegu 2000. aastal toodetud lennukiga Airbus A321-231, video levis TikTokis.",
+   "headline": "Salapärane tiibadeta Airbus seiskas öösel ___ maanteel liikluse. Lennuk alustab uut elu ootamatus asukohas",
+   "options": [
+    "Pärnu",
+    "Tartu",
+    "Narva",
+    "Peterburi"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8589657/video-salaparane-tiibadeta-airbus-seiskas-oosel-tartu-maanteel-liikluse-lennuk-alustab-uut-elu-ootamatus-asukohas"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Strateegilise kommunikatsiooni ekspert Ilmar Raag ütles „Vikerhommikus”, et Venemaa ei riskiks sõjaga kogu regiooni ja NATO vastu ning ähvardused jäävadki sõnadeks.",
+   "options": [
+    "Jüri Luik",
+    "Rainer Saks",
+    "Ilmar Raag",
+    "Martin Herem"
+   ],
+   "quote": "Võimalus, et Venemaa ründaks ainult Eestit, on imepisike.",
+   "src": "ERR",
+   "type": "who",
+   "url": "https://www.err.ee/1610205892/ilmar-raag-voimalus-et-venemaa-rundaks-ainult-eestit-on-imepisike"
+  },
+  {
+   "answer": 1,
+   "cat": "valis",
+   "explain": "Nutikellade keeld Malaisia koolides oli välja mõeldud. Päriselt kirjutas Al Jazeera, et Bangladeshi rõivatöölised saavutasid 36-protsendilise palgatõusu ja et Zeeshan Ali sai Pakistani esimese astronaudina Hiina raketiga orbiidile.",
+   "options": [
+    "Bangladeshi rõivatöölised saavutasid pärast nädalaid kestnud proteste 36-protsendilise palgatõusu",
+    "Malaisia keelas koolides nutikellade kasutamise",
+    "Pakistan rõõmustab, kui riigi esimene astronaut jõuab orbiidile"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts. Pealkirjad on tõlgitud.",
+   "src": "Al Jazeera",
+   "type": "fake",
+   "url": "https://www.aljazeera.com/news/2026/11/25/pakistan-rejoices-as-countrys-first-astronaut-enters-orbit"
+  },
+  {
+   "answer": 997,
+   "cat": "majandus",
+   "decimals": 0,
+   "explain": "Järgmise aasta miinimumpalk on 997 eurot kuus ehk 5,93 eurot tunnis. Praegu on see 946 eurot, kokkuleppe peab veel kinnitama valitsus.",
+   "max": 10000,
+   "min": 100,
+   "prompt": "Ametiühingute keskliit ja tööandjate keskliit leppisid kokku, et miinimumpalk tõuseb 1. jaanuarist 5,4 protsenti. Mitu eurot kuus on täistööajaga töötaja uus miinimumpalk?",
+   "src": "ERR",
+   "type": "number",
+   "unit": "eurot",
+   "url": "https://www.err.ee/1610206012/jargmise-aasta-miinimumpalk-on-997-eurot-kuus"
+  },
+  {
+   "answer": 2,
+   "cat": "valis",
+   "explain": "Lõuna-Koreas ei tohi enamikus väikestes elava muusika klubides külastajad tantsida. Pärast seda, kui Busani baar Ovantgarde suleti tantsimise lubamise eest kaheks kuuks ja petitsioonile kogunes üle 22 000 allkirja, kaalub valitsus reeglite muutmist. Pealkiri on tõlgitud sloveeni keelest.",
+   "headline": "K-popi kodumaal on lokaalides ___ keelatud, kuid see võib lõpuks muutuda",
+   "options": [
+    "laulmine",
+    "suitsetamine",
+    "tantsimine",
+    "karaoke"
+   ],
+   "src": "RTV SLO",
+   "type": "blank",
+   "url": "https://www.rtvslo.si/zabava-in-slog/zanimivosti/v-domovini-k-popa-je-ples-v-lokalih-prepovedan-a-to-bi-se-lahko-koncno-spremenilo/801248"
+  },
+  {
+   "answer": 2,
+   "cat": "sise",
+   "explain": "Lennujaama helkurijagamine oli välja mõeldud. Päriselt kirjutas ERR päästeameti jõulutulede-soovitusest ning kirjade saatmise kallidusest – Kukemelk peab põhjuseks väikest mahtu ja reguleeritud hinda.",
+   "options": [
+    "Päästeamet soovitab enne jõulutulede sisselülitamist veenduda nende ohutuses",
+    "Kukemelk: kirjasaatmise teeb kalliks väike maht ja reguleeritud hind",
+    "Tallinna lennujaam hakkab talvel reisijatele tasuta helkureid jagama"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610206117/kukemelk-kirjasaatmise-teeb-kalliks-vaike-maht-ja-reguleeritud-hind"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Postimehe peatoimetaja Anvar Samost selgitas Kuku raadio uue programmi esitlusel 25. novembril, miks raadios on üha rohkem naissaatejuhte.",
+   "options": [
+    "Erik Roose",
+    "Anvar Samost",
+    "Mart Kadastik",
+    "Hans H. Luik"
+   ],
+   "quote": "Muidu oleme ainult pool tööd ära teinud.",
+   "src": "Elu24",
+   "type": "who",
+   "url": "https://elu24.postimees.ee/8590049/videointervjuu-anvar-samost-selgitab-miks-kuku-raadios-on-uha-rohkem-naissaatejuhte-muidu-oleme-ainult-pool-tood-ara-teinud"
+  },
+  {
+   "cat": "kultuur",
+   "explain": "Endla teater asub Pärnus. Lavastus on mõeldud vaatajatele lasteaia viimasest rühmast kuni 5. klassini.",
+   "lat": 58.3833,
+   "lon": 24.5,
+   "place": "Pärnu",
+   "prompt": "Kenneth Grahame'i raamatu põhjal valminud lastelavastus „Tuulesahin pajudes” (lavastaja Birgit Landberg, Konna mängib Ago Anderson) esietendus Endla teatris. Millises linnas see teater asub? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://kultuur.err.ee/1610206486/endla-teatris-esietendus-lastelavastus-tuulesahin-pajudes"
+  },
+  {
+   "answer": 200,
+   "cat": "valis",
+   "decimals": 0,
+   "explain": "Professor Oskars Ozoliņši meeskond saavutas kiiruse 200 gigabitti sekundis, see on tema 12. rekord. Tehnoloogiat nähakse rakendusena näiteks tehisaru andmekeskustes.",
+   "max": 2000,
+   "min": 5,
+   "prompt": "Riia Tehnikaülikooli teadlased teatasid andmeedastuse maailmarekordist: õõnessüdamikuga optilise kiu kaudu edastati andmeid 500 meetri kaugusele ilma signaali võimendamata. Mitu gigabitti sekundis oli edastuskiirus?",
+   "src": "LSM",
+   "type": "number",
+   "unit": "Gbit/s",
+   "url": "https://eng.lsm.lv/article/society/education/25.11.2026-rtu-team-achieves-potentially-important-fibre-optic-first.a673363/"
+  },
+  {
+   "answer": 1,
+   "cat": "sise",
+   "explain": "Eesti Isikuloo Keskuse juhataja Fred Pussi sõnul kaob tänavu ligi 700 perekonnanime, sest nende kandjatel pole järeltulijaid. Eestis on umbes 168 000 eri perekonnanime.",
+   "headline": "Eestis kaob tänavu ligi 700 ___",
+   "options": [
+    "kohanime",
+    "perekonnanime",
+    "eesnime",
+    "külanime"
+   ],
+   "src": "ERR",
+   "type": "blank",
+   "url": "https://eeter.err.ee/1610206087/eestis-kaob-tanavu-ligi-700-perekonnanime"
+  },
+  {
+   "answer": 11000,
+   "cat": "meelelahutus",
+   "decimals": 0,
+   "explain": "Kohtuvaidluse kulud olid kokku 11 000 eurot ja tasumise tähtaeg oli 21. november. Padar kaebas Malluka 2024. aasta sügisel kohtusse ühe Instagrami postituse pärast.",
+   "max": 100000,
+   "min": 500,
+   "prompt": "Kohtutäitur arestis Tanel Padari korteri, sest muusik on tasunud alla poole blogija Mallukaga peetud kohtuvaidluse kuludest. Kui suured on need kohtukulud kokku?",
+   "src": "Elu24",
+   "type": "number",
+   "unit": "eurot",
+   "url": "https://elu24.postimees.ee/8589437/kohtutaitur-arestis-tanel-padari-korteri-muusik-on-tasunud-alla-poole-mallukaga-peetud-kohtuvaidluse-kuludest"
+  },
+  {
+   "answer": 3,
+   "cat": "valis",
+   "explain": "Soome peaminister Petteri Orpo ütles enne EL-i erakorralist tippkohtumist, et Ukraina uue laenutoetuse üle tuleb kiiresti otsustada. Tsitaat on tõlgitud soome keelest.",
+   "options": [
+    "Ulf Kristersson",
+    "Mette Frederiksen",
+    "Jonas Gahr Støre",
+    "Petteri Orpo"
+   ],
+   "quote": "Ukrainal ei tohi enesekaitseks raha otsa saada.",
+   "src": "Yle",
+   "type": "who",
+   "url": "https://yle.fi/a/74-20258636"
+  },
+  {
+   "cat": "sise",
+   "explain": "Kirsipuud õitsevad Tartu ülikooli kliinikumi sisehoovis. Viiest istutatud puust kolm puhkesid esimest korda õide, aianduslektori sõnul on põhjus kõikuvad talvetemperatuurid.",
+   "lat": 58.38,
+   "lon": 26.7225,
+   "place": "Tartu",
+   "prompt": "Ühe ülikoolihaigla sisehoovis puhkesid novembri lõpus õide suvel istutatud noored Jaapani kirsipuud – haldusjuhi sõnul tore jõuluime. Millises linnas see haigla asub? Märgi linn kaardil.",
+   "src": "ERR",
+   "type": "map",
+   "url": "https://www.err.ee/1610206543/tartu-ulikooli-kliinikumi-sisehoovis-puhkesid-oide-kirsipuud"
+  },
+  {
+   "answer": 1,
+   "cat": "meelelahutus",
+   "explain": "Astroloog Margit Korbe kirjutab sodiaagisosinates, et neljapäev ja reede toovad ootamatusi, nädalalõpp aga pehmenemist. Nädala taroki kaart on Karikate kuus.",
+   "headline": "Heitlik energia jätkub, aga nädalalõpp võib tuua ___",
+   "options": [
+    "pingeid",
+    "tervendust",
+    "armastust",
+    "üllatusi"
+   ],
+   "src": "Elu24",
+   "type": "blank",
+   "url": "https://elu24.postimees.ee/8589873/sodiaagisosinad-heitlik-energia-jatkub-aga-nadalalopp-voib-tuua-tervendust"
+  },
+  {
+   "answer": 0,
+   "cat": "sise",
+   "explain": "Eesti Kontserdi üheeurosed piletid olid välja mõeldud. Päriselt kirjutas ERR Eesti muusikaauhindade uuest aasta autori auhinnast ja haridustöötajate liidu juhi Reemo Voltri hinnangust opositsiooni palgatõusuettepanekule.",
+   "options": [
+    "Eesti Kontsert hakkab noortele müüma viimase hetke pileteid ühe euro eest",
+    "Eesti muusikaauhindadel antakse esimest korda välja aasta autori auhind",
+    "Voltri: opositsiooni pakutud palgatõus võtaks õpetajatelt sunni hakata streikima"
+   ],
+   "prompt": "Üks pealkiri on välja mõeldud. Leia võlts.",
+   "src": "ERR",
+   "type": "fake",
+   "url": "https://www.err.ee/1610205928/voltri-opositsiooni-pakutud-palgatous-votaks-opetajatelt-sunni-hakata-streikima"
+  }
+ ],
+ "source": "ERR, Elu24, LSM, RTV SLO, Yle, Al Jazeera",
+ "ticker": [
+  "Helme: suurriikide kokkulepe vähendab sõjaohtu",
+  "Siseministeerium saab 20 miljonit kriisivalmiduse tõstmiseks",
+  "Erkki-Sven Tüüri uus kooriteos \"Tähiskelu\" on pühendatud luuletaja Indrek Hirvele",
+  "Eesti koerasportlased võistlesid MM-il edukalt",
+  "Kapo saatis Venemaale Enefiti õlitehases töötanud mehe",
+  "Male MM-tiitlimatš algas viigiga",
+  "Galerii: esilinastus Janno Jürgensi psühholoogiline põnevik \"Mind ei ole sinuta\"",
+  "Euroopa Inimõiguste Kohus andis loa migrante Valgevenesse tagasi saata"
+ ]
+}
